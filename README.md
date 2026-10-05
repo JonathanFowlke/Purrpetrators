@@ -2,7 +2,7 @@
 
 A static launch site for **Prowling Purrpetrators** at **purrpetrators.net**. “Guilty of having a pranking good time.”
 
-Plain HTML, CSS, and JavaScript. No build step, dependencies, external fonts, analytics, cookies, or backend. The landing page uses the supplied `assets/images/logo.png` and `assets/images/construction.png` artwork. The favicon is a separate original SVG. The page remains usable without JavaScript and respects reduced-motion preferences.
+Plain HTML, CSS, and JavaScript. No build step, dependencies, external fonts, analytics, cookies, or backend. The landing page uses the supplied `assets/images/logo.png` and `assets/images/construction.png` artwork. The favicon uses the supplied PNG artwork. The page remains usable without JavaScript and respects reduced-motion preferences.
 
 ## Local development
 
@@ -29,7 +29,7 @@ To use only a `github.io` project URL initially, remove `CNAME`, clear the custo
 index.html                  Coming-soon homepage
 404.html                    Themed missing-page screen
 assets/css/styles.css       Shared visual identity and responsive layout
-assets/images/favicon.svg   Replaceable original SVG favicon
+assets/images/favicon.png   Supplied PNG favicon
 assets/images/evidence/     Future photos and evidence
 assets/downloads/           Future newsletter PDFs
 scripts/main.js             Decorative status messages
@@ -56,3 +56,5 @@ The Open Graph title and description are ready. Add an absolute `og:image` URL a
 ## Color palette
 
 Inspired by the [Pink Panther character palette on SchemeColor](https://www.schemecolor.com/pink-panther-colors.php): pink #F699BE, magenta #EA0085, and pale pink #FFDEED, paired with charcoal #101014 and off-white #F2EFEE. These are reference palette values, not a verified official digital brand specification. The team logo and construction illustration are supplied project assets, preserved without cropping.
+
+The current theme uses a light blush background and dark berry text, with 18px body text and no informational text below 16px. The supplied image files are preserved as provided.
