@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "001",
+    "caseNumber": "PNN-001",
+    "dateOpened": "2026-10-04T19:21:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Under investigation",
+    "suspectTeamId": "black",
+    "incidentTitle": "Caught in their own Webb",
+    "summary": "Last to announce. First under investigation. PNN examines a suspicious delay in the Black Webb Bandits' name reveal.",
+    "incidentDescription": "The Black Webb Bandits were the final team to submit their name. Rumors of cold feet circulated. The word \"chicken\" was mentioned. PNN has opened a file to determine whether this was a failure of nerve or simply a failure to escape the panther.",
+    "suspectedMotive": "Remain unavailable for comment until the coast was clear. Announcing a spider-themed team while a panther is on patrol may require delicate timing.",
+    "evidence": [
+      {
+        "id": "001-A",
+        "type": "video",
+        "src": "assets/evidence/001/black001.mp4",
+        "poster": "assets/evidence/001/black001-poster.jpg",
+        "label": "Exhibit A — A slight scheduling conflict",
+        "description": "A panther traps a spider. PNN's playful reconstruction of why the Black Webb Bandits may have been difficult to locate before their name announcement.",
+        "caption": "Illustrative PNN reconstruction. Not footage of an actual team incident. Eight legs. Remarkably few exit strategies."
+      }
+    ],
+    "investigatorNote": "The spider connection is compelling. The chicken connection remains unsupported. Our working theory: they weren't scared to announce. They were waiting for the panther to leave.",
+    "threatLevel": "Temporarily contained",
+    "disposition": "Name recovered. Alibi pending. The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation.",
+    "relatedStoryIds": [],
+    "published": true
+  }
+]

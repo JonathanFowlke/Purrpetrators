@@ -1,1 +1,58 @@
-[]
+[
+    {
+        "id":  "black",
+        "slug":  "black",
+        "name":  "Black Webb Bandits",
+        "color":  "Black",
+        "logo":  "assets/images/teams/black.jpeg",
+        "isOurTeam":  false
+    },
+    {
+        "id":  "green",
+        "slug":  "green",
+        "name":  "Area 51 Bureau",
+        "color":  "Green",
+        "logo":  "assets/images/teams/green.jpg",
+        "isOurTeam":  false
+    },
+    {
+        "id":  "orange",
+        "slug":  "orange",
+        "name":  "Pyro Posse",
+        "color":  "Orange",
+        "logo":  "assets/images/teams/orange.png",
+        "isOurTeam":  false
+    },
+    {
+        "id":  "pink",
+        "slug":  "pink",
+        "name":  "Prowling Purrpetrators",
+        "color":  "Pink",
+        "logo":  "assets/images/teams/pink.png",
+        "isOurTeam":  true
+    },
+    {
+        "id":  "red",
+        "slug":  "red",
+        "name":  "The Crimson Crew",
+        "color":  "Red",
+        "logo":  "assets/images/teams/red.jpeg",
+        "isOurTeam":  false
+    },
+    {
+        "id":  "silver",
+        "slug":  "silver",
+        "name":  "Silver Bullets",
+        "color":  "Silver",
+        "logo":  "assets/images/teams/silver.jpeg",
+        "isOurTeam":  false
+    },
+    {
+        "id":  "white",
+        "slug":  "white",
+        "name":  "Tightie Whities",
+        "color":  "White",
+        "logo":  "assets/images/teams/white.png",
+        "isOurTeam":  false
+    }
+]

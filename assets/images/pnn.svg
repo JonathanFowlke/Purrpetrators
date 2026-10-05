@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 110" fill="none">
+  <title>PNN</title>
+  <!-- The two N shapes repeat at an 80-unit pitch; the P has a clear optical gap. -->
+  <defs>
+    <path id="letters" d="M20 96V27Q20 14 33 14H64C98 14 98 58 64 58H20 M120 96V18Q120 9 127 18L192 94Q200 103 200 92V18Q200 9 207 18L272 94Q280 103 280 92V14"/>
+  </defs>
+  <use href="#letters" stroke="#b60060" stroke-width="23" stroke-linejoin="round" stroke-linecap="round"/>
+  <use href="#letters" stroke="#fff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
