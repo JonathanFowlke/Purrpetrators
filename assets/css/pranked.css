@@ -1,0 +1,16 @@
+.prank-flier .prank-kicker { font-size: 12pt; font-weight: 800; letter-spacing: 2px; color: var(--magenta); margin-top: 14px; }
+.prank-flier h1 { font-size: 48pt; line-height: .96; margin: 10px 0 14px; }
+.prank-flier .prank-lead { font-size: 19pt; font-weight: 700; }
+.prank-copy { max-width: 6.3in; margin: 16px auto 0; font-size: 14pt; line-height: 1.3; }
+.prank-copy p + p { margin-top: 12px; }
+.prank-copy .prank-punchline { font-size: 17pt; font-weight: 800; }
+.prank-qr { display: block; width: 2.45in; max-width: 100%; height: auto; margin: 4px auto; }
+.prank-flier .prank-verdict { font-size: 17pt; font-weight: 900; color: var(--magenta); }
+.prank-flier .prank-signoff { margin-top: 14px; font-size: 14pt; font-weight: 700; }
+.prank-signoff span { font-size: 11pt; font-weight: 400; }
+@media screen and (max-width: 760px) {
+  .prank-flier h1 { font-size: clamp(42px, 12vw, 64px); }
+  .prank-copy { font-size: 17px; }
+  .prank-flier .prank-lead, .prank-copy .prank-punchline { font-size: 21px; }
+  .prank-flier .prank-verdict { font-size: 20px; }
+}

@@ -1,0 +1,32 @@
+@page { size: letter portrait; margin: .5in; }
+.flier-page { background: var(--pale-pink); }
+.print-tools { max-width: 8.5in; margin: 24px auto; padding: 0 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.print-tools p { flex-basis: 100%; margin: 0; font-size: 16px; }
+.print-tools button { border: 2px solid var(--magenta); border-radius: 8px; padding: 10px 20px; background: var(--magenta); color: white; font: inherit; font-weight: 700; cursor: pointer; }
+.print-tools button:focus-visible { outline: 3px solid var(--text); outline-offset: 4px; }
+.print-flier { width: 8.5in; max-width: 100%; margin: 0 auto 32px; padding: .5in; background: white; color: var(--text); text-align: center; line-height: 1.2; }
+.print-flier p { margin: 0; }
+.flier-logo { display: block; width: 1.35in; height: auto; margin: 0 auto; }
+.flier-brandline { font-size: 12pt; margin-top: 5px !important; }
+.print-flier h1 { font-size: 29pt; line-height: 1.05; letter-spacing: -1px; margin: 8px 0 4px; }
+.flier-deck { font-size: 13pt; }
+.flier-qr { display: block; width: 5.4in; max-width: 100%; margin: 0 auto; }
+.flier-qr img { display: block; width: 100%; height: auto; }
+.flier-action { font-size: 20pt; font-weight: 900; color: var(--magenta); }
+.flier-url { font-size: 15pt; margin-top: 4px !important; font-weight: 700; }
+.flier-call { font-size: 12pt; margin-top: 10px !important; font-weight: 700; letter-spacing: 2px; }
+.flier-phone { display: block; font-size: 46pt; font-weight: 900; text-decoration: none; line-height: 1.15; letter-spacing: -2px; }
+.flier-vanity { font-size: 13pt; margin-top: 4px !important; }
+.flier-context { margin-top: 10px; padding-top: 10px; border-top: 2px solid var(--pink); font-size: 10pt; }
+.flier-context p + p { margin-top: 4px; }
+@media screen and (max-width: 760px) {
+  .print-flier { padding: 24px 16px; }
+  .print-flier h1 { font-size: clamp(24px, 6vw, 42px); }
+  .flier-phone { font-size: clamp(32px, 8vw, 60px); letter-spacing: -1px; }
+  .flier-action { font-size: clamp(18px, 4.5vw, 27px); }
+}
+@media print {
+  html, body { margin: 0; padding: 0; background: white; }
+  .print-tools, .flier-page > .skip-link { display: none !important; }
+  .print-flier { width: 7.5in; max-width: none; padding: 0; margin: 0; break-inside: avoid; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+}

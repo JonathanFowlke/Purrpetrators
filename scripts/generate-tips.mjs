@@ -18,10 +18,10 @@ export function renderTipForm(config) {
   }
   const formId = match[1];
   // Only the public form ID is retained; editor URLs and tracking parameters are not embedded.
-  return `<p class="tip-form-help">Form not loading? <a href="https://tally.so/r/${formId}" target="_blank" rel="noopener noreferrer">Open the PNN Tip Line on Tally (new tab)</a>.</p>
+  return `<p class="tip-form-help">Form not loading? <a href="https://tally.so/r/${formId}" target="_blank" rel="noopener noreferrer">Open the PNN Tip Line (new tab)</a>.</p>
 <iframe data-tally-src="https://tally.so/embed/${formId}?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
   loading="lazy" width="100%" height="900" title="PNN Tip Line — report game activity" class="tip-embed"></iframe>
-<noscript><p>Enable JavaScript to use the embedded form, or use the Tally link above.</p></noscript>
+<noscript><p>Enable JavaScript to use the embedded form, or use the direct form link above.</p></noscript>
 <script src="https://tally.so/widgets/embed.js" defer onload="Tally.loadEmbeds()"></script>`;
 }
 

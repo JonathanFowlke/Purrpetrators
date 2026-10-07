@@ -9,6 +9,7 @@ const [cases, teams] = await Promise.all([read('cases.json'), read('teams.json')
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const teamById = new Map(teams.map(team => [team.id, team]));
 const ids = new Set();
+const caseById = new Map(cases.map(record => [record.id, record]));
 const dateLabel = record => new Intl.DateTimeFormat('en-US', {
   dateStyle: 'long', timeStyle: 'short', timeZone: record.timeZone
 }).format(new Date(record.dateOpened)) + ` (${record.timeZone})`;
@@ -35,7 +36,7 @@ function page(title, description, prefix, body) {
       <nav class="site-nav" aria-label="Main navigation"><a href="${prefix}cases/index.html">Case files</a><a href="${prefix}tips/index.html">Tip line</a><a href="${prefix}newsletter/index.html">Newsletter</a></nav>
     </header>
     <main id="main" class="case-main">${body}
-      <section class="case-teaser tip-callout" aria-labelledby="case-tip-heading"><div><p class="operation-label">PNN Tip Line · Inspector Clueso's office</p><h2 id="case-tip-heading">Know something we don't?</h2><p>Send a tip, a correction, or photographic evidence to Inspector Clueso's office at PNN.</p><p class="hotline-inline">Or call <a href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">+1 (801) 79-PRANK</a>.</p></div><a class="home-link" href="${prefix}tips/index.html">File a field report →</a></section>
+      <section class="case-teaser tip-callout" aria-labelledby="case-tip-heading"><div><p class="operation-label">PNN Tip Line · Inspector Clueso's office</p><h2 id="case-tip-heading">Clueso has a theory. Have any facts?</h2><p>Help build the fictional case against the Prowling Purrpetrators. Send game reports, approved photos, or corrections to Inspector Clueso's office. All teams' mischief is welcome.</p><p class="hotline-inline">Or call <a href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">+1 (801) 79-PRANK</a>.</p></div><a class="home-link" href="${prefix}tips/index.html">File a field report →</a></section>
     </main>
     <footer><p>PNN · Purrpetrator News Network<span>Fictional investigations for the Broomstick Challenge neighborhood game.</span></p><a href="${prefix}index.html">Back to headquarters</a><a class="footer-hotline" href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">PNN Hotline: +1 (801) 79-PRANK</a></footer>
   </div>
@@ -57,13 +58,27 @@ for (const record of cases) {
     if (typeof record[field] !== 'string' || !record[field].trim()) throw new Error(`Missing ${field}: ${record.id}`);
   }
   dateLabel(record);
+  if (record.relatedCaseIds !== undefined && (!Array.isArray(record.relatedCaseIds) ||
+      new Set(record.relatedCaseIds).size !== record.relatedCaseIds.length ||
+      record.relatedCaseIds.some(id => typeof id !== 'string' || id === record.id || !caseById.has(id)))) throw new Error(`Invalid related cases: ${record.id}`);
+  if (record.organizerNotice) {
+    const notice = record.organizerNotice;
+    if (!['attribution', 'timeLabel'].every(field => typeof notice[field] === 'string' && notice[field].trim()) ||
+        !Array.isArray(notice.paragraphs) || !notice.paragraphs.length ||
+        notice.paragraphs.some(text => typeof text !== 'string' || !text.trim())) throw new Error(`Invalid organizer notice: ${record.id}`);
+  }
   if (!Array.isArray(record.evidence) || !record.evidence.length) throw new Error(`Missing evidence: ${record.id}`);
   for (const item of record.evidence) {
-    if (item.type !== 'video' || !/^assets\/[\w/.-]+\.mp4$/.test(item.src) || item.src.split('/').includes('..')) throw new Error(`Invalid video path: ${record.id}`);
+    const mediaPattern = item.type === 'video' ? /^assets\/[\w/.-]+\.mp4$/ : item.type === 'image' ? /^assets\/[\w/.-]+\.(png|jpe?g|webp)$/ : null;
+    if (!mediaPattern || !mediaPattern.test(item.src) || item.src.split('/').includes('..')) throw new Error(`Invalid evidence path: ${record.id}`);
     for (const field of ['id', 'label', 'description', 'caption']) {
       if (typeof item[field] !== 'string' || !item[field].trim()) throw new Error(`Missing evidence ${field}: ${record.id}`);
     }
     await access(path.join(root, item.src));
+    if (item.type === 'image') {
+      if (typeof item.alt !== 'string' || !item.alt.trim() || !Number.isSafeInteger(item.width) || item.width <= 0 || !Number.isSafeInteger(item.height) || item.height <= 0) throw new Error(`Invalid image details: ${record.id}`);
+      continue;
+    }
     if (!/^assets\/[\w/.-]+\.(jpg|png|webp)$/.test(item.poster) || item.poster.split('/').includes('..')) throw new Error(`Invalid poster: ${record.id}`);
     await access(path.join(root, item.poster));
   }
@@ -73,12 +88,12 @@ const published = cases.filter(record => record.published).sort((a, b) => Date.p
 for (const record of published) {
   const team = teamById.get(record.suspectTeamId);
   const evidence = record.evidence.map((item, index) => `<figure class="case-evidence">
-    <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>PNN reconstruction</span></div>
-    <video controls playsinline preload="none" poster="../../${escape(item.poster)}" width="640" height="360" aria-label="${escape(item.label)}" aria-describedby="evidence-${index}-description">
+    <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>${item.type === 'image' ? 'Supplied game material' : 'PNN reconstruction'}</span></div>
+    ${item.type === 'image' ? `<img src="../../${escape(item.src)}" width="${item.width}" height="${item.height}" alt="${escape(item.alt)}" aria-describedby="evidence-${index}-description" loading="lazy" decoding="async">` : `<video controls playsinline preload="none" poster="../../${escape(item.poster)}" width="640" height="360" aria-label="${escape(item.label)}" aria-describedby="evidence-${index}-description">
       <source src="../../${escape(item.src)}" type="video/mp4">
       Your browser does not support embedded video.
-    </video>
-    <figcaption><p id="evidence-${index}-description">${escape(item.description)}</p><p class="case-caption">${escape(item.caption)}</p><a href="../../${escape(item.src)}">Open video directly</a></figcaption>
+    </video>`}
+    <figcaption><p id="evidence-${index}-description">${escape(item.description)}</p><p class="case-caption">${escape(item.caption)}</p><a href="../../${escape(item.src)}">Open ${item.type === 'image' ? 'image' : 'video'} directly</a></figcaption>
   </figure>`).join('\n');
   const body = `
       <a class="case-back" href="../index.html">← All case files</a>
@@ -92,6 +107,8 @@ for (const record of published) {
         <div class="case-layout">
           <div class="case-report">
             <section><h2>The incident</h2><p>${escape(record.incidentDescription)}</p></section>
+${(record.relatedCaseIds || []).filter(id => caseById.get(id).published).map(id => `<p class="case-caption">Previously on the PNN desk: <a href="../${escape(id)}/index.html">${escape(caseById.get(id).caseNumber)} — ${escape(caseById.get(id).incidentTitle)}</a></p>`).join('\n')}
+${record.organizerNotice ? `<section class="organizer-notice"><h2>The witches' reminder</h2><p class="case-caption">${escape(record.organizerNotice.attribution)} · ${escape(record.organizerNotice.timeLabel)}</p><blockquote>${record.organizerNotice.paragraphs.map(text => `<p>${escape(text)}</p>`).join('')}</blockquote></section>` : ''}
             <section><h2>Suspected motive</h2><p>${escape(record.suspectedMotive)}</p></section>
             <section><h2>Investigator's note</h2><p>${escape(record.investigatorNote)}</p></section>
             <section class="case-assessment"><h2>Official PNN assessment</h2><p>${escape(record.disposition)}</p></section>
@@ -111,16 +128,16 @@ for (const record of published) {
 }
 const cards = published.map(record => `<article class="case-card"><p class="operation-label">${escape(record.caseNumber)} · ${escape(record.status)}</p><h2><a href="${record.id}/index.html">${escape(record.incidentTitle)}</a></h2><p>${escape(record.summary)}</p><p class="case-caption"><time datetime="${escape(record.dateOpened)}">${escape(dateLabel(record))}</time></p></article>`).join('\n');
 await mkdir(path.join(root, 'cases'), { recursive: true });
-await writeFile(path.join(root, 'cases/index.html'), page('Case files', 'PNN investigations from the Broomstick Challenge.', '../', `<p class="eyebrow">The Purrveillance desk</p><h1>Case files</h1><p class="intro">Small neighborhood. Open questions.</p><div class="case-list">${cards || '<p>No open files. Suspiciously quiet.</p>'}</div>`));
+await writeFile(path.join(root, 'cases/index.html'), page('Case files', 'PNN investigations from the Broomstick Challenge.', '../', `<p class="eyebrow">The Purrveillance desk</p><h1>Case files</h1><p class="intro">Clueso follows the facts. Preferably toward the pink team.</p><div class="case-list">${cards || '<p>No open files. Suspiciously quiet.</p>'}</div>`));
 const latest = published[0];
 const featured = latest ? `<article class="featured-case" aria-labelledby="featured-case-heading">
   <div class="frame-label top-label"><strong>Latest case file</strong><span>${escape(latest.caseNumber)}</span></div>
-  <a href="cases/${latest.id}/index.html" tabindex="-1" aria-hidden="true"><img class="featured-case-image" src="${escape(latest.evidence[0].poster)}" width="640" height="360" alt="" fetchpriority="high"></a>
+  <a href="cases/${latest.id}/index.html" tabindex="-1" aria-hidden="true"><img class="featured-case-image" src="${escape(latest.evidence[0].type === 'image' ? latest.evidence[0].src : latest.evidence[0].poster)}" width="${latest.evidence[0].type === 'image' ? latest.evidence[0].width : 640}" height="${latest.evidence[0].type === 'image' ? latest.evidence[0].height : 360}" alt="" fetchpriority="high"></a>
   <p class="operation-label">${escape(latest.status)} · ${escape(teamById.get(latest.suspectTeamId).name)}</p>
   <h2 id="featured-case-heading"><a href="cases/${latest.id}/index.html">${escape(latest.incidentTitle)}</a></h2>
   <p>${escape(latest.summary)}</p>
   <p class="case-caption"><time datetime="${escape(latest.dateOpened)}">${escape(dateLabel(latest))}</time></p>
-  <a class="featured-case-link" href="cases/${latest.id}/index.html">Read the case &amp; watch the evidence →</a>
+  <a class="featured-case-link" href="cases/${latest.id}/index.html">Read the case &amp; ${latest.evidence[0].type === 'image' ? 'view' : 'watch'} the evidence →</a>
 </article>` : '<p class="intro">No open files. Suspiciously quiet.</p>';
 const homePath = path.join(root, 'index.html');
 const home = await readFile(homePath, 'utf8');

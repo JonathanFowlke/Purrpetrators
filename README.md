@@ -31,6 +31,7 @@ index.html                  Newsroom homepage with generated latest case
 assets/css/styles.css       Shared visual identity and responsive layout
 assets/images/favicon.png   Supplied PNG favicon
 assets/evidence/001/        First case video and poster
+assets/evidence/002/        Black Webb Bandits witch flier
 assets/evidence/unassigned/ Media awaiting case assignment
 assets/downloads/           Future newsletter PDFs
 scripts/main.js             Unused former launch-status script
@@ -40,6 +41,7 @@ data/teams.json             Confirmed team roster and logo paths
 scripts/generate-cases.mjs  Generate static case pages from JSON
 cases/index.html           Generated case listing
 cases/001/index.html       PNN-001: Caught in their own Webb
+cases/002/index.html       PNN-002: Too soon to bribe
 pages/                      Future static content pages
 ```
 
@@ -51,9 +53,11 @@ Future stories can use Breaking News, Incident Reports, Suspected Motive, Eviden
 
 Edit `data/cases.json`, then run `node scripts/generate-cases.mjs` with a modern Node.js runtime (validated with Node 24). No npm installation is needed. Commit the generated `cases/index.html`, `cases/<id>/index.html`, and updated homepage alongside the data and any media changes. Edit the generator for shared page markup and `assets/css/styles.css` for styling; do not hand-edit generated case pages or the homepage region between the generated-feature markers. The newest published case supplies the homepage feature.
 
-Case IDs are stable three-digit strings, with matching numbers such as `001` / `PNN-001`. Reference a team by `suspectTeamId`. Store `dateOpened` as an ISO timestamp with an explicit offset and `timeZone` as an IANA zone. PNN-001 opened October 4, 2026, at 7:21 p.m. America/Denver (`-06:00`). Evidence currently supports MP4 video with a JPEG/PNG/WebP poster, descriptive text, a caption, and local asset paths. The video is click-to-play, with no autoplay or initial media preload; its poster supplies the image-like preview.
+Case IDs are stable three-digit strings, with matching numbers such as `001` / `PNN-001`. Reference a team by `suspectTeamId`. Store `dateOpened` as an ISO timestamp with an explicit offset and `timeZone` as an IANA zone. PNN-001 opened October 4, 2026, at 7:21 p.m. America/Denver (`-06:00`). Evidence supports MP4 video with a JPEG/PNG/WebP poster, descriptive text, a caption, and local asset paths. The video is click-to-play, with no autoplay or initial media preload; its poster supplies the image-like preview.
 
-Preview `/cases/` and `/cases/001/` over HTTP. Explicit `index.html` links also work when opening files directly. Each case displays a subject-team panel using the name, color, and logo resolved from `data/teams.json` through `suspectTeamId`. The first case uses `assets/evidence/001/black001.mp4` and an extracted `black001-poster.jpg`. Store case media under `assets/evidence/<case-id>/`; keep media awaiting assignment in `assets/evidence/unassigned/`. The former spotlight files have been moved into this structure without altering their contents. Update JSON paths when assigning media. The case generator validates required content, team references, unique IDs, and media paths, and escapes rendered text.
+Image evidence uses `type: "image"`, a local PNG/JPEG/WebP `src`, positive integer `width` and `height`, and nonempty `id`, `alt`, `label`, `description`, and `caption`. Images remain uncropped; the first evidence item supplies either its image or video poster to the homepage. Optional `organizerNotice` records contain `attribution`, `timeLabel`, and plain-text `paragraphs`, rendered as an escaped quotation. PNN-002 uses the supplied witch flier and reminder, dated October 6, 2026 at 8:28 p.m. America/Denver as confirmed by the user.
+
+Preview `/cases/`, `/cases/001/`, and `/cases/002/` over HTTP. Explicit `index.html` links also work when opening files directly. Each case displays a subject-team panel using the name, color, and logo resolved from `data/teams.json` through `suspectTeamId`. The first case uses `assets/evidence/001/black-webb-bandits-panther-reconstruction.mp4` and an extracted `black-webb-bandits-panther-reconstruction-poster.jpg`. Store case media under `assets/evidence/<case-id>/`; keep media awaiting assignment in `assets/evidence/unassigned/`. The former spotlight files have been moved into this structure without altering their contents. Update JSON paths when assigning media. The case generator validates required content, team references, unique IDs, and media paths, and escapes rendered text.
 
 Only records with `published: true` appear in the generated listing. This flag does not make JSON private or remove previously generated pages. If withdrawing an existing case, explicitly replace its old page with an appropriate notice while preserving any printed QR URL. Never store private drafts in deployed data.
 
@@ -76,7 +80,7 @@ The `/tips/` page is ready for a Tally standard embed, with reporting guidance, 
 
 The site generator supplies the standard embed with a hidden duplicate form title, transparent background, left alignment, and dynamic height. You do not need to paste Tally's embed code. It uses the official widget script only on the configured tips page; the direct link remains available if that script fails. The widget can forward the page URL/query parameters, so do not place personal information in tip-page URLs or add identity/tracking hidden fields. [Embed documentation](https://developers.tally.so/widgets/embeds).
 
-For form introductory text, use: **A suspicious prank. An unexplained paw print. An alibi with too many details. Tell Inspector Clueso's office at PNN what happened. This is part of the Broomstick Challenge neighborhood game, not an emergency reporting service. Reports and files are stored by Tally for private PNN review. Nothing is automatically published. Leave out addresses, phone numbers, license plates, and uninvolved people's information. Posting here does not replace proof in the game group for prank points.**
+For form introductory text, use: **A suspicious prank. An unexplained paw print. An alibi with too many details. Tell Inspector Clueso's office at PNN what happened. This is part of the Broomstick Challenge neighborhood game, not an emergency reporting service. Reports and files are sent to Inspector Clueso's office for private PNN review. Nothing is automatically published. Leave out addresses, phone numbers, license plates, and uninvolved people's information. Posting here does not replace proof in the game group for prank points.**
 
 Only approved reports with publication permission should be copied into public case data. Raw submissions, private-only reports, reporter identities, and exported attachment-access links do not belong in this repository. Moderators should check media and metadata before publishing a selected copy under `assets/evidence/<case-id>/`.
 
@@ -88,13 +92,19 @@ Place approved print-ready PDFs in `assets/downloads/` with stable edition filen
 
 ## Printed QR dispatch
 
-Print the QR for **https://purrpetrators.net/dispatch/**. This permanent PNN-branded URL chooses a random published case on every visit without exposing selection logic in the URL. The ready-to-use assets are `assets/downloads/pnn-dispatch-qr.svg` (preferred for print) and `assets/downloads/pnn-dispatch-qr.png`. Both encode that exact HTTPS URL with a white quiet zone and high error correction. Do not crop the white margin, stretch the image, or print too small; test the actual printed piece on a phone after deployment.
+The letter-size Tip Line flier is at `/tips/flier.html`, linked from the Tip Line page. Print in portrait on US Letter at 100% scale with browser headers and footers off. The print stylesheet uses half-inch margins, a 5.4-inch QR image, and a large vanity hotline number. Print controls are hidden on paper; browser Print also works without JavaScript. Test the final physical print's scan before hanging it.
+
+The unlisted `/resources/` page links to the flier and both QR SVGs, and the printable windshield cards. No other site page links to it. It requests `noindex, nofollow`; it is public, not password-protected.
+
+Print the QR for **https://purrpetrators.net/dispatch/**. This permanent PNN-branded URL chooses a random published case on every visit without exposing selection logic in the URL. The ready-to-use dispatch asset is `assets/qr/pnn-dispatch-qr.svg`. It encodes that exact HTTPS URL with a white quiet zone and high error correction. Do not crop the white margin, stretch the image, or print too small; test the actual printed piece on a phone after deployment.
 
 `dispatch/index.html` loads `scripts/dispatch.js`, which fetches `data/cases.json` with `cache: 'no-store'`, filters for `published: true` and valid three-digit IDs, and uses `location.replace` to open a local case. Drafts and invalid IDs are excluded; a case can repeat on consecutive scans. With one published case, all scans open it. No cookies, tracking, or third-party redirect service are used.
 
 To add a case, update the case JSON, run `node scripts/generate-cases.mjs`, and deploy the JSON and generated case pages together. New published cases then enter the QR selection without reprinting anything. Keep `/dispatch/` permanently stable. Missing/invalid data, an empty collection, a slow request, or disabled JavaScript leave a readable PNN page with a case-archive link rather than a redirect loop. Run `node --test scripts/dispatch.test.mjs` to verify selection and failure handling.
 
-QR images were generated once using Segno in a temporary tooling directory; neither Python QR dependencies nor a QR generation service are needed to run or deploy the site. QR artwork only needs regeneration if the encoded URL deliberately changes, which would require replacing printed copies.
+The pink PNN artwork is available as `assets/qr/pnn-dispatch-qr.svg` and `assets/qr/pnn-tips-qr.svg`. These encode `https://purrpetrators.net/dispatch/` and `https://purrpetrators.net/tips/`, respectively. Both are square QR-only artwork with dark magenta modules on white and an enlarged original pink feline paw inside a magenta circle on a white inset. They retain a four-module quiet zone and high error correction; there are no surrounding labels or frames. Keep the central inset small and verify decoding after any change. These are the only two QR assets; the plain variants and PNG copies have been removed. Both themed SVGs were rendered and independently decoded; test your final printed size on a phone before distributing.
+
+QR images were generated using Segno in temporary tooling; neither Python QR dependencies nor a QR generation service are needed to run or deploy the site. QR artwork only needs regeneration if the encoded URL deliberately changes, which would require replacing printed copies.
 
 ## Quick checks before publishing
 
@@ -113,3 +123,13 @@ The current theme uses a light blush background and dark berry text, with 18px b
 ## PNN telephone hotline
 
 The public hotline is **+1 (801) 79-PRANK**, which dials **+1 (801) 797-7265**. Click-to-call links use `tel:+18017977265`. It appears in the homepage reporting callout, the Tip Line call panel, case reporting callouts, and all page footers. Case links are maintained in the generator. Tally remains the photo/video submission channel; phone-service settings are managed outside this repository. No calls were placed during site verification.
+
+## Agent guidance and case callbacks
+
+`AGENTS.md` is the root instruction source for Codex; `CLAUDE.md` points to it. Core guidance stays below the default 32 KiB project-instruction limit. Design, hosting, print/QR guidance, and proposed future schemas are preserved in `docs/repository-reference.md`, which the root guide directs agents to read for relevant work. Start a new Codex session to load revised startup instructions; an active session can read the updated file directly.
+
+Cases may include `relatedCaseIds`, an array of unique existing IDs excluding the current case. Published references render as links below the incident, with titles resolved from case data. PNN-002 links back to PNN-001 for its late-name/early-bribe callback.
+
+Printable windshield cards are at `/resources/cards.html`, linked from the unlisted resources page. There are 30 designs on three letter-size sheets, ten per sheet. Each card measures 3.5 by 2 inches. Print portrait at 100%, one-sided, with browser headers/footers off, and cut on the dotted lines. Each card includes the dispatch QR without an explanatory caption. The final six almost-pranked cards are intended for participating teams.
+
+The letter-size prank leave-behind is `/resources/pranked.html`, linked from the unlisted resources page. It includes the PNN logo, dispatch QR, and playful You've Been Prowled copy for completed game pranks. Print portrait at 100% with browser headers/footers off.

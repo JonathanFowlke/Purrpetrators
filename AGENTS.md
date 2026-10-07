@@ -1,5 +1,9 @@
 # PNN repository guide
 
+## Agent instruction loading
+
+This root `AGENTS.md` is the canonical instruction file for Codex and covers the entire repository. Read it before editing; re-read it after the user changes editorial guidance during a session. `CLAUDE.md` points here rather than maintaining a separate copy. Keep this file below 32 KiB so it fits Codex's default project-instruction budget. Longer supporting guidance lives in `docs/repository-reference.md`; read the relevant sections when a task touches those topics. Keep core editorial rules and the current authoring contract here.
+
 ## Purpose and scope
 
 PNN means **Purrpetrator News Network**, the fictional news and intelligence arm of **Prowling Purrpetrators**, a pink feline-themed team in the annual **Broomstick Challenge** neighborhood competition. The team tagline is **“Guilty of having a pranking good time.”** The domain is `purrpetrators.net`; the repository is `JonathanFowlke/Purrpetrators`.
@@ -67,6 +71,28 @@ Use names consistently:
 | PNN Tip Line | `/tips/` submission page; Tally must be configured to accept reports |
 | Purrpetrator Post | Possible newsletter name; not final |
 
+### Editorial bias: Clueso versus the Prowling Purrpetrators
+
+Write new cases from Inspector Clueso's perspective: PNN is theatrically biased against its own pink team, the **Prowling Purrpetrators**, whom he regards as elusive prank masterminds who must be caught. His guiding principle is **“Guilty until proven guilty.”** This is a running neighborhood-game joke, not a real accusation or a standard for reviewing submissions. PNN's polished newsroom voice should make his unreasonable certainty funnier: suspiciously confident conclusions, grudging acknowledgment of an effective prank, and administrative frustration when the pink suspects remain uncaught.
+
+Apply this perspective in case headlines, suspected motives, investigator notes, and final assessments. Keep incident descriptions and evidence faithful to approved material; the bias belongs in Clueso's clearly comic interpretation. Cases about other teams can still stand on their own. Keep `suspectTeamId` tied to the actual case subject, and do not invent pink-team involvement or evidence merely to sustain the joke.
+
+Invite other teams to help Clueso build his fictional case by sending game-related sightings, prank reports, and approved evidence to the PNN Tip Line or hotline. Make reporting feel like joining the investigation against the pink team; retain private storage, human review, and approval before publication. The apparent hostility toward our own team may leave participants wondering whether PNN is another team's prank against us. Let that playful ambiguity emerge from the voice, without falsely attributing ownership, statements, or actions to another team or removing the clear PNN/Broomstick Challenge fictional context.
+
+Example voice, not claims about actual incidents:
+
+- “The Prowling Purrpetrators remain guilty until proven guilty. Inspector Clueso considers this an efficient policy.”
+- “No pink suspects were caught. Clueso has requested a more cooperative set of facts.”
+- “Seen the Prowling Purrpetrators at work? Send game evidence to Inspector Clueso's office at PNN. His theory could use some facts.”
+
+### Friendly roasting and case continuity
+
+Make cases funny enough to be worth reading. Friendly embarrassment over game behavior is welcome: bad timing, overconfidence, an elaborate plan defeated by a simple instruction, and trying too hard to recover from an earlier blunder. Treat teams as willing players in the joke. The boundaries above concern personal humiliation and real-world harm, not a pointed roast of an approved game incident. Do not flatten harmless rivalry into cautious corporate copy.
+
+Build a comic narrative from confirmed events. Use a setup, an escalating contrast, and a short payoff. Call back to earlier cases when relevant and link to them through `relatedCaseIds`. For example: last to announce a name, then so eager to recover that the bribes arrive before permission; the comeback earns another trip with treats. Frame invented motives as PNN theories, not facts or participant admissions. Keep Clueso's pink-team fixation as a quick comic aside when the actual story concerns another team.
+
+Public copy should sound like PNN reporting, not an evidence audit or implementation note. Do not interrupt a joke with unsolicited remarks such as "the treats are not pictured," "no evidence supplied connects the pink team," or a list of penalties nobody claimed. Describe the actual artifact accurately, retain necessary reconstruction labels and standalone game context, and quote organizer instructions faithfully. Keep technical limitations and editorial verification in authoring notes or the work summary when needed. Captions can be punch lines: "The paperwork was ready. The witches were not."
+
 ## Current implementation
 
 The project is plain HTML, CSS, and browser JavaScript, with a dependency-free Node.js authoring script that generates committed case HTML from JSON. There is no framework, package manifest, dependency installation, deployment build step, general test framework, CI workflow, database, backend, analytics, cookies, external font, or site-owned submission backend. Tally is selected for the Tip Line; the public form URL is configured; live availability depends on deploying the generated tips page. Do not invent npm commands or assume a router exists. The current site works without browser JavaScript.
@@ -78,11 +104,16 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `assets/css/styles.css` | Shared design tokens, layout, typography, responsive rules, focus and reduced-motion styles |
 | `scripts/main.js` | Legacy launch-status animation; no longer loaded by the homepage |
 | `tips/index.html` | Tip Line page with a generated Tally embed or honest unconfigured state |
+| `tips/flier.html`, `assets/css/flier.css` | Printable letter-size Tip Line flier with a 5.4-inch QR image, large hotline number, and screen-only print controls |
+| `resources/cards.html`, `assets/css/cards.css` | 30 printable windshield cards, three letter-size sheets of ten, with unexplained dispatch QR codes |
+| `resources/pranked.html`, `assets/css/pranked.css` | Letter-size You've Been Prowled leave-behind with dispatch QR for completed game pranks |
+| `resources/index.html` | Unlisted print-resource page linking to the flier and both QR SVGs; no incoming site links, `noindex, nofollow`, no authentication |
 | `data/tip-line.json` | Public Tally respondent URL; currently https://tally.so/r/ODWPok |
 | `scripts/generate-tips.mjs` | Validates the Tally URL and updates only the marked form region |
 | `scripts/generate-cases.mjs` | Node.js authoring command: reads case/team JSON and generates escaped static HTML |
-| `cases/index.html`, `cases/001/index.html` | Generated case index and first case, PNN-001 |
-| `assets/evidence/001/` | PNN-001 media: `black001.mp4` and extracted `black001-poster.jpg` |
+| `cases/index.html`, `cases/001/index.html`, `cases/002/index.html` | Generated archive, PNN-001 name reveal, and PNN-002 early witch bribe |
+| `assets/evidence/001/` | PNN-001 media: `black-webb-bandits-panther-reconstruction.mp4` and extracted `black-webb-bandits-panther-reconstruction-poster.jpg` |
+| `assets/evidence/002/` | PNN-002 supplied image: `black-webb-bandits-witch-flier.png` |
 | `assets/evidence/unassigned/` | Supplied media not yet assigned to a case: green/silver videos and red image |
 | `assets/images/pnn.svg` | Custom connected PNN lettering, magenta strokes with white inset lines; used in both headers and homepage hero |
 | `assets/images/logo.png` | Supplied team artwork, 600 × 516 |
@@ -91,13 +122,14 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `assets/images/favicon.svg` | Alternate geometric feline icon; currently not linked |
 | `assets/images/teams/` | Supplied color-named team logos referenced by `data/teams.json`; case pages display the subject team's logo |
 | `assets/images/evidence/` | Legacy empty placeholder; use `assets/evidence/` for new case media |
-| `assets/downloads/` | Printable dispatch QR PNG/SVG; future approved newsletter PDFs belong here |
+| `assets/qr/` | Pink dispatch and tips QR SVGs with centered, circle-outlined paws |
+| `assets/downloads/` | Future approved newsletter PDFs |
 | `newsletter/index.html` | Newsletter landing page; first edition in preparation, no published PDFs yet |
 | `dispatch/index.html`, `scripts/dispatch.js` | Permanent QR destination that selects a published case on each visit |
 | `scripts/dispatch.test.mjs` | Dependency-free Node tests for dispatch selection and fallback behavior |
 | `data/teams.json` | Seven confirmed teams with stable color IDs/slugs, names, colors, logo paths, and an own-team flag |
 | `data/stories.json` | Empty array; no story loader or schema yet |
-| `data/cases.json` | Structured case records, currently PNN-001 investigating the black team's late name reveal |
+| `data/cases.json` | Structured case records: PNN-001 late name reveal and PNN-002 early witch bribe, both concerning the black team |
 | `pages/` | Empty placeholder for future content pages |
 | `CNAME` | Contains `purrpetrators.net` |
 | `.nojekyll` | Keeps static deployment from requiring Jekyll processing |
@@ -115,27 +147,7 @@ Placeholder directories contain `.gitkeep`. Local `.idea/` files are editor meta
 
 ## Visual direction and assets
 
-The desired identity combines hot pink/magenta, near-black, off-white neutrals, restrained noir/newsroom presentation, case files, surveillance framing, paw prints, and subtle feline or construction motifs. Aim for **professional enough that the absurdity becomes funnier**. Avoid making childish cartoons the primary UI language.
-
-The current site uses a **light blush theme**, dark berry text, bold Arial/Helvetica typography, rounded panels, and pink shadows. Preserve this working design unless a redesign is requested; noir inspiration is not an instruction to switch every page to a dark theme.
-
-Current CSS tokens are the implementation source of truth:
-
-| Token | Value |
-| --- | --- |
-| `--bg` | `#fff5f8` |
-| `--text` | `#30212c` |
-| `--muted` | `#65515f` |
-| `--pink` | `#f699be` |
-| `--magenta` | `#b60060` |
-| `--pale-pink` | `#ffdeed` |
-| `--line` | `#dbb8c9` |
-
-The README's reference palette differs from these current styles. Reuse CSS variables rather than treating those reference colors as current tokens. The external SVG wordmark contains its own hard-coded magenta and white strokes; a deliberate palette change must account for it separately.
-
-The layout uses a 1440px maximum shell, an 18px base font, and responsive breakpoints at 1050px, 760px, and 400px. The hero becomes one column at 760px. Preserve readable typography, keyboard focus, contrast, and reduced-motion handling when evolving the design.
-
-The supplied PNGs visibly resemble Pink Panther character artwork; their presence does not establish original authorship or licensing. Preserve existing files during unrelated work, but do not expand dependence on copyrighted Pink Panther artwork. For new branding or an asset refresh, prefer original silhouettes, paws, eyes, claws, geometric feline motifs, typography, patterns, and illustrations. The current PNN SVG uses CNN-inspired connected linework; this is an existing implementation, not permission to copy commercial logos or imply affiliation. Develop PNN's own recognizable identity.
+Before design or asset work, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Those instructions remain part of this repository guide.
 
 ## Future site and content architecture
 
@@ -147,11 +159,19 @@ Potential areas include Breaking News, Team Reports, PNN Investigations, Suspect
 
 Edit `data/cases.json` and run `node scripts/generate-cases.mjs` (validated with Node 24; no npm packages). Commit the generated case HTML and updated homepage so GitHub Pages needs no build command. Do not hand-edit generated case files or the homepage region between `BEGIN GENERATED FEATURED CASE` and `END GENERATED FEATURED CASE`; the newest published case supplies that region. Shared markup belongs in the generator and shared styles in `assets/css/styles.css`. The generator resolves the subject team's name, color, and logo from `data/teams.json` via `suspectTeamId` and displays a subject-team panel above the evidence. Do not duplicate team branding in case records. There is no browser JSON loader.
 
-Case records use a unique three-digit string `id`, matching `caseNumber` (`PNN-001`), ISO `dateOpened` with offset, IANA `timeZone`, `status`, `suspectTeamId`, `incidentTitle`, `summary`, `incidentDescription`, `suspectedMotive`, `evidence`, `investigatorNote`, `threatLevel`, `disposition`, `relatedStoryIds`, and boolean `published`. The first timestamp is `2026-10-04T19:21:00-06:00`, America/Denver. Evidence currently supports video records with `id`, `type: "video"`, site-root-relative MP4 `src`, local `poster` (JPEG/PNG/WebP), `label`, `description`, and `caption`. Store assigned media under `assets/evidence/<case-id>/` and unassigned media under `assets/evidence/unassigned/`; move media and update references when assigning it. The former `assets/spotlights/` folder has been retired. The still preview is an extracted frame. Use controls and no autoplay, provide descriptive text, and clearly identify fictional reconstruction footage.
+Case records use a unique three-digit string `id`, matching `caseNumber` (`PNN-001`), ISO `dateOpened` with offset, IANA `timeZone`, `status`, `suspectTeamId`, `incidentTitle`, `summary`, `incidentDescription`, `suspectedMotive`, `evidence`, `investigatorNote`, `threatLevel`, `disposition`, `relatedStoryIds`, and boolean `published`. The first timestamp is `2026-10-04T19:21:00-06:00`, America/Denver. Evidence supports video records with `id`, `type: "video"`, site-root-relative MP4 `src`, local `poster` (JPEG/PNG/WebP), `label`, `description`, and `caption`. Store assigned media under `assets/evidence/<case-id>/` and unassigned media under `assets/evidence/unassigned/`; move media and update references when assigning it. The former `assets/spotlights/` folder has been retired. The still preview is an extracted frame. Use controls and no autoplay, provide descriptive text, and clearly identify fictional reconstruction footage.
+
+Image evidence uses `type: "image"`, `id`, `src` (local PNG/JPEG/WebP), `width` and `height` (positive integer intrinsic dimensions), nonempty `alt`, `label`, `description`, and `caption`. It renders uncropped with a direct-image link and is labeled supplied game material. The homepage uses the first image or video poster with matching dimensions and a media-appropriate link label. An optional `organizerNotice` has nonempty `attribution`, `timeLabel`, and a nonempty array of plain-text `paragraphs`; it renders as an escaped blockquote with paragraph and line breaks. Keep quoted organizer instructions distinct from comic interpretation. PNN-002 records the supplied reminder: wait for instructions before bribing; early bribes receive NO and must be repeated after the announcement. No point deduction was stated. The user confirmed that the incident and reminder occurred October 6, 2026; PNN-002 uses the reminder time, `2026-10-06T20:28:00-06:00`, America/Denver.
+
+Optional `relatedCaseIds` is an array of unique existing case IDs, excluding the current case. The generator validates references and links only published related cases, deriving their title and case number from the source records. Use it for callbacks rather than putting HTML or duplicate case titles in JSON.
 
 The generator validates required text, IDs, team references, and media paths, escapes text, and produces `/cases/` and `/cases/<id>/` with relative assets and explicit `index.html` links. Preserve these routes for QR use. Only published cases enter the listing; changing the flag does not delete old generated pages or hide JSON. Explicitly replace a withdrawn case page with an appropriate notice rather than leaving stale content or breaking printed URLs.
 
 Favor static, content-driven implementation with one source of truth, stable IDs, consistent schemas, and reusable rendering. Keep content separate from presentation. Avoid copying story metadata into multiple independently maintained pages. Introduce only the components or templates needed by an actual feature; do not install a framework merely to prepare for possibilities.
+
+Use the Clueso editorial bias above when writing new cases, while preserving the approved facts at each stage.
+
+The homepage introduction, reporting callouts, case archive introduction, and PNN-001 investigator note use this perspective. The Tip Line invites all teams to contribute to Clueso's fictional investigation while continuing to welcome other game reports and corrections. The separately managed Tally form copy is unchanged by these website edits.
 
 The recurring editorial structure is:
 
@@ -159,18 +179,7 @@ The recurring editorial structure is:
 
 ### Suggested data conventions when the first content feature is built
 
-The story fields and team dossier extensions below are proposed conventions; the current team and case contracts are documented above. Establish and document additional required fields, defaults, status values, and validation with their first implementation. Keep JSON valid, use stable string IDs, use ISO-formatted dates, and reference related records by ID rather than duplicating them. Choose slugs that can remain stable after headlines change.
-
-| Collection | Suggested fields |
-| --- | --- |
-| Stories | `id`, `slug`, `date`, `headline`, `shortHeadline`, `teamId`, `category`, `summary`, `incident`, `suspectedMotive`, `evidence`, `assessment`, `threatLevel`, `image`, `relatedCaseId`, `published`, `featured`, `tags` |
-| Team dossier extensions | approved `photo`, fictional `aliases`, `charges`, `strengths`, `weaknesses`, `threatRating`, `notableStoryIds`, submitted `quotes` |
-
-Use a consistent human-readable case-number format, for example `PNN-042`, once selected. Cases and “threat” labels describe playful game fiction, never real criminal or safety judgments. Evidence can use structured entries with an asset path, alt text, caption, and type as needed. Do not fabricate rival teams or seed invented incidents as published facts.
-
-Team dossiers may include intentionally supplied game photos, fictional aliases/charges, playful strengths and weaknesses, approved incidents, and submitted humorous quotes. Exclude addresses, phone numbers, private contacts, sensitive information, and personal details unrelated to the competition.
-
-`data/alerts.json` and `data/newsletter.json` are possible additions, not existing files. Do not store confidential drafts or raw submissions in deployed JSON: a `published: false` flag controls presentation, not access to a public file or repository.
+Before new story collections or team dossiers, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Those instructions remain part of this repository guide.
 
 ## Submissions, moderation, and hotline
 
@@ -188,29 +197,11 @@ The user-provided public **PNN Hotline** is **+1 (801) 79-PRANK**, numerically *
 
 ## Newsletter, QR pages, and fictional notices
 
-The stable `/newsletter/` page and homepage newsletter section reuse `assets/images/construction.png`. They clearly state that the first edition is being prepared, without nonexistent download links. Keep the current neutral **PNN Newsletter** title until a final publication name is chosen. Store approved PDFs under `assets/downloads/`, add dated edition links when actual files exist, and preserve old edition URLs.
-
-The printed QR destination is **https://purrpetrators.net/dispatch/**. Keep that path permanent and use PNN Dispatch wording; do not rename it to `random-case`. Printable PNG and SVG QR files live at `assets/downloads/pnn-dispatch-qr.*`. The redirect script fetches current case JSON without cache, randomly selects among unique valid IDs with `published: true`, and uses `location.replace` to avoid Back-button redirect loops. New cases become eligible when the data and generated case pages are deployed together; no QR regeneration is needed. Repeats are allowed. Empty, invalid, or unavailable collections and disabled JavaScript retain an archive link. The selection tests use `node --test scripts/dispatch.test.mjs`. No persistent tracking or external redirect infrastructure is involved.
-
-The newsletter may be named **Purrpetrator News** or **Purrpetrator Post**; the final name is undecided. It can reuse approved website stories, investigations, motives, corrections, alerts, photos, selected tips, absurd statistics, mock classifieds, and clearly fictional, friendly “most wanted” game material. Keep the same PNN voice and avoid maintaining conflicting copies of the underlying content. `assets/downloads/` is available for future editions.
-
-Printed QR codes may link to stories, cases, team dossiers, tips, the hotline, notices, editions, or temporary announcements. Candidate paths include `/news`, `/cases/042`, `/teams/blue`, `/hotline`, `/report`, `/alert`, and `/purrpetrator-post`; **these routes do not currently exist**.
-
-Use stable, memorable destinations and keep them working after printing. Change content behind a URL instead of renaming it; retain an appropriate landing page or static redirect if a destination moves. A root directory with `index.html` can support a clean GitHub Pages path; the existing `pages/` directory is also available for explicit static page URLs. Resolve this deliberately when adding a route. Do not assume server rewrites or an SPA fallback. Test the exact URL, including directory/trailing-slash behavior, before printing. QR destinations must not trigger third-party actions involving a target's personal information.
-
-Removable vehicle prank cards may say “PNN Surveillance Notice,” “Purrpetrator Citation,” “Prowling Violation,” “Security Audit Failed,” “Vehicle Compromised,” “Person of Interest,” or “You've Been Prowled.” These are theatrical labels only. Cards for participating teams' street-parked vehicles must be non-damaging, removable, obviously fictional once read, unlike real legal citations, and placed without obstructing visibility. Avoid adhesives on paint or glass unless explicitly safe and appropriate. QR-linked case pages must preserve that fictional context and must not expose vehicle owners' private information.
+Before editing newsletters, printable fliers/cards, QR assets, dispatch, or the unlisted resources page, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Preserve permanent printed URLs, fictional game context, and the resources page's lack of incoming site links.
 
 ## Hosting and URL handling
 
-The intended setup is a Namecheap-managed domain with DNS pointing to GitHub Pages for `JonathanFowlke/Purrpetrators`. The repository's `origin` matches that repository. `CNAME` records the domain but does not configure DNS or prove that the live deployment is active. Hosting settings and DNS were not verified by repository inspection.
-
-The README documents **Deploy from a branch**, using the default branch and repository root. Keep `.nojekyll`, static assets, and custom-domain compatibility. Do not introduce a persistent server, database, paid hosting, or complex build infrastructure without a requirement that justifies it.
-
-- Root-page assets use relative paths such as `assets/css/styles.css`; pages under `pages/` need `../assets/` and `../scripts/`, adjusted for depth.
-- `404.html` injects a `<base>` before loading assets: `/` on the custom domain, or the first path segment on a `*.github.io` project site. It skips this behavior for `file:` previews.
-- That base logic assumes a GitHub project site, not a `username.github.io` root site; the latter requires `/`. Other subdirectory hosting needs its actual deployment prefix. Preserve nested-error-page asset and home-link behavior when editing it.
-- GitHub Pages paths are case-sensitive. Use exact filenames and verify links from each page depth.
-- Do not change domain configuration, publish, or add integrations merely because this guide describes them.
+Before hosting, deployment, or URL-path changes, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Those instructions remain part of this repository guide.
 
 ## Engineering workflow and validation
 

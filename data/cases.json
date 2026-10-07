@@ -14,17 +14,63 @@
       {
         "id": "001-A",
         "type": "video",
-        "src": "assets/evidence/001/black001.mp4",
-        "poster": "assets/evidence/001/black001-poster.jpg",
+        "src": "assets/evidence/001/black-webb-bandits-panther-reconstruction.mp4",
+        "poster": "assets/evidence/001/black-webb-bandits-panther-reconstruction-poster.jpg",
         "label": "Exhibit A — A slight scheduling conflict",
         "description": "A panther traps a spider. PNN's playful reconstruction of why the Black Webb Bandits may have been difficult to locate before their name announcement.",
         "caption": "Illustrative PNN reconstruction. Not footage of an actual team incident. Eight legs. Remarkably few exit strategies."
       }
     ],
-    "investigatorNote": "The spider connection is compelling. The chicken connection remains unsupported. Our working theory: they weren't scared to announce. They were waiting for the panther to leave.",
+    "investigatorNote": "The chicken connection remains unsupported. Clueso prefers the panther theory. A reconstruction featuring a panther is, regrettably, not evidence against the Prowling Purrpetrators. He has requested more facts and fewer obstacles to his conclusion.",
     "threatLevel": "Temporarily contained",
     "disposition": "Name recovered. Alibi pending. The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation.",
     "relatedStoryIds": [],
     "published": true
+  },
+  {
+    "id": "002",
+    "caseNumber": "PNN-002",
+    "dateOpened": "2026-10-06T20:28:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Awaiting the announcement",
+    "suspectTeamId": "black",
+    "incidentTitle": "Last to announce. Too early to bribe.",
+    "summary": "After finishing last in the name reveal, the Black Webb Bandits attempted a dramatic recovery: arriving before bribing had even opened. Their reward? The opportunity to do it all again.",
+    "incidentDescription": "The Black Webb Bandits were last to announce their name. Having apparently decided that being late once was quite enough, they left treats and an \"Are you a witch?\" flier before the witches had announced instructions for bribing. A bold leap from behind schedule to ahead of permission. Wanda, Hilda, and Glenda then reminded the teams that every early bribe would receive a NO. The Bandits had successfully expedited their return trip.",
+    "organizerNotice": {
+      "attribution": "Wanda, Hilda, & Glenda",
+      "timeLabel": "October 6, 2026 at 8:28 PM (America/Denver) ? edited",
+      "paragraphs": [
+        "⚠️ A WARNING FROM THE WITCHES ⚠️",
+        "Some teams seem to be eager to find us… a little too eager. 🧙‍♀️",
+        "Wait for our instructions before bribing.  We will answer NO to every bribe until the instructions are announced.",
+        "If you try to bribe us before then, your penalty is simple: you’ll have to bribe us again once the announcement is made.",
+        "The witches are watching. 👀",
+        "Wait for the announcement.\nSave your treats.\nAnd whatever you do… don’t anger the witches.",
+        "🧙‍♀️ You have been warned. 🧙‍♂️"
+      ]
+    },
+    "suspectedMotive": "PNN theory: compensate for the late name reveal by being spectacularly early to the next thing. Unfortunately, the next thing was waiting. They have now demonstrated a remarkable ability to arrive on either side of the correct time.",
+    "evidence": [
+      {
+        "id": "002-A",
+        "type": "image",
+        "src": "assets/evidence/002/black-webb-bandits-witch-flier.png",
+        "width": 400,
+        "height": 600,
+        "alt": "Black Webb Bandits game flier with spiders, webs, a moonlit witch silhouette, and the question: Are you a witch?",
+        "label": "Exhibit A ? Printed confidence. Premature delivery.",
+        "description": "\"Are you a witch?\" asks the Black Webb Bandits' flier. A direct question. An elaborate presentation. A regrettable lack of a starting signal.",
+        "caption": "Broomstick Challenge field material. The paperwork was ready. The witches were not."
+      }
+    ],
+    "investigatorNote": "Clueso was prepared to blame the Prowling Purrpetrators. Then he read the name on the flier. The Bandits had helpfully signed their own scheduling incident. Eight legs, a printed invitation, and still nobody on the brakes.",
+    "threatLevel": "Chronologically unpredictable",
+    "disposition": "Last to introduce themselves. Early to ask the question. Required to bring treats again. The witches get another round; the Bandits get another chance to locate the starting line. PNN recommends waiting for the announcement before attempting any further improvements in punctuality.",
+    "relatedStoryIds": [],
+    "published": true,
+    "relatedCaseIds": [
+      "001"
+    ]
   }
 ]
