@@ -111,25 +111,27 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `data/tip-line.json` | Public Tally respondent URL; currently https://tally.so/r/ODWPok |
 | `scripts/generate-tips.mjs` | Validates the Tally URL and updates only the marked form region |
 | `scripts/generate-cases.mjs` | Node.js authoring command: reads case/team JSON and generates escaped static HTML |
-| `cases/index.html`, `cases/001/index.html`, `cases/002/index.html` | Generated archive, PNN-001 name reveal, and PNN-002 early witch bribe |
+| `cases/index.html`, `cases/001/index.html`, `cases/002/index.html`, `cases/003/index.html` | Generated archive, PNN-001 name reveal, PNN-002 early witch bribe, and PNN-003 dog-walking report |
 | `assets/evidence/001/` | PNN-001 media: `black-webb-bandits-panther-reconstruction.mp4` and extracted `black-webb-bandits-panther-reconstruction-poster.jpg` |
 | `assets/evidence/002/` | PNN-002 supplied image: `black-webb-bandits-witch-flier.png` |
 | `assets/evidence/unassigned/` | Supplied media not yet assigned to a case: green/silver videos and red image |
 | `assets/images/pnn.svg` | Custom connected PNN lettering, magenta strokes with white inset lines; used in both headers and homepage hero |
+| `assets/images/pnn.png` | Transparent 900 × 330 PNG export of the PNN SVG for email mastheads |
 | `assets/images/logo.png` | Supplied team artwork, 600 × 516 |
 | `assets/images/construction.png` | Existing 1536 × 1024 illustration reused for the newsletter's first-edition placeholder |
 | `assets/images/favicon.png` | Supplied feline favicon currently linked by both HTML pages |
 | `assets/images/favicon.svg` | Alternate geometric feline icon; currently not linked |
 | `assets/images/teams/` | Supplied color-named team logos referenced by `data/teams.json`; case pages display the subject team's logo |
 | `assets/images/evidence/` | Legacy empty placeholder; use `assets/evidence/` for new case media |
-| `assets/qr/` | Pink dispatch and tips QR SVGs with centered, circle-outlined paws |
+| `assets/qr/` | Pink dispatch and tips QR SVGs with centered, circle-outlined paws; dispatch PNG derivative for email |
 | `assets/downloads/` | Future approved newsletter PDFs |
-| `newsletter/index.html` | Newsletter landing page; first edition in preparation, no published PDFs yet |
+| `newsletter/index.html` | Newsletter landing page linking to the first HTML email sample; delivery not connected |
+| `newsletter/sample-001.html`, `newsletter/sample-001.txt` | Provider-neutral first email sample and plain-text alternative; not sent |
 | `dispatch/index.html`, `scripts/dispatch.js` | Permanent QR destination that selects a published case on each visit |
 | `scripts/dispatch.test.mjs` | Dependency-free Node tests for dispatch selection and fallback behavior |
 | `data/teams.json` | Seven confirmed teams with stable color IDs/slugs, names, colors, logo paths, and an own-team flag |
 | `data/stories.json` | Empty array; no story loader or schema yet |
-| `data/cases.json` | Structured case records: PNN-001 late name reveal and PNN-002 early witch bribe, both concerning the black team |
+| `data/cases.json` | Structured case records: PNN-001/002 concerning the black team and PNN-003 concerning the white team |
 | `pages/` | Empty placeholder for future content pages |
 | `CNAME` | Contains `purrpetrators.net` |
 | `.nojekyll` | Keeps static deployment from requiring Jekyll processing |
@@ -140,7 +142,7 @@ Placeholder directories contain `.gitkeep`. Local `.idea/` files are editor meta
 
 ### Existing behavior to preserve
 
-- The site-wide construction notice, launch-status panel, and launch script have been removed from the homepage. Construction messaging is now limited to the newsletter section and page while its first edition is prepared. The retained `scripts/main.js` is unused legacy code, not a current feature.
+- The site-wide construction notice, launch-status panel, and launch script have been removed from the homepage. The newsletter section and page now link to the first email sample; the landing page retains its construction illustration. The retained `scripts/main.js` is unused legacy code, not a current feature.
 - The site pages have skip links, semantic main content, visible keyboard focus, and accessible home-link names. The repeated hero logo is decorative; meaningful images have alt text and explicit dimensions.
 - The latest case's poster receives fetch priority; the lower team image is lazy-loaded. Evidence videos have controls and a poster with no autoplay. Preserve image aspect ratios and avoid unintentionally cropping supplied artwork.
 - The homepage has canonical-domain Open Graph URL/title/description metadata but no `og:image`. Only add that property when a real share image is available, using an absolute URL.
@@ -162,6 +164,8 @@ Edit `data/cases.json` and run `node scripts/generate-cases.mjs` (validated with
 Case records use a unique three-digit string `id`, matching `caseNumber` (`PNN-001`), ISO `dateOpened` with offset, IANA `timeZone`, `status`, `suspectTeamId`, `incidentTitle`, `summary`, `incidentDescription`, `suspectedMotive`, `evidence`, `investigatorNote`, `threatLevel`, `disposition`, `relatedStoryIds`, and boolean `published`. The first timestamp is `2026-10-04T19:21:00-06:00`, America/Denver. Evidence supports video records with `id`, `type: "video"`, site-root-relative MP4 `src`, local `poster` (JPEG/PNG/WebP), `label`, `description`, and `caption`. Store assigned media under `assets/evidence/<case-id>/` and unassigned media under `assets/evidence/unassigned/`; move media and update references when assigning it. The former `assets/spotlights/` folder has been retired. The still preview is an extracted frame. Use controls and no autoplay, provide descriptive text, and clearly identify fictional reconstruction footage.
 
 Image evidence uses `type: "image"`, `id`, `src` (local PNG/JPEG/WebP), `width` and `height` (positive integer intrinsic dimensions), nonempty `alt`, `label`, `description`, and `caption`. It renders uncropped with a direct-image link and is labeled supplied game material. The homepage uses the first image or video poster with matching dimensions and a media-appropriate link label. An optional `organizerNotice` has nonempty `attribution`, `timeLabel`, and a nonempty array of plain-text `paragraphs`; it renders as an escaped blockquote with paragraph and line breaks. Keep quoted organizer instructions distinct from comic interpretation. PNN-002 records the supplied reminder: wait for instructions before bribing; early bribes receive NO and must be repeated after the announcement. No point deduction was stated. The user confirmed that the incident and reminder occurred October 6, 2026; PNN-002 uses the reminder time, `2026-10-06T20:28:00-06:00`, America/Denver.
+
+Written evidence uses `type: "report"` with nonempty `id`, `label`, `description`, and `caption`, with no media path required. It renders as escaped witness-report text. Summarize approved accounts without identifying private households or submitters; distinguish witness impressions from PNN theories. The homepage uses the first image/video when present, or a text-only feature and witness-report link when none exists. PNN-003 uses the supplied dog-walking account about the Tightie Whities. Its opening timestamp records creation of the case, not the encounter time; the incident date is not yet confirmed.
 
 Optional `relatedCaseIds` is an array of unique existing case IDs, excluding the current case. The generator validates references and links only published related cases, deriving their title and case number from the source records. Use it for callbacks rather than putting HTML or duplicate case titles in JSON.
 

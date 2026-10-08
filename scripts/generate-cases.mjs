@@ -69,11 +69,12 @@ for (const record of cases) {
   }
   if (!Array.isArray(record.evidence) || !record.evidence.length) throw new Error(`Missing evidence: ${record.id}`);
   for (const item of record.evidence) {
-    const mediaPattern = item.type === 'video' ? /^assets\/[\w/.-]+\.mp4$/ : item.type === 'image' ? /^assets\/[\w/.-]+\.(png|jpe?g|webp)$/ : null;
-    if (!mediaPattern || !mediaPattern.test(item.src) || item.src.split('/').includes('..')) throw new Error(`Invalid evidence path: ${record.id}`);
     for (const field of ['id', 'label', 'description', 'caption']) {
       if (typeof item[field] !== 'string' || !item[field].trim()) throw new Error(`Missing evidence ${field}: ${record.id}`);
     }
+    if (item.type === 'report') continue;
+    const mediaPattern = item.type === 'video' ? /^assets\/[\w/.-]+\.mp4$/ : item.type === 'image' ? /^assets\/[\w/.-]+\.(png|jpe?g|webp)$/ : null;
+    if (!mediaPattern || !mediaPattern.test(item.src) || item.src.split('/').includes('..')) throw new Error(`Invalid evidence path: ${record.id}`);
     await access(path.join(root, item.src));
     if (item.type === 'image') {
       if (typeof item.alt !== 'string' || !item.alt.trim() || !Number.isSafeInteger(item.width) || item.width <= 0 || !Number.isSafeInteger(item.height) || item.height <= 0) throw new Error(`Invalid image details: ${record.id}`);
@@ -87,7 +88,11 @@ for (const record of cases) {
 const published = cases.filter(record => record.published).sort((a, b) => Date.parse(b.dateOpened) - Date.parse(a.dateOpened));
 for (const record of published) {
   const team = teamById.get(record.suspectTeamId);
-  const evidence = record.evidence.map((item, index) => `<figure class="case-evidence">
+  const evidence = record.evidence.map((item, index) => item.type === 'report' ? `<figure class="case-evidence">
+    <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>Witness report</span></div>
+    <p>${escape(item.description)}</p>
+    <figcaption class="case-caption">${escape(item.caption)}</figcaption>
+  </figure>` : `<figure class="case-evidence">
     <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>${item.type === 'image' ? 'Supplied game material' : 'PNN reconstruction'}</span></div>
     ${item.type === 'image' ? `<img src="../../${escape(item.src)}" width="${item.width}" height="${item.height}" alt="${escape(item.alt)}" aria-describedby="evidence-${index}-description" loading="lazy" decoding="async">` : `<video controls playsinline preload="none" poster="../../${escape(item.poster)}" width="640" height="360" aria-label="${escape(item.label)}" aria-describedby="evidence-${index}-description">
       <source src="../../${escape(item.src)}" type="video/mp4">
@@ -130,14 +135,15 @@ const cards = published.map(record => `<article class="case-card"><p class="oper
 await mkdir(path.join(root, 'cases'), { recursive: true });
 await writeFile(path.join(root, 'cases/index.html'), page('Case files', 'PNN investigations from the Broomstick Challenge.', '../', `<p class="eyebrow">The Purrveillance desk</p><h1>Case files</h1><p class="intro">Clueso follows the facts. Preferably toward the pink team.</p><div class="case-list">${cards || '<p>No open files. Suspiciously quiet.</p>'}</div>`));
 const latest = published[0];
+const featuredMedia = latest?.evidence.find(item => item.type === 'image' || item.type === 'video');
 const featured = latest ? `<article class="featured-case" aria-labelledby="featured-case-heading">
   <div class="frame-label top-label"><strong>Latest case file</strong><span>${escape(latest.caseNumber)}</span></div>
-  <a href="cases/${latest.id}/index.html" tabindex="-1" aria-hidden="true"><img class="featured-case-image" src="${escape(latest.evidence[0].type === 'image' ? latest.evidence[0].src : latest.evidence[0].poster)}" width="${latest.evidence[0].type === 'image' ? latest.evidence[0].width : 640}" height="${latest.evidence[0].type === 'image' ? latest.evidence[0].height : 360}" alt="" fetchpriority="high"></a>
+${featuredMedia ? `<a href="cases/${latest.id}/index.html" tabindex="-1" aria-hidden="true"><img class="featured-case-image" src="${escape(featuredMedia.type === 'image' ? featuredMedia.src : featuredMedia.poster)}" width="${featuredMedia.type === 'image' ? featuredMedia.width : 640}" height="${featuredMedia.type === 'image' ? featuredMedia.height : 360}" alt="" fetchpriority="high"></a>` : ''}
   <p class="operation-label">${escape(latest.status)} · ${escape(teamById.get(latest.suspectTeamId).name)}</p>
   <h2 id="featured-case-heading"><a href="cases/${latest.id}/index.html">${escape(latest.incidentTitle)}</a></h2>
   <p>${escape(latest.summary)}</p>
   <p class="case-caption"><time datetime="${escape(latest.dateOpened)}">${escape(dateLabel(latest))}</time></p>
-  <a class="featured-case-link" href="cases/${latest.id}/index.html">Read the case &amp; ${latest.evidence[0].type === 'image' ? 'view' : 'watch'} the evidence →</a>
+  <a class="featured-case-link" href="cases/${latest.id}/index.html">${featuredMedia ? `Read the case &amp; ${featuredMedia.type === 'image' ? 'view' : 'watch'} the evidence` : 'Read the case &amp; witness report'} →</a>
 </article>` : '<p class="intro">No open files. Suspiciously quiet.</p>';
 const homePath = path.join(root, 'index.html');
 const home = await readFile(homePath, 'utf8');
