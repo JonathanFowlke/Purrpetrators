@@ -82,14 +82,14 @@
     "suspectTeamId": "white",
     "incidentTitle": "Two walks. One tight alibi.",
     "summary": "Two Tightie Whities. Two dogs. A few minutes apart. PNN examines a routine walk that became considerably less routine when somebody asked a follow-up question.",
-    "incidentDescription": "A teammate out walking their dog reported encountering two different members of the Tightie Whities, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.",
+    "incidentDescription": "An anonymous source out walking their dog reported encountering two different members of the Tightie Whities, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.",
     "suspectedMotive": "PNN theory: leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. A few minutes between teammates would look beautifully inconspicuous, provided nobody encountered both of them. Unfortunately, the neighborhood had assigned the same witness to both exits. An administrative setback for the alleged operation.",
     "evidence": [
       {
         "id": "003-A",
         "type": "report",
         "label": "Exhibit A - The walk-by report",
-        "description": "A game teammate reports two separate encounters with Tightie Whities members walking dogs downhill, only minutes apart. The witness had not known that one member owned a dog and describes an uncertain response when asked how long they had owned it.",
+        "description": "An anonymous source reports two separate encounters with Tightie Whities members walking dogs downhill, only minutes apart. The witness had not known that one member owned a dog and describes an uncertain response when asked how long they had owned it.",
         "caption": "Two departures. One witness. Unfortunate scheduling."
       }
     ],
