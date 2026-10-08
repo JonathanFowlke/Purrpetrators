@@ -83,7 +83,7 @@
     "incidentTitle": "Two walks. One tight alibi.",
     "summary": "Two Tightie Whities. Two dogs. A few minutes apart. PNN examines a routine walk that became considerably less routine when somebody asked a follow-up question.",
     "incidentDescription": "An anonymous source out walking their dog reported encountering two different members of the Tightie Whities, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.",
-    "suspectedMotive": "PNN theory: leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. A few minutes between teammates would look beautifully inconspicuous, provided nobody encountered both of them. Unfortunately, the neighborhood had assigned the same witness to both exits. An administrative setback for the alleged operation.",
+    "suspectedMotive": "PNN theory: leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. Separate the departures. Bring a dog. Look casual. A promising plan, defeated by the advanced investigative technique of saying hello twice. The alleged operation had accounted for timing, distance, and canine support. It had not budgeted for a neighbor with a memory.",
     "evidence": [
       {
         "id": "003-A",
@@ -91,11 +91,23 @@
         "label": "Exhibit A - The walk-by report",
         "description": "An anonymous source reports two separate encounters with Tightie Whities members walking dogs downhill, only minutes apart. The witness had not known that one member owned a dog and describes an uncertain response when asked how long they had owned it.",
         "caption": "Two departures. One witness. Unfortunate scheduling."
+      },
+      {
+        "id": "003-B",
+        "type": "image",
+        "reconstruction": true,
+        "src": "assets/evidence/003/tightie-whities-operation-loose-end.png",
+        "width": 1536,
+        "height": 1024,
+        "alt": "Fictional PNN pencil sketch of two conspicuously casual dog walkers, one trailing toilet paper from his shoe, with annotations: Act natural, Paper trail, and Dog knows the script.",
+        "label": "Exhibit B - Operation Loose End",
+        "description": "Clueso's sketch desk reconstructs the alleged attempt to look inconspicuous. The dogs have mastered it. Their handlers have requested additional rehearsal time.",
+        "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses and toilet-paper detail, not a witnessed scene. Leave no trace. Except the complimentary paper trail."
       }
     ],
-    "investigatorNote": "Clueso's reconstruction gives the alleged plan three stages: bring a dog, leave separately, survive small talk. The first two appear manageable. The third may require another team meeting. He had hoped to find the Prowling Purrpetrators behind the whole affair; instead, the pink suspects remain uncaught while he opens a file on dog-walking logistics.",
+    "investigatorNote": "In Clueso's fictional reconstruction, a ribbon of toilet paper trails from one operative's shoe: the Tightie Whities attempting to leave no trace while providing their own paper trail. He has labeled it 'Operation Loose End.' The dogs, at least, remembered their roles. Clueso remains irritated that the Prowling Purrpetrators have supplied neither a confession nor anything this easy to follow.",
     "threatLevel": "Suspiciously well exercised",
-    "disposition": "The secret meeting remains a PNN theory. The prank-scouting theory also remains available, should the first theory need a walk. The Tightie Whities' alibi is now on a short leash. Next time, PNN recommends knowing the dog's backstory before taking it on a cover story.",
+    "disposition": "Clueso's assessment of the suspected operation: elaborate departure plan, insufficient rehearsal for casual conversation. The Tightie Whities appear to have prepared for everything except 'Nice dog. How long have you had it?' PNN recommends a full dress rehearsal of saying hello. Until then: two walks, one tight alibi, and a cover story still being house-trained.",
     "relatedStoryIds": [],
     "relatedCaseIds": [],
     "published": true

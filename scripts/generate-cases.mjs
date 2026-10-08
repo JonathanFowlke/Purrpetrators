@@ -77,6 +77,7 @@ for (const record of cases) {
     if (!mediaPattern || !mediaPattern.test(item.src) || item.src.split('/').includes('..')) throw new Error(`Invalid evidence path: ${record.id}`);
     await access(path.join(root, item.src));
     if (item.type === 'image') {
+      if (item.reconstruction !== undefined && typeof item.reconstruction !== 'boolean') throw new Error(`Invalid reconstruction flag: ${record.id}`);
       if (typeof item.alt !== 'string' || !item.alt.trim() || !Number.isSafeInteger(item.width) || item.width <= 0 || !Number.isSafeInteger(item.height) || item.height <= 0) throw new Error(`Invalid image details: ${record.id}`);
       continue;
     }
@@ -93,7 +94,7 @@ for (const record of published) {
     <p>${escape(item.description)}</p>
     <figcaption class="case-caption">${escape(item.caption)}</figcaption>
   </figure>` : `<figure class="case-evidence">
-    <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>${item.type === 'image' ? 'Supplied game material' : 'PNN reconstruction'}</span></div>
+    <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>${item.type === 'image' && !item.reconstruction ? 'Supplied game material' : 'PNN reconstruction'}</span></div>
     ${item.type === 'image' ? `<img src="../../${escape(item.src)}" width="${item.width}" height="${item.height}" alt="${escape(item.alt)}" aria-describedby="evidence-${index}-description" loading="lazy" decoding="async">` : `<video controls playsinline preload="none" poster="../../${escape(item.poster)}" width="640" height="360" aria-label="${escape(item.label)}" aria-describedby="evidence-${index}-description">
       <source src="../../${escape(item.src)}" type="video/mp4">
       Your browser does not support embedded video.
