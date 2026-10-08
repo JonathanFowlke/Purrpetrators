@@ -1,6 +1,6 @@
 {
   "id": "001",
-  "status": "sample",
+  "status": "published",
   "title": "Go big. Or go haunt.",
   "subject": "PNN: Go big or go haunt. Clueso has concerns.",
   "preheader": "Pink science, ambitious plans, and one very tight alibi.",
@@ -173,7 +173,7 @@
   ],
   "featuredCase": {
     "id": "003",
-    "teaser": "An anonymous source encountered two Tightie Whities walking dogs only minutes apart. Clueso suspects staggered departures. His fictional sketch adds a toilet-paper trail. The dogs, at least, remembered their roles.",
-    "linkLabel": "Inspect the alibi & comic sketch →"
+    "teaser": "Two Tightie Whities. Two dogs. One suspiciously punctual neighbor. Clueso has a theory about staggered departures, a sketch desk with a few artistic liberties, and an uncomfortable number of follow-up questions about recent pet ownership.",
+    "linkLabel": "Sniff out the full case file →"
   }
 }

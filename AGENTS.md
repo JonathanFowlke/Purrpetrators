@@ -95,7 +95,7 @@ Public copy should sound like PNN reporting, not an evidence audit or implementa
 
 ## Current implementation
 
-The project is plain HTML, CSS, and browser JavaScript, with a dependency-free Node.js authoring script that generates committed case HTML from JSON. There is no framework, package manifest, dependency installation, deployment build step, general test framework, CI workflow, database, backend, external font, or site-owned submission backend. Tally is selected for the Tip Line; the public form URL is configured; live availability depends on deploying the generated tips page. Do not invent npm commands or assume a router exists. The current site works without browser JavaScript. Google Analytics uses the supplied Google tag with measurement ID `G-KGKE2M052Z` on website HTML pages, including print/resource pages and generated cases; the importable newsletter email is excluded. Preserve the tag in the case generator. Analytics loads an external Google script and can use cookies; there is no site consent UI or custom event instrumentation.
+The project is plain HTML, CSS, and browser JavaScript, with a dependency-free Node.js authoring script that generates committed case HTML from JSON. There is no framework, package manifest, dependency installation, deployment build step, general test framework, CI workflow, database, backend, external font, or site-owned submission backend. Tally is selected for the Tip Line; the public form URL is configured; live availability depends on deploying the generated tips page. Do not invent npm commands or assume a router exists. The site works without browser JavaScript, except the newsletter page's EmailOctopus sign-up embed (has a noscript fallback). Google Analytics uses the supplied Google tag with measurement ID `G-KGKE2M052Z` on website HTML pages, including print/resource pages and generated cases; the importable newsletter email is excluded. Preserve the tag in the case generator. Analytics loads an external Google script and can use cookies; there is no site consent UI or custom event instrumentation.
 
 | Path | Current responsibility |
 | --- | --- |
@@ -126,9 +126,10 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `assets/images/evidence/` | Legacy empty placeholder; use `assets/evidence/` for new case media |
 | `assets/qr/` | Pink dispatch and tips QR SVGs with centered, circle-outlined paws; dispatch PNG derivative for email |
 | `assets/downloads/` | Future approved newsletter PDFs |
-| `newsletter/index.html` | Newsletter landing page linking to the first HTML email sample; delivery not connected |
-| `newsletter/001/index.html` | Generated EmailOctopus edition; no scripts or analytics |
+| `newsletter/index.html` | Newsletter landing page linking to published editions, with a generated EmailOctopus sign-up region |
+| `newsletter/001/index.html` | Published EmailOctopus edition; no scripts or analytics |
 | `data/newsletters/`, `scripts/generate-newsletters.mjs`, `scripts/templates/newsletter.html` | Edition JSON, authoring/scaffolding command, shared email shell |
+| `data/newsletter-subscribe.json`, `scripts/generate-newsletter-subscribe.mjs` | EmailOctopus embed-form script URL and the generator that renders it (with a noscript fallback) into `newsletter/index.html` |
 | `dispatch/index.html`, `scripts/dispatch.js` | Permanent QR destination that selects a published case on each visit |
 | `scripts/dispatch.test.mjs` | Dependency-free Node tests for dispatch selection and fallback behavior |
 | `data/teams.json` | Seven confirmed teams with stable color IDs/slugs, names, colors, logo paths, and an own-team flag |
@@ -204,6 +205,10 @@ The user-provided public **PNN Hotline** is **+1 (801) 79-PRANK**, numerically *
 ## Newsletter, QR pages, and fictional notices
 
 Edit `data/newsletters/<id>.json` and run `node scripts/generate-newsletters.mjs`; use `--new 002` to scaffold a draft without overwriting existing source. Generated editions live at `newsletter/<id>/index.html`; do not hand-edit them. The script updates only the marked listing on `newsletter/index.html`. Drafts are omitted from the listing but remain public files; samples and published editions are listed. Keep the PNN Newsletter name and at most one featured case. The shared template supplies the logo, dispatch QR, hidden preheader, and EmailOctopus `{{SenderInfoLine}}`, `{{UnsubscribeURL}}`, and `{{RewardsURL}}` tags. No scripts/analytics or separate `.txt` files belong in email editions; EmailOctopus generates plain text. Preserve old edition URLs. See README for schema and import instructions.
+
+**Established edition format, effective with edition 001:** `featuredCase`, when present, always renders first as a short, funny, spoiler-light hint toward the latest published case, not a full recap. `sections` then supplies the main feature: a hilarious, exaggerated PNN article in the mock-institute voice with comedy statistics where useful. The template automatically appends the fixed Dispatch/Tip Line ending; never duplicate that in `sections`. Treat unlabeled or purely numbered reference assets (for example `assets/evidence/unassigned/`) as tone/content inspiration only, never publishable or embeddable material, especially if third-party trademarked characters appear.
+
+New subscribers are collected by EmailOctopus directly; this repo only stores the public embed-form script URL in `data/newsletter-subscribe.json` (`embedSrc`), rendered via `node scripts/generate-newsletter-subscribe.mjs` as EmailOctopus's official `<script data-form>` embed plus a noscript Tip Line fallback. See README for setup.
 
 Before editing newsletters, printable fliers/cards, QR assets, dispatch, or the unlisted resources page, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Preserve permanent printed URLs, fictional game context, and the resources page's lack of incoming site links.
 

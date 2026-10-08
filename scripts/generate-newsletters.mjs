@@ -45,10 +45,10 @@ export function validateNewsletter(record, cases) {
   }
 }
 
-function renderSection(section, index) {
+function renderSection(section, index, isFirst) {
   const light = section.tone !== 'dark';
   const accent = light ? '#b60060' : '#f699be';
-  const heading = index === 0 ? 'h1' : 'h2';
+  const heading = isFirst ? 'h1' : 'h2';
   const blocks = section.blocks.map(block => {
     if (block.type === 'paragraph') {
       const content = block.runs.map(run => {
@@ -63,24 +63,27 @@ function renderSection(section, index) {
   }).join('\n');
   return `<tr><td class="pad" style="padding:28px 36px;background-color:${tones[section.tone]};color:${light ? '#30212c' : '#ffffff'};">
 ${section.kicker ? `<p style="${labelStyle}color:${accent};">${escape(section.kicker)}</p>` : ''}
-<${heading}${index === 0 ? ' class="headline"' : ''} style="margin:0 0 18px;font-size:${index === 0 ? '46' : '28'}px;line-height:${index === 0 ? '49' : '32'}px;">${lines(section.heading)}</${heading}>
+<${heading}${isFirst ? ' class="headline"' : ''} style="margin:0 0 18px;font-size:${isFirst ? '46' : '28'}px;line-height:${isFirst ? '49' : '32'}px;">${lines(section.heading)}</${heading}>
 ${blocks}
 </td></tr>`;
 }
 
 export function renderNewsletter(record, cases, template) {
   validateNewsletter(record, cases);
-  let content = record.sections.map(renderSection).join('\n');
-  if (record.featuredCase) {
+  const hasFeature = Boolean(record.featuredCase);
+  // The edition opens with a quick, spoiler-light hint toward the latest case before the main comedic feature.
+  let content = '';
+  if (hasFeature) {
     const feature = record.featuredCase;
     const item = cases.find(c => c.id === feature.id);
-    content += `<tr><td class="pad" style="padding:28px 36px;border-bottom:1px solid #dbb8c9;">
-<p style="${labelStyle}color:#65515f;">FEATURED CASE / ${escape(item.caseNumber)}</p>
-<h2 style="margin:0 0 12px;font-size:28px;line-height:32px;">${escape(item.incidentTitle)}</h2>
+    content += `<tr><td class="pad" style="padding:28px 36px;background-color:#30212c;color:#ffffff;border-bottom:4px solid #b60060;">
+<p style="${labelStyle}color:#f699be;">LATEST CASE FILE / ${escape(item.caseNumber)}</p>
+<h1 class="headline" style="margin:0 0 18px;font-size:46px;line-height:49px;">${escape(item.incidentTitle)}</h1>
 <p style="${paragraphStyle}">${lines(feature.teaser)}</p>
-<p style="margin:0;font-size:18px;line-height:27px;"><a href="https://purrpetrators.net/cases/${feature.id}/" style="color:#b60060;text-decoration:underline;font-weight:bold;">${escape(feature.linkLabel)}</a></p>
+<p style="margin:0;font-size:18px;line-height:27px;"><a href="https://purrpetrators.net/cases/${feature.id}/" style="color:#f699be;text-decoration:underline;font-weight:bold;">${escape(feature.linkLabel)}</a></p>
 </td></tr>`;
   }
+  content += record.sections.map((section, index) => renderSection(section, index, !hasFeature && index === 0)).join('\n');
   const values = {ID:record.id, TITLE:escape(record.title), SUBJECT:escape(record.subject), PREHEADER:escape(record.preheader), STATUS:record.status.toUpperCase(), CONTENT:content,
     SAMPLE_NOTICE:record.status === 'published' ? '' : `<p style="margin:0;font-size:16px;line-height:24px;">${record.status === 'draft' ? 'Draft' : 'Sample'} edition for review. No email subscription is created by viewing this page.</p>`};
   for (const key of Object.keys(values)) if (!template.includes(`[[${key}]]`)) throw new Error(`Template is missing ${key}.`);

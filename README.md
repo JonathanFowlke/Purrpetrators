@@ -39,6 +39,9 @@ data/stories.json           Empty story collection
 data/cases.json             Case records and evidence metadata
 data/teams.json             Confirmed team roster and logo paths
 scripts/generate-cases.mjs  Generate static case pages from JSON
+scripts/generate-newsletters.mjs          Generate newsletter editions from JSON
+scripts/generate-newsletter-subscribe.mjs Generate the newsletter sign-up link region
+data/newsletter-subscribe.json            EmailOctopus embed form script URL
 cases/index.html           Generated case listing
 cases/001/index.html       PNN-001: Caught in their own Webb
 cases/002/index.html       PNN-002: Too soon to bribe
@@ -104,7 +107,7 @@ This creates `data/newsletters/002.json` with neutral draft copy and generates `
 
 Each filename matches its three-digit `id`. Required fields: `id`, `status` (`draft`, `sample`, or `published`), `title`, `subject`, `preheader`, and nonempty `sections`. Each section has `tone` (`dark`, `white`, `blush`, or `pink`), `heading`, optional `kicker`, and `blocks`. Paragraph blocks use `type: "paragraph"` and `runs` of `{ "text": "...", "bold": true, "italic": true }` (format flags optional); newline characters become line breaks. Statistics blocks use `type: "stats"` and `items` with `value` and `text`. Keep spoof-science labels explicit. Text is HTML-escaped; content merge-tag injection is rejected.
 
-An optional single `featuredCase` contains `id`, an editorial `teaser`, and `linkLabel`. The generator validates that the case is published and resolves its case number/title from `data/cases.json`. Review the teaser when the case changes. Edition 001 draws its three features from the supplied numbered examples: Go Big or Go Haunt, Pink Advantage spoof science, and mascot confidence; it highlights only case 003. The shared QR invitation says "For more cases".
+An optional single `featuredCase` contains `id`, an editorial `teaser`, and `linkLabel`. The generator validates that the case is published and resolves its case number/title from `data/cases.json`. **Every edition's established format:** when present, `featuredCase` always renders first, as a short, funny, spoiler-light hint toward the latest published case (teaser copy, not a full case summary), styled as the opening headline. The `sections` array supplies the main feature next: a hilarious, exaggerated PNN article with invented statistics in the established mock-institute voice. The template then automatically appends the fixed PNN Dispatch and Tip Line/hotline closing block; do not duplicate that content in `sections`. Edition 001 published this way: its opening hint points to case 003, and its main feature (Go Big or Go Haunt / Pink Advantage spoof science / mascot confidence) was drafted from the supplied numbered reference assets in `assets/evidence/unassigned/` (a dispatch-flyer mockup, a Pink Panther-themed newsletter concept, and a fake research-institute PDF). Those reference files are inspiration only: they depict a third-party trademarked character and are never embedded or linked from the published site or emails. Review the hint/teaser copy whenever the latest case changes.
 
 Drafts generate for review but are excluded from the listing; samples and published editions are listed newest ID first. These flags do not provide privacy or delete old pages. Preserve edition URLs; explicitly replace withdrawn editions with notices. A `published` label does not send an email.
 
@@ -121,6 +124,23 @@ There is no separate `.txt` file: [EmailOctopus automatically generates the plai
 Email images use absolute HTTPS URLs at `purrpetrators.net`: `assets/images/pnn.png` (900 x 330, displayed at 240 x 88) and `assets/qr/pnn-dispatch-qr.png` (900 x 900, displayed at 225 x 225). Keep them hosted before sending. The QR points to the permanent `https://purrpetrators.net/dispatch/`. Local previews use those hosted images too. Copy remains readable with images blocked. Browser checks do not establish inbox compatibility; test the imported campaign in intended clients.
 
 Run `node --test scripts/generate-newsletters.test.mjs` for generator validation and scaffolding checks. Future approved PDFs may still live under `assets/downloads/`; none exist yet.
+
+## Newsletter sign-up / EmailOctopus subscribe setup
+
+The site has no backend, so new subscribers are collected directly by EmailOctopus rather than by this repository. This uses EmailOctopus's official JavaScript **embedded form** snippet (`<script async src="https://eomailN.com/form/FORM_ID.js" data-form="FORM_ID">`), which EmailOctopus's own account dashboard supplied. This is the only subscribe path on the site that requires browser JavaScript; a `<noscript>` fallback points readers to the Tip Line to be added manually.
+
+1. In EmailOctopus, create (or reuse) the list that should receive PNN subscribers, then build an inline embedded sign-up form for it (**Grow → Forms**). Keep it short: email address only, PNN-toned copy, and a confirmation message such as **You're on the list. Inspector Clueso's office will keep you posted.** Match the site's blush `#fff5f8` / dark berry `#30212c` / magenta `#b60060` palette if the editor allows it.
+2. Click **`</> Add to your website`** and copy the generated script tag's `src` URL — a `https://eomailN.com/form/FORM_ID.js` link. Do not copy any other markup; the generator rebuilds the `<script>` tag itself from this URL.
+3. Paste that URL into `embedSrc` in `data/newsletter-subscribe.json`, then run:
+
+   ```sh
+   node scripts/generate-newsletter-subscribe.mjs
+   ```
+
+   This updates only the marked subscribe region on `newsletter/index.html`. Commit the config and generated HTML together. A blank `embedSrc` keeps the page in its honest "getting connected" state. No API key is needed; the generator only accepts a `https://eomailN.com/form/FORM_ID.js` URL (sharded EmailOctopus domain, UUID-shaped form ID) and rejects anything else.
+4. Test sign-up end-to-end with a throwaway address before announcing it, and unsubscribe/delete the test entry afterward. Also check the page with JavaScript disabled to confirm the noscript fallback and Tip Line link work.
+
+Keep real list membership, sender identity, and campaign sending in EmailOctopus; this repository only stores the public embed script URL.
 
 ## Printed QR dispatch
 
