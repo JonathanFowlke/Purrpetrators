@@ -92,7 +92,7 @@ Edit `data/newsletters/001.json`, then run:
 node scripts/generate-newsletters.mjs
 ```
 
-This generates `newsletter/001/index.html` and updates only the marked edition-list region in `newsletter/index.html`. Commit source and generated HTML together; GitHub Pages needs no build step. Do not hand-edit generated editions. The old `newsletter/sample-001.html` redirects to edition 001.
+This generates `newsletter/001/index.html` and updates only the marked edition-list region in `newsletter/index.html`. Commit source and generated HTML together; GitHub Pages needs no build step. Do not hand-edit generated editions.
 
 To start another edition:
 
@@ -168,7 +168,7 @@ The letter-size prank leave-behind is `/resources/pranked.html`, linked from the
 
 ## Google Analytics
 
-Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. Generated email editions under `newsletter/<id>/`, the legacy sample redirect, and the authoring template are excluded.
+Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. Generated email editions under `newsletter/<id>/` and the authoring template are excluded.
 
 The tag loads Google's external script asynchronously and queues the standard initialization and configuration calls. There are no custom event handlers, user IDs, submission-content integrations, or consent interface added by this change. Analytics can use cookies; never include private report details in page URLs or analytics parameters. Dispatch still redirects immediately without waiting for analytics, so a dispatch page view is not guaranteed before navigation. The destination case has its own tag.
 

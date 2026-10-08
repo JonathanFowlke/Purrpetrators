@@ -129,7 +129,6 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `newsletter/index.html` | Newsletter landing page linking to the first HTML email sample; delivery not connected |
 | `newsletter/001/index.html` | Generated EmailOctopus edition; no scripts or analytics |
 | `data/newsletters/`, `scripts/generate-newsletters.mjs`, `scripts/templates/newsletter.html` | Edition JSON, authoring/scaffolding command, shared email shell |
-| `newsletter/sample-001.html` | Legacy redirect to edition 001; separate text copy retired |
 | `dispatch/index.html`, `scripts/dispatch.js` | Permanent QR destination that selects a published case on each visit |
 | `scripts/dispatch.test.mjs` | Dependency-free Node tests for dispatch selection and fallback behavior |
 | `data/teams.json` | Seven confirmed teams with stable color IDs/slugs, names, colors, logo paths, and an own-team flag |
