@@ -1,0 +1,179 @@
+{
+  "id": "001",
+  "status": "sample",
+  "title": "Go big. Or go haunt.",
+  "subject": "PNN: Go big or go haunt. Clueso has concerns.",
+  "preheader": "Pink science, ambitious plans, and one very tight alibi.",
+  "sections": [
+    {
+      "tone": "dark",
+      "heading": "Go big.\nOr go haunt.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Every elaborate pink plan begins with a reasonable idea. The difficulty, Inspector Clueso suspects, is getting anyone to leave it reasonable."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Prowling Purrpetrators remain "
+            },
+            {
+              "text": "guilty until proven guilty.",
+              "bold": true
+            },
+            {
+              "text": " This edition examines their planning philosophy, suspicious science, and considerable confidence."
+            }
+          ]
+        }
+      ],
+      "kicker": "SPECIAL REPORT / THE PINK PLANNING DESK"
+    },
+    {
+      "tone": "white",
+      "heading": "The three stages of Purrpetrator engineering",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / The reasonable concept",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Small. Simple. Entirely achievable. Naturally, this raises objections."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / The logistical reality check",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Someone explains how much work it will take. The committee mistakes this for a challenge."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / The Purrpetrator clause",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "“What if we actually did it?” The sensible version is quietly removed from the minutes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso's planning model: a five-minute idea with a three-day production department. Clever and fun remains the brief. Being mean does not improve the design.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "heading": "Peer review pending.\nVictory already assumed.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The fictional Institute of Competitive Chromatics has supplied the following figures. These are comedy statistics, not research or game standings. The decimal points are doing most of the work."
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "+34.7%",
+              "text": "Claimed pink win advantage. Apparently, confidence now comes with a spreadsheet."
+            },
+            {
+              "value": "11.7 seconds",
+              "text": "Claimed opponent realization time. Clueso was suspicious considerably sooner."
+            },
+            {
+              "value": "+13.1%",
+              "text": "Claimed October surge. Even the calendar has been recruited into the publicity department."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN assessment: a remarkable amount of certainty for a color. Clueso has requested the methodology. Preferably in something other than pink ink."
+            }
+          ]
+        }
+      ],
+      "kicker": "THE PINK ADVANTAGE / SPOOF SCIENCE DESK"
+    },
+    {
+      "tone": "pink",
+      "heading": "Same cat.\nDifferent level of confidence.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The pink mascot mythology has three essential skills: remain calm, raise one eyebrow, and walk away as though the outcome was arranged last Tuesday. Sunglasses are apparently a strategic qualification."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Turn up late? Call it an entrance. Complicated plan? Adjust the sunglasses. Something goes wrong? Maintain the walk until someone else starts doubting themselves."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso's finding:",
+              "bold": true
+            },
+            {
+              "text": " the Prowling Purrpetrators have confused looking unbothered with having an alibi. Annoyingly, it photographs well."
+            }
+          ]
+        }
+      ],
+      "kicker": "THE MASCOT FILE / ORIGIN OF THE ATTITUDE"
+    }
+  ],
+  "featuredCase": {
+    "id": "003",
+    "teaser": "An anonymous source encountered two Tightie Whities walking dogs only minutes apart. Clueso suspects staggered departures. His fictional sketch adds a toilet-paper trail. The dogs, at least, remembered their roles.",
+    "linkLabel": "Inspect the alibi & comic sketch →"
+  }
+}

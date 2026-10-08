@@ -127,7 +127,9 @@ The project is plain HTML, CSS, and browser JavaScript, with a dependency-free N
 | `assets/qr/` | Pink dispatch and tips QR SVGs with centered, circle-outlined paws; dispatch PNG derivative for email |
 | `assets/downloads/` | Future approved newsletter PDFs |
 | `newsletter/index.html` | Newsletter landing page linking to the first HTML email sample; delivery not connected |
-| `newsletter/sample-001.html`, `newsletter/sample-001.txt` | Provider-neutral first email sample and plain-text alternative; not sent |
+| `newsletter/001/index.html` | Generated EmailOctopus edition; no scripts or analytics |
+| `data/newsletters/`, `scripts/generate-newsletters.mjs`, `scripts/templates/newsletter.html` | Edition JSON, authoring/scaffolding command, shared email shell |
+| `newsletter/sample-001.html` | Legacy redirect to edition 001; separate text copy retired |
 | `dispatch/index.html`, `scripts/dispatch.js` | Permanent QR destination that selects a published case on each visit |
 | `scripts/dispatch.test.mjs` | Dependency-free Node tests for dispatch selection and fallback behavior |
 | `data/teams.json` | Seven confirmed teams with stable color IDs/slugs, names, colors, logo paths, and an own-team flag |
@@ -143,7 +145,7 @@ Placeholder directories contain `.gitkeep`. Local `.idea/` files are editor meta
 
 ### Existing behavior to preserve
 
-- The site-wide construction notice, launch-status panel, and launch script have been removed from the homepage. The newsletter section and page now link to the first email sample; the landing page retains its construction illustration. The retained `scripts/main.js` is unused legacy code, not a current feature.
+- The site-wide construction notice, launch-status panel, and launch script have been removed from the homepage. The newsletter section and page link to numbered editions; the homepage retains its construction illustration. The retained `scripts/main.js` is unused legacy code, not a current feature.
 - The site pages have skip links, semantic main content, visible keyboard focus, and accessible home-link names. The repeated hero logo is decorative; meaningful images have alt text and explicit dimensions.
 - The latest case's poster receives fetch priority; the lower team image is lazy-loaded. Evidence videos have controls and a poster with no autoplay. Preserve image aspect ratios and avoid unintentionally cropping supplied artwork.
 - The homepage has canonical-domain Open Graph URL/title/description metadata but no `og:image`. Only add that property when a real share image is available, using an absolute URL.
@@ -201,6 +203,8 @@ GitHub Pages does not provide private submission storage. Tally is the selected 
 The user-provided public **PNN Hotline** is **+1 (801) 79-PRANK**, numerically **+1 (801) 797-7265**. All call links must use `tel:+18017977265`; preserve the vanity spelling in visible branding and show numeric dialing instructions on the Tip Line page. It serves Inspector Clueso's office at PNN. Include it in reporting callouts and site footers, including the case generator so regeneration preserves it. The site provides click-to-call only; do not claim SMS, call recording, voicemail configuration, round-the-clock staffing, or anonymous calling without confirmation. The Tally form remains the route for file uploads. Encourage game-related reports, never harassment or private information about uninvolved people.
 
 ## Newsletter, QR pages, and fictional notices
+
+Edit `data/newsletters/<id>.json` and run `node scripts/generate-newsletters.mjs`; use `--new 002` to scaffold a draft without overwriting existing source. Generated editions live at `newsletter/<id>/index.html`; do not hand-edit them. The script updates only the marked listing on `newsletter/index.html`. Drafts are omitted from the listing but remain public files; samples and published editions are listed. Keep the PNN Newsletter name and at most one featured case. The shared template supplies the logo, dispatch QR, hidden preheader, and EmailOctopus `{{SenderInfoLine}}`, `{{UnsubscribeURL}}`, and `{{RewardsURL}}` tags. No scripts/analytics or separate `.txt` files belong in email editions; EmailOctopus generates plain text. Preserve old edition URLs. See README for schema and import instructions.
 
 Before editing newsletters, printable fliers/cards, QR assets, dispatch, or the unlisted resources page, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Preserve permanent printed URLs, fictional game context, and the resources page's lack of incoming site links.
 

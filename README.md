@@ -2,7 +2,7 @@
 
 A static neighborhood newsroom for **Prowling Purrpetrators** at **purrpetrators.net**. “Guilty of having a pranking good time.”
 
-Plain HTML, CSS, and JavaScript. No deployment build step, npm dependencies, external fonts or backend. Website pages include Google Analytics; the importable HTML email does not. A small Node.js script generates committed case pages and the homepage's latest case feature from JSON when content changes. The homepage introduces PNN and the team and features the newest published investigation. Pages remain usable without JavaScript; evidence videos play only on request. The former construction illustration and status script are retained as unused assets.
+Plain HTML, CSS, and JavaScript. No deployment build step, npm dependencies, external fonts or backend. Website pages include Google Analytics; the importable HTML email does not. A small Node.js script generates committed case pages and the homepage's latest case feature from JSON when content changes. The homepage introduces PNN and the team and features the newest published investigation. Pages remain usable without JavaScript; evidence videos play only on request. The construction illustration remains in the homepage newsletter section; the old status script is unused.
 
 ## Local development
 
@@ -84,28 +84,43 @@ For form introductory text, use: **A suspicious prank. An unexplained paw print.
 
 Only approved reports with publication permission should be copied into public case data. Raw submissions, private-only reports, reporter identities, and exported attachment-access links do not belong in this repository. Moderators should check media and metadata before publishing a selected copy under `assets/evidence/<case-id>/`.
 
-## Newsletter email sample
+## Authoring newsletter editions
 
-`newsletter/index.html` links to `newsletter/sample-001.html` and the matching plain-text `newsletter/sample-001.txt`. The homepage introduces the sample. Delivery and subscriptions are not connected; no email has been sent. The neutral publication name remains **PNN Newsletter**.
+Edit `data/newsletters/001.json`, then run:
 
-The email is a self-contained 600px fluid presentation-table layout, with inline core styles, system fonts, a hidden preheader, an Outlook conditional width wrapper, and optional mobile CSS. It needs no JavaScript, external stylesheet, or build command. The masthead uses `assets/images/pnn.png`, a transparent 900 x 330 PNG export of `assets/images/pnn.svg`, displayed at 240 x 88 with PNN alt text and a home link. The newsletter title, tagline, and all copy remain live text. The dispatch QR also has a normal link and button for readers on the same phone or with images blocked.
+```sh
+node scripts/generate-newsletters.mjs
+```
 
-The sample draws on all three supplied numbered references in `assets/evidence/unassigned/`: the bold magenta special report, the confidence-themed newsletter, and the mock Pink Advantage research brief. Each reference supplies a distinct feature: Go Big or Go Haunt and three planning stages, a Pink Advantage spoof-research panel with explicitly fictional figures, and a mascot-confidence column. Only PNN-003 is featured as a case teaser, linking to its full record and fictional sketch. The QR invitation says "For more cases" without explaining dispatch selection. Review the teaser against case data when revising an edition. Keep the HTML and plain-text copy aligned.
+This generates `newsletter/001/index.html` and updates only the marked edition-list region in `newsletter/index.html`. Commit source and generated HTML together; GitHub Pages needs no build step. Do not hand-edit generated editions. The old `newsletter/sample-001.html` redirects to edition 001.
 
-Suggested subject: **PNN: Go big or go haunt. Clueso has concerns.**
+To start another edition:
 
-Preheader: **Pink science, ambitious plans, and one very tight alibi.** Set this in the EmailOctopus campaign preview-text field below sender details. The source includes a hidden preheader; preserve any preview-text block the editor adds, then check Preview & test. Keep the real sender address in EmailOctopus account settings; `{{SenderInfoLine}}` inserts it without storing the address in this repository.
+```sh
+node scripts/generate-newsletters.mjs --new 002
+```
 
-To prepare a reviewed edition in the chosen email service:
+This creates `data/newsletters/002.json` with neutral draft copy and generates `newsletter/002/index.html`. Existing source files are never overwritten by `--new`. Edit the new JSON and regenerate. The script does not send campaigns or change EmailOctopus settings.
 
-1. Host `assets/images/pnn.png` at `https://purrpetrators.net/assets/images/pnn.png` and `assets/qr/pnn-dispatch-qr.png` at `https://purrpetrators.net/assets/qr/pnn-dispatch-qr.png`, or upload it to the provider and replace only the image source URL. The image is a 900 x 900 raster rendering of the existing SVG, displayed at 225 x 225. Preserve its square proportions and white margin. Its encoded destination and clickable link must remain `https://purrpetrators.net/dispatch/`.
-2. Import the complete HTML using the service's HTML/template editor. Set the subject and preheader; use `sample-001.txt` as the text alternative where supported. The EmailOctopus `{{SenderInfoLine}}`, `{{UnsubscribeURL}}`, and Starter-plan `{{RewardsURL}}` merge tags are included in both HTML and text versions; another provider would need its own equivalent.
-3. Replace the visible sample labels and sample footer only after review. Configure sender identity/details in EmailOctopus and retain the included `{{UnsubscribeURL}}` unsubscribe link in both alternatives. The tag is resolved by EmailOctopus, not by a local browser preview. Recipient lists and private sender/account details belong in the service, not this public repository.
-4. Preview and send a test to your own inbox through that service before distributing. Check desktop and mobile Gmail/Outlook/Apple Mail as available, images blocked, dark mode, links, footer, and QR scan. Browser preview is not inbox rendering validation. No provider import or send has been tested yet.
+Each filename matches its three-digit `id`. Required fields: `id`, `status` (`draft`, `sample`, or `published`), `title`, `subject`, `preheader`, and nonempty `sections`. Each section has `tone` (`dark`, `white`, `blush`, or `pink`), `heading`, optional `kicker`, and `blocks`. Paragraph blocks use `type: "paragraph"` and `runs` of `{ "text": "...", "bold": true, "italic": true }` (format flags optional); newline characters become line breaks. Statistics blocks use `type: "stats"` and `items` with `value` and `text`. Keep spoof-science labels explicit. Text is HTML-escaped; content merge-tag injection is rejected.
 
-For local browser preview, serve the repository normally. The importable HTML intentionally uses absolute production image URLs. Until both PNGs are hosted, images may be missing in the browser; for a temporary local preview copy, use `../assets/images/pnn.png` and `../assets/qr/pnn-dispatch-qr.png`, then restore their HTTPS URLs before importing. All other copy and links work without images.
+An optional single `featuredCase` contains `id`, an editorial `teaser`, and `linkLabel`. The generator validates that the case is published and resolves its case number/title from `data/cases.json`. Review the teaser when the case changes. Edition 001 draws its three features from the supplied numbered examples: Go Big or Go Haunt, Pink Advantage spoof science, and mascot confidence; it highlights only case 003. The shared QR invitation says "For more cases".
 
-Approved future PDFs can still live in `assets/downloads/`; none exist yet. Keep historical edition URLs stable.
+Drafts generate for review but are excluded from the listing; samples and published editions are listed newest ID first. These flags do not provide privacy or delete old pages. Preserve edition URLs; explicitly replace withdrawn editions with notices. A `published` label does not send an email.
+
+`scripts/templates/newsletter.html` supplies the email shell: inline styling, a fluid 600px table layout, Outlook width wrapper, system fonts, hidden preheader, PNN logo, dispatch QR/button, reporting callout, fictional-game context, and all required EmailOctopus tags:
+
+- `{{SenderInfoLine}}` inserts account-configured sender details.
+- `{{UnsubscribeURL}}` is a visible unsubscribe link.
+- `{{RewardsURL}}` is the Starter-plan EmailOctopus credit link.
+
+Keep real sender addresses and recipient lists in EmailOctopus, not this repository. The generator rejects email scripts/analytics and missing required template tokens/tags. Import the complete generated `newsletter/<id>/index.html` into EmailOctopus's Code your own editor. Copy the subject and preheader from JSON; set the campaign preview-text field and preserve any preview block EmailOctopus inserts. Review sample labels before changing status to `published`. Configure account sender details and use Preview & test before sending. Provider validation and sending are not automated.
+
+There is no separate `.txt` file: [EmailOctopus automatically generates the plain-text alternative from HTML](https://emailoctopus.com/blog/designing-emails-everything-you-need-to-know). Review the provider's conversion when preparing a campaign.
+
+Email images use absolute HTTPS URLs at `purrpetrators.net`: `assets/images/pnn.png` (900 x 330, displayed at 240 x 88) and `assets/qr/pnn-dispatch-qr.png` (900 x 900, displayed at 225 x 225). Keep them hosted before sending. The QR points to the permanent `https://purrpetrators.net/dispatch/`. Local previews use those hosted images too. Copy remains readable with images blocked. Browser checks do not establish inbox compatibility; test the imported campaign in intended clients.
+
+Run `node --test scripts/generate-newsletters.test.mjs` for generator validation and scaffolding checks. Future approved PDFs may still live under `assets/downloads/`; none exist yet.
 
 ## Printed QR dispatch
 
@@ -153,7 +168,7 @@ The letter-size prank leave-behind is `/resources/pranked.html`, linked from the
 
 ## Google Analytics
 
-Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. The email template `newsletter/sample-001.html` is excluded.
+Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. Generated email editions under `newsletter/<id>/`, the legacy sample redirect, and the authoring template are excluded.
 
 The tag loads Google's external script asynchronously and queues the standard initialization and configuration calls. There are no custom event handlers, user IDs, submission-content integrations, or consent interface added by this change. Analytics can use cookies; never include private report details in page URLs or analytics parameters. Dispatch still redirects immediately without waiting for analytics, so a dispatch page view is not guaranteed before navigation. The destination case has its own tag.
 
