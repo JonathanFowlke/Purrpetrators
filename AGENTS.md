@@ -95,7 +95,7 @@ Public copy should sound like PNN reporting, not an evidence audit or implementa
 
 ## Current implementation
 
-The project is plain HTML, CSS, and browser JavaScript, with a dependency-free Node.js authoring script that generates committed case HTML from JSON. There is no framework, package manifest, dependency installation, deployment build step, general test framework, CI workflow, database, backend, analytics, cookies, external font, or site-owned submission backend. Tally is selected for the Tip Line; the public form URL is configured; live availability depends on deploying the generated tips page. Do not invent npm commands or assume a router exists. The current site works without browser JavaScript.
+The project is plain HTML, CSS, and browser JavaScript, with a dependency-free Node.js authoring script that generates committed case HTML from JSON. There is no framework, package manifest, dependency installation, deployment build step, general test framework, CI workflow, database, backend, external font, or site-owned submission backend. Tally is selected for the Tip Line; the public form URL is configured; live availability depends on deploying the generated tips page. Do not invent npm commands or assume a router exists. The current site works without browser JavaScript. Google Analytics uses the supplied Google tag with measurement ID `G-KGKE2M052Z` on website HTML pages, including print/resource pages and generated cases; the importable newsletter email is excluded. Preserve the tag in the case generator. Analytics loads an external Google script and can use cookies; there is no site consent UI or custom event instrumentation.
 
 | Path | Current responsibility |
 | --- | --- |

@@ -2,7 +2,7 @@
 
 A static neighborhood newsroom for **Prowling Purrpetrators** at **purrpetrators.net**. “Guilty of having a pranking good time.”
 
-Plain HTML, CSS, and JavaScript. No deployment build step, npm dependencies, external fonts, analytics, cookies, or backend. A small Node.js script generates committed case pages and the homepage's latest case feature from JSON when content changes. The homepage introduces PNN and the team and features the newest published investigation. Pages remain usable without JavaScript; evidence videos play only on request. The former construction illustration and status script are retained as unused assets.
+Plain HTML, CSS, and JavaScript. No deployment build step, npm dependencies, external fonts or backend. Website pages include Google Analytics; the importable HTML email does not. A small Node.js script generates committed case pages and the homepage's latest case feature from JSON when content changes. The homepage introduces PNN and the team and features the newest published investigation. Pages remain usable without JavaScript; evidence videos play only on request. The former construction illustration and status script are retained as unused assets.
 
 ## Local development
 
@@ -94,12 +94,12 @@ The sample draws on all three supplied numbered references in `assets/evidence/u
 
 Suggested subject: **PNN: Go big or go haunt. Clueso has concerns.**
 
-Preheader: **Pink science, ambitious plans, and one very tight alibi.**
+Preheader: **Pink science, ambitious plans, and one very tight alibi.** Set this in the EmailOctopus campaign preview-text field below sender details. The source includes a hidden preheader; preserve any preview-text block the editor adds, then check Preview & test. Keep the real sender address in EmailOctopus account settings; `{{SenderInfoLine}}` inserts it without storing the address in this repository.
 
 To prepare a reviewed edition in the chosen email service:
 
 1. Host `assets/images/pnn.png` at `https://purrpetrators.net/assets/images/pnn.png` and `assets/qr/pnn-dispatch-qr.png` at `https://purrpetrators.net/assets/qr/pnn-dispatch-qr.png`, or upload it to the provider and replace only the image source URL. The image is a 900 x 900 raster rendering of the existing SVG, displayed at 225 x 225. Preserve its square proportions and white margin. Its encoded destination and clickable link must remain `https://purrpetrators.net/dispatch/`.
-2. Import the complete HTML using the service's HTML/template editor. Set the subject and preheader; use `sample-001.txt` as the text alternative where supported. The EmailOctopus `{{UnsubscribeURL}}` merge tag is included in both HTML and text versions; another provider would need its own equivalent.
+2. Import the complete HTML using the service's HTML/template editor. Set the subject and preheader; use `sample-001.txt` as the text alternative where supported. The EmailOctopus `{{SenderInfoLine}}`, `{{UnsubscribeURL}}`, and Starter-plan `{{RewardsURL}}` merge tags are included in both HTML and text versions; another provider would need its own equivalent.
 3. Replace the visible sample labels and sample footer only after review. Configure sender identity/details in EmailOctopus and retain the included `{{UnsubscribeURL}}` unsubscribe link in both alternatives. The tag is resolved by EmailOctopus, not by a local browser preview. Recipient lists and private sender/account details belong in the service, not this public repository.
 4. Preview and send a test to your own inbox through that service before distributing. Check desktop and mobile Gmail/Outlook/Apple Mail as available, images blocked, dark mode, links, footer, and QR scan. Browser preview is not inbox rendering validation. No provider import or send has been tested yet.
 
@@ -115,7 +115,7 @@ The unlisted `/resources/` page links to the flier and both QR SVGs, and the pri
 
 Print the QR for **https://purrpetrators.net/dispatch/**. This permanent PNN-branded URL chooses a random published case on every visit without exposing selection logic in the URL. The ready-to-use dispatch asset is `assets/qr/pnn-dispatch-qr.svg`. It encodes that exact HTTPS URL with a white quiet zone and high error correction. Do not crop the white margin, stretch the image, or print too small; test the actual printed piece on a phone after deployment.
 
-`dispatch/index.html` loads `scripts/dispatch.js`, which fetches `data/cases.json` with `cache: 'no-store'`, filters for `published: true` and valid three-digit IDs, and uses `location.replace` to open a local case. Drafts and invalid IDs are excluded; a case can repeat on consecutive scans. With one published case, all scans open it. No cookies, tracking, or third-party redirect service are used.
+`dispatch/index.html` loads `scripts/dispatch.js`, which fetches `data/cases.json` with `cache: 'no-store'`, filters for `published: true` and valid three-digit IDs, and uses `location.replace` to open a local case. Drafts and invalid IDs are excluded; a case can repeat on consecutive scans. With one published case, all scans open it. The dispatch selection itself uses no cookies or tracking and no third-party redirect service. Website pages separately include Google Analytics.
 
 To add a case, update the case JSON, run `node scripts/generate-cases.mjs`, and deploy the JSON and generated case pages together. New published cases then enter the QR selection without reprinting anything. Keep `/dispatch/` permanently stable. Missing/invalid data, an empty collection, a slow request, or disabled JavaScript leave a readable PNN page with a case-archive link rather than a redirect loop. Run `node --test scripts/dispatch.test.mjs` to verify selection and failure handling.
 
@@ -150,3 +150,11 @@ Cases may include `relatedCaseIds`, an array of unique existing IDs excluding th
 Printable windshield cards are at `/resources/cards.html`, linked from the unlisted resources page. There are 30 designs on three letter-size sheets, ten per sheet. Each card measures 3.5 by 2 inches. Print portrait at 100%, one-sided, with browser headers/footers off, and cut on the dotted lines. Each card includes the dispatch QR without an explanatory caption. The final six almost-pranked cards are intended for participating teams.
 
 The letter-size prank leave-behind is `/resources/pranked.html`, linked from the unlisted resources page. It includes the PNN logo, dispatch QR, and playful You've Been Prowled copy for completed game pranks. Print portrait at 100% with browser headers/footers off.
+
+## Google Analytics
+
+Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. The email template `newsletter/sample-001.html` is excluded.
+
+The tag loads Google's external script asynchronously and queues the standard initialization and configuration calls. There are no custom event handlers, user IDs, submission-content integrations, or consent interface added by this change. Analytics can use cookies; never include private report details in page URLs or analytics parameters. Dispatch still redirects immediately without waiting for analytics, so a dispatch page view is not guaranteed before navigation. The destination case has its own tag.
+
+Deploy the updated pages, then verify receipt in the owning Google Analytics property's Realtime view. Source and initialization checks do not establish that Google has received data. Local previews also contain the tag.

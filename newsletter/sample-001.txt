@@ -96,4 +96,8 @@ Guilty of having a pranking good time.
 
 Sample edition for review. No email subscription is created by viewing this page.
 
+{{SenderInfoLine}}
+
 Unsubscribe from the PNN newsletter: {{UnsubscribeURL}}
+
+Powered by EmailOctopus: {{RewardsURL}}
