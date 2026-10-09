@@ -111,5 +111,47 @@
     "relatedStoryIds": [],
     "relatedCaseIds": [],
     "published": true
+  },
+  {
+    "id": "004",
+    "caseNumber": "PNN-004",
+    "dateOpened": "2026-10-09T11:49:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Smoldering. No flames located. Tissue paper under review.",
+    "suspectTeamId": "orange",
+    "incidentTitle": "Pyro Posse sets Area 51 Bureau ablaze. Fire department stands down.",
+    "summary": "The Pyro Posse, a team named for fire, delivered a dumpster fire made entirely of balloons and party tissue. The Area 51 Bureau, a team named for secrets, now has its trash on display. Both teams are, PNN notes, fully inflated.",
+    "incidentDescription": "On the night of October 8, 2026, the Pyro Posse struck. The team reports that a pair of garbage cans belonging to the Area 51 Bureau camp were crowned with flame-colored balloons and red and yellow tissue paper. PNN has classified the incident as a Five-Alarm Party Store Run. The Posse also unveiled a poster of the Bureau's logo engulfed in flames, complete with scorched agents, a smoking saucer, and a cow in mid-abduction who looks like she wants to speak to a manager. The cans were not abducted. They were merely accessorized. For a team that exists to bury the truth, the Bureau has now been outed by its own recycling. The truth was out there. It was at the curb. It had balloons.",
+    "suspectedMotive": "PNN theory: the Pyro Posse, a team built around fire, has discovered that fire is difficult to carry, legally awkward, and unavailable at the dollar store. Balloons are, however, 100% hot air, which the Posse already had in abundance. Their official statement promises to \"bring them to ash.\" Experts note that ash requires something to burn, and the Posse brought only things that pop. Meanwhile, PNN theorizes that the Area 51 Bureau's strategy of staying under the radar has been undermined by two garbage cans glowing brighter than a landing strip. Unidentified Flaming Objects, identified.",
+    "evidence": [
+      {
+        "id": "004-A",
+        "type": "image",
+        "src": "assets/evidence/004/pyro-posse-dumpster-fire-bins.jpg",
+        "width": 473,
+        "height": 1024,
+        "alt": "Two dark wheeled garbage cans on a driveway at night, each topped with orange balloons and red and yellow tissue paper arranged like flames.",
+        "label": "Exhibit A - Two bins. Zero fire marshals.",
+        "description": "The Pyro Posse's masterwork: two wheeled garbage cans wearing balloon bouquets and tissue-paper flames like a pair of very small, very flammable-looking centerpieces. The result is a dumpster fire in the sense that it is dumpster-adjacent and fire-colored. A real fire would have required matches, a permit, and a significantly different conversation. The balloons did the heavy lifting, which is the only thing balloons have ever been good at: floating while appearing important.",
+        "caption": "Supplied game material from the Pyro Posse. Bin there. Done that. Total fire: decorative. Total confidence: stratospheric."
+      },
+      {
+        "id": "004-B",
+        "type": "image",
+        "src": "assets/evidence/004/pyro-posse-area-51-bureau-dumpster-fire-logo.jpg",
+        "width": 572,
+        "height": 1024,
+        "alt": "Illustrated poster of the Area 51 Bureau logo with three alarmed agents, a flying saucer and smoke, all in flames, over the words A Dumpster Fire. Disaster.",
+        "label": "Exhibit B - The Bureau, as the Posse sees it",
+        "description": "The Pyro Posse's rendering of the Area 51 Bureau logo, in which three agents appear singed and deeply unhappy, a saucer is smoking like it missed its exit, and a banner reads \"A Dumpster Fire. Disaster.\" The Bureau has spent decades perfecting the phrase \"nothing to see here.\" There is now a great deal to see. It is on fire, and it has a font.",
+        "caption": "Supplied game material from the Pyro Posse; a fictional artistic rendering, not an event that occurred. The Bureau has not yet commented. It is presumably classified, redacted, or both."
+      }
+    ],
+    "investigatorNote": "Clueso admires a well-executed smear campaign, provided the smear is pink. He notes with professional jealousy that the Pyro Posse built a whole fire brand and sourced the flames from the party aisle, and that the Area 51 Bureau, experts in concealment, have been exposed by a trash day. Clueso also wishes to know why nobody has set the Prowling Purrpetrators on fire, even in balloon form. He would accept a tasteful bouquet. He has filed this under Unfair.",
+    "threatLevel": "Medium rare, mostly hot air",
+    "disposition": "PNN assessment: the Pyro Posse arrived with a bold slogan, a fierce reputation, and a bag of balloons, and left the Bureau's trash looking like a retirement party for a volcano. Total damage: none. Total hot air: considerable. The Area 51 Bureau, meanwhile, has been officially designated a Dumpster Fire, pending appeal, and PNN reminds them that Roswell was a long time ago and this is on their driveway. The Bureau's best move is to classify the incident. The Posse's best move is to pack something that actually burns, which PNN strongly advises against, because fire is not part of the game. Stick to the balloons, Posse. Everything else about this prank was already on fire.",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [],
+    "published": true
   }
 ]
