@@ -2,8 +2,8 @@
   "id": "001",
   "status": "published",
   "title": "Go big. Or go haunt.",
-  "subject": "PNN: Go big or go haunt. Clueso has concerns.",
-  "preheader": "Pink science, ambitious plans, and one very tight alibi.",
+  "subject": "PNN: The Pyro Posse airs the dirty laundry. Clueso has questions.",
+  "preheader": "Scorched laundry, a For Sale sign, and one team that says nobody else is playing.",
   "sections": [
     {
       "tone": "dark",
@@ -172,8 +172,8 @@
     }
   ],
   "featuredCase": {
-    "id": "003",
-    "teaser": "Two Tightie Whities. Two dogs. One suspiciously punctual neighbor. Clueso has a theory about staggered departures, a sketch desk with a few artistic liberties, and an uncomfortable number of follow-up questions about recent pet ownership.",
-    "linkLabel": "Sniff out the full case file →"
+    "id": "005",
+    "teaser": "Three teams. One night. A clothesline, a lot of laundry, a little fire, and a For Sale sign that did not ask for any of this. The Pyro Posse says it is the only team playing. Clueso says that is not the problem. Case file PNN-005 contains photographs, a poem narrated by underwear, and one very quick delete button.",
+    "linkLabel": "Open the dirty laundry file →"
   }
 }

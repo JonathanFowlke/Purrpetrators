@@ -85,3 +85,17 @@ Removable vehicle prank cards may say “PNN Surveillance Notice,” “Purrpetr
 ### Prank leave-behind flier
 
 `resources/pranked.html` is a letter portrait flier for a completed prank on a participating team, linked only from the resources index. It uses the shared flier print rules plus `assets/css/pranked.css`, the PNN SVG logo, and the dispatch QR. The archival boast is playful editorial intent, not automatic publication or a claim that a case already exists; actual publication still requires approval. Preserve the standalone Broomstick Challenge context and keep the roasting about the game outcome. Print at 100% with browser headers/footers disabled.
+
+## Case comedy and roasting checklist
+
+Cases must embarrass **every team involved**, the pranker and the victim, at the level of PNN-004 or higher. Run this checklist on every new or revised case before finishing, and again after any user request for more or less roasting.
+
+1. **Both teams get roasted.** The pranker's overreach, branding, or gap between boast and delivery is a target. The victim's theme, reputation, or predicament is a target. Neither team gets a pass for being the "winner."
+2. **Puns tied to the real artifact.** Build jokes from the team's name and theme plus the actual evidence. PNN-004: a fire-themed team that delivered balloons became "hot air" and "a Five-Alarm Party Store Run"; a secrets-themed team with decorated garbage cans was "outed by its own recycling," "Unidentified Flaming Objects, identified," and "bin there, done that." Aim for several distinct puns per case, not one.
+3. **Escalate.** Each paragraph should be more absurd than the last: setup, a contrast with the team's own self-image, a ridiculous PNN theory, then a short payoff.
+4. **Every section lands a joke.** Headline, summary, incident description, suspected motive, each exhibit label/description/caption, investigator note, threat level, and disposition. Captions and the disposition end on punch lines.
+5. **Mock-official deadpan.** Absurd administrative seriousness, invented classifications (for example "Medium rare, mostly hot air"), and "pending appeal" style rulings. Quote the team's own statement when it supplies the joke.
+6. **Clueso aside.** One quick line of his pink-team fixation, never a replacement for the actual story.
+7. **Stay in bounds.** Joke about the prank, themes, props, boasts, and fictional motives. Not bodies or appearance, families, money, relationships, health, religion, or private matters. No real fire advice or encouragement: if a theme involves fire, joke that the flames were decorative and that the game does not include fire. Identifiable faces stay out of evidence unless intentionally supplied for publication; use bins, props, and artwork instead.
+8. **Facts stay faithful.** Dates, who did what, and quoted statements come from approved material. Roast the interpretation, not invented claims. Incident dates go in the description in absolute form (for example "On the night of October 8, 2026"); `dateOpened` records when PNN opened the case.
+9. **Self-check.** If a team could read the case and not wince happily, sharpen it. A toothless draft is not finished.

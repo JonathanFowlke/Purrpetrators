@@ -96,6 +96,7 @@ footer p span { display: block; margin-top: 6px; }
 .case-report section + section { margin-top: 30px; }
 .case-report h2 { font-size: 24px; line-height: 1.25; margin: 0 0 12px; }
 .case-report p { margin: 0; }
+.case-report p + p { margin-top: 14px; }
 .case-assessment { padding: 24px; border-left: 4px solid var(--magenta); background: var(--pale-pink); }
 .case-evidence { margin: 0 0 24px; padding: 20px; border: 2px solid var(--text); border-radius: 18px; background: #fffdfb; box-shadow: 6px 6px 0 var(--pink); }
 .case-team { display: flex; align-items: center; gap: 20px; padding: 20px; margin-bottom: 24px; border: 2px solid var(--line); border-radius: 18px; background: #fffdfb; }
