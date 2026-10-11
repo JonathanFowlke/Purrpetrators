@@ -6,15 +6,59 @@ import path from 'node:path';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = async name => JSON.parse(await readFile(path.join(root, 'data', name), 'utf8'));
 const [cases, teams] = await Promise.all([read('cases.json'), read('teams.json')]);
+const bonuses = await read('purr-hiss-bonuses.json').catch(() => []);
+const tickerPool = await read('news-ticker.json');
+const dossiers = await read('team-dossiers.json');
+const countdown = await read('countdown.json');
+for (const team of teams) {
+  const d = dossiers[team.id];
+  if (!d || ['codename', 'tagline', 'threatLevel', 'file', 'advice'].some(key => typeof d[key] !== 'string' || !d[key].trim()) ||
+      ['knownFor', 'strengths', 'weaknesses'].some(key => !Array.isArray(d[key]) || !d[key].length || d[key].some(item => typeof item !== 'string' || !item.trim()))) throw new Error('Incomplete dossier for ' + team.id);
+}
+if (typeof countdown.target !== 'string' || isNaN(Date.parse(countdown.target)) || typeof countdown.timeZone !== 'string' || typeof countdown.label !== 'string') throw new Error('Invalid countdown.json.');
+if (!Array.isArray(tickerPool) || tickerPool.length < 30 || tickerPool.some(item => typeof item.tag !== 'string' || !item.tag.trim() || typeof item.text !== 'string' || !item.text.trim())) throw new Error('news-ticker.json needs at least 30 {tag, text} items.');
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const teamById = new Map(teams.map(team => [team.id, team]));
+if (!Array.isArray(bonuses) || bonuses.some(bonus => !teamById.has(bonus.teamId) ||
+    ['purrs', 'hisses'].some(key => !Number.isInteger(bonus[key]) || bonus[key] < 0 || bonus[key] > 5) ||
+    typeof bonus.note !== 'string' || !bonus.note.trim())) throw new Error('Invalid purr-hiss-bonuses.json.');
 const ids = new Set();
 const caseById = new Map(cases.map(record => [record.id, record]));
 const dateLabel = record => new Intl.DateTimeFormat('en-US', {
   dateStyle: 'long', timeStyle: 'short', timeZone: record.timeZone
 }).format(new Date(record.dateOpened)) + ` (${record.timeZone})`;
 
-const paragraphs = text => text.split(/\n{2,}/).map(part => `<p>${escape(part.trim())}</p>`).join('');
+// Light authoring markup for case text: **bold**, *italic*, "- " bullet lines, and "> " quote lines (a final "> — name" line becomes the attribution).
+const inline = value => escape(value).replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+const teamHref = (prefix, team) => `${prefix}teams/${team.slug}/index.html`;
+const teamNames = [...teams].sort((a, b) => b.name.length - a.name.length);
+// Links the first mention of each team (except selfId) in one field of text.
+const linker = (prefix, selfId) => {
+  const linked = new Set();
+  return html => {
+    let out = html;
+    for (const team of teamNames) {
+      if (team.id === selfId || linked.has(team.id)) continue;
+      const i = out.indexOf(team.name);
+      if (i < 0) continue;
+      linked.add(team.id);
+      out = out.slice(0, i) + `<a class="team-link" href="${teamHref(prefix, team)}">${team.name}</a>` + out.slice(i + team.name.length);
+    }
+    return out;
+  };
+};
+const paragraphs = (text, prefix, selfId) => {
+  const link = prefix ? linker(prefix, selfId) : html => html;
+  return text.split(/\n{2,}/).map(part => {
+    const rows = part.trim().split('\n');
+    if (rows.every(row => row.startsWith('> '))) {
+      const cite = rows.length > 1 && rows.at(-1).startsWith('> — ') ? rows.pop().slice(4) : '';
+      return `<blockquote class="case-quote">${rows.map(row => `<p>${link(inline(row.slice(2)))}</p>`).join('')}${cite ? `<cite>— ${inline(cite)}</cite>` : ''}</blockquote>`;
+    }
+    if (rows.every(row => row.startsWith('- '))) return `<ul class="case-list-items">${rows.map(row => `<li>${link(inline(row.slice(2)))}</li>`).join('')}</ul>`;
+    return `<p>${link(inline(part.trim()))}</p>`;
+  }).join('');
+};
 
 function page(title, description, prefix, body) {
   return `<!doctype html>
@@ -31,6 +75,7 @@ function page(title, description, prefix, body) {
     gtag('config', 'G-KGKE2M052Z');
   </script>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff5f8">
   <title>${escape(title)} — PNN</title>
@@ -44,10 +89,11 @@ function page(title, description, prefix, body) {
     <header class="masthead">
       <a class="wordmark" href="${prefix}index.html" aria-label="PNN home"><img src="${prefix}assets/images/pnn.svg" width="300" height="110" alt="PNN"></a>
       <span class="masthead-label">Wanted everywhere, caught nowhere.</span>
-      <nav class="site-nav" aria-label="Main navigation"><a href="${prefix}cases/index.html">Case files</a><a href="${prefix}tips/index.html">Tip line</a><a href="${prefix}newsletter/index.html">Newsletter</a></nav>
+      <nav class="site-nav" aria-label="Main navigation"><a href="${prefix}cases/index.html">Case files</a><a href="${prefix}teams/index.html">Teams</a><a href="${prefix}tips/index.html">Tip line</a><a href="${prefix}corrections/index.html">Corrections</a><a href="${prefix}newsletter/index.html">Newsletter</a></nav>
     </header>
+    ${tickerHtml(prefix)}
     <main id="main" class="case-main">${body}
-      <section class="case-teaser tip-callout" aria-labelledby="case-tip-heading"><div><p class="operation-label">PNN Tip Line · Inspector Clueso's office</p><h2 id="case-tip-heading">Clueso has a theory. Have any facts?</h2><p>Help build the fictional case against the Prowling Purrpetrators. Send game reports, approved photos, or corrections to Inspector Clueso's office. All teams' mischief is welcome.</p><p class="hotline-inline">Or call <a href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">+1 (801) 79-PRANK</a>.</p></div><a class="home-link" href="${prefix}tips/index.html">File a field report →</a></section>
+      <section class="case-teaser tip-callout" aria-labelledby="case-tip-heading"><div><p class="operation-label">PNN Tip Line · Inspector Clueso's office</p><h2 id="case-tip-heading">Clueso has a theory. Have any facts?</h2><p>Help build the fictional case against the Prowling Purrpetrators. Send game reports, approved photos, or corrections to Inspector Clueso's office. All teams' mischief is welcome.</p><p class="hotline-inline">Or call <a href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">+1 (801) 79-PRANK</a>. Think PNN got it wrong? The <a href="${prefix}corrections/index.html">Corrections Desk</a> is open.</p></div><a class="home-link" href="${prefix}tips/index.html">File a field report →</a></section>
     </main>
     <footer><p>PNN · Purrpetrator News Network<span>Fictional investigations for the Broomstick Challenge neighborhood game.</span></p><a href="${prefix}index.html">Back to headquarters</a><a class="footer-hotline" href="tel:+18017977265" aria-label="Call the PNN hotline at 801-797-7265">PNN Hotline: +1 (801) 79-PRANK</a></footer>
   </div>
@@ -72,6 +118,16 @@ for (const record of cases) {
   if (record.relatedCaseIds !== undefined && (!Array.isArray(record.relatedCaseIds) ||
       new Set(record.relatedCaseIds).size !== record.relatedCaseIds.length ||
       record.relatedCaseIds.some(id => typeof id !== 'string' || id === record.id || !caseById.has(id)))) throw new Error(`Invalid related cases: ${record.id}`);
+  if (record.purrHiss !== undefined) {
+    if (!Array.isArray(record.purrHiss) || !record.purrHiss.length) throw new Error(`Invalid purrHiss ratings: ${record.id}`);
+    const rated = new Set();
+    for (const rating of record.purrHiss) {
+      if (!teamById.has(rating.teamId) || rated.has(rating.teamId)) throw new Error(`Invalid purrHiss team: ${record.id}`);
+      rated.add(rating.teamId);
+      for (const key of ['purrs', 'hisses']) if (!Number.isInteger(rating[key]) || rating[key] < 0 || rating[key] > 5) throw new Error(`purrHiss ${key} must be an integer 0-5: ${record.id}`);
+      if (typeof rating.note !== 'string' || !rating.note.trim()) throw new Error(`Missing purrHiss note: ${record.id}`);
+    }
+  }
   if (record.organizerNotice) {
     const notice = record.organizerNotice;
     if (!['attribution', 'timeLabel'].every(field => typeof notice[field] === 'string' && notice[field].trim()) ||
@@ -98,19 +154,57 @@ for (const record of cases) {
 }
 
 const published = cases.filter(record => record.published).sort((a, b) => Date.parse(b.dateOpened) - Date.parse(a.dateOpened));
+// Catnip & Hairball Index (data keys stay purrs = catnip, hisses = hairballs): running comedy ratings per team, summed from each published case's purrHiss ratings.
+const totals = new Map(teams.map(team => [team.id, { team, purrs: 0, hisses: 0, rated: false, note: '' }]));
+for (const record of [...published].sort((a, b) => Date.parse(a.dateOpened) - Date.parse(b.dateOpened))) {
+  for (const rating of record.purrHiss || []) {
+    const row = totals.get(rating.teamId);
+    row.purrs += rating.purrs; row.hisses += rating.hisses; row.rated = true; row.note = rating.note;
+  }
+}
+// Bonus credit for things that are not tied to one case (for example, running the media campaign).
+for (const bonus of bonuses) {
+  const row = totals.get(bonus.teamId);
+  row.purrs += bonus.purrs; row.hisses += bonus.hisses; row.rated = true;
+  if (!row.note) row.note = bonus.note;
+}
+const rows = [...totals.values()];
+const scale = Math.max(1, ...rows.map(row => Math.max(row.purrs, row.hisses)));
+// Static order is neutral (alphabetical). scripts/catnip-index.js reshuffles the rows each day.
+const sorted = rows.sort((a, b) => a.team.name.localeCompare(b.team.name));
+
+// News ticker: live case headlines and index standings are fixed items; the rest are sampled from data/news-ticker.json.
+const hairLead = [...rows].sort((a, b) => b.hisses - a.hisses)[0];
+const catnipLead = [...rows].sort((a, b) => b.purrs - a.purrs)[0];
+const tickerFixed = [
+  ...published.map(record => ({ tag: `CASE FILE ${record.caseNumber}`, text: record.incidentTitle, href: `cases/${record.id}/index.html` })),
+  { tag: 'INDEX', text: `${hairLead.team.name} leads the hairballs with ${hairLead.hisses}. ${catnipLead.team.name} leads the catnip with ${catnipLead.purrs}.`, href: 'index.html#catnip-index-heading' }
+];
+const tickerDay = Math.floor(Date.now() / 86400000);
+const tickerSample = [];
+for (let i = 0; tickerSample.length < 8 && i < 400; i += 1) {
+  const item = tickerPool[(tickerDay * 11 + i * 7) % tickerPool.length];
+  if (!tickerSample.includes(item)) tickerSample.push(item);
+}
+const tickerHtml = prefix => {
+  const li = (item, fixed) => `<li class="ticker-item"${fixed ? ' data-fixed="true"' : ''}><span class="ticker-tag">${escape(item.tag)}</span> ${item.href ? `<a href="${prefix}${item.href}">${escape(item.text)}</a>` : escape(item.text)}</li>`;
+  return `<section class="ticker" aria-label="PNN news ticker. Fictional headlines for the Broomstick Challenge."><span class="ticker-label">PNN LIVE</span><div class="ticker-window"><ul class="ticker-track" data-src="${prefix}data/news-ticker.json">${tickerFixed.map(item => li(item, true)).join('')}${tickerSample.map(item => li(item, false)).join('')}</ul></div><button type="button" class="ticker-toggle" hidden aria-label="Pause the news ticker">Pause</button></section>
+    <script src="${prefix}scripts/ticker.js" defer></script>`;
+};
+
 for (const record of published) {
   const team = teamById.get(record.suspectTeamId);
   const evidence = record.evidence.map((item, index) => item.type === 'report' ? `<figure class="case-evidence">
     <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>Witness report</span></div>
-    <p>${escape(item.description)}</p>
-    <figcaption class="case-caption">${escape(item.caption)}</figcaption>
+    <p>${inline(item.description)}</p>
+    <figcaption class="case-caption">${inline(item.caption)}</figcaption>
   </figure>` : `<figure class="case-evidence">
     <div class="frame-label top-label"><strong>${escape(item.label)}</strong><span>${item.type === 'image' && !item.reconstruction ? 'Supplied game material' : 'PNN reconstruction'}</span></div>
     ${item.type === 'image' ? `<img src="../../${escape(item.src)}" width="${item.width}" height="${item.height}" alt="${escape(item.alt)}" aria-describedby="evidence-${index}-description" loading="lazy" decoding="async">` : `<video controls playsinline preload="none" poster="../../${escape(item.poster)}" width="640" height="360" aria-label="${escape(item.label)}" aria-describedby="evidence-${index}-description">
       <source src="../../${escape(item.src)}" type="video/mp4">
       Your browser does not support embedded video.
     </video>`}
-    <figcaption><p id="evidence-${index}-description">${escape(item.description)}</p><p class="case-caption">${escape(item.caption)}</p><a href="../../${escape(item.src)}">Open ${item.type === 'image' ? 'image' : 'video'} directly</a></figcaption>
+    <figcaption><p id="evidence-${index}-description">${inline(item.description)}</p><p class="case-caption">${inline(item.caption)}</p><a href="../../${escape(item.src)}">Open ${item.type === 'image' ? 'image' : 'video'} directly</a></figcaption>
   </figure>`).join('\n');
   const body = `
       <a class="case-back" href="../index.html">← All case files</a>
@@ -123,17 +217,18 @@ for (const record of published) {
         </header>
         <div class="case-layout">
           <div class="case-report">
-            <section><h2>The incident</h2>${paragraphs(record.incidentDescription)}</section>
+            <section><h2>The incident</h2>${paragraphs(record.incidentDescription, '../../')}</section>
 ${(record.relatedCaseIds || []).filter(id => caseById.get(id).published).map(id => `<p class="case-caption">Previously on the PNN desk: <a href="../${escape(id)}/index.html">${escape(caseById.get(id).caseNumber)} — ${escape(caseById.get(id).incidentTitle)}</a></p>`).join('\n')}
 ${record.organizerNotice ? `<section class="organizer-notice"><h2>The witches' reminder</h2><p class="case-caption">${escape(record.organizerNotice.attribution)} · ${escape(record.organizerNotice.timeLabel)}</p><blockquote>${record.organizerNotice.paragraphs.map(text => `<p>${escape(text)}</p>`).join('')}</blockquote></section>` : ''}
-            <section><h2>Suspected motive</h2>${paragraphs(record.suspectedMotive)}</section>
-            <section><h2>Investigator's note</h2>${paragraphs(record.investigatorNote)}</section>
-            <section class="case-assessment"><h2>Official PNN assessment</h2>${paragraphs(record.disposition)}</section>
+            <section><h2>Suspected motive</h2>${paragraphs(record.suspectedMotive, '../../')}</section>
+            <section><h2>Investigator's note</h2>${paragraphs(record.investigatorNote, '../../')}<p class="signature">— Inspector Clueso, PNN</p></section>
+            <section class="case-assessment"><h2>Official PNN assessment</h2>${paragraphs(record.disposition, '../../')}</section>
+${record.purrHiss ? `            <section class="case-ratings"><h2>Catnip &amp; Hairball ratings</h2><ul class="case-list-items">${record.purrHiss.map(r => `<li><strong><a class="team-link" href="../../teams/${teamById.get(r.teamId).slug}/index.html">${escape(teamById.get(r.teamId).name)}</a>:</strong> ${r.purrs} catnip, ${r.hisses} hairballs. ${escape(r.note)}</li>`).join('')}</ul><p class="case-caption">Comedy ratings from Inspector Clueso's desk, 0 to 5 each. Not game points or standings. <a href="../../index.html#catnip-index-heading">See the running Catnip &amp; Hairball Index.</a></p></section>` : ''}
           </div>
           <aside aria-label="Subject team and evidence">
             <section class="case-team" aria-labelledby="subject-team-heading">
               <img src="../../${escape(team.logo)}" alt="${escape(team.name)} team logo" width="144" height="144">
-              <div><p class="operation-label">Subject team · ${escape(team.color)}</p><h2 id="subject-team-heading">${escape(team.name)}</h2><p>Named in this PNN investigation.</p></div>
+              <div><p class="operation-label">Subject team · ${escape(team.color)}</p><h2 id="subject-team-heading"><a class="team-link" href="../../teams/${team.slug}/index.html">${escape(team.name)}</a></h2><p>Named in this PNN investigation. <a href="../../teams/${team.slug}/index.html">Read the dossier →</a></p></div>
             </section>
             ${evidence}
           </aside>
@@ -162,4 +257,85 @@ const home = await readFile(homePath, 'utf8');
 const featuredRegion = /<!-- BEGIN GENERATED FEATURED CASE -->[\s\S]*?<!-- END GENERATED FEATURED CASE -->/;
 if (!featuredRegion.test(home)) throw new Error('Homepage featured-case markers are missing.');
 await writeFile(homePath, home.replace(featuredRegion, `<!-- BEGIN GENERATED FEATURED CASE -->\n${featured}\n        <!-- END GENERATED FEATURED CASE -->`));
-console.log(`Generated ${published.length} case page(s), the case index, and the homepage feature.`);
+const rowHtml = row => {
+  const note = row.rated ? row.note : row.team.isOurTeam ? 'Suspiciously clean. Clueso considers an empty record the most incriminating kind.' : 'No case file yet. Suspiciously quiet.';
+  return `<li class="purr-row" data-team="${escape(row.team.id)}"><img src="${escape(row.team.logo)}" width="56" height="56" alt="" loading="lazy" decoding="async"><div class="purr-main"><div class="purr-name"><strong><a class="team-link" href="teams/${row.team.slug}/index.html">${escape(row.team.name)}</a></strong><span>${row.rated ? `${row.hisses} hairballs · ${row.purrs} catnip` : 'Unrated'}</span></div><div class="purr-bar" role="img" aria-label="${escape(row.team.name)}: ${row.hisses} hairballs, ${row.purrs} catnip"><span class="purr-half purr-left"><i style="width:${Math.round(row.hisses / scale * 100)}%"></i></span><span class="purr-half purr-right"><i style="width:${Math.round(row.purrs / scale * 100)}%"></i></span></div><p class="case-caption">${escape(note)}</p></div></li>`;
+};
+const indexHtml = `<section class="purr-index" aria-labelledby="catnip-index-heading">
+          <div class="purr-index-head"><p class="operation-label">Clueso's running tally</p><h2 id="catnip-index-heading">The Catnip &amp; Hairball Index</h2><p>Who got the catnip. Who coughed up the hairball. Every case file adds to the tally: <strong>catnip</strong> for clever, well-run mischief, <strong>hairballs</strong> for hot air, bad timing, and laundry catastrophes.</p><p class="case-caption">Comedy ratings from PNN's desk, summed from each case file. Not game points, standings, or votes. The witches decide the real winners. The numbers are exact. The bars drift a little each day with Clueso's mood.</p></div>
+          <div class="purr-legend" aria-hidden="true"><span>← Hairballs</span><span>Catnip →</span></div>
+          <ul class="purr-rows">${sorted.map(rowHtml).join('')}</ul>
+          <script src="scripts/catnip-index.js" defer></script>
+        </section>`;
+const indexRegion = /<!-- BEGIN GENERATED PURR-HISS INDEX -->[\s\S]*?<!-- END GENERATED PURR-HISS INDEX -->/;
+const homeNow = await readFile(homePath, 'utf8');
+if (!indexRegion.test(homeNow)) throw new Error('Homepage Catnip & Hairball Index markers are missing.');
+await writeFile(homePath, homeNow.replace(indexRegion, `<!-- BEGIN GENERATED PURR-HISS INDEX -->\n        ${indexHtml}\n        <!-- END GENERATED PURR-HISS INDEX -->`));
+const tickerRegion = /<!-- BEGIN GENERATED TICKER -->[\s\S]*?<!-- END GENERATED TICKER -->/;
+const homeTicker = await readFile(homePath, 'utf8');
+if (!tickerRegion.test(homeTicker)) throw new Error('Homepage ticker markers are missing.');
+await writeFile(homePath, homeTicker.replace(tickerRegion, () => `<!-- BEGIN GENERATED TICKER -->\n    ${tickerHtml('')}\n    <!-- END GENERATED TICKER -->`));
+
+// ---- Team dossiers ----
+const linkCaseNumbers = (html, prefix) => html.replace(/PNN-(\d{3})/g, (match, id) => (caseById.get(id) && caseById.get(id).published ? `<a href="${prefix}cases/${id}/index.html">${match}</a>` : match));
+const standingText = row => (row.rated ? `${row.hisses} hairballs · ${row.purrs} catnip` : 'Unrated');
+const byName = [...teams].sort((a, b) => a.name.localeCompare(b.name));
+for (const team of teams) {
+  const d = dossiers[team.id];
+  const row = totals.get(team.id);
+  const involved = published.filter(record => record.suspectTeamId === team.id || (record.purrHiss || []).some(item => item.teamId === team.id)).sort((a, b) => Date.parse(a.dateOpened) - Date.parse(b.dateOpened));
+  const history = involved.length
+    ? `<ul class="case-list-items">${involved.map(record => { const rating = (record.purrHiss || []).find(item => item.teamId === team.id); return `<li><a href="../../cases/${record.id}/index.html"><strong>${escape(record.caseNumber)}</strong> ${escape(record.incidentTitle)}</a>${rating ? `<br><span class="case-caption">${escape(rating.note)}</span>` : ''}</li>`; }).join('')}</ul>`
+    : `<p>No case files. ${team.isOurTeam ? 'Clueso considers this the most incriminating record of all.' : 'Clueso finds this suspicious and slightly insulting.'}</p>`;
+  const list = items => `<ul class="case-list-items">${items.map(item => `<li>${linkCaseNumbers(inline(item), '../../')}</li>`).join('')}</ul>`;
+  const body = `
+      <a class="case-back" href="../index.html">← All dossiers</a>
+      <article>
+        <header class="case-heading">
+          <p class="eyebrow">Team dossier <span class="case-badge">${escape(d.codename)}</span></p>
+          <h1>${escape(team.name)}</h1>
+          <p class="intro">${escape(d.tagline)}</p>
+          <dl class="case-meta"><div><dt>Team color</dt><dd>${escape(team.color)}</dd></div><div><dt>Threat level</dt><dd>${escape(d.threatLevel)}</dd></div><div><dt>Catnip &amp; Hairball</dt><dd>${standingText(row)}</dd></div></dl>
+        </header>
+        <div class="case-layout">
+          <div class="case-report">
+            <section><h2>Known for</h2>${list(d.knownFor)}</section>
+            <section><h2>The file</h2>${linkCaseNumbers(paragraphs(d.file, '../../', team.id), '../../')}</section>
+            <section class="dossier-pair"><div><h2>Strengths</h2>${list(d.strengths)}</div><div><h2>Weaknesses</h2>${list(d.weaknesses)}</div></section>
+            <section class="case-assessment"><h2>Clueso's advice</h2><p>${inline(d.advice)}</p><p class="signature">— Inspector Clueso, PNN</p></section>
+          </div>
+          <aside aria-label="Team logo and case history">
+            <section class="case-team">
+              <img src="../../${escape(team.logo)}" alt="${escape(team.name)} team logo" width="144" height="144">
+              <div><p class="operation-label">Team color · ${escape(team.color)}</p><h2>${escape(team.name)}</h2><p>${team.isOurTeam ? 'The suspect Clueso cannot catch.' : 'Under PNN observation.'}</p></div>
+            </section>
+            <section class="case-evidence"><h2 class="dossier-side-heading">Case history</h2>${history}<p class="case-caption">Comedy ratings: ${standingText(row)}. <a href="../../index.html#catnip-index-heading">See the Catnip &amp; Hairball Index.</a></p></section>
+          </aside>
+        </div>
+      </article>`;
+  await mkdir(path.join(root, 'teams', team.slug), { recursive: true });
+  await writeFile(path.join(root, 'teams', team.slug, 'index.html'), page(`${team.name}: team dossier`, d.tagline, '../../', body));
+}
+const teamCards = byName.map(team => {
+  const d = dossiers[team.id];
+  return `<article class="team-card"><img src="../${escape(team.logo)}" width="96" height="96" alt="" loading="lazy" decoding="async"><div><p class="operation-label">${escape(team.color)} · ${escape(d.codename)}</p><h2><a href="${team.slug}/index.html">${escape(team.name)}</a></h2><p class="team-tagline">${escape(d.tagline)}</p><p class="case-caption">Threat level: ${escape(d.threatLevel)} · ${standingText(totals.get(team.id))}</p></div></article>`;
+}).join('\n');
+await mkdir(path.join(root, 'teams'), { recursive: true });
+await writeFile(path.join(root, 'teams/index.html'), page('Team dossiers', 'PNN dossiers on the seven Broomstick Challenge teams.', '../', `<p class="eyebrow">The dossier room</p><h1>Team dossiers</h1><p class="intro">Seven teams. One inspector. Zero mercy.</p><div class="team-grid">${teamCards}</div>`));
+
+// ---- Homepage countdown ----
+const partyWhen = new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeStyle: 'short', timeZone: countdown.timeZone }).format(new Date(countdown.target));
+const countdownHtml = `<section class="countdown" aria-labelledby="countdown-heading" data-target="${escape(countdown.target)}">
+          <p class="operation-label">${escape(countdown.label)} countdown</p>
+          <h2 id="countdown-heading" class="countdown-title">Time is running out.</h2>
+          <p class="countdown-clock" aria-hidden="true"><span><b data-unit="days">--</b><small>days</small></span><span><b data-unit="hours">--</b><small>hours</small></span><span><b data-unit="minutes">--</b><small>minutes</small></span><span><b data-unit="seconds">--</b><small>seconds</small></span></p>
+          <p>The ${escape(countdown.label)} is <time datetime="${escape(countdown.target)}"><strong>${escape(partyWhen)}</strong></time> (${escape(countdown.timeZone)}). Every day that slips by is one fewer chance to prank a team and bribe your way to a witch. The witches have all the time in the world. You do not.</p>
+          <p class="case-caption">Pranks and photos must be posted by October 22 to earn points.</p>
+          <script src="scripts/countdown.js" defer></script>
+        </section>`;
+const countdownRegion = /<!-- BEGIN GENERATED COUNTDOWN -->[\s\S]*?<!-- END GENERATED COUNTDOWN -->/;
+const homeCountdown = await readFile(homePath, 'utf8');
+if (!countdownRegion.test(homeCountdown)) throw new Error('Homepage countdown markers are missing.');
+await writeFile(homePath, homeCountdown.replace(countdownRegion, () => `<!-- BEGIN GENERATED COUNTDOWN -->\n        ${countdownHtml}\n        <!-- END GENERATED COUNTDOWN -->`));
+
+console.log(`Generated ${published.length} case page(s), the case index, the homepage feature, the Catnip & Hairball Index, the team dossiers, and the countdown.`);

@@ -13,7 +13,7 @@
           "type": "paragraph",
           "runs": [
             {
-              "text": "Every elaborate pink plan begins with a reasonable idea. The difficulty, Inspector Clueso suspects, is getting anyone to leave it reasonable."
+              "text": "Every elaborate pink plan begins with a reasonable idea. The difficulty, Inspector Clueso suspects, is getting anyone to leave it reasonable. This is also why the pink team has never been caught: nobody could follow the paperwork."
             }
           ]
         },
@@ -28,7 +28,7 @@
               "bold": true
             },
             {
-              "text": " This edition examines their planning philosophy, suspicious science, and considerable confidence."
+              "text": " This edition examines their planning philosophy, suspicious science, and considerable confidence. Elsewhere, the Pyro Posse has been lighting laundry. Clueso considers this a rude interruption."
             }
           ]
         }
@@ -50,7 +50,7 @@
               "text": "\n"
             },
             {
-              "text": "Small. Simple. Entirely achievable. Naturally, this raises objections."
+              "text": "Small. Simple. Entirely achievable. Naturally, someone objects."
             }
           ]
         },
@@ -65,7 +65,7 @@
               "text": "\n"
             },
             {
-              "text": "Someone explains how much work it will take. The committee mistakes this for a challenge."
+              "text": "Someone explains how much work it will take. The committee hears this as a dare."
             }
           ]
         },
@@ -88,7 +88,7 @@
           "type": "paragraph",
           "runs": [
             {
-              "text": "Clueso's planning model: a five-minute idea with a three-day production department. Clever and fun remains the brief. Being mean does not improve the design.",
+              "text": "Clueso's planning model: a five-minute idea, a three-day production department, and a budget of 'we'll figure it out.' Clever and fun remains the brief. Being mean does not improve the design.",
               "italic": true
             }
           ]
@@ -103,7 +103,14 @@
           "type": "paragraph",
           "runs": [
             {
-              "text": "The fictional Institute of Competitive Chromatics has supplied the following figures. These are comedy statistics, not research or game standings. The decimal points are doing most of the work."
+              "text": "The fictional Institute of Competitive Chromatics has supplied the following figures. "
+            },
+            {
+              "text": "These are comedy statistics, not research or game standings.",
+              "italic": true
+            },
+            {
+              "text": " The decimal points are doing most of the work."
             }
           ]
         },
@@ -112,15 +119,19 @@
           "items": [
             {
               "value": "+34.7%",
-              "text": "Claimed pink win advantage. Apparently, confidence now comes with a spreadsheet."
+              "text": "**Claimed pink win advantage.** Apparently, confidence now comes with a spreadsheet."
             },
             {
               "value": "11.7 seconds",
-              "text": "Claimed opponent realization time. Clueso was suspicious considerably sooner."
+              "text": "**Claimed opponent realization time.** Clueso was suspicious considerably sooner."
             },
             {
               "value": "+13.1%",
-              "text": "Claimed October surge. Even the calendar has been recruited into the publicity department."
+              "text": "**Claimed October surge.** Even the calendar has been recruited into the publicity department."
+            },
+            {
+              "value": "0 caught",
+              "text": "**Pink teams apprehended to date.** Clueso has requested a recount and a bigger net."
             }
           ]
         },
@@ -128,7 +139,11 @@
           "type": "paragraph",
           "runs": [
             {
-              "text": "PNN assessment: a remarkable amount of certainty for a color. Clueso has requested the methodology. Preferably in something other than pink ink."
+              "text": "PNN assessment:",
+              "bold": true
+            },
+            {
+              "text": " a remarkable amount of certainty for a color. Clueso has requested the methodology. Preferably in something other than pink ink."
             }
           ]
         }
@@ -173,7 +188,7 @@
   ],
   "featuredCase": {
     "id": "005",
-    "teaser": "Three teams. One night. A clothesline, a lot of laundry, a little fire, and a For Sale sign that did not ask for any of this. The Pyro Posse says it is the only team playing. Clueso says that is not the problem. Case file PNN-005 contains photographs, a poem narrated by underwear, and one very quick delete button.",
+    "teaser": "**Three teams. One night.** A clothesline, a lot of laundry, a little fire, and a For Sale sign that did not ask for any of this. The Pyro Posse says it is the only team playing. Clueso says *that is not the problem.* Case file PNN-005 contains photographs, **a poem narrated by underwear,** and one very quick delete button.",
     "linkLabel": "Open the dirty laundry file →"
   }
 }

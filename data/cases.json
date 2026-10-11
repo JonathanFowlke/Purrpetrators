@@ -7,9 +7,9 @@
     "status": "Under investigation",
     "suspectTeamId": "black",
     "incidentTitle": "Caught in their own Webb",
-    "summary": "Last to announce. First under investigation. PNN examines a suspicious delay in the Black Webb Bandits' name reveal.",
-    "incidentDescription": "The Black Webb Bandits were the final team to submit their name. Rumors of cold feet circulated. The word \"chicken\" was mentioned. PNN has opened a file to determine whether this was a failure of nerve or simply a failure to escape the panther.",
-    "suspectedMotive": "Remain unavailable for comment until the coast was clear. Announcing a spider-themed team while a panther is on patrol may require delicate timing.",
+    "summary": "Seven teams, seven names, one straggler. PNN asks why the Black Webb Bandits took the longest to pick a name that is three words and a second B.",
+    "incidentDescription": "The **Black Webb Bandits** were the final team to submit their name. Rumors of cold feet circulated, all eight of them. The word 'chicken' was mentioned, and PNN would like the record to show it was mentioned by other people, in a tone of enormous enjoyment.\n\nBy then, other teams had already named themselves after fire, underwear, and an actual government cover-up. The Bandits arrived last, with a name that is a spider pun wearing a mask. PNN has opened a file to determine whether this was a failure of nerve or simply *a failure to escape the panther.*",
+    "suspectedMotive": "**PNN theory:** the Bandits spent the better part of a week hunting for a name with more than two puns in it, and settled for exactly two ('Webb' and 'Bandits'). It is the kind of math only a spider can do: eight legs, one idea.\n\nThe alternative theory is that a spider-themed team cannot announce anything while a panther is on patrol. Spiders are experts at waiting for something to walk into their plans. They have simply never been timed.",
     "evidence": [
       {
         "id": "001-A",
@@ -17,15 +17,23 @@
         "src": "assets/evidence/001/black-webb-bandits-panther-reconstruction.mp4",
         "poster": "assets/evidence/001/black-webb-bandits-panther-reconstruction-poster.jpg",
         "label": "Exhibit A — A slight scheduling conflict",
-        "description": "A panther traps a spider. PNN's playful reconstruction of why the Black Webb Bandits may have been difficult to locate before their name announcement.",
-        "caption": "Illustrative PNN reconstruction. Not footage of an actual team incident. Eight legs. Remarkably few exit strategies."
+        "description": "A panther traps a spider. PNN's reconstruction of why the Black Webb Bandits may have been difficult to locate before their name announcement. The spider's body language says 'I was just about to send that.' The panther's says 'Sure you were.'",
+        "caption": "Illustrative PNN reconstruction. Not footage of an actual team incident. Remarkably few exit strategies. No Wi-Fi for submitting forms."
       }
     ],
-    "investigatorNote": "The chicken connection remains unsupported. Clueso prefers the panther theory. A reconstruction featuring a panther is, regrettably, not evidence against the Prowling Purrpetrators. He has requested more facts and fewer obstacles to his conclusion.",
-    "threatLevel": "Temporarily contained",
-    "disposition": "Name recovered. Alibi pending. The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation.",
+    "investigatorNote": "The chicken connection remains unsupported. Clueso prefers the panther theory, mostly because the panther is the right color and he has been hoping for an excuse. He notes that a reconstruction featuring a panther is not, regrettably, evidence against the Prowling Purrpetrators. He has requested more facts and fewer obstacles to his conclusion.",
+    "threatLevel": "Temporarily contained. Webbing intact.",
+    "disposition": "Name recovered. Alibi pending. The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation. A word of advice: being last is only embarrassing if it becomes a pattern. (It becomes a pattern. See PNN-002.)",
     "relatedStoryIds": [],
-    "published": true
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "black",
+        "purrs": 1,
+        "hisses": 3,
+        "note": "Last to submit a name. Eight legs, one deadline."
+      }
+    ]
   },
   {
     "id": "002",
@@ -35,8 +43,8 @@
     "status": "Awaiting the announcement",
     "suspectTeamId": "black",
     "incidentTitle": "Last to announce. Too early to bribe.",
-    "summary": "After finishing last in the name reveal, the Black Webb Bandits attempted a dramatic recovery: arriving before bribing had even opened. Their reward? The opportunity to do it all again.",
-    "incidentDescription": "The Black Webb Bandits were last to announce their name. Having apparently decided that being late once was quite enough, they left treats and an \"Are you a witch?\" flier before the witches had announced instructions for bribing. A bold leap from behind schedule to ahead of permission. Wanda, Hilda, and Glenda then reminded the teams that every early bribe would receive a NO. The Bandits had successfully expedited their return trip.",
+    "summary": "After finishing last in the name reveal, the Black Webb Bandits staged a dramatic comeback: they arrived before bribing had even opened. Their reward is the chance to do it all again. PNN has never seen a team lap the field and still finish behind the starting line.",
+    "incidentDescription": "The **Black Webb Bandits** were last to announce their name. Having apparently decided that being late once was quite enough, they left treats and an 'Are you a witch?' flier before the witches had announced instructions for bribing. *A bold leap from behind schedule to ahead of permission.* Wanda, Hilda, and Glenda then reminded the teams that every early bribe would receive a NO. The Bandits had successfully expedited their return trip.\n\nIn a single week, the Bandits have now been last and early, which scientists describe as 'never on time' and the Bandits describe as 'range.' The witches' policy is simple: NO. The Bandits' policy appears to be 'ask early, ask often, and bring snacks.'",
     "organizerNotice": {
       "attribution": "Wanda, Hilda, & Glenda",
       "timeLabel": "October 6, 2026 at 8:28 PM (America/Denver) ? edited",
@@ -50,7 +58,7 @@
         "🧙‍♀️ You have been warned. 🧙‍♂️"
       ]
     },
-    "suspectedMotive": "PNN theory: compensate for the late name reveal by being spectacularly early to the next thing. Unfortunately, the next thing was waiting. They have now demonstrated a remarkable ability to arrive on either side of the correct time.",
+    "suspectedMotive": "**Leading theory:** the Bandits, stung by the late name reveal, resolved to be early for everything from now on, including events not yet invented. A spider's patience, a spider's timing, and a spider's complete disregard for the calendar. PNN also considers the possibility that the Bandits read 'wait for our instructions' as 'a suggestion with a deadline.'",
     "evidence": [
       {
         "id": "002-A",
@@ -59,18 +67,26 @@
         "width": 400,
         "height": 600,
         "alt": "Black Webb Bandits game flier with spiders, webs, a moonlit witch silhouette, and the question: Are you a witch?",
-        "label": "Exhibit A ? Printed confidence. Premature delivery.",
-        "description": "\"Are you a witch?\" asks the Black Webb Bandits' flier. A direct question. An elaborate presentation. A regrettable lack of a starting signal.",
-        "caption": "Broomstick Challenge field material. The paperwork was ready. The witches were not."
+        "label": "Exhibit A — Printed confidence. Premature delivery.",
+        "description": "'Are you a witch?' asks the Black Webb Bandits' flier. A direct question. An elaborate presentation. A regrettable lack of a starting signal. It is the only flier in the neighborhood that arrived before the game was ready to be asked.",
+        "caption": "Broomstick Challenge field material. The paperwork was ready. The witches were not. Neither, strictly speaking, was the calendar."
       }
     ],
-    "investigatorNote": "Clueso was prepared to blame the Prowling Purrpetrators. Then he read the name on the flier. The Bandits had helpfully signed their own scheduling incident. Eight legs, a printed invitation, and still nobody on the brakes.",
+    "investigatorNote": "Clueso was prepared to blame the Prowling Purrpetrators. Then he read the name on the flier. The Bandits had helpfully signed their own scheduling incident. Eight legs, a printed invitation, and still nobody on the brakes. He has asked whether the pink team could, just once, be responsible for something this easy.",
     "threatLevel": "Chronologically unpredictable",
-    "disposition": "Last to introduce themselves. Early to ask the question. Required to bring treats again. The witches get another round; the Bandits get another chance to locate the starting line. PNN recommends waiting for the announcement before attempting any further improvements in punctuality.",
+    "disposition": "Last to introduce themselves. Early to ask the question. Required to bring treats again. The witches get another round; the Bandits get another chance to locate the starting line. PNN recommends waiting for the announcement before attempting any further improvements in punctuality.\n\n**Early. Late. Never merely on time.** The Bandits have apparently decided that punctuality is for people without range.",
     "relatedStoryIds": [],
     "published": true,
     "relatedCaseIds": [
       "001"
+    ],
+    "purrHiss": [
+      {
+        "teamId": "black",
+        "purrs": 2,
+        "hisses": 4,
+        "note": "Bribed the witches before the witches opened."
+      }
     ]
   },
   {
@@ -81,16 +97,16 @@
     "status": "Alibi on a short leash",
     "suspectTeamId": "white",
     "incidentTitle": "Two walks. One tight alibi.",
-    "summary": "Two Tightie Whities. Two dogs. A few minutes apart. PNN examines a routine walk that became considerably less routine when somebody asked a follow-up question.",
-    "incidentDescription": "An anonymous source out walking their dog reported encountering two different members of the Tightie Whities, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.",
-    "suspectedMotive": "PNN theory: leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. Separate the departures. Bring a dog. Look casual. A promising plan, defeated by the advanced investigative technique of saying hello twice. The alleged operation had accounted for timing, distance, and canine support. It had not budgeted for a neighbor with a memory.",
+    "summary": "Two Tightie Whities. Two dogs. A few minutes apart. PNN examines a routine walk that became considerably less routine when somebody asked a follow-up question, and received a very long pause.",
+    "incidentDescription": "An anonymous source out walking their dog reported encountering two different members of the **Tightie Whities**, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.\n\nThe **Tightie Whities**, a team named for tight, white underwear, have now demonstrated a second signature feature: loose ends. **A tight team. A loose story.** The dogs, for the record, were composed. They had clearly read the briefing. Their handlers had apparently only skimmed it.",
+    "suspectedMotive": "**Suspected operation:** leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. Separate the departures. Bring a dog. Look casual. A promising plan, defeated by the advanced investigative technique of saying hello twice. The alleged operation had accounted for timing, distance, and canine support. It had not budgeted for a neighbor with a memory.",
     "evidence": [
       {
         "id": "003-A",
         "type": "report",
         "label": "Exhibit A - The walk-by report",
         "description": "An anonymous source reports two separate encounters with Tightie Whities members walking dogs downhill, only minutes apart. The witness had not known that one member owned a dog and describes an uncertain response when asked how long they had owned it.",
-        "caption": "Two departures. One witness. Unfortunate scheduling."
+        "caption": "Two departures. One witness. Unfortunate scheduling, and one unfortunate follow-up question."
       },
       {
         "id": "003-B",
@@ -101,16 +117,24 @@
         "height": 1024,
         "alt": "Fictional PNN pencil sketch of two conspicuously casual dog walkers, one trailing toilet paper from his shoe, with annotations: Act natural, Paper trail, and Dog knows the script.",
         "label": "Exhibit B - Operation Loose End",
-        "description": "Clueso's sketch desk reconstructs the alleged attempt to look inconspicuous. The dogs have mastered it. Their handlers have requested additional rehearsal time.",
+        "description": "Clueso's sketch desk reconstructs the alleged attempt to look inconspicuous. The dogs have mastered it. Their handlers have requested additional rehearsal time and a better script. The toilet paper was not in the original plan, which is the problem with toilet paper.",
         "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses and toilet-paper detail, not a witnessed scene. Leave no trace. Except the complimentary paper trail."
       }
     ],
-    "investigatorNote": "In Clueso's fictional reconstruction, a ribbon of toilet paper trails from one operative's shoe: the Tightie Whities attempting to leave no trace while providing their own paper trail. He has labeled it 'Operation Loose End.' The dogs, at least, remembered their roles. Clueso remains irritated that the Prowling Purrpetrators have supplied neither a confession nor anything this easy to follow.",
+    "investigatorNote": "In Clueso's fictional reconstruction, a ribbon of toilet paper trails from one operative's shoe: the Tightie Whities attempting to leave no trace while providing their own paper trail. He has labeled it *Operation Loose End.* The dogs, at least, remembered their roles. Clueso remains irritated that the Prowling Purrpetrators have supplied neither a confession nor anything this easy to follow. He wants it on record that a pink operation would have rehearsed the dog.",
     "threatLevel": "Suspiciously well exercised",
-    "disposition": "Clueso's assessment of the suspected operation: elaborate departure plan, insufficient rehearsal for casual conversation. The Tightie Whities appear to have prepared for everything except 'Nice dog. How long have you had it?' PNN recommends a full dress rehearsal of saying hello. Until then: two walks, one tight alibi, and a cover story still being house-trained.",
+    "disposition": "**Clueso's assessment of the suspected operation:** elaborate departure plan, insufficient rehearsal for casual conversation. The Tightie Whities appear to have prepared for everything except 'Nice dog. How long have you had it?' PNN recommends a full dress rehearsal of saying hello. Until then: two walks, one tight alibi, and a cover story still being house-trained. Fetch is a game. This was not.",
     "relatedStoryIds": [],
     "relatedCaseIds": [],
-    "published": true
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "white",
+        "purrs": 2,
+        "hisses": 3,
+        "note": "Great departure plan. Shaky on how long they have had the dog."
+      }
+    ]
   },
   {
     "id": "004",
@@ -121,8 +145,8 @@
     "suspectTeamId": "orange",
     "incidentTitle": "Pyro Posse sets Area 51 Bureau ablaze. Fire department stands down.",
     "summary": "The Pyro Posse, a team named for fire, delivered a dumpster fire made entirely of balloons and party tissue. The Area 51 Bureau, a team named for secrets, now has its trash on display. Both teams are, PNN notes, fully inflated.",
-    "incidentDescription": "On the night of October 8, 2026, the Pyro Posse struck. The team reports that a pair of garbage cans belonging to the Area 51 Bureau camp were crowned with flame-colored balloons and red and yellow tissue paper. PNN has classified the incident as a Five-Alarm Party Store Run. The Posse also unveiled a poster of the Bureau's logo engulfed in flames, complete with scorched agents, a smoking saucer, and a cow in mid-abduction who looks like she wants to speak to a manager. The cans were not abducted. They were merely accessorized. For a team that exists to bury the truth, the Bureau has now been outed by its own recycling. The truth was out there. It was at the curb. It had balloons.",
-    "suspectedMotive": "PNN theory: the Pyro Posse, a team built around fire, has discovered that fire is difficult to carry, legally awkward, and unavailable at the dollar store. Balloons are, however, 100% hot air, which the Posse already had in abundance. Their official statement promises to \"bring them to ash.\" Experts note that ash requires something to burn, and the Posse brought only things that pop. Meanwhile, PNN theorizes that the Area 51 Bureau's strategy of staying under the radar has been undermined by two garbage cans glowing brighter than a landing strip. Unidentified Flaming Objects, identified.",
+    "incidentDescription": "On the night of October 8, 2026, the **Pyro Posse** struck. The team reports that a pair of garbage cans belonging to the Area 51 Bureau camp were crowned with flame-colored balloons and red and yellow tissue paper. PNN has classified the incident as a Five-Alarm Party Store Run. The Posse also unveiled a poster of the Bureau's logo engulfed in flames, complete with scorched agents, a smoking saucer, and a cow in mid-abduction who looks like she wants to speak to a manager. **The cans were not abducted. They were merely accessorized.** For a team that exists to bury the truth, the Bureau has now been outed by its own recycling. *The truth was out there. It was at the curb. It had balloons.*\n\nNo fire department was called. Had one been consulted, it would have asked what was burning, been told 'balloons,' and filed the report under 'hot air.' The Posse chose a team built on cover-ups and delivered the least covert prank available: bright orange, shiny, and visible from space.",
+    "suspectedMotive": "**Motive on file:** the Pyro Posse, a team built around fire, has discovered that fire is difficult to carry, legally awkward, and unavailable at the dollar store. Balloons are, however, 100% hot air, which the Posse already had in abundance. Their official statement promises to \"bring them to ash.\" Experts note that ash requires something to burn, and the Posse brought only things that pop. Meanwhile, PNN theorizes that the Area 51 Bureau's strategy of staying under the radar has been undermined by two garbage cans glowing brighter than a landing strip. Unidentified Flaming Objects, identified.",
     "evidence": [
       {
         "id": "004-A",
@@ -149,10 +173,24 @@
     ],
     "investigatorNote": "Clueso admires a well-executed smear campaign, provided the smear is pink. He notes with professional jealousy that the Pyro Posse built a whole fire brand and sourced the flames from the party aisle, and that the Area 51 Bureau, experts in concealment, have been exposed by a trash day. Clueso also wishes to know why nobody has set the Prowling Purrpetrators on fire, even in balloon form. He would accept a tasteful bouquet. He has filed this under Unfair.",
     "threatLevel": "Medium rare, mostly hot air",
-    "disposition": "PNN assessment: the Pyro Posse arrived with a bold slogan, a fierce reputation, and a bag of balloons, and left the Bureau's trash looking like a retirement party for a volcano. Total damage: none. Total hot air: considerable. The Area 51 Bureau, meanwhile, has been officially designated a Dumpster Fire, pending appeal, and PNN reminds them that Roswell was a long time ago and this is on their driveway. The Bureau's best move is to classify the incident. The Posse's best move is to pack something that actually burns, which PNN strongly advises against, because fire is not part of the game. Stick to the balloons, Posse. Everything else about this prank was already on fire.",
+    "disposition": "**PNN assessment:** the Pyro Posse arrived with a bold slogan, a fierce reputation, and a bag of balloons, and left the Bureau's trash looking like a retirement party for a volcano. Total damage: none. Total hot air: considerable. The Area 51 Bureau, meanwhile, has been officially designated a Dumpster Fire, pending appeal, and PNN reminds them that Roswell was a long time ago and this is on their driveway. The Bureau's best move is to classify the incident. The Posse's best move is to pack something that actually burns, which PNN strongly advises against, because fire is not part of the game. Stick to the balloons, Posse. Everything else about this prank was already on fire.",
     "relatedStoryIds": [],
     "relatedCaseIds": [],
-    "published": true
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "orange",
+        "purrs": 3,
+        "hisses": 3,
+        "note": "A poster and a bouquet of balloons. Brought hot air to a fire theme."
+      },
+      {
+        "teamId": "green",
+        "purrs": 1,
+        "hisses": 3,
+        "note": "Outed by its own recycling."
+      }
+    ]
   },
   {
     "id": "005",
@@ -162,9 +200,9 @@
     "status": "Hung out to dry. Forensics declined.",
     "suspectTeamId": "orange",
     "incidentTitle": "Pyro Posse airs the dirty laundry. Then sets it on fire.",
-    "summary": "In one night, the Pyro Posse hung scorched underwear on the Tightie Whities, a mystery clothesline on the Silver Bullets, and cobwebs on a house with a For Sale sign. They then posted the photos before the victims got home, deleted them, and announced that nobody else is playing. PNN has questions. Mostly about the underwear.",
-    "incidentDescription": "On the night of October 9, 2026, the Pyro Posse went on a laundry run. While two households were away at football games, the Posse visited the Tightie Whities and the Silver Bullets. For the Tightie Whities, a team named after underwear, the Posse selected the most obvious prank in the history of the neighborhood: underwear. On a clothesline. Out front. Then they set it on fire. PNN's legal desk calls this 'asking for it.' PNN's editorial desk calls it 'a gift.'\n\nThe result, PNN reports with a straight face, is a pair of scorched satin bloomers that are neither tight nor, any longer, white. The charring runs down the middle in a pattern PNN's forensic desk describes as 'unfortunately suggestive,' and which the Posse's own banner, hanging on the same line, calls 'The Skidmark Synod.' PNN did not choose that name. PNN did not need to. One must wonder whether fire was the only thing applied to these garments. PNN has not asked, and would prefer not to receive the answer in writing. The Posse's statement on the matter: 'The Whitie Tighties, a little distracted, have issues a little embarrassing to discuss. Under a little heat it took on apocalyptic levels. They were torched beyond repair thanks to the 🔥 PYRO POSSE 🔥!!' (The Posse also flipped the team name, which is a bold choice for a group that was just praised for precision.)\n\nAt the Silver Bullets, the Posse strung up something else. PNN has studied the photographs for an unreasonable amount of time and can classify the items only as 'laundry-adjacent': a yellow clothesline of charred blue bundles, clothespinned in a neat row, over a lawn dotted with paper flames and small white fragments of unknown origin. The Silver Bullets' home also has a flagpole, per PNN's source. A flagpole. The one structure on earth built to hoist things where the whole neighborhood can see them. The Posse used the low line instead and left the flagpole unemployed. The Posse issued no statement about this prank. The objects have not issued one either.\n\nThe same night, the Posse also pranked a third household, the Black Webb Bandits, and then forgot to mention it. The announcement did not arrive until late on October 10, the following day, possibly because the Posse was worried about announcing the other pranks too soon. The target: a home with a For Sale sign out front. The Posse draped the sign in orange cobweb, scattered orange flags and pumpkin-faced stakes across the lawn, and left. Their statement: 'The Pyro Posse were torching their way through the neighborhood and found some spiders who got caught in an orange webb of woe, a complete crape paper trap of catastrophe. And had to raise the orange flag of surrender because of the Pyro Posse. ☄️🔥☄️🔥🔥🔥🔥🔥 They couldn’t 🧯the power of the Pyro Posse.' PNN notes that the number of actual flames at the Bandits' house was zero, which makes it the first torching ever conducted entirely with crepe paper. Also, PNN got to the 'webb' pun first, in PNN-001, and will accept royalties in the form of silence. Priced to move. Staged to scare. Showings by appointment. Bring a lint roller.",
-    "suspectedMotive": "PNN theory: the Pyro Posse believe the game is a sprint. By their own count they have now pranked three teams (PNN counts four, because the Posse forgot one) and posted to the game group: 'It’s like we’re the only ones playing 🤷‍♀️'. This is what leading looks like when you start before the gun and everybody else is still tying their shoes. It is also what peaking in week one looks like. By the time of the final-night Halloween party, an October 9 prank will have the shelf life of a carved pumpkin on a warm porch. The Posse is already working on the sequel to a movie nobody will remember seeing.\n\nTheir second theory is that a prank is complete when the victim finds out. The Posse upgraded this to 'when everybody finds out, sooner.' Photos of the pranks were posted to the game group before the pranked households got home, spoiling the surprise for the people it was meant for and delivering it, free of charge, to everyone else. The photos were deleted quickly. Many people had already seen them. A Posse member explained: 'Sometimes I am fast…. Usually when I shouldn’t be.' PNN has no further questions and is considering the sentence for a plaque.\n\nHow did the Posse know the pranked households would be out at football games? PNN has opened an inquiry. Suspects include: a schedule, a calendar, Purrveillance, and the possibility of phone tapping, which PNN raises purely as a joke and adds that no phone was tapped and the only lines involved were clotheslines. Clueso demands a full audit of the Posse's intelligence budget, which PNN suspects consists of a clipboard and a group chat.\n\nThe Posse also arrived too early with two announcements and too late with a third, which in PNN-002 was the Black Webb Bandits' exact specialty. PNN theorizes that it is contagious. Patient zero is wearing black and has a webb.",
+    "summary": "In one night, the Pyro Posse hung scorched underwear on the Tightie Whities, an unidentified clothesline on the Silver Bullets, and cobwebs on a house with a For Sale sign. They then posted the photos before the victims got home, deleted them, and announced that nobody else is playing. Football officials call this a false start. PNN has questions. Mostly about the underwear.",
+    "incidentDescription": "On the night of October 9, 2026, two households went to football games and came home to a different contact sport. The **Pyro Posse** had been busy. For the Tightie Whities, a team that named itself after underwear and then acted surprised, the Posse selected the most obvious prank in the history of obvious pranks: underwear. On a clothesline. Out front. **Then they lit it.** PNN's legal desk calls this 'asking for it.' PNN's editorial desk calls it the easiest assignment in journalism and has framed the clothesline.\n\nPNN reports the following with a straight face. The garment in question is a pair of white satin bloomers, which are not tight and, following treatment, are no longer white. Strictly speaking, the Posse did not hit the **Tightie Whities** with a tighty-whitey. They hit them with a loose end, which, given the team's history with loose ends (PNN-003), PNN considers a callback. The charring runs down the middle in a pattern PNN's forensic desk calls 'unfortunately suggestive,' and which the Posse's own banner, hanging on the same line, calls **'The Skidmark Synod.'** PNN did not name it. PNN did not need to. *One must wonder if fire was the only thing the Posse applied to these garments.* PNN has not asked and would prefer not to receive the answer in writing.\n\nThe Posse's statement on the **Tightie Whities**:\n\n> The Whitie Tighties, a little distracted, have issues a little embarrassing to discuss. Under a little heat it took on apocalyptic levels. They were torched beyond repair thanks to the 🔥 PYRO POSSE 🔥!!\n> — **Pyro Posse**, game group\n\nPNN reads the issues as the underwear's. Anything else would be unkind. The Posse also flipped the team's name to 'Whitie Tighties,' which is how you can tell the writer was either in a hurry or near an open flame.\n\nAt the **Silver Bullets**, the Posse strung up something else. PNN has studied the photographs for an unreasonable number of hours and can classify the items only as 'laundry-adjacent': a yellow clothesline of charred blue bundles, clothespinned in a tidy row, over a lawn seeded with paper flames and small white fragments of unknown origin. The Bullets were at the football game. They were blitzed at home. The Posse called the play, ran it, and neglected to tell anyone what the play was. The Silver Bullets' home also has a flagpole, per PNN's source. **A flagpole.** The one structure on Earth built to hoist things where the whole neighborhood can salute them. The Posse used the low line instead and left the flagpole **unemployed**. The Posse released no statement about this prank. The objects released none either.\n\nThe same night, the Posse also pranked a third household, the **Black Webb Bandits**, and then forgot to mention it. The announcement did not arrive until late on October 10, the following day, possibly because the Posse was worried about announcing the other pranks too soon. The target: a home with a For Sale sign out front. The Posse draped the sign in orange cobweb, scattered orange flags and pumpkin-faced stakes across the lawn, and left. Flags on the play. Several stuck in the grass. Their statement on the Bandits:\n\n> The **Pyro Posse** were torching their way through the neighborhood and found some spiders who got caught in an orange webb of woe, a complete crape paper trap of catastrophe. And had to raise the orange flag of surrender because of the Pyro Posse. ☄️🔥☄️🔥🔥🔥🔥🔥 They couldn’t 🧯the power of the Pyro Posse.\n> — Pyro Posse, game group\n\nThe number of actual flames at this address was **zero**, making it the first torching ever conducted entirely in crepe paper. PNN also got to the 'webb' pun first, in PNN-001, and will accept royalties in the form of silence. *Priced to move. Staged to scare. Showings by appointment. Bring a lint roller.*",
+    "suspectedMotive": "**Working theory:** the Pyro Posse believe the Broomstick Challenge is a sprint. By their own count they have pranked three teams (PNN's count is four, because they forgot one, a first in the long history of pranks) and informed the game group:\n\n> It’s like we’re the only ones playing 🤷‍♀️\n> — Pyro Posse, game group\n\nAnother way to say this is that a team scored in the first quarter and is performing the end-zone dance before the snap. Everyone else is not absent. They are pacing themselves, which is the one thing the Posse is not. By the final-night Halloween party, an October 9 prank will have the shelf life of a jack-o'-lantern on a sunny porch. The Posse has peaked in week one. PNN would like to be the first to say: **bold.**\n\nTheir second theory is that a prank is complete when the victim finds out. The Posse upgraded this to 'when everybody finds out, sooner.' Photos of the pranks went to the game group before the pranked households got home, spoiling the surprise for the people it was meant for and delivering it, free of charge, to everybody else. That is a **false start**: five yards, plus the entire play. The photos were deleted quickly. Many people had already seen them, which PNN understands is how photos work. A Posse member explained, of the deleted photos:\n\n> Sometimes I am fast…. Usually when I shouldn’t be.\n> — a Pyro Posse member\n\nPNN has no further questions and is already commissioning the plaque.\n\nHow did the Posse know the households would be at the football games? PNN has opened an inquiry. Suspects:\n\n- A schedule.\n- A calendar.\n- A neighbor with excellent attendance.\n- Purrveillance.\n- Phone tapping, which PNN raises purely as a joke. No phone was tapped. The only lines involved were clotheslines.\n\nClueso demands a full audit of the Posse's intelligence budget, which PNN suspects consists of one clipboard and a group chat.\n\nThe Posse also arrived too early with two announcements and too late with a third, which in PNN-002 was the Black Webb Bandits' exact specialty. It is, PNN suspects, contagious. **Patient zero wears black and has a webb.** **Penalty report:**\n\n- **False start:** the photos.\n- **Delay of game:** the Bandits announcement.\n- **Unnecessary roughness:** one pair of bloomers.",
     "evidence": [
       {
         "id": "005-A",
@@ -174,8 +212,8 @@
         "height": 1440,
         "alt": "Night view of a front walkway with a clothesline across it hung with scorched dark laundry, a singed white undergarment glowing red at the center, a poster reading The Skidmark Synod at the right, and paper flame cutouts and glow sticks in the grass.",
         "label": "Exhibit A - The Synod convenes",
-        "description": "The Tightie Whities' front walk after the Posse's visit: a clothesline of scorched laundry, paper flames on sticks, glow sticks in the grass, and at the center a singed white garment lit from below in a tasteful shade of emergency. At right, a banner reads 'The Skidmark Synod.' It is the only prank in this case file with its own governing body.",
-        "caption": "Supplied game material from the Pyro Posse; a vehicle's details are blurred. Total fire: mostly paper. Total laundry: a full load. Spin cycle: skipped."
+        "description": "The Tightie Whities' front walk after the Posse's visit: a clothesline of scorched laundry, paper flames on sticks, glow sticks in the grass, and at the center a singed white garment lit from below in a tasteful shade of emergency. At right, a banner reads 'The Skidmark Synod.' It is the only prank in this case file with its own governing body and a name PNN would have fought.",
+        "caption": "Supplied game material from the Pyro Posse; a vehicle's details are blurred. Total fire: mostly paper. Total laundry: a full load. Spin cycle: skipped. Whites: separated, then burned."
       },
       {
         "id": "005-B",
@@ -185,8 +223,8 @@
         "height": 1920,
         "alt": "A white satin pair of high-waisted bloomers with lace trim lying on a concrete patio, singed at the leg openings and streaked down the center with brown and black staining.",
         "label": "Exhibit B - The garment, post-treatment",
-        "description": "The principal exhibit: white satin bloomers with lace trim, singed at the leg openings and marked down the center by a long brown-and-black streak. PNN's forensic desk, which is one person holding a flashlight, has classified the garment as neither tight nor white, and the streak as 'a scorch pattern with a regrettable resemblance to something else.' The brown substance has not been tested, labeled, or discussed at dinner. Experts agree this is the cleanest evidence PNN has ever been afraid to touch.",
-        "caption": "Supplied game material from the Pyro Posse. Evidence of a prank, not of anything the Tightie Whities did. Whites: separated. Dignity: pre-treated."
+        "description": "The principal exhibit: white satin bloomers with lace trim, singed at the leg openings and marked down the center by a long brown-and-black streak. PNN's forensic desk, which is one person holding a flashlight, has classified the garment as neither tight nor white, and the streak as 'a scorch pattern with a regrettable resemblance to something else.' The brown substance has not been tested, labeled, or discussed at dinner. It is the cleanest evidence PNN has ever been afraid to touch.",
+        "caption": "Supplied game material from the Pyro Posse. Evidence of a prank, not of anything the Tightie Whities did. Briefs have been filed. These weren't them."
       },
       {
         "id": "005-C",
@@ -197,7 +235,7 @@
         "alt": "A Halloween-style poster headed The Meltdown Manifesto, showing a pair of scorched, dripping white briefs framed by ghosts and jack-o'-lanterns, with four lines of verse beneath.",
         "label": "Exhibit C - The Meltdown Manifesto",
         "description": "The Posse's accompanying artwork: a Halloween poster starring a pair of scorched briefs, dripping in a manner that cannot be described politely. Its verse reads: 'We didn't just burn, we completely melted. We're sticky, slimy and totally infested. We smell like something recently dealt. It's not laundry, it's a tragedy felt.' The underwear is the narrator. This is a first for the PNN desk and, PNN hopes, a last.",
-        "caption": "Supplied game material from the Pyro Posse; stylized artwork, not a photograph of any real event. Verse by the Posse, narrated by underwear. Reviews are mixed. The underwear has been unavailable for comment since combustion."
+        "caption": "Supplied game material from the Pyro Posse; stylized artwork, not a photograph of any real event. Verse by the Posse, narrated by underwear. Critics call it 'a tragedy felt.' The underwear has been unavailable for comment since combustion."
       },
       {
         "id": "005-D",
@@ -207,8 +245,8 @@
         "height": 1440,
         "alt": "A green front lawn at night with a yellow clothesline strung along a porch rail and fence, hung with clothespinned singed dark blue bundles, paper flame cutouts on sticks in the grass, and small white fragments scattered about.",
         "label": "Exhibit D - Unidentified Laundry Objects",
-        "description": "The Silver Bullets' front lawn: a yellow clothesline of clothespinned, charred blue bundles, paper flames in the grass, and scattered white bits of unknown origin. PNN examined the photo at length and concluded the objects are 'laundry-adjacent.' Theories range from singed denim to deflated oven mitts to a very bad weekend. PNN's formal designation is Unidentified Flaming Objects, Part II. The flagpole, per PNN's source, was not consulted.",
-        "caption": "Supplied game material from the Pyro Posse. No statement was issued about this prank. Asked to identify itself, the laundry stayed silent, as laundry does."
+        "description": "The Silver Bullets' front lawn: a yellow clothesline of clothespinned, charred blue bundles, paper flames in the grass, and scattered white bits of unknown origin. PNN examined the photo at length and concluded the objects are 'laundry-adjacent.' Theories range from singed denim to deflated oven mitts to a very bad weekend. PNN's formal designation is Unidentified Flaming Objects, Part II. The flagpole, per PNN's source, was not consulted and is a little hurt.",
+        "caption": "Supplied game material from the Pyro Posse. No statement was issued about this prank. Asked to identify itself, the laundry stayed silent, as laundry does. The clothespins declined to comment on advice of counsel."
       },
       {
         "id": "005-E",
@@ -218,8 +256,8 @@
         "height": 1920,
         "alt": "A glossy Halloween poster taped to a dark door reading We Are the Silver Bullets in flaming chrome lettering, with two frightened cartoon figures riding brooms and the tagline Slow, Unsure, and Completely Disoriented.",
         "label": "Exhibit E - A poster for the Bullets",
-        "description": "The poster at the Silver Bullets' door: chrome lettering on fire, two broom-riding cartoon figures who look like they have just remembered something terrible, and the tagline 'Slow, Unsure, and Completely Disoriented.' PNN notes that the same tagline would apply to a team that pranked three households in one night and forgot to write up one of them.",
-        "caption": "Supplied game material from the Pyro Posse; cartoon artwork, not a documentary. The Silver Bullets are now on fire in every sense except the literal one."
+        "description": "The poster at the Silver Bullets' door: chrome lettering on fire, two broom-riding cartoon figures who look like they have just remembered something terrible, and the tagline 'Slow, Unsure, and Completely Disoriented.' A bullet that is slow, unsure, and completely disoriented is, ballistically, a pebble. The same tagline would also fit a team that pranked three households in one night and forgot to write up one of them.",
+        "caption": "Supplied game material from the Pyro Posse; cartoon artwork, not a documentary. The Silver Bullets are now on fire in every sense except the literal one, and were sacked at home by laundry."
       },
       {
         "id": "005-F",
@@ -230,7 +268,7 @@
         "alt": "A night photo of a blue and white For Sale yard sign on a black post, draped in torn orange cobweb, with a brochure box marked Take One beside it. The agent's contact details and brochure text are blurred.",
         "label": "Exhibit F - The listing, now with cobwebs",
         "description": "The Black Webb Bandits prank: a For Sale sign draped in orange cobweb beside a brochure box that says TAKE ONE. The Posse, who by their own count were taking three, did not read it. Nothing was strung up, nothing burned, and the sign still says For Sale, which makes this the only prank of the night that did not change the property's status. PNN cannot confirm whether the webbing adds curb appeal. Early reviews say 'spooky.' Hot property, no heat.",
-        "caption": "Supplied game material from the Pyro Posse; the agent's contact details and brochure text are blurred. Location, location, announcement-location. Last to announce, last to be mentioned: the Bandits are consistent."
+        "caption": "Supplied game material from the Pyro Posse; the agent's contact details and brochure text are blurred. Location, location, announcement-location. Last to be announced, first to get a listing: the Bandits are consistent. Open house, open season."
       },
       {
         "id": "005-G",
@@ -244,13 +282,39 @@
         "caption": "Supplied game material from the Pyro Posse; a person on the lawn is blurred. Flags out, torches nowhere. PNN-004 called. It wants its hot air back."
       }
     ],
-    "investigatorNote": "Clueso resents the claim that the Pyro Posse are the only team playing. The Prowling Purrpetrators are playing. They are simply not being caught, which Clueso regards as an advanced technique and a personal insult. He also notes, with professional envy, that the Posse knew exactly when two households would be away at football games, which suggests either excellent Purrveillance or a calendar. Clueso has requested the Posse's sources. He would like to compare them to his own, which currently consist of a dog-walker and a hunch.",
+    "investigatorNote": "Clueso resents the claim that the Pyro Posse are the only team playing. The Prowling Purrpetrators are playing. They are simply not being caught, which Clueso regards as an advanced technique and a personal insult. He also observes that the Posse knew exactly when two households would be away at football games, which suggests either excellent Purrveillance or a calendar. Clueso has requested the Posse's sources. He would like to compare them to his own, which currently consist of *a dog-walker and a hunch.* He adds that the pink team is, for the record, doing absolutely nothing incriminating, which is exactly what a guilty team would do.",
     "threatLevel": "Extra crispy. Zero surprises kept.",
-    "disposition": "PNN assessment: four teams hit, three of them in one night, one of them forgotten until the following day. The Pyro Posse have burned laundry, spoiled surprises, deleted the evidence, and announced that nobody else is playing, a feat of confidence rarely seen outside a fire drill. The Tightie Whities are now officially a laundry matter. The Silver Bullets are officially unidentified. The Black Webb Bandits are officially listed, subject to inspection.\n\nPNN reminds all teams that actual fire is not part of the game, that Rule 5 prohibits damaging property, and that the correct amount of fire for a prank is a paper cutout on a stick. PNN trusts the underwear was the Posse's to burn and that the lawn's only injury was to its pride.\n\nFinal ruling: the Posse came, they saw, they posted, and then they deleted, in that order, before the victims got home. They can start a fire. They cannot keep a secret. They cannot keep a count. Ashes pending appeal.",
+    "disposition": "**PNN assessment:** four teams hit, three of them in one night, one of them forgotten until the following day. The Pyro Posse have burned laundry, spoiled surprises, deleted the evidence, and announced that nobody else is playing, *a feat of confidence rarely seen outside a fire drill.*\n\n- **Tightie Whities:** officially a laundry matter.\n- **Silver Bullets:** officially unidentified.\n- **Black Webb Bandits:** officially listed, subject to inspection.\n\nPNN reminds all teams that actual fire is not part of the game, that Rule 5 prohibits damaging property, and that the correct amount of fire for a prank is a paper cutout on a stick. PNN trusts the underwear was the Posse's to burn and that the lawn's only injury was to its pride.\n\n**Final ruling:** the Posse came, they saw, they posted, and then they deleted, in that order, before the victims got home. **They can start a fire. They cannot keep a secret. They cannot keep a count.** Penalties assessed: all of them. *Case smoldering. Laundry not returned.*",
     "relatedStoryIds": [],
     "relatedCaseIds": [
       "004"
     ],
-    "published": true
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "orange",
+        "purrs": 4,
+        "hisses": 5,
+        "note": "Three houses in one night. Posted early, deleted late, miscounted."
+      },
+      {
+        "teamId": "white",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Now officially a laundry matter."
+      },
+      {
+        "teamId": "silver",
+        "purrs": 1,
+        "hisses": 3,
+        "note": "Out at the game. Blitzed at home by unidentified laundry."
+      },
+      {
+        "teamId": "black",
+        "purrs": 1,
+        "hisses": 2,
+        "note": "Webbed, listed, and announced last. Again."
+      }
+    ]
   }
 ]

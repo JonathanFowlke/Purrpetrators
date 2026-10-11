@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 const projectRoot = fileURLToPath(new URL('../', import.meta.url));
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const lines = value => escape(value).replace(/\n/g, '<br>');
+const richLines = value => lines(value).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+)\*/g, '<em>$1</em>');
 const tones = {dark:'#30212c', white:'#ffffff', blush:'#fff5f8', pink:'#ffdeed'};
 const paragraphStyle = 'margin:0 0 16px;font-size:18px;line-height:28px;';
 const labelStyle = 'margin:0 0 12px;font-size:16px;line-height:22px;font-weight:bold;letter-spacing:2px;';
@@ -59,7 +60,7 @@ function renderSection(section, index, isFirst) {
       }).join('');
       return `<p style="${paragraphStyle}">${content}</p>`;
     }
-    return `<table role="presentation" width="100%" style="width:100%;">${block.items.map(item => `<tr><td style="padding:14px 0;border-top:1px solid #dbb8c9;font-size:18px;line-height:27px;"><strong style="font-size:30px;color:${accent};">${escape(item.value)}</strong><br>${lines(item.text)}</td></tr>`).join('')}</table>`;
+    return `<table role="presentation" width="100%" style="width:100%;">${block.items.map(item => `<tr><td style="padding:14px 0;border-top:1px solid #dbb8c9;font-size:18px;line-height:27px;"><strong style="font-size:30px;color:${accent};">${escape(item.value)}</strong><br>${richLines(item.text)}</td></tr>`).join('')}</table>`;
   }).join('\n');
   return `<tr><td class="pad" style="padding:28px 36px;background-color:${tones[section.tone]};color:${light ? '#30212c' : '#ffffff'};">
 ${section.kicker ? `<p style="${labelStyle}color:${accent};">${escape(section.kicker)}</p>` : ''}
@@ -79,7 +80,7 @@ export function renderNewsletter(record, cases, template) {
     content += `<tr><td class="pad" style="padding:28px 36px;background-color:#30212c;color:#ffffff;border-bottom:4px solid #b60060;">
 <p style="${labelStyle}color:#f699be;">LATEST CASE FILE / ${escape(item.caseNumber)}</p>
 <h1 class="headline" style="margin:0 0 18px;font-size:46px;line-height:49px;">${escape(item.incidentTitle)}</h1>
-<p style="${paragraphStyle}">${lines(feature.teaser)}</p>
+<p style="${paragraphStyle}">${richLines(feature.teaser)}</p>
 <p style="margin:0;font-size:18px;line-height:27px;"><a href="https://purrpetrators.net/cases/${feature.id}/" style="color:#f699be;text-decoration:underline;font-weight:bold;">${escape(feature.linkLabel)}</a></p>
 </td></tr>`;
   }
