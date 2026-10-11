@@ -135,7 +135,8 @@ footer p span { display: block; margin-top: 6px; }
 .hotline-panel > div:first-child { flex: 1 1 300px; }
 .hotline-panel h2 { margin: 0 0 12px; font-size: 26px; line-height: 1.2; }
 .hotline-panel p:last-child { margin: 0; }
-.hotline-number a { font-size: clamp(22px, 3vw, 30px); font-weight: 900; color: var(--magenta); }
+.hotline-number { min-width: 0; max-width: 100%; }
+.hotline-number a { font-size: clamp(18px, 5.2vw, 30px); font-weight: 900; color: var(--magenta); overflow-wrap: anywhere; }
 .hotline-number span { display: block; margin-top: 6px; font-size: 16px; color: var(--muted); }
 .hotline-inline { margin-top: 16px !important; }
 .hotline-inline a, .footer-hotline { font-weight: 700; color: var(--magenta); }
@@ -247,6 +248,9 @@ strong { font-weight: 800; }
 .countdown-clock small { margin-top: 6px; font-size: 13px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); }
 .countdown.is-done .countdown-clock { opacity: .5; }
 @keyframes pulse { 50% { opacity: 1; } }
+@media (max-width: 1180px) {
+  .site-nav { display: grid; grid-template-columns: repeat(3, auto); gap: 8px 22px; justify-items: start; }
+}
 @media (max-width: 1050px) {
   .masthead-label { max-width: 310px; }
   .hero { gap: 28px; }
@@ -258,7 +262,8 @@ strong { font-weight: 800; }
 @media (max-width: 760px) {
   .site-shell { padding: 0 6%; }
   .masthead { gap: 16px; flex-wrap: wrap; }
-  .masthead-label { order: 3; max-width: none; flex-basis: 100%; }
+  .masthead-label { order: 2; flex: 1 1 140px; max-width: none; font-size: 15px; line-height: 1.3; }
+  .site-nav { order: 3; display: grid; grid-template-columns: repeat(3, auto); justify-content: space-between; width: 100%; gap: 10px 12px; font-size: 16px; }
   .network-state { font-size: 16px; }
   .hero { grid-template-columns: minmax(0, 1fr); gap: 36px; padding: 36px 0; }
   .case-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
@@ -273,7 +278,10 @@ strong { font-weight: 800; }
   .dossier-pair { grid-template-columns: minmax(0, 1fr); }
   .team-card { flex-direction: column; align-items: flex-start; padding: 20px; box-shadow: 5px 5px 0 var(--pink); }
   .countdown { padding: 20px; }
-  .countdown-clock span { min-width: 78px; }
+  .countdown-clock { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .countdown-clock span { min-width: 0; padding: 10px 4px; box-shadow: 3px 3px 0 var(--pink); }
+  .countdown-clock b { font-size: clamp(24px, 8vw, 34px); }
+  .countdown-clock small { font-size: 11px; letter-spacing: 0; }
   .ticker-item { font-size: 16px; }
   .daily-tip-text { font-size: 20px; }
   .hotline-panel { padding: 20px; }

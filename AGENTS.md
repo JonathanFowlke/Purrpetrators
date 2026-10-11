@@ -220,6 +220,10 @@ New subscribers are collected by EmailOctopus directly; this repo only stores th
 
 Before editing newsletters, printable fliers/cards, QR assets, dispatch, or the unlisted resources page, read the corresponding section in [docs/repository-reference.md](docs/repository-reference.md). Preserve permanent printed URLs, fictional game context, and the resources page's lack of incoming site links.
 
+## Shared site chrome
+
+Every website page except the print-only pages (`tips/flier.html`, `resources/cards.html`, `resources/pranked.html`) and the email editions under `newsletter/<id>/` shares one masthead, one news ticker, and one footer, defined once in `scripts/generate-cases.mjs` (`headerHtml`, `footerHtml`, `tickerHtml`). `node scripts/generate-cases.mjs` rewrites those three pieces on the generated pages and on the hand-written pages (`index.html`, `404.html`, `dispatch/`, `tips/`, `corrections/`, `newsletter/index.html`, `resources/index.html`), marking the current nav section with `aria-current`. Change header or footer markup in the generator, never by hand in a page. Mobile rules: the five-link nav is a balanced 3 + 2 grid below 1200px (never a lone orphan link), the countdown stays on one row of four boxes, and no page may scroll horizontally from 320 px up.
+
 ## Search-engine privacy
 
 The site is meant for the game, not for search results. `robots.txt` disallows all crawlers (plus named AI and archive bots), and every HTML page, including the generator templates and the email template, carries `<meta name="robots" content="noindex, nofollow, noarchive">`. Both are requests that well-behaved crawlers honor, not access control. Google Analytics and other client-side scripts are unaffected. New pages and generators must keep the meta tag; `node --test scripts/robots.test.mjs` fails if any HTML page lacks it. Caveat: if a crawler ever lists a bare URL because the page was linked publicly, remove the `Disallow: /` rule temporarily so the crawler can fetch the pages and see `noindex`.
