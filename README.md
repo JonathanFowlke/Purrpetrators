@@ -2,65 +2,61 @@
 
 A static neighborhood newsroom for **Prowling Purrpetrators** at **purrpetrators.net**. “Guilty of having a pranking good time.”
 
-Plain HTML, CSS, and JavaScript. No deployment build step, npm dependencies, external fonts or backend. Website pages include Google Analytics; the importable HTML email does not. A small Node.js script generates committed case pages and the homepage's latest case feature from JSON when content changes. The homepage introduces PNN and the team and features the newest published investigation. Pages remain usable without JavaScript; evidence videos play only on request. The construction illustration remains in the homepage newsletter section; the old status script is unused.
+A static neighborhood newsroom built with **React + Vite** and prerendered to plain HTML at build time. GitHub Actions builds the site and publishes it to GitHub Pages; the generated HTML is not committed. No React runtime ships to browsers, there are no external fonts, and there is no backend. Website pages include Google Analytics; the importable HTML email does not. Pages remain usable without JavaScript; evidence videos play only on request.
 
 ## Local development
 
-Open `index.html` directly in a browser, or serve the repository with Python:
+Requires Node 24.
 
 ```sh
-python -m http.server 8080
+npm ci            # install dependencies
+npm run dev       # renders pages on demand at http://localhost:5173/ (edit components or data/*.json, refresh)
+npm run build     # validate data and write the static site to dist/
+npm run preview   # serve dist/ at http://localhost:8080/, including a real 404 page
+npm test          # build, then run all tests and checks on the built pages
+npm run storybook # component stories in isolation at http://localhost:6006/
 ```
 
-Visit http://localhost:8080. Edit files and refresh. Preview `404.html` directly; Python's server does not automatically use GitHub Pages' custom error document.
+Content lives in `data/*.json`; reusable components are in `src/components/` (each group has `*.stories.jsx`); pages and routes are in `src/pages/` and `src/routes.jsx`; browser scripts, images, and other verbatim files are in `public/`. See `AGENTS.md` for the full layout and rules.
 
 ## GitHub Pages deployment
 
-1. Push these files to your GitHub repository.
-2. In **Settings → Pages**, select **Deploy from a branch**, your default branch (usually `main`), and **/ (root)**. Save.
-3. For the intended custom domain, set **purrpetrators.net** in the Pages settings. The included `CNAME` records that domain; it does not configure DNS. Follow GitHub's current custom-domain instructions linked from those settings to configure your DNS provider and verify domain ownership.
-4. Once DNS is verified and a certificate is available, enable **Enforce HTTPS**.
+`.github/workflows/deploy.yml` runs on every push to `main` (and on pull requests, without deploying): `npm ci`, `npm test` (which builds `dist/` and checks it), a Storybook build to keep stories compiling, then it uploads `dist/` and deploys it with GitHub's Pages actions.
 
-To use only a `github.io` project URL initially, remove `CNAME`, clear the custom domain setting, and change `og:url` in `index.html` to the deployed URL. Main-page asset paths are relative and support a repository subdirectory. The 404 page resolves shared assets from the custom-domain root or the first path segment on a `github.io` project site. For a `username.github.io` root site, set its `base` expression to `'/'`. Other subdirectory hosts should set that base to their deployment prefix.
+1. One-time: in **Settings → Pages**, set **Source** to **GitHub Actions** (not "Deploy from a branch").
+2. Keep **purrpetrators.net** as the custom domain in the Pages settings. `public/CNAME` is copied into `dist/` and records that domain; it does not configure DNS. Follow GitHub's current custom-domain instructions to configure DNS and verify ownership, then enable **Enforce HTTPS**.
+3. Push to `main`. The workflow's deploy job publishes the site; check the run in the **Actions** tab.
+
+Page links are relative with explicit `index.html` targets, so the site also works from a `github.io` project subpath or `file://`. The 404 page resolves shared assets from the custom-domain root or the first path segment on a `github.io` project site. To use only a `github.io` URL initially, remove `public/CNAME`, clear the custom domain, and change the `og:url` origin (`SITE.origin` in `src/lib/constants.js`).
 
 ## Structure and future content
 
 ```text
-index.html                  Newsroom homepage with generated latest case
-404.html                    Themed missing-page screen
-assets/css/styles.css       Shared visual identity and responsive layout
-assets/images/favicon.png   Supplied PNG favicon
-assets/evidence/001/        First case video and poster
-assets/evidence/002/        Black Webb Bandits witch flier
-assets/evidence/unassigned/ Media awaiting case assignment
-assets/downloads/           Future newsletter PDFs
-scripts/main.js             Unused former launch-status script
-data/stories.json           Empty story collection
-data/cases.json             Case records and evidence metadata
-data/teams.json             Confirmed team roster and logo paths
-scripts/generate-cases.mjs  Generate static case pages from JSON
-scripts/generate-newsletters.mjs          Generate newsletter editions from JSON
-scripts/generate-newsletter-subscribe.mjs Generate the newsletter sign-up link region
-data/newsletter-subscribe.json            EmailOctopus embed form script URL
-cases/index.html           Generated case listing
-cases/001/index.html       PNN-001: Caught in their own Webb
-cases/002/index.html       PNN-002: Too soon to bribe
-pages/                      Future static content pages
+data/*.json                 Content: cases, teams, dossiers, tips, ticker, countdown, cards, newsletters, form settings
+src/components/             Reusable React components with Storybook stories
+src/pages/, src/routes.jsx  One page component per route; the list of every public file
+src/lib/                    Model, URL helpers, authoring-markup renderer, constants
+src/email/                  Newsletter email renderer and shell
+public/assets/              CSS, images, evidence media, QR codes (copied to dist/assets/)
+public/scripts/             Browser scripts: ticker, countdown, daily tip, catnip index, dispatch, 404 quips, print
+scripts/                    build.mjs, data validation, dev middleware, preview server, new-edition scaffold
+tests/                      node --test suites (some check the built dist/)
+.github/workflows/          Build and deploy to GitHub Pages
 ```
 
-Future stories can use Breaking News, Incident Reports, Suspected Motive, Evidence, and Official PNN Assessment sections. Use `pages/` for stories, investigations, dossiers, alerts, QR landing pages, and citation case pages. Keep stable filenames for printed QR links. Pages nested under `pages/` should use `../assets/` and `../scripts/` paths (adjust for deeper nesting).
+Future stories can use Breaking News, Incident Reports, Suspected Motive, Evidence, and Official PNN Assessment sections. Add new pages as components in `src/pages/` and register them in `src/routes.jsx`. Keep stable filenames for printed QR links.
 
-`data/teams.json` contains the seven confirmed teams. Each record has a stable lowercase color `id` and `slug`, display `name` and `color`, a site-root-relative `logo` path, and an `isOurTeam` boolean (true only for the pink Prowling Purrpetrators). Resolve logo paths against the deployment base when using them on nested pages. Stories remain an empty array. Cases and team names are read by the case generator, not fetched by the browser. Add tip submission, Google Voice information, and downloadable editions only when ready; a working form will require an explicitly chosen external service or backend.
+`data/teams.json` contains the seven confirmed teams. Each record has a stable lowercase color `id` and `slug`, display `name` and `color`, a site-root-relative `logo` path, and an `isOurTeam` boolean (true only for the pink Prowling Purrpetrators). Resolve logo paths against the deployment base when using them on nested pages. Stories remain an empty array. Cases and team names are read at build time, not fetched by the browser. Add tip submission, Google Voice information, and downloadable editions only when ready; a working form will require an explicitly chosen external service or backend.
 
 ## Editing case files
 
-Edit `data/cases.json`, then run `node scripts/generate-cases.mjs` with a modern Node.js runtime (validated with Node 24). No npm installation is needed. Commit the generated `cases/index.html`, `cases/<id>/index.html`, and updated homepage alongside the data and any media changes. Edit the generator for shared page markup and `assets/css/styles.css` for styling; do not hand-edit generated case pages or the homepage region between the generated-feature markers. The newest published case supplies the homepage feature.
+Edit `data/cases.json` and add media under `public/assets/evidence/<case-id>/`, then run `npm run dev` to preview or `npm run build` to validate. Commit only the data and media: the case pages and homepage feature are rendered at build time and deployed by CI. Shared page markup lives in `src/components/case/` and styling in `public/assets/css/styles.css`. The newest published case supplies the homepage feature.
 
 Case IDs are stable three-digit strings, with matching numbers such as `001` / `PNN-001`. Reference a team by `suspectTeamId`. Store `dateOpened` as an ISO timestamp with an explicit offset and `timeZone` as an IANA zone. PNN-001 opened October 4, 2026, at 7:21 p.m. America/Denver (`-06:00`). Evidence supports MP4 video with a JPEG/PNG/WebP poster, descriptive text, a caption, and local asset paths. The video is click-to-play, with no autoplay or initial media preload; its poster supplies the image-like preview.
 
-Image evidence uses `type: "image"`, a local PNG/JPEG/WebP `src`, positive integer `width` and `height`, and nonempty `id`, `alt`, `label`, `description`, and `caption`. Optional boolean `reconstruction: true` labels an image PNN reconstruction instead of supplied game material; use it for generated illustrations with explicit reconstruction captions. PNN-003 includes an AI-generated sketch in `assets/evidence/003/` alongside its anonymous witness report. Images remain uncropped; the first evidence item supplies either its image or video poster to the homepage. Written witness evidence uses `type: "report"`, nonempty `id`, `label`, `description`, and `caption`; no media file is required. The generator escapes the report and labels it as a witness account. Report-only cases produce a text-only homepage feature. PNN-003, at `/cases/003/`, covers the Tightie Whities dog-walking report; its opening timestamp is the case creation time, not an asserted encounter time. Optional `organizerNotice` records contain `attribution`, `timeLabel`, and plain-text `paragraphs`, rendered as an escaped quotation. PNN-002 uses the supplied witch flier and reminder, dated October 6, 2026 at 8:28 p.m. America/Denver as confirmed by the user.
+Image evidence uses `type: "image"`, a local PNG/JPEG/WebP `src`, positive integer `width` and `height`, and nonempty `id`, `alt`, `label`, `description`, and `caption`. Optional boolean `reconstruction: true` labels an image PNN reconstruction instead of supplied game material; use it for generated illustrations with explicit reconstruction captions. PNN-003 includes an AI-generated sketch in `public/assets/evidence/003/` alongside its anonymous witness report. Images remain uncropped; the first evidence item supplies either its image or video poster to the homepage. Written witness evidence uses `type: "report"`, nonempty `id`, `label`, `description`, and `caption`; no media file is required. The generator escapes the report and labels it as a witness account. Report-only cases produce a text-only homepage feature. PNN-003, at `/cases/003/`, covers the Tightie Whities dog-walking report; its opening timestamp is the case creation time, not an asserted encounter time. Optional `organizerNotice` records contain `attribution`, `timeLabel`, and plain-text `paragraphs`, rendered as an escaped quotation. PNN-002 uses the supplied witch flier and reminder, dated October 6, 2026 at 8:28 p.m. America/Denver as confirmed by the user.
 
-Preview `/cases/`, `/cases/001/`, and `/cases/002/` over HTTP. Explicit `index.html` links also work when opening files directly. Each case displays a subject-team panel using the name, color, and logo resolved from `data/teams.json` through `suspectTeamId`. The first case uses `assets/evidence/001/black-webb-bandits-panther-reconstruction.mp4` and an extracted `black-webb-bandits-panther-reconstruction-poster.jpg`. Store case media under `assets/evidence/<case-id>/`; keep media awaiting assignment in `assets/evidence/unassigned/`. The former spotlight files have been moved into this structure without altering their contents. Update JSON paths when assigning media. The case generator validates required content, team references, unique IDs, and media paths, and escapes rendered text.
+Preview `/cases/`, `/cases/001/`, and `/cases/002/` over HTTP. Explicit `index.html` links also work when opening files directly. Each case displays a subject-team panel using the name, color, and logo resolved from `data/teams.json` through `suspectTeamId`. The first case uses `assets/evidence/001/black-webb-bandits-panther-reconstruction.mp4` and an extracted `black-webb-bandits-panther-reconstruction-poster.jpg`. Store case media under `public/assets/evidence/<case-id>/` (referenced in JSON as `assets/evidence/<case-id>/...`); keep media awaiting assignment in `unassigned-evidence/`. The former spotlight files have been moved into this structure without altering their contents. Update JSON paths when assigning media. The case generator validates required content, team references, unique IDs, and media paths, and escapes rendered text.
 
 Only records with `published: true` appear in the generated listing. This flag does not make JSON private or remove previously generated pages. If withdrawing an existing case, explicitly replace its old page with an appropriate notice while preserving any printed QR URL. Never store private drafts in deployed data.
 
@@ -78,10 +74,10 @@ The `/tips/` page is ready for a Tally standard embed, with reporting guidance, 
 6. Add `/recaptcha` immediately above Submit. Set button text to **Send to Inspector Clueso's office**. Use this confirmation: **Report received. Inspector Clueso's office at PNN will review your submission. Nothing is published automatically. Your alibi may now resume.** [Spam protection](https://tally.so/help/recaptcha).
 7. Set the form's theme to blush `#fff5f8`, dark berry text `#30212c`, and magenta buttons `#b60060`, with a readable sans-serif font. Leave Tally branding on the free plan. Exact custom CSS and branding removal are optional paid features, not required here.
 8. In Settings, enable self email notifications to your account if desired. Keep submissions and any connected spreadsheets private; do not enable public results or automatic publication. Review reports in the form's **Submissions** tab. File links exported into other tools may grant access to anyone who receives those links. [Notifications](https://tally.so/help/email-notifications).
-9. Publish the form. Copy its public respondent link (`https://tally.so/r/FORM_ID`), not an editor/dashboard link. Paste it into `formUrl` in `data/tip-line.json` and run `node scripts/generate-tips.mjs`. Commit the config and generated `tips/index.html`. Alternatively, send the public link to the coding agent to complete this step. No password or API key is needed.
+9. Publish the form. Copy its public respondent link (`https://tally.so/r/FORM_ID`), not an editor/dashboard link. Paste it into `formUrl` in `data/tip-line.json` and commit it; the next build renders the embed. Alternatively, send the public link to the coding agent to complete this step. No password or API key is needed.
 10. Test `/tips/` on desktop and phone with one harmless photo. Confirm the submission and attachment arrive privately, permission is recorded, required fields work, unsupported/oversized files are rejected, and the confirmation appears. Delete the test submission afterward. Also check the direct link if an embed/script blocker is enabled. No end-to-end submission has been tested until your real form is connected.
 
-The site generator supplies the standard embed with a hidden duplicate form title, transparent background, left alignment, and dynamic height. You do not need to paste Tally's embed code. It uses the official widget script only on the configured tips page; the direct link remains available if that script fails. The widget can forward the page URL/query parameters, so do not place personal information in tip-page URLs or add identity/tracking hidden fields. [Embed documentation](https://developers.tally.so/widgets/embeds).
+The `TallyEmbed` component supplies the standard embed with a hidden duplicate form title, transparent background, left alignment, and dynamic height. You do not need to paste Tally's embed code. It uses the official widget script only on the configured tips page; the direct link remains available if that script fails. The widget can forward the page URL/query parameters, so do not place personal information in tip-page URLs or add identity/tracking hidden fields. [Embed documentation](https://developers.tally.so/widgets/embeds).
 
 For form introductory text, use: **A suspicious prank. An unexplained paw print. An alibi with too many details. Tell Inspector Clueso's office at PNN what happened. This is part of the Broomstick Challenge neighborhood game, not an emergency reporting service. Reports and files are sent to Inspector Clueso's office for private PNN review. Nothing is automatically published. Leave out addresses, phone numbers, license plates, and uninvolved people's information. Posting here does not replace proof in the game group for prank points.**
 
@@ -89,41 +85,35 @@ Only approved reports with publication permission should be copied into public c
 
 ## Authoring newsletter editions
 
-Edit `data/newsletters/001.json`, then run:
-
-```sh
-node scripts/generate-newsletters.mjs
-```
-
-This generates `newsletter/001/index.html` and updates only the marked edition-list region in `newsletter/index.html`. Commit source and generated HTML together; GitHub Pages needs no build step. Do not hand-edit generated editions.
+Edit `data/newsletters/001.json`, then run `npm run build`. The build writes `dist/newsletter/001/index.html` and updates the edition list on `/newsletter/`. Commit only the JSON; CI deploys the rest. To import into EmailOctopus, open the built file from your local `dist/` after `npm run build`.
 
 To start another edition:
 
 ```sh
-node scripts/generate-newsletters.mjs --new 002
+npm run new-edition -- 002
 ```
 
-This creates `data/newsletters/002.json` with neutral draft copy and generates `newsletter/002/index.html`. Existing source files are never overwritten by `--new`. Edit the new JSON and regenerate. The script does not send campaigns or change EmailOctopus settings.
+This creates `data/newsletters/002.json` with neutral draft copy. Existing source files are never overwritten. Edit the new JSON and rebuild. The script does not send campaigns or change EmailOctopus settings.
 
 Each filename matches its three-digit `id`. Required fields: `id`, `status` (`draft`, `sample`, or `published`), `title`, `subject`, `preheader`, and nonempty `sections`. Each section has `tone` (`dark`, `white`, `blush`, or `pink`), `heading`, optional `kicker`, and `blocks`. Paragraph blocks use `type: "paragraph"` and `runs` of `{ "text": "...", "bold": true, "italic": true }` (format flags optional); newline characters become line breaks. Statistics blocks use `type: "stats"` and `items` with `value` and `text`. Keep spoof-science labels explicit. Text is HTML-escaped; content merge-tag injection is rejected.
 
-An optional single `featuredCase` contains `id`, an editorial `teaser`, and `linkLabel`. The generator validates that the case is published and resolves its case number/title from `data/cases.json`. **Every edition's established format:** when present, `featuredCase` always renders first, as a short, funny, spoiler-light hint toward the latest published case (teaser copy, not a full case summary), styled as the opening headline. The `sections` array supplies the main feature next: a hilarious, exaggerated PNN article with invented statistics in the established mock-institute voice. The template then automatically appends the fixed PNN Dispatch and Tip Line/hotline closing block; do not duplicate that content in `sections`. Edition 001 published this way: its opening hint points to case 003, and its main feature (Go Big or Go Haunt / Pink Advantage spoof science / mascot confidence) was drafted from the supplied numbered reference assets in `assets/evidence/unassigned/` (a dispatch-flyer mockup, a Pink Panther-themed newsletter concept, and a fake research-institute PDF). Those reference files are inspiration only: they depict a third-party trademarked character and are never embedded or linked from the published site or emails. Review the hint/teaser copy whenever the latest case changes.
+An optional single `featuredCase` contains `id`, an editorial `teaser`, and `linkLabel`. The generator validates that the case is published and resolves its case number/title from `data/cases.json`. **Every edition's established format:** when present, `featuredCase` always renders first, as a short, funny, spoiler-light hint toward the latest published case (teaser copy, not a full case summary), styled as the opening headline. The `sections` array supplies the main feature next: a hilarious, exaggerated PNN article with invented statistics in the established mock-institute voice. The template then automatically appends the fixed PNN Dispatch and Tip Line/hotline closing block; do not duplicate that content in `sections`. Edition 001 published this way: its opening hint points to case 003, and its main feature (Go Big or Go Haunt / Pink Advantage spoof science / mascot confidence) was drafted from the supplied numbered reference assets in `unassigned-evidence/` (a dispatch-flyer mockup, a Pink Panther-themed newsletter concept, and a fake research-institute PDF). Those reference files are inspiration only: they depict a third-party trademarked character and are never embedded or linked from the published site or emails. Review the hint/teaser copy whenever the latest case changes.
 
 Drafts generate for review but are excluded from the listing; samples and published editions are listed newest ID first. These flags do not provide privacy or delete old pages. Preserve edition URLs; explicitly replace withdrawn editions with notices. A `published` label does not send an email.
 
-`scripts/templates/newsletter.html` supplies the email shell: inline styling, a fluid 600px table layout, Outlook width wrapper, system fonts, hidden preheader, PNN logo, dispatch QR/button, reporting callout, fictional-game context, and all required EmailOctopus tags:
+`src/email/newsletter.html` supplies the email shell: inline styling, a fluid 600px table layout, Outlook width wrapper, system fonts, hidden preheader, PNN logo, dispatch QR/button, reporting callout, fictional-game context, and all required EmailOctopus tags:
 
 - `{{SenderInfoLine}}` inserts account-configured sender details.
 - `{{UnsubscribeURL}}` is a visible unsubscribe link.
 - `{{RewardsURL}}` is the Starter-plan EmailOctopus credit link.
 
-Keep real sender addresses and recipient lists in EmailOctopus, not this repository. The generator rejects email scripts/analytics and missing required template tokens/tags. Import the complete generated `newsletter/<id>/index.html` into EmailOctopus's Code your own editor. Copy the subject and preheader from JSON; set the campaign preview-text field and preserve any preview block EmailOctopus inserts. Review sample labels before changing status to `published`. Configure account sender details and use Preview & test before sending. Provider validation and sending are not automated.
+Keep real sender addresses and recipient lists in EmailOctopus, not this repository. The generator rejects email scripts/analytics and missing required template tokens/tags. Import the complete built `dist/newsletter/<id>/index.html` into EmailOctopus's Code your own editor. Copy the subject and preheader from JSON; set the campaign preview-text field and preserve any preview block EmailOctopus inserts. Review sample labels before changing status to `published`. Configure account sender details and use Preview & test before sending. Provider validation and sending are not automated.
 
 There is no separate `.txt` file: [EmailOctopus automatically generates the plain-text alternative from HTML](https://emailoctopus.com/blog/designing-emails-everything-you-need-to-know). Review the provider's conversion when preparing a campaign.
 
 Email images use absolute HTTPS URLs at `purrpetrators.net`: `assets/images/pnn.png` (900 x 330, displayed at 240 x 88) and `assets/qr/pnn-dispatch-qr.png` (900 x 900, displayed at 225 x 225). Keep them hosted before sending. The QR points to the permanent `https://purrpetrators.net/dispatch/`. Local previews use those hosted images too. Copy remains readable with images blocked. Browser checks do not establish inbox compatibility; test the imported campaign in intended clients.
 
-Run `node --test scripts/generate-newsletters.test.mjs` for generator validation and scaffolding checks. Future approved PDFs may still live under `assets/downloads/`; none exist yet.
+Run `npm test` for email validation, scaffolding, and no-script checks. Future approved PDFs may live under `public/assets/downloads/`; none exist yet.
 
 ## Newsletter sign-up / EmailOctopus subscribe setup
 
@@ -131,13 +121,7 @@ The site has no backend, so new subscribers are collected directly by EmailOctop
 
 1. In EmailOctopus, create (or reuse) the list that should receive PNN subscribers, then build an inline embedded sign-up form for it (**Grow → Forms**). Keep it short: email address only, PNN-toned copy, and a confirmation message such as **You're on the list. Inspector Clueso's office will keep you posted.** Match the site's blush `#fff5f8` / dark berry `#30212c` / magenta `#b60060` palette if the editor allows it.
 2. Click **`</> Add to your website`** and copy the generated script tag's `src` URL — a `https://eomailN.com/form/FORM_ID.js` link. Do not copy any other markup; the generator rebuilds the `<script>` tag itself from this URL.
-3. Paste that URL into `embedSrc` in `data/newsletter-subscribe.json`, then run:
-
-   ```sh
-   node scripts/generate-newsletter-subscribe.mjs
-   ```
-
-   This updates only the marked subscribe region on `newsletter/index.html`. Commit the config and generated HTML together. A blank `embedSrc` keeps the page in its honest "getting connected" state. No API key is needed; the generator only accepts a `https://eomailN.com/form/FORM_ID.js` URL (sharded EmailOctopus domain, UUID-shaped form ID) and rejects anything else.
+3. Paste that URL into `embedSrc` in `data/newsletter-subscribe.json`, and commit it; the next build renders the embed on `/newsletter/`. A blank `embedSrc` keeps the page in its honest "getting connected" state. No API key is needed; the generator only accepts a `https://eomailN.com/form/FORM_ID.js` URL (sharded EmailOctopus domain, UUID-shaped form ID) and rejects anything else.
 4. Test sign-up end-to-end with a throwaway address before announcing it, and unsubscribe/delete the test entry afterward. Also check the page with JavaScript disabled to confirm the noscript fallback and Tip Line link work.
 
 Keep real list membership, sender identity, and campaign sending in EmailOctopus; this repository only stores the public embed script URL.
@@ -150,11 +134,11 @@ The unlisted `/resources/` page links to the flier and both QR SVGs, and the pri
 
 Print the QR for **https://purrpetrators.net/dispatch/**. This permanent PNN-branded URL chooses a random published case on every visit without exposing selection logic in the URL. The ready-to-use dispatch asset is `assets/qr/pnn-dispatch-qr.svg`. It encodes that exact HTTPS URL with a white quiet zone and high error correction. Do not crop the white margin, stretch the image, or print too small; test the actual printed piece on a phone after deployment.
 
-`dispatch/index.html` loads `scripts/dispatch.js`, which fetches `data/cases.json` with `cache: 'no-store'`, filters for `published: true` and valid three-digit IDs, and uses `location.replace` to open a local case. Drafts and invalid IDs are excluded; a case can repeat on consecutive scans. With one published case, all scans open it. The dispatch selection itself uses no cookies or tracking and no third-party redirect service. Website pages separately include Google Analytics.
+`/dispatch/` loads `public/scripts/dispatch.js`, which fetches `data/cases.json` with `cache: 'no-store'`, filters for `published: true` and valid three-digit IDs, and uses `location.replace` to open a local case. Drafts and invalid IDs are excluded; a case can repeat on consecutive scans. With one published case, all scans open it. The dispatch selection itself uses no cookies or tracking and no third-party redirect service. Website pages separately include Google Analytics.
 
-To add a case, update the case JSON, run `node scripts/generate-cases.mjs`, and deploy the JSON and generated case pages together. New published cases then enter the QR selection without reprinting anything. Keep `/dispatch/` permanently stable. Missing/invalid data, an empty collection, a slow request, or disabled JavaScript leave a readable PNN page with a case-archive link rather than a redirect loop. Run `node --test scripts/dispatch.test.mjs` to verify selection and failure handling.
+To add a case, update the case JSON and push; CI builds and deploys the data and case pages together. New published cases then enter the QR selection without reprinting anything. Keep `/dispatch/` permanently stable. Missing/invalid data, an empty collection, a slow request, or disabled JavaScript leave a readable PNN page with a case-archive link rather than a redirect loop. Run `npm test` (`tests/dispatch.test.mjs`) to verify selection and failure handling.
 
-The pink PNN artwork is available as `assets/qr/pnn-dispatch-qr.svg` and `assets/qr/pnn-tips-qr.svg`. These encode `https://purrpetrators.net/dispatch/` and `https://purrpetrators.net/tips/`, respectively. Both are square QR-only artwork with dark magenta modules on white and an enlarged original pink feline paw inside a magenta circle on a white inset. They retain a four-module quiet zone and high error correction; there are no surrounding labels or frames. Keep the central inset small and verify decoding after any change. The two SVGs remain canonical; `assets/qr/pnn-dispatch-qr.png` is the email derivative. Plain variants remain retired. Both themed SVGs were rendered and independently decoded; test your final printed size on a phone before distributing.
+The pink PNN artwork is available as `public/assets/qr/pnn-dispatch-qr.svg` and `assets/qr/pnn-tips-qr.svg`. These encode `https://purrpetrators.net/dispatch/` and `https://purrpetrators.net/tips/`, respectively. Both are square QR-only artwork with dark magenta modules on white and an enlarged original pink feline paw inside a magenta circle on a white inset. They retain a four-module quiet zone and high error correction; there are no surrounding labels or frames. Keep the central inset small and verify decoding after any change. The two SVGs remain canonical; `assets/qr/pnn-dispatch-qr.png` is the email derivative. Plain variants remain retired. Both themed SVGs were rendered and independently decoded; test your final printed size on a phone before distributing.
 
 QR images were generated using Segno in temporary tooling; neither Python QR dependencies nor a QR generation service are needed to run or deploy the site. QR artwork only needs regeneration if the encoded URL deliberately changes, which would require replacing printed copies.
 
@@ -165,6 +149,7 @@ QR images were generated using Segno in temporary tooling; neither Python QR dep
 - Confirm videos remain paused until activated and keyboard controls are accessible.
 - Confirm the favicon, styles, and scripts load under the deployed URL.
 - Open a nonexistent nested URL on GitHub Pages to check the 404 page.
+- `npm test` passes (it also verifies every printed-QR URL exists in the build).
 
 ## Color palette
 
@@ -174,7 +159,7 @@ The current theme uses a light blush background and dark berry text, with 18px b
 
 ## PNN telephone hotline
 
-The public hotline is **+1 (801) 79-PRANK**, which dials **+1 (801) 797-7265**. Click-to-call links use `tel:+18017977265`. It appears in the homepage reporting callout, the Tip Line call panel, case reporting callouts, and all page footers. Case links are maintained in the generator. Tally remains the photo/video submission channel; phone-service settings are managed outside this repository. No calls were placed during site verification.
+The public hotline is **+1 (801) 79-PRANK**, which dials **+1 (801) 797-7265**. Click-to-call links use `tel:+18017977265`. It appears in the homepage reporting callout, the Tip Line call panel, case reporting callouts, and all page footers. Case links are maintained in the shared components. Tally remains the photo/video submission channel; phone-service settings are managed outside this repository. No calls were placed during site verification.
 
 ## Agent guidance and case callbacks
 
@@ -188,7 +173,7 @@ The letter-size prank leave-behind is `/resources/pranked.html`, linked from the
 
 ## Google Analytics
 
-Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `scripts/generate-cases.mjs` maintains it on generated pages; the Tip Line generator preserves the surrounding head. Generated email editions under `newsletter/<id>/` and the authoring template are excluded.
+Website HTML pages include the supplied Google tag for `G-KGKE2M052Z`, including the homepage, 404, case archive and cases, dispatch, newsletter landing page, Tip Line, and print/resource pages. `src/components/layout/Document.jsx` emits it for every page. Email editions under `newsletter/<id>/` and the email template are excluded (`npm test` checks both).
 
 The tag loads Google's external script asynchronously and queues the standard initialization and configuration calls. There are no custom event handlers, user IDs, submission-content integrations, or consent interface added by this change. Analytics can use cookies; never include private report details in page URLs or analytics parameters. Dispatch still redirects immediately without waiting for analytics, so a dispatch page view is not guaranteed before navigation. The destination case has its own tag.
 

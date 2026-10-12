@@ -1,0 +1,139 @@
+{
+  "sheets": [
+    {
+      "title": "Sheet 1: Parking commentary & compliments",
+      "cards": [
+        {
+          "title": "THE CURB HAS QUESTIONS.",
+          "message": "Mostly about the distance. It thought you two were closer."
+        },
+        {
+          "title": "PARKED WITH CONFIDENCE.",
+          "message": "Accuracy has declined to comment."
+        },
+        {
+          "title": "A STRONG OPENING ATTEMPT.",
+          "message": "We were surprised to learn it was also the final attempt."
+        },
+        {
+          "title": "THE PARKING IS ABSTRACT.",
+          "message": "We understand the concept. We're still working on the execution."
+        },
+        {
+          "title": "THIS PARKING JOB HAS RANGE.",
+          "message": "Specifically, the range between your tires and the curb."
+        },
+        {
+          "title": "THE VEHICLE HAS LANDED.",
+          "message": "Whether it has parked remains an editorial question."
+        },
+        {
+          "title": "A BOLD INTERPRETATION OF PARALLEL.",
+          "message": "PNN respects your commitment to exploring other angles."
+        },
+        {
+          "title": "YOUR CAR HAS REQUESTED A SECOND TAKE.",
+          "message": "It believes it can do better with different direction."
+        },
+        {
+          "title": "ANNOYINGLY WELL PARKED.",
+          "message": "We brought an entire stack of sarcastic cards. Now look what you've done."
+        },
+        {
+          "title": "NOTHING TO REPORT.",
+          "message": "Straight. Tidy. Considerate. An absolute disaster for the newsroom."
+        }
+      ]
+    },
+    {
+      "title": "Sheet 2: Compliments & neighborhood notices",
+      "cards": [
+        {
+          "title": "THE CURB FEELS SEEN.",
+          "message": "Close enough to be friendly. Far enough to maintain boundaries."
+        },
+        {
+          "title": "YOU LEFT ROOM FOR OTHER PEOPLE.",
+          "message": "An unexpected development. PNN is preparing a special report."
+        },
+        {
+          "title": "COMPLIMENT ENCLOSED.",
+          "message": "Your parking is excellent. We're as uncomfortable with this as you are."
+        },
+        {
+          "title": "PNN HAS FOUND YOUR FLAW.",
+          "message": "You've left us nothing to make fun of. Deeply inconsiderate."
+        },
+        {
+          "title": "SUSPICIOUSLY COMPETENT.",
+          "message": "Inspector Clueso would like to know how long you have been practicing."
+        },
+        {
+          "title": "YOUR CAR UNDERSTOOD THE ASSIGNMENT.",
+          "message": "Please ask it to stop making the other cars look bad."
+        },
+        {
+          "title": "YOUR WINDSHIELD HAS BEEN PROMOTED.",
+          "message": "It is now a community bulletin board. This appointment expires when you remove the card."
+        },
+        {
+          "title": "UNSOLICITED LOCAL JOURNALISM.",
+          "message": "You parked. We published. Neither of us expected much from this encounter."
+        },
+        {
+          "title": "YOUR WIPER HAS ACCEPTED A DELIVERY.",
+          "message": "We apologize for conducting newsroom business through your car's eyebrows."
+        },
+        {
+          "title": "THE CAR DECLINED AN INTERVIEW.",
+          "message": "It offered no comment, which we found unusually professional."
+        }
+      ]
+    },
+    {
+      "title": "Sheet 3: Neighborhood notices & almost-pranked cards",
+      "cards": [
+        {
+          "title": "LOCAL CAR CAUGHT DOING NOTHING WRONG.",
+          "message": "Editors are struggling to find an angle. Your cooperation is not helping."
+        },
+        {
+          "title": "THIS CARD IS THE WHOLE INCIDENT.",
+          "message": "Please do not give our newsroom credit for a more sophisticated operation."
+        },
+        {
+          "title": "PLEASE REMAIN ENTIRELY UNIMPRESSED.",
+          "message": "PNN has left a card on your car and is behaving as though this constitutes a media campaign."
+        },
+        {
+          "title": "THIS WAS SUPPOSED TO BE MORE IMPRESSIVE.",
+          "message": "Please imagine a dramatic reveal. The printing department has done its best."
+        },
+        {
+          "title": "YOUR CAR ALMOST GOT PRANKED.",
+          "message": "Then someone said, \"We should probably have a plan.\" Momentum was lost."
+        },
+        {
+          "title": "PRANK CANCELLED: EXCESSIVE MEETING.",
+          "message": "Three ideas. Four opinions. No decision. Please enjoy this administrative outcome."
+        },
+        {
+          "title": "WE HAD SOMETHING ELABORATE PLANNED.",
+          "message": "This card represents a substantial reduction in scope."
+        },
+        {
+          "title": "THE PRANK BUDGET WAS ONE CARD.",
+          "message": "You are currently holding the entire operation."
+        },
+        {
+          "title": "THEORETICALLY PRANKED.",
+          "message": "In the planning meeting, it was spectacular. This is the version that made it out of the meeting."
+        },
+        {
+          "title": "SPARED BY A TECHNICALITY.",
+          "message": "The technicality was that we couldn't think of anything funnier than this card."
+        }
+      ]
+    }
+  ]
+}
