@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "commonjs",
+  "description": "Browser scripts written as plain CommonJS-compatible files so Node tests can require them. Not copied to dist."
+}
