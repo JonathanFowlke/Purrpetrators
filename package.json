@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve-dist.mjs",
     "new-edition": "node scripts/new-edition.mjs",
+    "update": "npx --yes npm-check-updates -u && npm install",
     "test": "npm run build && node --test \"tests/*.test.mjs\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

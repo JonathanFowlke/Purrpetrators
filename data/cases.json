@@ -8,8 +8,8 @@
     "suspectTeamId": "black",
     "incidentTitle": "Caught in their own Webb",
     "summary": "Seven teams, seven names, one straggler. PNN asks why the Black Webb Bandits took the longest to pick a name that is three words and a second B.",
-    "incidentDescription": "The **Black Webb Bandits** were the final team to submit their name. Rumors of cold feet circulated, all eight of them. The word 'chicken' was mentioned, and PNN would like the record to show it was mentioned by other people, in a tone of enormous enjoyment.\n\nBy then, other teams had already named themselves after fire, underwear, and an actual government cover-up. The Bandits arrived last, with a name that is a spider pun wearing a mask. PNN has opened a file to determine whether this was a failure of nerve or simply *a failure to escape the panther.*",
-    "suspectedMotive": "**PNN theory:** the Bandits spent the better part of a week hunting for a name with more than two puns in it, and settled for exactly two ('Webb' and 'Bandits'). It is the kind of math only a spider can do: eight legs, one idea.\n\nThe alternative theory is that a spider-themed team cannot announce anything while a panther is on patrol. Spiders are experts at waiting for something to walk into their plans. They have simply never been timed.",
+    "incidentDescription": "The **Black Webb Bandits** were the final team to submit their name. **Rumors of cold feet circulated, all eight of them.** The word 'chicken' was mentioned, and PNN would like the record to show it was mentioned by other people, *in a tone of enormous enjoyment.*\n\nBy then, the other teams had already named themselves after:\n\n- **Fire.**\n- **Underwear.**\n- **An actual government cover-up.**\n\nThe Bandits arrived last, with **a name that is a spider pun wearing a mask.** PNN has opened a file to determine whether this was a failure of nerve or simply *a failure to escape the panther.*",
+    "suspectedMotive": "**PNN theory:** the Bandits spent the better part of a week hunting for a name with more than two puns in it, and settled for exactly two ('Webb' and 'Bandits'). It is the kind of math only a spider can do: **eight legs, one idea.**\n\n**Alternative theory:** a spider-themed team cannot announce anything while a panther is on patrol. *Spiders are experts at waiting for something to walk into their plans. They have simply never been timed.*",
     "evidence": [
       {
         "id": "001-A",
@@ -21,9 +21,9 @@
         "caption": "Illustrative PNN reconstruction. Not footage of an actual team incident. Remarkably few exit strategies. No Wi-Fi for submitting forms."
       }
     ],
-    "investigatorNote": "The chicken connection remains unsupported. Clueso prefers the panther theory, mostly because the panther is the right color and he has been hoping for an excuse. He notes that a reconstruction featuring a panther is not, regrettably, evidence against the Prowling Purrpetrators. He has requested more facts and fewer obstacles to his conclusion.",
+    "investigatorNote": "Clueso's findings:\n\n- **The chicken connection:** unsupported.\n- **The panther theory:** preferred, mostly because the panther is the right color and he has been hoping for an excuse.\n- **A caveat:** a reconstruction featuring a panther is not, regrettably, evidence against the Prowling Purrpetrators.\n- **Requested:** more facts and fewer obstacles to his conclusion.",
     "threatLevel": "Temporarily contained. Webbing intact.",
-    "disposition": "Name recovered. Alibi pending. The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation. A word of advice: being last is only embarrassing if it becomes a pattern. (It becomes a pattern. See PNN-002.)",
+    "disposition": "**Name recovered. Alibi pending.** The Black Webb Bandits are officially on the board; the reason for their late arrival remains under investigation.\n\n*A word of advice: being last is only embarrassing if it becomes a pattern.* **(It becomes a pattern. See PNN-002.)**",
     "relatedStoryIds": [],
     "published": true,
     "purrHiss": [
@@ -44,7 +44,7 @@
     "suspectTeamId": "black",
     "incidentTitle": "Last to announce. Too early to bribe.",
     "summary": "After finishing last in the name reveal, the Black Webb Bandits staged a dramatic comeback: they arrived before bribing had even opened. Their reward is the chance to do it all again. PNN has never seen a team lap the field and still finish behind the starting line.",
-    "incidentDescription": "The **Black Webb Bandits** were last to announce their name. Having apparently decided that being late once was quite enough, they left treats and an 'Are you a witch?' flier before the witches had announced instructions for bribing. *A bold leap from behind schedule to ahead of permission.* Wanda, Hilda, and Glenda then reminded the teams that every early bribe would receive a NO. The Bandits had successfully expedited their return trip.\n\nIn a single week, the Bandits have now been last and early, which scientists describe as 'never on time' and the Bandits describe as 'range.' The witches' policy is simple: NO. The Bandits' policy appears to be 'ask early, ask often, and bring snacks.'",
+    "incidentDescription": "The **Black Webb Bandits** were last to announce their name. Having apparently decided that being late once was quite enough, they left treats and an 'Are you a witch?' flier **before the witches had announced instructions for bribing.** *A bold leap from behind schedule to ahead of permission.* Wanda, Hilda, and Glenda then reminded the teams that every early bribe would receive **a NO.** The Bandits had successfully expedited their return trip.\n\nIn a single week, the Bandits have now been last and early, which scientists describe as 'never on time' and the Bandits describe as 'range.' The two policies on file:\n\n- **The witches:** NO.\n- **The Bandits (apparently):** 'ask early, ask often, and bring snacks.'",
     "organizerNotice": {
       "attribution": "Wanda, Hilda, & Glenda",
       "timeLabel": "October 6, 2026 at 8:28 PM (America/Denver) ? edited",
@@ -58,7 +58,7 @@
         "🧙‍♀️ You have been warned. 🧙‍♂️"
       ]
     },
-    "suspectedMotive": "**Leading theory:** the Bandits, stung by the late name reveal, resolved to be early for everything from now on, including events not yet invented. A spider's patience, a spider's timing, and a spider's complete disregard for the calendar. PNN also considers the possibility that the Bandits read 'wait for our instructions' as 'a suggestion with a deadline.'",
+    "suspectedMotive": "**Leading theory:** the Bandits, stung by the late name reveal, resolved to be early for everything from now on, *including events not yet invented.* The evidence on file:\n\n- **A spider's patience.**\n- **A spider's timing.**\n- **A spider's complete disregard for the calendar.**\n\nPNN also considers the possibility that the Bandits read 'wait for our instructions' as *'a suggestion with a deadline.'*",
     "evidence": [
       {
         "id": "002-A",
@@ -72,9 +72,9 @@
         "caption": "Broomstick Challenge field material. The paperwork was ready. The witches were not. Neither, strictly speaking, was the calendar."
       }
     ],
-    "investigatorNote": "Clueso was prepared to blame the Prowling Purrpetrators. Then he read the name on the flier. The Bandits had helpfully signed their own scheduling incident. Eight legs, a printed invitation, and still nobody on the brakes. He has asked whether the pink team could, just once, be responsible for something this easy.",
+    "investigatorNote": "Clueso was prepared to blame the Prowling Purrpetrators. **Then he read the name on the flier.** The Bandits had helpfully signed their own scheduling incident. *Eight legs, a printed invitation, and still nobody on the brakes.* He has asked whether the pink team could, just once, be responsible for something this easy.",
     "threatLevel": "Chronologically unpredictable",
-    "disposition": "Last to introduce themselves. Early to ask the question. Required to bring treats again. The witches get another round; the Bandits get another chance to locate the starting line. PNN recommends waiting for the announcement before attempting any further improvements in punctuality.\n\n**Early. Late. Never merely on time.** The Bandits have apparently decided that punctuality is for people without range.",
+    "disposition": "The Bandits' record, as it stands:\n\n- **Last** to introduce themselves.\n- **Early** to ask the question.\n- **Required** to bring treats again.\n\nThe witches get another round; the Bandits get another chance to locate the starting line. PNN recommends waiting for the announcement before attempting any further improvements in punctuality.\n\n**Early. Late. Never merely on time.** The Bandits have apparently decided that *punctuality is for people without range.*",
     "relatedStoryIds": [],
     "published": true,
     "relatedCaseIds": [
@@ -98,8 +98,8 @@
     "suspectTeamId": "white",
     "incidentTitle": "Two walks. One tight alibi.",
     "summary": "Two Tightie Whities. Two dogs. A few minutes apart. PNN examines a routine walk that became considerably less routine when somebody asked a follow-up question, and received a very long pause.",
-    "incidentDescription": "An anonymous source ([[redacted]]) out walking their dog reported encountering two different members of the **Tightie Whities**, each also walking a dog, heading downhill just a few minutes apart. One team member's dog ownership came as news to the witness. Asked how long they had owned the dog, the member appeared, in the witness's estimation, to struggle for an answer. A simple walk had acquired a surprisingly difficult history section. PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.\n\nThe **Tightie Whities**, a team named for tight, white underwear, have now demonstrated a second signature feature: loose ends. **A tight team. A loose story.** The dogs, for the record, were composed. They had clearly read the briefing. Their handlers had apparently only skimmed it.",
-    "suspectedMotive": "**Suspected operation:** leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. Separate the departures. Bring a dog. Look casual. A promising plan, defeated by the advanced investigative technique of saying hello twice. The alleged operation had accounted for timing, distance, and canine support. It had not budgeted for a neighbor with a memory.",
+    "incidentDescription": "An anonymous source ([[redacted]]) out walking their dog filed the following report on the **Tightie Whities:**\n\n- **Two members** of the team, **each walking a dog,** heading downhill just a few minutes apart.\n- **One member's dog ownership** came as news to the witness.\n- **Asked how long they had owned the dog,** the member appeared, in the witness's estimation, to struggle for an answer.\n\n*A simple walk had acquired a surprisingly difficult history section.* PNN notes that 'How long have you had your dog?' is not usually considered an advanced question.\n\nThe **Tightie Whities**, a team named for tight, white underwear, have now demonstrated a second signature feature: loose ends. **A tight team. A loose story.** The dogs, for the record, were composed. *They had clearly read the briefing. Their handlers had apparently only skimmed it.*",
+    "suspectedMotive": "**Suspected operation:** leave a secret team meeting in staggered departures, or scout a future prank under cover of canine exercise. The plan, as PNN reconstructs it:\n\n- **Separate the departures.**\n- **Bring a dog.**\n- **Look casual.**\n\nA promising plan, defeated by *the advanced investigative technique of saying hello twice.* The alleged operation had accounted for timing, distance, and canine support. **It had not budgeted for a neighbor with a memory.**",
     "evidence": [
       {
         "id": "003-A",
@@ -115,15 +115,15 @@
         "src": "assets/evidence/003/tightie-whities-operation-loose-end.png",
         "width": 1536,
         "height": 1024,
-        "alt": "Fictional PNN pencil sketch of two conspicuously casual dog walkers, one trailing toilet paper from his shoe, with annotations: Act natural, Paper trail, and Dog knows the script.",
+        "alt": "PNN pencil sketch of two conspicuously casual dog walkers, one trailing toilet paper from his shoe, with annotations: Act natural, Paper trail, and Dog knows the script.",
         "label": "Exhibit B - Operation Loose End",
         "description": "Clueso's sketch desk reconstructs the alleged attempt to look inconspicuous. The dogs have mastered it. Their handlers have requested additional rehearsal time and a better script. The toilet paper was not in the original plan, which is the problem with toilet paper.",
         "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses and toilet-paper detail, not a witnessed scene. Leave no trace. Except the complimentary paper trail."
       }
     ],
-    "investigatorNote": "In Clueso's fictional reconstruction, a ribbon of toilet paper trails from one operative's shoe: the Tightie Whities attempting to leave no trace while providing their own paper trail. He has labeled it *Operation Loose End.* The dogs, at least, remembered their roles. Clueso remains irritated that the Prowling Purrpetrators have supplied neither a confession nor anything this easy to follow. He wants it on record that a pink operation would have rehearsed the dog.",
+    "investigatorNote": "In Clueso's reconstruction, a ribbon of toilet paper trails from one operative's shoe: the Tightie Whities attempting to leave no trace while providing their own paper trail. He has labeled it *Operation Loose End.* The dogs, at least, remembered their roles.\n\nClueso remains irritated that the Prowling Purrpetrators have supplied neither a confession nor anything this easy to follow. **He wants it on record that a pink operation would have rehearsed the dog.**",
     "threatLevel": "Suspiciously well exercised",
-    "disposition": "**Clueso's assessment of the suspected operation:** elaborate departure plan, insufficient rehearsal for casual conversation. The Tightie Whities appear to have prepared for everything except 'Nice dog. How long have you had it?' PNN recommends a full dress rehearsal of saying hello. Until then: two walks, one tight alibi, and a cover story still being house-trained. Fetch is a game. This was not.",
+    "disposition": "**Clueso's assessment of the suspected operation:** elaborate departure plan, insufficient rehearsal for casual conversation. The Tightie Whities appear to have prepared for everything except *'Nice dog. How long have you had it?'* PNN recommends a full dress rehearsal of saying hello. Until then:\n\n- **Two walks.**\n- **One tight alibi.**\n- **A cover story still being house-trained.**\n\n*Fetch is a game. This was not.*",
     "relatedStoryIds": [],
     "relatedCaseIds": [],
     "published": true,
@@ -145,8 +145,8 @@
     "suspectTeamId": "orange",
     "incidentTitle": "Pyro Posse sets Area 51 Bureau ablaze. Fire department stands down.",
     "summary": "The Pyro Posse, a team named for fire, delivered a dumpster fire made entirely of balloons and party tissue. The Area 51 Bureau, a team named for secrets, now has its trash on display. Both teams are, PNN notes, fully inflated.",
-    "incidentDescription": "On the night of October 8, 2026, the **Pyro Posse** struck. The team reports that a pair of garbage cans belonging to the Area 51 Bureau camp were crowned with flame-colored balloons and red and yellow tissue paper. PNN has classified the incident as a Five-Alarm Party Store Run. The Posse also unveiled a poster of the Bureau's logo engulfed in flames, complete with scorched agents, a smoking saucer, and a cow in mid-abduction who looks like she wants to speak to a manager. **The cans were not abducted. They were merely accessorized.** For a team that exists to bury the truth, the Bureau has now been outed by its own recycling. *The truth was out there. It was at the curb. It had balloons.*\n\nNo fire department was called. Had one been consulted, it would have asked what was burning, been told 'balloons,' and filed the report under 'hot air.' The Posse chose a team built on cover-ups and delivered the least covert prank available: bright orange, shiny, and visible from space.",
-    "suspectedMotive": "**Motive on file:** the Pyro Posse, a team built around fire, has discovered that fire is difficult to carry, legally awkward, and unavailable at the dollar store. Balloons are, however, 100% hot air, which the Posse already had in abundance. Their official statement promises to \"bring them to ash.\" Experts note that ash requires something to burn, and the Posse brought only things that pop. Meanwhile, PNN theorizes that the Area 51 Bureau's strategy of staying under the radar has been undermined by two garbage cans glowing brighter than a landing strip. Unidentified Flaming Objects, identified.",
+    "incidentDescription": "On the night of **October 8, 2026**, the **Pyro Posse** struck. The team reports the following:\n\n- **Two garbage cans** belonging to the Area 51 Bureau camp were crowned with flame-colored balloons and red and yellow tissue paper. PNN has classified the incident as a *Five-Alarm Party Store Run.*\n- **A poster** of the Bureau's logo engulfed in flames was unveiled, complete with scorched agents, a smoking saucer, and a cow in mid-abduction who looks like she wants to speak to a manager.\n\n**The cans were not abducted. They were merely accessorized.** For a team that exists to bury the truth, the Bureau has now been outed by its own recycling. *The truth was out there. It was at the curb. It had balloons.*\n\n**No fire department was called.** Had one been consulted, it would have asked what was burning, been told 'balloons,' and *filed the report under 'hot air.'* The Posse chose a team built on cover-ups and delivered the least covert prank available: **bright orange, shiny, and visible from space.**",
+    "suspectedMotive": "**Motive on file:** the Pyro Posse, a team built around fire, has discovered that fire is:\n\n- **Difficult to carry.**\n- **Legally awkward.**\n- **Unavailable at the dollar store.**\n\nBalloons are, however, **100% hot air,** which the Posse already had in abundance. Their official statement promises to \"bring them to ash.\" *Experts note that ash requires something to burn, and the Posse brought only things that pop.*\n\nMeanwhile, PNN theorizes that the Area 51 Bureau's strategy of staying under the radar has been undermined by two garbage cans glowing brighter than a landing strip. **Unidentified Flaming Objects, identified.**",
     "evidence": [
       {
         "id": "004-A",
@@ -168,12 +168,12 @@
         "alt": "Illustrated poster of the Area 51 Bureau logo with three alarmed agents, a flying saucer and smoke, all in flames, over the words A Dumpster Fire. Disaster.",
         "label": "Exhibit B - The Bureau, as the Posse sees it",
         "description": "The Pyro Posse's rendering of the Area 51 Bureau logo, in which three agents appear singed and deeply unhappy, a saucer is smoking like it missed its exit, and a banner reads \"A Dumpster Fire. Disaster.\" The Bureau has spent decades perfecting the phrase \"nothing to see here.\" There is now a great deal to see. It is on fire, and it has a font.",
-        "caption": "Supplied game material from the Pyro Posse; a fictional artistic rendering, not an event that occurred. The Bureau has not yet commented. It is presumably classified, redacted, or both."
+        "caption": "Supplied game material from the Pyro Posse; an artistic rendering, not an event that occurred. The Bureau has not yet commented. It is presumably classified, redacted, or both."
       }
     ],
-    "investigatorNote": "Clueso admires a well-executed smear campaign, provided the smear is pink. He notes with professional jealousy that the Pyro Posse built a whole fire brand and sourced the flames from the party aisle, and that the Area 51 Bureau, experts in concealment, have been exposed by a trash day. Clueso also wishes to know why nobody has set the Prowling Purrpetrators on fire, even in balloon form. He would accept a tasteful bouquet. He has filed this under Unfair.",
+    "investigatorNote": "Clueso admires a well-executed smear campaign, *provided the smear is pink.* He notes, with professional jealousy:\n\n- **The Pyro Posse built a whole fire brand** and sourced the flames from the party aisle.\n- **The Area 51 Bureau, experts in concealment,** have been exposed by a trash day.\n\nClueso also wishes to know why nobody has set the Prowling Purrpetrators on fire, even in balloon form. He would accept a tasteful bouquet. **He has filed this under Unfair.**",
     "threatLevel": "Medium rare, mostly hot air",
-    "disposition": "**PNN assessment:** the Pyro Posse arrived with a bold slogan, a fierce reputation, and a bag of balloons, and left the Bureau's trash looking like a retirement party for a volcano. Total damage: none. Total hot air: considerable. The Area 51 Bureau, meanwhile, has been officially designated a Dumpster Fire, pending appeal, and PNN reminds them that Roswell was a long time ago and this is on their driveway. The Bureau's best move is to classify the incident. The Posse's best move is to pack something that actually burns, which PNN strongly advises against, because fire is not part of the game. Stick to the balloons, Posse. Everything else about this prank was already on fire.",
+    "disposition": "**PNN assessment:** the Pyro Posse arrived with a bold slogan, a fierce reputation, and a bag of balloons, and left the Bureau's trash looking like *a retirement party for a volcano.*\n\n- **Total damage:** none.\n- **Total hot air:** considerable.\n- **Area 51 Bureau:** officially designated a **Dumpster Fire,** pending appeal.\n\nPNN reminds the Bureau that Roswell was a long time ago and this is on their driveway. The Bureau's best move is to classify the incident. The Posse's best move is to pack something that actually burns, which PNN strongly advises against, **because fire is not part of the game.** Stick to the balloons, Posse. *Everything else about this prank was already on fire.*",
     "relatedStoryIds": [],
     "relatedCaseIds": [],
     "published": true,
@@ -282,7 +282,7 @@
         "caption": "Supplied game material from the Pyro Posse; a person on the lawn is blurred. Flags out, torches nowhere. PNN-004 called. It wants its hot air back."
       }
     ],
-    "investigatorNote": "Clueso resents the claim that the Pyro Posse are the only team playing. The Prowling Purrpetrators are playing. They are simply not being caught, which Clueso regards as an advanced technique and a personal insult. He also observes that the Posse knew exactly when two households would be away at football games, which suggests either excellent Purrveillance or a calendar. Clueso has requested the Posse's sources. He would like to compare them to his own, which currently consist of *a dog-walker and a hunch.* He adds that the pink team is, for the record, doing absolutely nothing incriminating, which is exactly what a guilty team would do.",
+    "investigatorNote": "Clueso resents the claim that the Pyro Posse are the only team playing. **The Prowling Purrpetrators are playing.** They are simply not being caught, which Clueso regards as *an advanced technique and a personal insult.*\n\nHe also observes that the Posse knew exactly when two households would be away at football games, which suggests either **excellent Purrveillance** or **a calendar.** Clueso has requested the Posse's sources. He would like to compare them to his own, which currently consist of *a dog-walker and a hunch.*\n\nHe adds that the pink team is, for the record, doing absolutely nothing incriminating, **which is exactly what a guilty team would do.**",
     "threatLevel": "Extra crispy. Zero surprises kept.",
     "disposition": "**PNN assessment:** four teams hit, three of them in one night, one of them forgotten until the following day. The Pyro Posse have burned laundry, spoiled surprises, deleted the evidence, and announced that nobody else is playing, *a feat of confidence rarely seen outside a fire drill.*\n\n- **Tightie Whities:** officially a laundry matter.\n- **Silver Bullets:** officially unidentified.\n- **Black Webb Bandits:** officially listed, subject to inspection.\n\nPNN reminds all teams that actual fire is not part of the game, that Rule 5 prohibits damaging property, and that the correct amount of fire for a prank is a paper cutout on a stick. PNN trusts the underwear was the Posse's to burn and that the lawn's only injury was to its pride.\n\n**Final ruling:** the Posse came, they saw, they posted, and then they deleted, in that order, before the victims got home. **They can start a fire. They cannot keep a secret. They cannot keep a count.** Penalties assessed: all of them. *Case smoldering. Laundry not returned.*",
     "relatedStoryIds": [],
@@ -314,6 +314,60 @@
         "purrs": 1,
         "hisses": 2,
         "note": "Webbed, listed, and announced last. Again."
+      }
+    ]
+  },
+  {
+    "id": "006",
+    "caseNumber": "PNN-006",
+    "dateOpened": "2026-10-11T12:30:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Paranoia confirmed. Trust no inbox. Illustrated.",
+    "suspectTeamId": "orange",
+    "incidentTitle": "Pyro Posse can start a fire but can't stand the mail.",
+    "summary": "The first PNN newsletter went out the night of October 10. By morning, the Pyro Posse had called it spam, answered a rebuttal with canned meat, and, losing, asked whether anyone was a witch. The team that sets things on fire can't stand the mail, and its paranoia about it is, by PNN's measure, *outstanding.*",
+    "incidentDescription": "The first PNN newsletter hit inboxes the night of **October 10, 2026.** By the morning of October 11, a member of the **Pyro Posse** ([[redacted]]) was in the game group opening with 'Speaking of rule breaking,' *a bold line from the team PNN-005 reminded about Rule 5.*\n\nThe incident log:\n\n- **The complaint:** a 'junk mail list' *cannot possibly be allowed.* The newsletter is treated as a **suspect.** *Paranoia level: rising.* Exhibit: a poster. **It needs a seat.**\n- **The pink reply:** a newsletter about the challenge is not junk mail. *Calm. Correct. Foreshadowing.*\n- **The rebuttal:** 'clearly spam.' They 'don't make the rules.' Attached: **canned meat.** *The meat didn't make the rules either.*\n- **The pink reply, part two:** the black market couldn't afford the Posse anyway, this is a free test of fake-news reflexes, and *you're welcome.* One grievance link attached. **Scoreboard: pink 1, comebacks 0.**\n- **The smoke bomb:** a sharp turn toward witches. **Paranoia has reached the witch stage.** In the Posse's world, keeping people informed is suspicious, and anyone calm about it *must know something.*\n\nBy the Posse's own standard, its unrequested clothesline on three lawns was spam too, *with more fire and less unsubscribe.* PNN had hoped for a rebuttal. **It got a lunch.**\n\n> Unless of course you're a witch...\n> — [[redacted]], a Pyro Posse member, game group\n\n**The topic was spam. The topic became witches.**",
+    "suspectedMotive": "**Working theory:** the Posse mistook a newsletter for a fire. Both arrive uninvited and leave everyone talking about what got burned. *Only one has an unsubscribe link.*\n\nSuspects:\n\n- **Being read.** *The defense is expected to plead 'felt seen.'*\n- **Edition 001's lead story,** which was about the Posse. *PNN does not believe in coincidences.*\n- **A can of something,** held at arm's length *like evidence.*\n\n**The Posse can start a fire. It cannot stand to be filed.** It is fine being the news. It is being delivered that hurts.\n\nPNN has charted the Posse's **paranoia level,** in order of escalation:\n\n- **The newsletter:** *mild paranoia.*\n- **The mailing list:** *moderate paranoia.*\n- **The unsubscribe link:** *elevated paranoia.* **Obviously a trap.**\n- **The pink team's calm reply:** **critical paranoia.** *Too calm. Hiding something.*\n- **Everyone who is not worried:** **peak paranoia.** *A witch.*\n\nThat last step is the pivot. It has three readings: a **smoke bomb,** a **forfeit** (*the recognized way to lose any argument*), or a **deflection** (*the person most eager to ask who the witches are wants the newsletter forgotten*). Clueso has opened a file. It contains one name, [[redacted]], and a pumpkin. *Neither is talking.*\n\nAfter a clothesline, a cobweb, and a bin of balloons, *everything looks like smoke. Even the inbox.* **A team this paranoid about the mail should not be reading a newsletter about pranks.** *Nobody is forcing them. That is the paranoia talking.*",
+    "evidence": [
+      {
+        "id": "006-A",
+        "type": "image",
+        "src": "assets/evidence/006/pyro-posse-ignoring-the-spam-pumpkins-guidance.jpeg",
+        "width": 687,
+        "height": 1024,
+        "alt": "A dark, cozy Halloween poster titled Ignoring the Spam: A Pumpkin's Guidance. Five jack-o'-lanterns, four with flames rising from their stems, sit around a round wooden table in a firelit cave of pumpkin-filled shelves. Above them floats a glowing mock inbox with three messages from a pink cartoon cat sender. The central pumpkin, arms folded, says Sigh, another spam email, just delete them. One pumpkin in the foreground reads a book. Pink paw prints drift from the fireplace. The footer reads Some messages just aren't worth the flame.",
+        "label": "Exhibit A - A Pumpkin's Guidance",
+        "description": "The Posse's illustrated guide to ignoring the newsletter. **Nothing says 'I'm not bothered' like commissioning art.** Its 'just delete them' advice comes from a team with real experience deleting things (PNN-005). The spam, per the poster, is sent by a pink cat offering 'Guaranteed Pranks.' PNN could not have written a better review. One pumpkin is reading. PNN is counting it as a subscriber. **Paranoia, now available in poster form.**",
+        "caption": "Supplied game material from the Pyro Posse; stylized artwork. 'Some messages just aren't worth the flame,' says a poster that took a great deal of flame."
+      },
+      {
+        "id": "006-B",
+        "type": "report",
+        "label": "Exhibit B - Independent verification",
+        "description": "PNN's Independent Verification Desk checked edition 001 against all nine rules. No rule covers newsletters, no personal information was sold or leaked, and every edition has an unsubscribe link. The Desk is neutral, objective, and located six inches from Clueso's chair.",
+        "caption": "Independent. Impartial. Issued by PNN, about PNN. PNN stands by it. PNN would."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **Not spam.** Spam is rarely this accurate.\n- **Professional respect.** Clueso has spent six cases suspecting one team on no evidence. The Posse suspected a newsletter in under a day. Clueso considers paranoia a profession, and *he has been outworked.* He is considering offering them a desk.\n- **The poster names the sender as a pink cat.** *It is the first physical evidence tying the Prowling Purrpetrators to anything, and it is a drawing.* Admissibility pending. The pumpkins were asked for a statement. They are still ignoring him.\n- **One click ends the mail.** The Posse chose a complaint, a poster, a GIF, and a pivot instead. Clueso considers it *a close reader.*\n- **The pink reply:** he checked the tone. **Calm.** The facts. **Correct.** The link, hoping for a typo. **It worked.** He finds this deeply suspicious. *Nobody is that good at being right.*",
+    "threatLevel": "Inbox-paranoid. Flame-adjacent. Ham-handed.",
+    "disposition": "**PNN assessment:** edition 001 was cleared by PNN's independent desk (Exhibit B). The likelier explanation is that the Posse took it personally. *Teams with thin skin and a thick file often do.*\n\n- **Pyro Posse:** officially spam-sensitive, unofficially *a subscriber with a poster.* Paranoia level: **severe.** Trust level: **the pumpkins.**\n- **Prowling Purrpetrators:** under scrutiny for being too calm, too accurate, and too polite. **Charges: excellence.**\n- **The pumpkins:** officially on fire, unofficially *still subscribed.*\n- **The canned meat:** returned, unopened. *Still not a rebuttal.*\n\nFire is not part of the game; the pumpkins' flames are illustrative. Grievances about the newsletter may go to the PNN Tip Line, filed under Fan Mail.\n\n**Final ruling:** a newsletter nobody asked for, answered with a meat nobody asked for. *Case closed. Paranoia: confirmed. Witches: not found, PNN checked twice. Unsubscribe link still available. Flame not included.*",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "005"
+    ],
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "orange",
+        "purrs": 2,
+        "hisses": 4,
+        "note": "Gorgeous poster. Wrong inbox. Trusts nobody, least of all a newsletter."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Answered a complaint with a joke, three facts, and a grievance link. The only complaint on file is that it was too good."
       }
     ]
   }

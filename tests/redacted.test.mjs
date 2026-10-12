@@ -10,7 +10,7 @@ const read = file => readFile(path.join(dist, file), 'utf8');
 const widths = html => [...html.matchAll(/--redacted-w:([\d.]+)em/g)].map(match => match[1]);
 
 test('case pages render redaction bars with the REDACTED stamp', async () => {
-  for (const id of ['003', '005']) {
+  for (const id of ['003', '005', '006']) {
     const html = await read(`cases/${id}/index.html`);
     assert.match(html, /class="redacted"/, `case ${id} has a redaction bar`);
     assert.match(html, />REDACTED</);

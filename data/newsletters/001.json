@@ -103,11 +103,7 @@
           "type": "paragraph",
           "runs": [
             {
-              "text": "The fictional Institute of Competitive Chromatics has supplied the following figures. "
-            },
-            {
-              "text": "These are comedy statistics, not research or game standings.",
-              "italic": true
+              "text": "The Institute of Competitive Chromatics has supplied the following figures."
             },
             {
               "text": " The decimal points are doing most of the work."

@@ -87,7 +87,7 @@ Example voice, not claims about actual incidents:
 
 ### Friendly roasting and case continuity
 
-Make cases funny enough to be worth reading, and **roast every team involved, pranker and victim alike, hard**. Friendly embarrassment over game behavior is the goal: bad timing, overconfidence, a grand plan defeated by a simple fact, and overcompensating for an earlier blunder. The boundaries above concern personal humiliation and real-world harm, not a pointed roast of an approved game incident. Never flatten rivalry into cautious corporate copy.
+Make cases funny enough to be worth reading, and **roast every team involved, pranker and victim alike, hard, except the Prowling Purrpetrators**. **Never roast the pink team: it is our team, so make it look good, in clever, funny ways** (sound like a roast, then turn it into praise). Clueso's failure to catch it is the one allowed joke, since it flatters the team. Friendly embarrassment over game behavior is the goal: bad timing, overconfidence, a grand plan defeated by a simple fact, and overcompensating for an earlier blunder. The boundaries above concern personal humiliation and real-world harm, not a pointed roast of an approved game incident. Never flatten rivalry into cautious corporate copy.
 
 **Comedy bar (PNN-004 is the minimum):** pile on puns tied to the team's name, theme, and the actual artifact (fire team, balloons: "hot air"; secrets team, trash on display: "outed by its own recycling"); give every team at least one roast in the headline, motive, exhibits, note, and disposition; escalate the absurdity each paragraph; end exhibit captions and the disposition on a punch line; make absurd fictional theories the joke, never the participants' bodies, families, money, or private lives. Full checklist: `docs/repository-reference.md`.
 
@@ -113,7 +113,7 @@ The site is a **React + Vite static site**: React components render every page t
 | `public/` | Copied verbatim into `dist/`: `assets/`, browser scripts in `scripts/`, `CNAME`, `robots.txt`. |
 | `tests/` | `node --test` suites; the robots, analytics, and permanent-URL checks run against `dist/`. |
 
-Commands (Node 24): `npm ci`; `npm run dev` (renders pages on demand at http://localhost:5173/, edit components or `data/*.json` and refresh); `npm run build`; `npm run preview` (serves `dist/` at http://localhost:8080/ with a real 404.html); `npm test` (builds, then runs all tests); `npm run storybook` (component stories at http://localhost:6006/); `npm run new-edition -- 002`.
+Commands (Node 24): `npm ci`; `npm run dev` (renders pages on demand at http://localhost:5173/, edit components or `data/*.json` and refresh); `npm run build`; `npm run preview` (serves `dist/` at http://localhost:8080/ with a real 404.html); `npm test` (builds, then runs all tests); `npm run storybook` (component stories at http://localhost:6006/); `npm run new-edition -- 002`; `npm run update` (`npx --yes npm-check-updates -u`, then install).
 
 The full file-by-file inventory (public URLs, data files, and each feature's constraints) lives in [docs/repository-reference.md](docs/repository-reference.md#file-inventory); read it before changing a feature. Its paths for pages are public URLs; where it names `scripts/generate-*.mjs` or `BEGIN/END GENERATED` regions, read the matching React component under `src/components/`.
 

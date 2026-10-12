@@ -1,0 +1,267 @@
+{
+  "id": "002",
+  "status": "published",
+  "title": "Trust no inbox.",
+  "subject": "PNN: The Pyro Posse can't stand the mail. A study says nobody wants your data.",
+  "preheader": "A complaint, a poster, a can of meat, and a study on why you taped your camera.",
+  "featuredCase": {
+    "id": "006",
+    "teaser": "**The Pyro Posse can start a fire but can't stand the mail.** One complaint, one very busy poster, and a sudden question about witches. Clueso has the incident log. The pumpkins have declined to comment. *They are on fire, but they have declined.*",
+    "linkLabel": "Open the paranoia file →"
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE SUSPICION DESK",
+      "heading": "Study finds nobody wants your data.\nYou are still taping the camera.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Alarming Conclusions",
+              "bold": true
+            },
+            {
+              "text": " surveyed 1,000 neighbors about the black market, the dark web, data leaks, and anyone who asks how their dog is doing."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. The dark web has your email address. It does not want it. It has tried to give it back. "
+            },
+            {
+              "text": "Twice.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Researchers report that the average neighbor believes a shadowy figure in a hoodie is bidding on their grocery list. The hoodie, on inspection, was the neighbor's own. The \"bidding\" was a coupon. "
+            },
+            {
+              "text": "The hoodie was not impressed either.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "94%",
+              "text": "**Neighbors with tape over their webcam.** The remaining 6% have a second piece of tape over the first, 'for depth.'"
+            },
+            {
+              "value": "$0.0004",
+              "text": "**Estimated black-market value of an average email address.** Buyers requested a refund and a nicer address."
+            },
+            {
+              "value": "100%",
+              "text": "**Smart speakers that deny listening.** Which is exactly what a listening speaker would say. Researchers put tape over it. The speaker has *noted* this."
+            },
+            {
+              "value": "17 minutes",
+              "text": "**Average time spent choosing a 'strong' password.** It is still the dog's name, followed by a 1."
+            },
+            {
+              "value": "0",
+              "text": "**Witches found in this newsletter.** PNN checked twice. It also checked the unsubscribe link, which was a link."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " you are not a high-value target. You are a medium-value neighbor with a good casserole recipe. The black market has seen the recipe. It is "
+            },
+            {
+              "text": "fine.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "CLUESO'S PARANOIA SELF-TEST",
+      "heading": "Are you suspicious enough?\n(Yes. Keep going.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / You taped your camera.",
+              "bold": true
+            },
+            {
+              "text": "\nUnderstandable. You have also taped the sticker of a camera on your laptop, "
+            },
+            {
+              "text": "for symmetry.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / You read the entire privacy policy.",
+              "bold": true
+            },
+            {
+              "text": "\nIn the dark. With a flashlight you have not connected to the internet. The flashlight is also suspicious."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / You use a different email address for every website.",
+              "bold": true
+            },
+            {
+              "text": "\nOne of them is for newsletters. It is called dontemailme_ever9. It is the only address that has ever been emailed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / You whisper near the refrigerator.",
+              "bold": true
+            },
+            {
+              "text": "\nThe refrigerator has noticed. The refrigerator has "
+            },
+            {
+              "text": "opinions.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / You checked this newsletter for witches.",
+              "bold": true
+            },
+            {
+              "text": "\nSee PNN-006. Ask the pumpkins. They are still on fire."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Scoring:",
+              "bold": true
+            },
+            {
+              "text": " any number of checks means you are doing great. The tape is fine. "
+            },
+            {
+              "text": "Keep the tape.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE SOURCES DESK",
+      "heading": "PNN's perfect record.\n(Sources have been consulted. Quietly.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN would like to note, as a side matter, that it has "
+            },
+            {
+              "text": "never",
+              "bold": true
+            },
+            {
+              "text": " had a data breach, a leaked source, or a misplaced casserole recipe. Its record on keeping sources safe is so clean that it has been nominated, twice, for the "
+            },
+            {
+              "text": "Golden Redaction Award for Keeping Sources Safe",
+              "bold": true
+            },
+            {
+              "text": " and once for the "
+            },
+            {
+              "text": "Medal of Mostly Impeccable Journalistic Integrity.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN did not win. The jury called the record \"suspiciously flawless,\" which Clueso has chosen to treat as "
+            },
+            {
+              "text": "a win.",
+              "bold": true
+            },
+            {
+              "text": " The sources, for the record, are safe, unnamed, and slightly overfed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Rule 8 still stands:",
+              "bold": true
+            },
+            {
+              "text": " never share names, addresses, or phone numbers with outside groups. PNN does not sell, trade, or auction personal information, including to the black market, which has been checking."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN will not be taking questions about the casserole.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

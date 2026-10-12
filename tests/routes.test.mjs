@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 const dist = path.join(fileURLToPath(new URL('../', import.meta.url)), 'dist');
 const PERMANENT_FILES = [
   'index.html', '404.html', 'robots.txt', 'CNAME',
-  'cases/index.html', 'cases/001/index.html', 'cases/002/index.html', 'cases/003/index.html', 'cases/004/index.html', 'cases/005/index.html',
+  'cases/index.html', 'cases/001/index.html', 'cases/002/index.html', 'cases/003/index.html', 'cases/004/index.html', 'cases/005/index.html', 'cases/006/index.html',
   'teams/index.html', 'teams/black/index.html', 'teams/green/index.html', 'teams/orange/index.html', 'teams/pink/index.html',
   'teams/red/index.html', 'teams/silver/index.html', 'teams/white/index.html',
   'tips/index.html', 'tips/flier.html', 'corrections/index.html',
