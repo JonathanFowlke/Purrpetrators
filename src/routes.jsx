@@ -13,6 +13,7 @@ import { ResourcesPage } from './pages/ResourcesPage.jsx';
 import { PrankedPage } from './pages/PrankedPage.jsx';
 import { CardsPage } from './pages/CardsPage.jsx';
 import { renderNewsletter } from './email/newsletter.js';
+import { renderFeed } from './lib/feed.js';
 
 /**
  * Every public file the site produces, as `{ file, element }` for React pages or `{ file, html }` for
@@ -32,6 +33,7 @@ export function getRoutes(model) {
     { file: 'corrections/index.html', element: <CorrectionsPage /> },
     { file: 'newsletter/index.html', element: <NewsletterIndexPage /> },
     ...model.newsletters.map(edition => ({ file: `newsletter/${edition.id}/index.html`, html: renderNewsletter(edition, model.cases, model.emailTemplate) })),
+    { file: 'feed.xml', html: renderFeed(model) },
     { file: 'dispatch/index.html', element: <DispatchPage /> },
     { file: 'resources/index.html', element: <ResourcesPage /> },
     { file: 'resources/pranked.html', element: <PrankedPage /> },

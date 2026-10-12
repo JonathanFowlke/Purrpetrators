@@ -46,6 +46,7 @@ export function Document({
             {og.siteName ? <meta property="og:site_name" content={og.siteName} /> : null}
           </>
         ) : null}
+        <link rel="alternate" type="application/rss+xml" title={`${SITE.name} feed`} href={`${SITE.origin}/feed.xml`} />
         {head}
         <link rel="icon" href={url('assets/images/favicon.png')} type="image/png" />
         {styles.map(href => <link key={href} rel="stylesheet" href={url(href)} />)}

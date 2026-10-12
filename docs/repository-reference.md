@@ -108,6 +108,7 @@ Moved from `AGENTS.md`. Page paths are public URLs produced by `src/routes.jsx`.
 | Path | Current responsibility |
 | --- | --- |
 | `index.html` | Live newsroom homepage: masthead, PNN introduction, generated latest case feature, team introduction, footer |
+| `feed.xml` | Single RSS 2.0 feed (`src/lib/feed.js`): published cases (`dateOpened`) and published newsletter editions (`date`), summaries only, newest first. Advertised by a `<link rel="alternate">` in every page head and an "RSS feed" footer link. Permanent URL |
 | `404.html` | “Signal Lost” error page with `noindex`, home links, and deployment-aware asset base |
 | `assets/css/styles.css` | Shared design tokens, layout, typography, responsive rules, focus and reduced-motion styles |
 | `tips/index.html` | Tip Line page with a generated Tally embed or honest unconfigured state |

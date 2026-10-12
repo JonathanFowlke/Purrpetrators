@@ -16,6 +16,9 @@ export function validateNewsletter(record, cases) {
   if (typeof record.id !== 'string' || !/^\d{3}$/.test(record.id)) throw new Error('Edition ID must be a three-digit string.');
   if (!['draft','sample','published'].includes(record.status)) throw new Error(`Invalid status: ${record.id}`);
   for (const key of ['title','subject','preheader']) text(record[key], key);
+  // Feed publication date: ISO with offset. Required once an edition is no longer a draft.
+  const validDate = typeof record.date === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$/.test(record.date) && !Number.isNaN(Date.parse(record.date));
+  if (record.date === undefined ? record.status !== 'draft' : !validDate) throw new Error(`Edition ${record.id} needs an ISO date with offset.`);
   if (!Array.isArray(record.sections) || !record.sections.length) throw new Error('At least one section is required.');
   for (const section of record.sections) {
     if (!Object.hasOwn(tones, section.tone)) throw new Error('Invalid section tone.');

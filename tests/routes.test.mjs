@@ -12,7 +12,7 @@ const PERMANENT_FILES = [
   'teams/index.html', 'teams/black/index.html', 'teams/green/index.html', 'teams/orange/index.html', 'teams/pink/index.html',
   'teams/red/index.html', 'teams/silver/index.html', 'teams/white/index.html',
   'tips/index.html', 'tips/flier.html', 'corrections/index.html',
-  'newsletter/index.html', 'newsletter/001/index.html', 'dispatch/index.html',
+  'newsletter/index.html', 'newsletter/001/index.html', 'feed.xml', 'dispatch/index.html',
   'resources/index.html', 'resources/cards.html', 'resources/pranked.html',
   'data/cases.json', 'data/news-ticker.json', 'scripts/ticker.js', 'scripts/dispatch.js',
   'assets/qr/pnn-tips-qr.svg', 'assets/qr/pnn-dispatch-qr.svg', 'assets/qr/pnn-dispatch-qr.png', 'assets/images/pnn.png'
