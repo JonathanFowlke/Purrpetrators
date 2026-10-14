@@ -370,5 +370,55 @@
         "note": "Answered a complaint with a joke, three facts, and a grievance link. The only complaint on file is that it was too good."
       }
     ]
+  },
+  {
+    "id": "007",
+    "caseNumber": "PNN-007",
+    "dateOpened": "2026-10-14T10:15:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Plates full. Doors shut. Final plate count unknown.",
+    "suspectTeamId": "white",
+    "incidentTitle": "Tightie Whities bring the treats. Nobody brings the door.",
+    "summary": "On the night of October 13, the Tightie Whities went door to door with plates of treats and a plan. No one was seen taking a plate. Whether anyone did later is unknown, and PNN has opened a separate inquiry. One member was overheard concluding, 'Man, we picked the wrong night.' PNN has never agreed with anyone faster.",
+    "incidentDescription": "On the night of **October 13, 2026,** the **Tightie Whities** set out to bribe their way to a witch, one doorstep at a time. A witness ([[redacted]]) reports the team was seen **carrying multiple plates of treats** to **multiple houses.** The results, in order of declining enthusiasm:\n\n- **Door one:** no answer. *The plate remained a plate.*\n- **Door two:** no answer. *The plate remained a plate, now with context.*\n- **Door three and beyond:** no answer. *PNN stopped counting. The plates did not.*\n- **The takers:** **none observed.** *Treats, it turns out, require a hand to take them. Whether a hand ever turned up is the question.*\n\nOne member was overheard delivering the night's only review:\n\n> Man, we picked the wrong night.\n> — [[redacted]], a Tightie Whities member, on a doorstep\n\n**PNN agrees.** *PNN also agrees with the doors.*\n\nThe **Tightie Whities,** a team named for tight, white underwear, spent an evening **left hanging** by a neighborhood. *Briefs, as they say, were exchanged. The doors declined to reply.* A tight schedule met a loose turnout, and **the plates came up short on takers,** at least **while anyone was watching.**",
+    "suspectedMotive": "**Working theory:** the team believed bribery follows a simple formula. *Plate plus porch equals witch.* The formula has since been **audited by reality.**\n\nPNN's candidate explanations for the silence, none of them confirmed:\n\n- **Everyone was out.** *A whole neighborhood, simultaneously, with excellent timing.*\n- **Everyone was at a party.** *Quite possibly one the Tightie Whities were not invited to.* PNN has no evidence of a party. PNN also has no evidence of an invitation. **A neighborhood this empty is either hiding or celebrating, and neither involves a plate of treats on the porch.**\n- **Everyone was in.** *Lights off, curtains drawn, doorbell treated as a rumor.*\n- **Everyone had heard about the Tightie Whities** and *recognized a pattern.* **Alibi stock is at a record low. Doorstep stock is lower.**\n- **The night itself.** *A wrong night, by the team's own finding. PNN does not argue with a confession.*\n\n**The plan was complete except for the part where somebody answers.** *A bribe is a transaction, and a transaction needs two parties. The Tightie Whities brought the plates, the treats, and the nerve. The neighborhood brought the weather, the calendar, and a very firm 'not tonight.'*\n\n**The open question: did anyone ever take a plate?** PNN has no report of one. PNN also has no report of the plates going home. *Both facts are suspicious.* The leading theories:\n\n- **The Late Taker.** *One brave soul, at the very last house, took pity on a full plate and a sad face.* **Plausible. Unconfirmed. Possibly sprinkled.**\n- **The Self-Serve Finish.** *The team ate the evidence.* **A tight team under pressure, a plate in each hand, and a long walk home.** Motive: *dessert.*\n- **The Doorstep Drop.** *A plate left on a porch, a doorbell rung, and a sprint.* **A plate on a porch is not a taker, but PNN will accept it as a lead.**\n- **The Undeliverable.** *Every plate went home exactly as it left. A clean sweep, in reverse.*\n\nClueso has assigned an investigator to **the leftovers.** *He has requested the plates be preserved. He has also asked, off the record, whether there is any brownie.*\n\nClueso has noted, in passing and with some irritation, that **the Prowling Purrpetrators** were not at the scene. *He considers this the real mystery. He is pursuing it.*",
+    "evidence": [
+      {
+        "id": "007-A",
+        "type": "report",
+        "label": "Exhibit A - The doorstep report",
+        "description": "A witness reports that the Tightie Whities were seen on the night of October 13 carrying multiple plates of treats from house to house, apparently attempting to bribe their way toward the witches. No one was seen answering the door or accepting a plate. One member was overheard saying, 'Man, we picked the wrong night.' The witness did not follow the team all night, so whether any plate was taken after that is unknown. The number of houses and plates is the witness's impression, not a PNN count.",
+        "caption": "Plates delivered: none observed. Plates returned: unconfirmed. A perfect record, pending a recount."
+      },
+      {
+        "id": "007-B",
+        "type": "image",
+        "reconstruction": true,
+        "src": "assets/evidence/007/tightie-whities-porch-crew-reconstruction.png",
+        "width": 1312,
+        "height": 1199,
+        "alt": "PNN pencil sketch, drawn as if from inside the house looking out through the open front door at night. Three dejected people in Tightie Whities shirts stand on the step, each holding a plate of cookies, brownies, and candy: a bearded man in a backward cap on the left, a woman with a messy updo in the middle, and a man in sunglasses and a tank top on the right. Their underwear waistbands, printed Tightie Whities, show above their pants. A carved pumpkin sits by the step and a quiet, dark street lies behind them.",
+        "label": "Exhibit B - The Doorstep Composite",
+        "description": "Clueso's sketch desk reconstructs the night's recurring scene from the doorbell's point of view: **three suspects, three full plates, zero takers observed.** Note the **plates held out like offerings,** the **sad eyes,** and the **waistbands announcing the team name** for anyone who somehow missed it. *The pumpkin has seen this before and is not getting involved.* PNN's artist wishes to record that the subjects looked **exactly this defeated,** *in spirit.*",
+        "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses, not a witnessed scene or photo of any participant. At the time of drawing, the plates are full. The doorbell is not."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The plates.** *Multiple.* Full. Carried **at the ready** to door after door. **Nobody was seen taking what the Tightie Whities were selling, and they were selling it for free.**\n- **The review.** 'Wrong night' is the most honest sentence a prank team has produced this season. Clueso is considering framing it. *Not the team. The sentence.*\n- **The persistence.** *Door after door after door.* Clueso respects persistence. He has, after all, suspected one team for **seven cases** on **no evidence.**\n- **The loose end.** *Somebody, somewhere, may have taken a plate.* **PNN has no witness, no receipt, and no crumbs.** Clueso is treating the absence of crumbs as **inconclusive,** and the **presence of a plate** as **a lead.**\n- **The guest list.** Clueso has requested it. *If a party exists, the plates should have been delivered there. Better yet, the party should have been informed that there were plates.* **He is checking whether the team received an invite. He suspects the invite went to the wrong house, which would be the night's second wrong turn.**\n- **The pink comparison.** *A pink operation would have checked the calendar, found the right night, and been welcomed with open arms and an empty plate.* **Clueso finds this outcome unacceptable and has requested the Prowling Purrpetrators stop being so well received.**",
+    "threatLevel": "Fully plated. Takers unconfirmed. Moderately underdressed for the occasion.",
+    "disposition": "**PNN assessment:** an ambitious bribery campaign, defeated on the record by the one thing no bribe can overcome: *nobody answering.* Whether it was later salvaged is **under investigation.** The Tightie Whities remain officially **undefeated at showing up** and unofficially **unbeaten at not being let in,** *as far as anyone saw.*\n\n- **Tightie Whities:** **plates full, porches empty, schedule tight.** *Recommended next steps: check the calendar. Then check it again.* **Also: state the final plate count.**\n- **The doors:** closed, and **the night's most consistent performers.**\n- **The treats:** *whereabouts unknown.* **Anyone with information is invited to file it with the PNN Tip Line, under Leftovers.**\n- **The witches:** *not found, PNN checked.* **They were not asked what night it was either.**\n\nPNN reminds all teams that treats are meant for the women playing the game, and that a polite 'no' is a complete answer. **No one should be pressed to open a door.** The game is built on cheerful ringing of doorbells, not persistence at them.\n\n**Final ruling:** a team that picked the wrong night. *Case open on one question: where did the plates go? Bribes: unaccepted, as far as PNN can tell. Doors: undefeated. Plates: last seen in hand.*",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "002",
+      "003"
+    ],
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "white",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Brought the treats, the plates, and the nerve. Forgot to bring a night when anyone was home. Final plate count: classified."
+      }
+    ]
   }
 ]

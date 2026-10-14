@@ -1,0 +1,434 @@
+{
+  "id": "003",
+  "status": "published",
+  "date": "2026-10-14T12:00:00-06:00",
+  "title": "Nobody's home.",
+  "subject": "PNN: A plate of treats. A porch full of silence. A study on why nobody answers.",
+  "preheader": "Homemade treats, the doorbell effect, and the party you were not invited to. Statistics included.",
+  "featuredCase": {
+    "id": "007",
+    "teaser": "**The Tightie Whities brought the treats. The neighborhood brought the porch light, switched off.** Multiple plates, multiple doors, and one overheard review of the night. Clueso has the doorstep file. *Whether anyone ever took a plate is now a separate investigation.*",
+    "linkLabel": "Open the doorstep file →"
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE HOMEMADE HAZARDS DESK",
+      "heading": "Homemade treats: a danger assessment.\n(The treats are fine. The porch is not.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Alarming Conclusions",
+              "bold": true
+            },
+            {
+              "text": " surveyed 1,000 neighbors about homemade treats, doorbells, and the sound of someone standing very still behind a curtain."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. Homemade treats are "
+            },
+            {
+              "text": "perfectly safe.",
+              "bold": true
+            },
+            {
+              "text": " The danger is the "
+            },
+            {
+              "text": "delivery.",
+              "italic": true
+            },
+            {
+              "text": " Researchers identified the three leading hazards of the modern doorstep: "
+            },
+            {
+              "text": "a plate, a hopeful face,",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a door that has gone quiet.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The plate is rarely at fault.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Experts warn that a plate of treats, left unattended on a porch, develops "
+            },
+            {
+              "text": "a personality.",
+              "bold": true
+            },
+            {
+              "text": " By the fourth house it has feelings. By the sixth it has a "
+            },
+            {
+              "text": "backstory.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN does not recommend carrying more than four plates. The plates know.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "83%",
+              "text": "**Neighbors who have stood very still while someone rang the bell.** The remaining 17% were 'in the shower,' 'asleep,' or 'a very quiet couch.'"
+            },
+            {
+              "value": "72%",
+              "text": "**Porch lights that mysteriously go dark at 7:01 PM.** Experts call this 'the sunset effect.' Residents call it 'nothing to see here.'"
+            },
+            {
+              "value": "9 of 10",
+              "text": "**Doorbells that, when rung, are answered by a dog.** The dog is no help. The dog wants the plate."
+            },
+            {
+              "value": "41 seconds",
+              "text": "**Average time a person will hold their breath behind a door.** Record: 44. The door was not impressed."
+            },
+            {
+              "value": "100%",
+              "text": "**Parties that you were not invited to, as reported by you.** Researchers note that the party is always 'the best one all year.' It is also always 'across town.' PNN has checked. **It is rarely a party.**"
+            },
+            {
+              "value": "1",
+              "text": "**Plates of treats safely accepted by a neighbor in a documented trial.** The neighbor is believed to be 'a very nice person.' PNN has requested an interview. The neighbor's lights are off."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " nobody is hiding from you. They are hiding from the "
+            },
+            {
+              "text": "doorbell,",
+              "bold": true
+            },
+            {
+              "text": " which has been rung by everyone, including a man selling something called "
+            },
+            {
+              "text": "'water, but better.'",
+              "italic": true
+            },
+            {
+              "text": " You are not a suspect. You are "
+            },
+            {
+              "text": "a plate with legs.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "CLUESO'S PORCH SELF-TEST",
+      "heading": "Are you being avoided?\n(Probably not. Possibly. Keep reading.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / You rang the bell twice.",
+              "bold": true
+            },
+            {
+              "text": "\nUnderstandable. The second ring was "
+            },
+            {
+              "text": "a courtesy.",
+              "italic": true
+            },
+            {
+              "text": " The third was "
+            },
+            {
+              "text": "a plea.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / You heard a floorboard creak.",
+              "bold": true
+            },
+            {
+              "text": "\nA house is a living thing. It is also "
+            },
+            {
+              "text": "a very good liar.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / The porch light was on when you arrived and off when you left.",
+              "bold": true
+            },
+            {
+              "text": "\nA coincidence. "
+            },
+            {
+              "text": "A very well-timed coincidence.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso has opened a file.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / You saw a curtain move.",
+              "bold": true
+            },
+            {
+              "text": "\nThe curtain has declined to comment. Its lawyer is also a curtain."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / Everyone you know was somewhere together.",
+              "bold": true
+            },
+            {
+              "text": "\nThe party. "
+            },
+            {
+              "text": "There was a party.",
+              "bold": true
+            },
+            {
+              "text": " You were told the party was 'small.' It was in "
+            },
+            {
+              "text": "a very large place.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Scoring:",
+              "bold": true
+            },
+            {
+              "text": " any number of checks means "
+            },
+            {
+              "text": "you picked the wrong night.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It happens. It happened last night. PNN has the sketch.",
+              "italic": true
+            },
+            {
+              "text": " Try again tomorrow, with fewer plates and a calendar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE SAFETY DESK",
+      "heading": "Treat tips, from a team that has never been left on a doorstep.\n(PNN is not saying which team. PNN is saying 'pink.')",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN would like to note, as a side matter, that Inspector Clueso has been tracking the "
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "bold": true
+            },
+            {
+              "text": " for seven cases and "
+            },
+            {
+              "text": "has yet to find a single refused plate.",
+              "bold": true
+            },
+            {
+              "text": " He considers this "
+            },
+            {
+              "text": "deeply suspicious.",
+              "italic": true
+            },
+            {
+              "text": " PNN's Independent Verification Desk, which is six inches from Clueso's chair, considers it "
+            },
+            {
+              "text": "'a pattern of excellence.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso's three tips for a safe treat delivery:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1 / Label your treats.",
+              "bold": true
+            },
+            {
+              "text": " If it has nuts, say so. If it has "
+            },
+            {
+              "text": "a story,",
+              "italic": true
+            },
+            {
+              "text": " say that too. Allergies are real, and "
+            },
+            {
+              "text": "a plate that surprises is not a plate that's welcome.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2 / Check the night.",
+              "bold": true
+            },
+            {
+              "text": " A calendar is a very small, very free piece of intelligence. "
+            },
+            {
+              "text": "Teams that skip it get a very long walk.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3 / Respect the 'no.'",
+              "bold": true
+            },
+            {
+              "text": " A closed door is "
+            },
+            {
+              "text": "a complete answer.",
+              "bold": true
+            },
+            {
+              "text": " The game runs on cheerful doorbells, not on "
+            },
+            {
+              "text": "persistence at them.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "No one owes anyone a door. Or a brownie.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN will not be taking questions about the plates. "
+            },
+            {
+              "text": "Everyone knows where the plates are.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "No one knows where the plates are.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

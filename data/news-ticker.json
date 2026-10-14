@@ -219,5 +219,17 @@
   { "tag":"DOSSIER", "text":"Black Webb Bandits file updated: 'Caught in their own Webb. Escaping slowly.'" },
   { "tag":"RUNNING TALLY", "text":"Flamingos interrogated this week: 1. Flamingos with alibis: 1. Flamingos currently suspicious: 1, and on one leg." },
   { "tag":"RUNNING TALLY", "text":"Binders of pink evidence at Clueso's desk: 3. Binders containing pink evidence: 0. Binders containing sandwiches: 1." },
-  { "tag":"RUNNING TALLY", "text":"Pumpkins investigated by PNN: 6. Pumpkins convicted: 0. Pumpkins on fire: classified." }
+  { "tag":"RUNNING TALLY", "text":"Pumpkins investigated by PNN: 6. Pumpkins convicted: 0. Pumpkins on fire: classified." },
+  { "tag":"BREAKING", "text":"Tightie Whities bring multiple plates of treats to multiple doors. Doors bring multiple plates of nothing." },
+  { "tag":"BREAKING", "text":"Overheard on a doorstep: 'Man, we picked the wrong night.' PNN confirms the night. PNN did not pick it." },
+  { "tag":"SPORTS", "text":"Tightie Whities go zero for every door on the street. Coach says the night was 'a bit of a stretch.' The plates agree." },
+  { "tag":"MARKETS", "text":"Plate futures flat. Brownie shares hold steady. Analysts cannot locate any actual buyers." },
+  { "tag":"WEATHER", "text":"Tonight: full plates, light turnout, scattered porch lights. Clueso warns of a front moving in from the doorbell." },
+  { "tag":"TRAFFIC", "text":"Doorstep backed up with three people and a plate each. No one is moving. No one is answering." },
+  { "tag":"LOCAL", "text":"Neighborhood unusually quiet on the night of the 13th. A party may be involved. The Tightie Whities were not told." },
+  { "tag":"TEAMS", "text":"Tightie Whities declare the night 'a learning experience.' The plates declare it 'a long walk.'" },
+  { "tag":"WANTED", "text":"Anyone who took a plate from the Tightie Whities. No questions asked. One question asked. Where did the plates go?" },
+  { "tag":"RUNNING TALLY", "text":"Doors knocked by the Tightie Whities: many. Doors opened: none observed. Plates eaten by the team: pending." },
+  { "tag":"DOSSIER", "text":"Tightie Whities file updated: 'Bring the treats. Check the calendar. Repeat in the right order.'" },
+  { "tag":"CLUESO DESK", "text":"'A plate on a porch is a lead. A plate in a mouth is a confession. I will take either.'" }
 ]
