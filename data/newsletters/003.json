@@ -430,5 +430,19 @@
         }
       ]
     }
+  ],
+  "tickerItems": [
+    {
+      "tag": "SCIENCE",
+      "text": "PNN's doorbell-effect study finds a ringing doorbell reduces answers by an amount PNN calls 'significant' and the porch calls 'a lot.'"
+    },
+    {
+      "tag": "ALERT",
+      "text": "Edition 003 rates homemade treats 'fine' and the porch 'not.' PNN advises bringing a second plate and a better night."
+    },
+    {
+      "tag": "TEAMS",
+      "text": "Edition 003's treat tips come from a team that has never been left on a doorstep. PNN is not saying which team. PNN is saying 'pink.'"
+    }
   ]
 }

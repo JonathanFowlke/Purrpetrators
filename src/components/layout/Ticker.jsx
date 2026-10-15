@@ -13,14 +13,14 @@ function TickerItem({ item, fixed }) {
  * Static "PNN LIVE" ticker. public/scripts/ticker.js fetches the headline pool and animates it;
  * without JavaScript the static items remain.
  */
-export function Ticker({ fixed, sample }) {
+export function Ticker({ fixed, sample, sources = [] }) {
   const url = useUrl();
   return (
     <>
       <section className="ticker" aria-label="PNN news ticker. Fictional headlines for the Broomstick Challenge.">
         <span className="ticker-label">PNN LIVE</span>
         <div className="ticker-window">
-          <ul className="ticker-track" data-src={url('data/news-ticker.json')}>
+          <ul className="ticker-track" data-src={url('data/news-ticker.json')} data-more-src={sources.filter(source => source !== 'data/news-ticker.json').map(url).join(' ') || undefined}>
             {fixed.map((item, i) => <TickerItem key={`f${i}`} item={item} fixed />)}
             {sample.map((item, i) => <TickerItem key={`s${i}`} item={item} />)}
           </ul>

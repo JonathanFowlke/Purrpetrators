@@ -101,7 +101,7 @@ An optional single `featuredCase` contains `id`, an editorial `teaser`, and `lin
 
 Drafts generate for review but are excluded from the listing; samples and published editions are listed newest ID first. These flags do not provide privacy or delete old pages. Preserve edition URLs; explicitly replace withdrawn editions with notices. A `published` label does not send an email.
 
-`src/email/newsletter.html` supplies the email shell: inline styling, a fluid 600px table layout, Outlook width wrapper, system fonts, hidden preheader, PNN logo, dispatch QR/button, reporting callout, fictional-game context, and all required EmailOctopus tags:
+`src/email/newsletter.html` supplies the email shell: inline styling, a fluid 600px table layout, Outlook width wrapper, system fonts, hidden preheader, PNN logo, one Dispatch button, reporting callout, fictional-game context, and all required EmailOctopus tags:
 
 - `{{SenderInfoLine}}` inserts account-configured sender details.
 - `{{UnsubscribeURL}}` is a visible unsubscribe link.
@@ -111,7 +111,7 @@ Keep real sender addresses and recipient lists in EmailOctopus, not this reposit
 
 There is no separate `.txt` file: [EmailOctopus automatically generates the plain-text alternative from HTML](https://emailoctopus.com/blog/designing-emails-everything-you-need-to-know). Review the provider's conversion when preparing a campaign.
 
-Email images use absolute HTTPS URLs at `purrpetrators.net`: `assets/images/pnn.png` (900 x 330, displayed at 240 x 88) and `assets/qr/pnn-dispatch-qr.png` (900 x 900, displayed at 225 x 225). Keep them hosted before sending. The QR points to the permanent `https://purrpetrators.net/dispatch/`. Local previews use those hosted images too. Copy remains readable with images blocked. Browser checks do not establish inbox compatibility; test the imported campaign in intended clients.
+Email images use absolute HTTPS URLs at `purrpetrators.net`: `assets/images/pnn.png` (900 x 330, displayed at 240 x 88) plus, when an edition sets `featuredCase.image`, a small email-sized JPEG under `assets/email/` (about 1056 px wide, displayed at 528 px; never the full evidence file). The footer no longer carries a QR code, because readers cannot scan the screen they are reading on; the QR assets remain for print. Keep images hosted before sending. Local previews use those hosted images too. Copy remains readable with images blocked. Browser checks do not establish inbox compatibility; test the imported campaign in intended clients.
 
 Run `npm test` for email validation, scaffolding, and no-script checks. Future approved PDFs may live under `public/assets/downloads/`; none exist yet.
 

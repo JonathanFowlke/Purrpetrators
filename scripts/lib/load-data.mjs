@@ -55,6 +55,16 @@ export async function validateRawData(raw, root = projectRoot) {
       sheet.cards.some(card => !nonEmpty(card.title) || !nonEmpty(card.message)))) throw new Error('Invalid cards.json.');
 
   const ids = new Set();
+  // Generic, per-case, and per-edition ticker headlines must stay unique, and each live record needs a few of its own.
+  const tickerTexts = new Set(tickerPool.map(item => item.text));
+  const checkTickerItems = (record, label, minimum) => {
+    const items = record.tickerItems ?? [];
+    if (!Array.isArray(items) || items.length < minimum ||
+        items.some(item => !nonEmpty(item.tag) || !nonEmpty(item.text) || item.text.length > 170 || tickerTexts.has(item.text))) {
+      throw new Error(`${label} needs at least ${minimum} unique {tag, text} tickerItems (text up to 170 characters).`);
+    }
+    for (const item of items) tickerTexts.add(item.text);
+  };
   for (const record of cases) {
     if (!/^\d{3}$/.test(record.id) || ids.has(record.id)) throw new Error('Case IDs must be unique three-digit strings.');
     ids.add(record.id);
@@ -67,6 +77,7 @@ export async function validateRawData(raw, root = projectRoot) {
       if (!nonEmpty(record[field])) throw new Error(`Missing ${field}: ${record.id}`);
     }
     new Intl.DateTimeFormat('en-US', { timeZone: record.timeZone }).format(new Date(record.dateOpened));
+    checkTickerItems(record, `case ${record.id}`, record.published ? 3 : 0);
     if (record.relatedCaseIds !== undefined && (!Array.isArray(record.relatedCaseIds) ||
         new Set(record.relatedCaseIds).size !== record.relatedCaseIds.length ||
         record.relatedCaseIds.some(id => typeof id !== 'string' || id === record.id || !caseById.has(id)))) throw new Error(`Invalid related cases: ${record.id}`);
@@ -103,5 +114,9 @@ export async function validateRawData(raw, root = projectRoot) {
   }
 
   for (const asset of ['assets/images/pnn.png', 'assets/qr/pnn-dispatch-qr.png']) await publicAsset(root, asset);
-  for (const edition of newsletters) validateNewsletter(edition, cases);
+  for (const edition of newsletters) {
+    validateNewsletter(edition, cases);
+    if (edition.featuredCase?.image) await publicAsset(root, edition.featuredCase.image.src);
+    checkTickerItems(edition, `newsletter ${edition.id}`, edition.status === 'draft' ? 0 : 2);
+  }
 }

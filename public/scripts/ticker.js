@@ -26,7 +26,27 @@
     return out;
   }
 
-  if (typeof module !== 'undefined' && module.exports) module.exports = { shuffle: shuffle, buildSequence: buildSequence };
+  // Generic headlines plus the tickerItems of every published case and non-draft newsletter edition
+  // (same rule as mergeTickerPool in src/lib/model.js).
+  function mergePool(pool, cases, editions) {
+    var seen = {};
+    var merged = [];
+    function add(item) {
+      if (!item || typeof item.tag !== 'string' || typeof item.text !== 'string' || seen[item.text]) return;
+      seen[item.text] = true;
+      merged.push(item);
+    }
+    (pool || []).forEach(add);
+    (cases || []).forEach(function (record) {
+      if (record && record.published === true && Array.isArray(record.tickerItems)) record.tickerItems.forEach(add);
+    });
+    (editions || []).forEach(function (record) {
+      if (record && record.status !== 'draft' && Array.isArray(record.tickerItems)) record.tickerItems.forEach(add);
+    });
+    return merged;
+  }
+
+  if (typeof module !== 'undefined' && module.exports) module.exports = { shuffle: shuffle, buildSequence: buildSequence, mergePool: mergePool };
   if (!root || !root.document) return;
 
   var doc = root.document;
@@ -89,10 +109,24 @@
     }
   }
 
+  function load(url) {
+    return root.fetch(url).then(function (response) {
+      if (!response.ok) throw new Error('unavailable');
+      return response.json();
+    });
+  }
+
+  // data-more-src lists cases.json first, then each newsletter edition. Their headlines are optional extras:
+  // if any file fails to load, the rest of the pool still works.
   var src = track.getAttribute('data-src');
+  var more = (track.getAttribute('data-more-src') || '').split(' ').filter(Boolean);
   if (!src || !root.fetch) { go(null); return; }
-  root.fetch(src).then(function (response) {
-    if (!response.ok) throw new Error('unavailable');
-    return response.json();
+  load(src).then(function (pool) {
+    if (!more.length) return pool;
+    return Promise.all(more.map(function (url) { return load(url).then(function (data) { return data; }, function () { return null; }); })).then(function (results) {
+      var cases = Array.isArray(results[0]) ? results[0] : [];
+      var editions = results.slice(1).filter(function (record) { return record && !Array.isArray(record); });
+      return mergePool(pool, cases, editions);
+    });
   }).then(go, function () { go(null); });
 })(typeof window !== 'undefined' ? window : undefined);

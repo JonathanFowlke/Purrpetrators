@@ -264,5 +264,19 @@
         }
       ]
     }
+  ],
+  "tickerItems": [
+    {
+      "tag": "MARKETS",
+      "text": "Tape futures steady. Webcam tape futures unchanged, but extremely nervous."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "New PNN study finds nobody wants your data. Subjects respond by taping the camera. Researchers are 'a little hurt.'"
+    },
+    {
+      "tag": "LOCAL",
+      "text": "Neighbors score themselves on PNN's 'Are you suspicious enough?' quiz. Everyone passes. Clueso says that is exactly what suspicion looks like."
+    }
   ]
 }

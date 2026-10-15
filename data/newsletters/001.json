@@ -187,5 +187,19 @@
     "id": "005",
     "teaser": "**Three teams. One night.** A clothesline, a lot of laundry, a little fire, and a For Sale sign that did not ask for any of this. The Pyro Posse says it is the only team playing. Clueso says *that is not the problem.* Case file PNN-005 contains photographs, **a poem narrated by underwear,** and one very quick delete button.",
     "linkLabel": "Open the dirty laundry file →"
-  }
+  },
+  "tickerItems": [
+    {
+      "tag": "ALERT",
+      "text": "Newsletter alert: edition 001 is out and the laundry is on the cover. Clueso notes that unsubscribing from the news does not unsubscribe you from the laundry."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "Peer review of edition 001's 'three stages of Purrpetrator engineering' is pending. The peers are on a clothesline."
+    },
+    {
+      "tag": "TEAMS",
+      "text": "PNN's first newsletter calls the pink team 'the same cat, with a different level of confidence.' Clueso files an objection to the confidence."
+    }
+  ]
 }

@@ -33,6 +33,24 @@
         "hisses": 3,
         "note": "Last to submit a name. Eight legs, one deadline."
       }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Black Webb Bandits finally have a name. The other six teams have had theirs so long it has a nickname."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Black Webb Bandits post a personal best in the 'choosing a name' event: last. Judges note this was also the previous best."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Eight cold feet reported on one team. Podiatrists call it a record and ask everyone to keep their socks on."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Clueso calls the Bandits' name 'a spider pun wearing a mask.' The mask, PNN notes, is also a pun."
+      }
     ]
   },
   {
@@ -87,6 +105,20 @@
         "hisses": 4,
         "note": "Bribed the witches before the witches opened."
       }
+    ],
+    "tickerItems": [
+      {
+        "tag": "SPORTS",
+        "text": "Black Webb Bandits finish last again, this time in the 'being announced' event."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Black Webb Bandits announce a new strategy: 'Early.' The witches announce a new strategy: 'NO.'"
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Researchers define 'range': last on Monday, early on Wednesday, and out of permission by Thursday."
+      }
     ]
   },
   {
@@ -133,6 +165,24 @@
         "purrs": 2,
         "hisses": 3,
         "note": "Great departure plan. Shaky on how long they have had the dog."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "LOCAL",
+        "text": "Resident walks dog downhill. Neighbors immediately ask how long they have owned the dog."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Tightie Whities seen walking a dog. Dog seen walking Tightie Whities."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Tightie Whities ask that 'How long have you had your dog?' be reclassified as an advanced question. PNN declines."
+      },
+      {
+        "tag": "WANTED",
+        "text": "One dog's honest answer. Dog has a spotless record and a better memory than its walker."
       }
     ]
   },
@@ -189,6 +239,36 @@
         "purrs": 1,
         "hisses": 3,
         "note": "Outed by its own recycling."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "SPORTS",
+        "text": "Area 51 Bureau signs a new balloon-defense coordinator. Coordinator is a trash can."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Area 51 Bureau rumored to have taken in its trash can at last. Source: a trash can."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Area 51 Bureau says the trash was 'a normal amount of trash.' The trash is 'cleared.' The trash has a badge."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Area 51 Bureau denies being on the field. Footage shows a field. Footage shows a trash can on it."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Balloon stocks soar on Pyro Posse demand. Analysts warn of a hot air bubble."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Scientists measure the exact amount of hot air in a balloon. Result: 'Posse-adjacent.'"
+      },
+      {
+        "tag": "RUNNING TALLY",
+        "text": "Balloons in the neighborhood: too many. Balloons in the Pyro Posse's garage: yes."
       }
     ]
   },
@@ -315,6 +395,80 @@
         "hisses": 2,
         "note": "Webbed, listed, and announced last. Again."
       }
+    ],
+    "tickerItems": [
+      {
+        "tag": "SPORTS",
+        "text": "Pyro Posse record: three pranks in one night. Official scorers still counting. A fourth was found in the couch."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "False start flagged on a photo post. Five yards and the entire prank."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Silver Bullets take the field slowly, unsure, and disoriented. Early lead goes to the laundry."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Penalty report: delay of game, false start, and an unnecessary-roughness call on one pair of bloomers."
+      },
+      {
+        "tag": "TRAFFIC",
+        "text": "Slow-moving laundry reported on the clothesline route. Motorists advised to hang back."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Researchers confirm underwear burns. Researchers were not asked. Researchers are shaken."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Physicists confirm that a bullet that is slow, unsure, and disoriented is, ballistically, a pebble."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Study finds the human eye can read a For Sale sign through orange cobweb. Understanding it is another matter."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Study: 100% of pranks posted early are deleted late."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Pyro Posse spokesperson: 'We have pranked everyone.' PNN: 'That is four teams.' Spokesperson: 'Hot.'"
+      },
+      {
+        "tag": "TRAFFIC",
+        "text": "Backup on Mischief Lane as drivers slow to read a For Sale sign. Nobody is buying. Everybody is reading."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Clothespin shares surge. Analysts cite 'unusual laundry volume' across the region."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Clothesline demand surges. Clothespin supply nervous."
+      },
+      {
+        "tag": "ALERT",
+        "text": "A clothespin has gone missing. A clothesline has gone up. Clues: laundry."
+      },
+      {
+        "tag": "ALERT",
+        "text": "Neighbors urged to check their laundry for unexpected heat."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Experts say the clothesline has become 'the new group chat.'"
+      },
+      {
+        "tag": "ALERT",
+        "text": "A lone clothespin has been found on a doorknob. Authorities say it is 'a message.' The message is 'a clothespin.'"
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Tightie Whities run a surprise play from the back of the closet. Defense reports it saw nothing, and wishes to keep it that way."
+      }
     ]
   },
   {
@@ -369,6 +523,24 @@
         "hisses": 0,
         "note": "Answered a complaint with a joke, three facts, and a grievance link. The only complaint on file is that it was too good."
       }
+    ],
+    "tickerItems": [
+      {
+        "tag": "LOCAL",
+        "text": "Neighbor objects to unrequested mail by posting unrequested canned meat. Sources call the irony \"well done.\""
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Neighbor checks newsletter for hidden witches. Finds a sunset and a hyperlink."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Pumpkin advises everyone to ignore the newsletter. Is reading it at the time."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Canned meat shares rise after a surprise delivery. Analysts: 'a very specific bump.'"
+      }
     ]
   },
   {
@@ -418,6 +590,183 @@
         "purrs": 1,
         "hisses": 4,
         "note": "Brought the treats, the plates, and the nerve. Forgot to bring a night when anyone was home. Final plate count: classified."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Tightie Whities bring multiple plates of treats to multiple doors. Doors bring multiple plates of nothing."
+      },
+      {
+        "tag": "BREAKING",
+        "text": "Overheard on a doorstep: 'Man, we picked the wrong night.' PNN confirms the night. PNN did not pick it."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Tightie Whities go zero for every door on the street. Coach says the night was 'a bit of a stretch.' The plates agree."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Plate futures flat. Brownie shares hold steady. Analysts cannot locate any actual buyers."
+      },
+      {
+        "tag": "WEATHER",
+        "text": "Tonight: full plates, light turnout, scattered porch lights. Clueso warns of a front moving in from the doorbell."
+      },
+      {
+        "tag": "TRAFFIC",
+        "text": "Doorstep backed up with three people and a plate each. No one is moving. No one is answering."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Neighborhood unusually quiet on the night of the 13th. A party may be involved. The Tightie Whities were not told."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Tightie Whities declare the night 'a learning experience.' The plates declare it 'a long walk.'"
+      },
+      {
+        "tag": "WANTED",
+        "text": "Anyone who took a plate from the Tightie Whities. No questions asked. One question asked. Where did the plates go?"
+      },
+      {
+        "tag": "RUNNING TALLY",
+        "text": "Doors knocked by the Tightie Whities: many. Doors opened: none observed. Plates eaten by the team: pending."
+      },
+      {
+        "tag": "DOSSIER",
+        "text": "Tightie Whities file updated: 'Bring the treats. Check the calendar. Repeat in the right order.'"
+      },
+      {
+        "tag": "CLUESO DESK",
+        "text": "'A plate on a porch is a lead. A plate in a mouth is a confession. I will take either.'"
+      }
+    ]
+  },
+  {
+    "id": "008",
+    "caseNumber": "PNN-008",
+    "dateOpened": "2026-10-15T14:30:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Cookies eaten. Bomb defused. Spelling in custody.",
+    "suspectTeamId": "orange",
+    "incidentTitle": "Pyro Posse hates junk mail. Mails a screaming glitter bomb.",
+    "summary": "The Pyro Posse called a free newsletter spam. It then personally delivered a screaming glitter bomb, with cookies, to the pink team's door. The pink team spotted the word 'stratogy,' defused the card, and ate the evidence. A team named for fire has produced a prank with a plan, a fuse, and nothing burning. PNN calls it a dud with excellent delivery.",
+    "incidentDescription": "The **Pyro Posse** told the game group it had pranked the **Prowling Purrpetrators,** whom it described as *easily distracted by our sweet treats.* The pink team's own account of the delivery:\n\n- **The cookies:** pumpkin. *Delicious, per the recipient, and the only part of the plan that worked. PNN has confirmed that the Posse owns an oven. The fire department may stand down.*\n- **The cards:** more than one, including a **screaming glitter bomb.** *A scream, a sparkle, and a flap. This was not mail. It was an ambush with a flap.*\n- **The tell:** a **misspelled 'strategy.'** *A team built around a plan, undone by the first word of it. PNN has filed 'stratogy' as a noun: a plan that failed its own proofreading.*\n- **The defusal:** complete. **The bomb never got to scream.** *Screams heard: zero. Glitter released: classified, and probably in a couch somewhere.*\n- **The cookies, part two:** eaten. *Evidence consumed in the line of duty, with an appetite the jury found persuasive.*\n\nThe Posse closed its report with a parenthetical nobody had asked for:\n\n> I think they hear us loud and clear. (And no they were not disguised as a witches bribe)\n> — [[redacted]], a Pyro Posse member, game group\n\n**Nobody had said 'bribe.' Nobody had said 'witch.'** *The Posse supplied both, in parentheses, which PNN considers the punctuation of a team with something to hide.* This is the same team that, in PNN-006, lost an argument about spam and **asked whether anyone was a witch.** *At this point 'witch' is less a question than a verbal tic.*\n\nThe Posse's mail policy is now on the record: **spam is an outrage, unless it screams.** *Unsolicited. Glittered. Hand-delivered. No unsubscribe link, though PNN is told the glitter has an extremely long cancellation period.*",
+    "suspectedMotive": "**Working theory:** the Posse took the lesson of PNN-006, *'unsolicited mail is an outrage,'* and promoted it to **'unsolicited mail is a strategy.'** *Spelled 'stratogy' in the field.*\n\nPNN's candidate motives, in order of escalation:\n\n- **Revenge, subscription edition.** The Posse cannot unsubscribe PNN from existence, so it **subscribed the pink team to glitter.** *Glitter has no unsubscribe link and, per PNN's cleanup desk, no end date.*\n- **Fuse management.** The Posse's own poster promises **Plan. Fuse. Boom.** *PNN can confirm Plan and Fuse. Boom has filed a formal complaint and is seeking representation.* **It is the first Posse case since PNN-004 with no fire in it at all.** *The fire marshal is bored.*\n- **The cookie decoy.** The Posse bet the pink team could be distracted by sweets. *The pink team was distracted by sweets the way a bomb squad is distracted by wires:* it ate one, **read the fine print,** and cut the right one.\n- **Sound design.** A scream-based prank needs a scream. *The Posse supplied the card. The pink team supplied the silence. The audience supplied nothing.* **A scream nobody heard is just a rumor with glitter on it.**\n- **Vocabulary.** The Posse's poster spells **'Purrpetrators'** flawlessly, *three Rs, one tricky P,* and then **misspells 'strategy.'** PNN considers this an efficient use of effort: **get the hard word right, skip the easy one.** *The pink team's name is the harder word. The pink team notices.*\n\nEvery Posse poster on file stars a **pink cat.** One of them is captioned **'Our stratogy is literally burning to the ground.'** *The pink team is not on fire. The dictionary, however, took a hit.* **A fire team with a burning strategy and a typo in the first word.** PNN would call it a **flame-out,** *but a flame requires a spark, and PNN is not seeing one.*\n\nThe Posse prints the pink team's name in **letters twice the size of its own.** *That is either a threat or a fan club. PNN is flattered on the pink team's behalf.*",
+    "evidence": [
+      {
+        "id": "008-A",
+        "type": "image",
+        "reconstruction": true,
+        "src": "assets/evidence/008/pyro-posse-doorstep-suspect-composite.png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "PNN pencil-sketch suspect composite sheet titled PNN Suspect Composite - Case PNN-008. A large panel shows a grinning, scruffy figure in a burnt-orange hooded sweatshirt with flame patches, standing in a night-time porch doorway with a pumpkin on the step. He holds a foil-lined plate of jack-o'-lantern cookies in one hand, a white envelope with a fizzing glitter-bomb card marked BOO! in the other, and a cardboard sign reading Our Stratogy tucked under one arm. A height ruler runs down the left edge. Smaller panels show a front view, a side view, a close-up of the treat plate, the glitter bomb card, the sign, and a smoking flame patch on the sleeve.",
+        "label": "Exhibit A - The Doorstep Composite",
+        "description": "Clueso's sketch desk has produced a full lineup sheet: **front view, side view, and an itemized list of the evidence on the suspect's person.** *Treat plate. Glitter bomb. Sign. Flame patch, smoking.* The suspect is **hooded, grinning, and holding cookies,** *which PNN counts as a confession, a calling card, and a business plan.* He stands at the angle of a man who has **never been asked a hard question.** *Distinguishing marks: a sleeve patch of flame that is the only thing in the case actually producing smoke, and it is stitched on.* The sign reads **'Our Stratogy,'** *faithfully, typo included.* **PNN's artist was told to correct nothing, on principle.**",
+        "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likeness, not a witnessed scene or photo of any participant. Height: tall enough to see the typo. Smirk: unretracted."
+      },
+      {
+        "id": "008-B",
+        "type": "image",
+        "src": "assets/evidence/008/pumpkin-cookie-plate-and-card.jpeg",
+        "width": 760,
+        "height": 300,
+        "alt": "A round plate sealed in crinkled aluminum foil, held out flat. A plain white envelope with faint handwriting rests on top. A red sleeve and dark hair are partly visible at the edge of the frame.",
+        "label": "Exhibit B - The plate",
+        "description": "The delivery, foil-sealed and topped with an envelope. Contents per the recipient: **pumpkin cookies,** *delish.* **Foil is nature's way of saying 'don't look.'** *The pink team looked.* The cookies lost. The envelope holds a card, and **PNN is not saying which one screams.**",
+        "caption": "Supplied game material, cropped to the plate and envelope. Contents: pumpkin cookies. Status: eaten. Cause of death: delicious."
+      },
+      {
+        "id": "008-C",
+        "type": "image",
+        "src": "assets/evidence/008/pyro-posse-pumpkin-boo-card.jpeg",
+        "width": 1920,
+        "height": 1461,
+        "alt": "A purple Halloween card with a spiderweb, tiny stars, and shelves of orange, red, green, and cream pumpkins, half out of a white envelope. One small jack-o'-lantern on the lower shelf grins in a speech bubble that says BOO!",
+        "label": "Exhibit C - The pumpkin card",
+        "description": "A shelf of pumpkins, a few cobwebs, and one small jack-o'-lantern **yelling BOO!** at the pumpkins on either side. *They are not looking up, which is also how the pink team handled the Posse.* Whether this is the glitter-bomb card or its decoy is **a matter for the lab.** *The lab has been told to open it outdoors.*",
+        "caption": "Supplied game material. Screams on file: one, printed. Screams heard: none, audible. The pumpkins on the shelf stayed in character."
+      },
+      {
+        "id": "008-D",
+        "type": "image",
+        "src": "assets/evidence/008/pyro-posse-plan-fuse-boom-poster.jpeg",
+        "width": 1024,
+        "height": 826,
+        "alt": "A stylized poster of a pink cartoon cat, singed and sooty, perched in a burning ruined city. A bundle of dynamite is tied to its tail, and another sits in a blast cloud among pipes and flaming pages labeled Phase 1 and Phase 2. Paw prints glow in the smoke. The title reads PLAN. FUSE. BOOM. and the banner below reads SO MUCH FOR THE MASTER PLAN.",
+        "label": "Exhibit D - Plan. Fuse. Boom.",
+        "description": "The Posse's own poster, which **maps its whole strategy in three words** and **files its post-mortem in seven.** The flying pages are labeled **Phase 1** and **Phase 2.** *There is no Phase 3.* PNN holds the Posse's roadmap, **and the roadmap ends at a cliff.** *A pink cat, a fuse, and a blueprint that is currently on fire.* **PNN has rarely seen a team do its paperwork on both ends of a failure.**",
+        "caption": "Supplied game material from the Pyro Posse; stylized artwork. 'So much for the master plan,' it reads, in the Posse's own words. PNN would have waited a day."
+      },
+      {
+        "id": "008-E",
+        "type": "image",
+        "src": "assets/evidence/008/pyro-posse-can-you-hear-us-now-poster.jpeg",
+        "width": 1024,
+        "height": 826,
+        "alt": "A stylized poster of a weary, sooty pink cartoon cat holding a scorched card marked with a jack-o'-lantern, in front of a burning ruined city. A red book titled Art War rests on the rubble beside a pile of wreckage. The headline reads CAN YOU HEAR US NOW?",
+        "label": "Exhibit E - Can you hear us now?",
+        "description": "The Posse's follow-up: a weary pink cat, a scorched pumpkin card, and a red book titled, approximately, **Art War.** *The missing words were presumably lost in the blast. So was the chapter on spelling.* The headline asks a question made famous by telephone commercials: can the pink team **hear them now?** *Per the pink team's account, the screams went unheard.* **The Posse said 'loud and clear.' The pink team heard 'clear.'** PNN is holding the volume knob.",
+        "caption": "Supplied game material from the Pyro Posse; stylized artwork. Question on the poster: can you hear us now? Answer on file: the cookies, mostly."
+      },
+      {
+        "id": "008-F",
+        "type": "image",
+        "src": "assets/evidence/008/pyro-posse-our-stratogy-poster.jpeg",
+        "width": 852,
+        "height": 687,
+        "alt": "A stylized poster of a sooty pink cartoon cat lounging on top of the words PROWLING PURRPETRATORS in large scratchy pink letters, with burning ruins behind it. A small notebook labeled Business Plan sits at the cat's elbow. The banner below reads OUR STRATOGY IS LITERALLY BURNING TO THE GROUND.",
+        "label": "Exhibit F - The tell",
+        "description": "The poster that tipped the pink team off. It spells the team's name **perfectly,** *three Rs, one tricky P, in the largest letters on the page.* It then spells **'strategy'** as **'stratogy,'** *in the smallest.* **The Posse can spell 'Purrpetrators' but not 'strategy,'** *which PNN finds the most backhanded compliment ever printed.* The business plan under the cat's elbow looks fine. **It is the only one in the building that does.**",
+        "caption": "Supplied game material from the Pyro Posse; stylized artwork. Strategy: burning. Spelling: also burning. The pink team is fine, thank you."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The doorstep.** Seven cases chasing the pink team, and Clueso has not yet reached its porch. The Posse got there in one night with **a plate of cookies and a fuse.** *He has requested the recipe. For the file.*\n- **The defusal.** The pink team identified, defused, and **survived** a glitter bomb with no training PNN can find. *In Clueso's experience, that is called having done this before.* He has written the word **'yet'** in the margin. **Guilty until proven guilty. Now also proven handy.**\n- **The spelling.** Clueso has opened a new crime category for **'stratogy.'** *Penalty: one dictionary, one sticky note.* He is quietly pleased that he can spell **'strategy,'** *since the pink team's file depends on it.*\n- **The denial.** An unprompted denial is, in Clueso's view, **a confession in a trench coat.** *He notes that the trench coat was also unprompted, and has glitter on it.*\n- **The cookies.** He has requested a sample. **For evidence.** *Probably.*\n- **The scream.** He asked for the audio and was told the bomb had been defused. He then asked for **the defused scream.** *A committee has been formed. It meets Tuesdays. It has not met.*",
+    "threatLevel": "Glitter-armed. Spelling-impaired. Mildly pumpkin-spiced.",
+    "disposition": "**PNN assessment:** a prank with a plan, a fuse, and a typo. **The plan landed. The fuse was lit. The boom filed a late request and was denied.** *The Posse says it hit the pink team. The pink team says the bomb never got to scream. PNN leans toward the version with a defusal, and away from the one with a poster.*\n\n- **Pyro Posse:** **a fire team that finally delivered a prank with no fire,** *all sparkle and no bang, as the fire marshal noted with some boredom.* Delivery: **excellent.** Spelling: **in custody.** Spam policy: **temporarily suspended.**\n- **Prowling Purrpetrators:** pranked, unbothered, and spelling-literate. **Charges: situational awareness.** *Under scrutiny for catching a trap on the one word it misspelled, defusing it, and then finishing the cookies.*\n- **The cookies:** consumed. *Evidence destroyed by the prosecution, with enthusiasm, in the case's only unanimous verdict.*\n- **The glitter:** *still at large.* PNN's cleanup desk expects recovery in **three to five business years,** with sightings reported in couch cushions. **Glitter is the only thing that outlives a grudge.**\n\nPNN reminds all teams that a screaming card is best opened in daylight by a consenting adult. *Never near a child, and never near a nap (rules 6 and 7).* Proof of any prank belongs in the game group by October 22.\n\n**Final ruling:** a Posse that called mail spam, mailed a scream, and denied a bribe nobody mentioned. *Case closed. Boom: declined. Cookies: delish. Witch bribe: officially denied, unofficially noted in parentheses. Unsubscribe link: still available, still unread by anyone with a poster.*",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "004",
+      "005",
+      "006"
+    ],
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "orange",
+        "purrs": 3,
+        "hisses": 3,
+        "note": "Delivered the cookies, the cards, and the scream. Forgot the boom, the spell check, and its own position on spam."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Pranked, unbothered, and fluent. Defused a bomb, ate the evidence, graded the spelling. The only complaint on file is that nothing happened."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Pyro Posse mails a screaming glitter bomb. Pink team defuses it. Boom reports it was never consulted."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Glitter futures soar after a Pyro Posse delivery. Analysts expect cleanup in three to five business years."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Pyro Posse fumble a glitter bomb at the pink team's door. Referees rule it 'all sparkle, no bang.' Pink team ruled unbothered."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Linguists confirm 'stratogy' is not a word. It is, however, a plan."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Neighbor defuses a screaming card, eats the cookies, and checks the spelling. Verdict: delish, quiet, and 'stratogy.'"
       }
     ]
   }

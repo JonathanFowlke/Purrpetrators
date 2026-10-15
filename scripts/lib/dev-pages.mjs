@@ -19,7 +19,7 @@ export function pnnDevPages() {
           const { pathname } = new URL(req.url, 'http://localhost');
           if (pathname.startsWith('/data/') && pathname.endsWith('.json')) {
             const file = path.join(projectRoot, pathname);
-            if (path.dirname(file) === path.join(projectRoot, 'data')) {
+            if ([path.join(projectRoot, 'data'), path.join(projectRoot, 'data', 'newsletters')].includes(path.dirname(file))) {
               res.setHeader('Content-Type', 'application/json');
               res.end(await readFile(file));
               return;

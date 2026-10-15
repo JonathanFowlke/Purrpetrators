@@ -36,8 +36,28 @@ function buildIndex({ teams, published, bonuses }) {
   return { totals, rows: sorted, scale };
 }
 
+/** Editions that are public in the listing (everything but drafts). */
+const liveEditions = newsletters => newsletters.filter(edition => edition.status !== 'draft');
+
+/**
+ * Headline pool: the generic items in news-ticker.json plus the `tickerItems` of every published case and every
+ * non-draft newsletter edition, so headlines about one case or edition live in its own record.
+ * public/scripts/ticker.js applies the same rule in the browser.
+ */
+export function mergeTickerPool(pool, cases, editions = []) {
+  const seen = new Set(pool.map(item => item.text));
+  const merged = [...pool];
+  const records = [...cases.filter(record => record.published), ...liveEditions(editions)];
+  for (const record of records) {
+    for (const item of record.tickerItems || []) {
+      if (!seen.has(item.text)) { seen.add(item.text); merged.push(item); }
+    }
+  }
+  return merged;
+}
+
 /** Ticker: live case headlines and index standings are fixed; the rest is sampled from the pool. */
-function buildTicker({ published, rows, pool, now }) {
+function buildTicker({ published, rows, pool, editions, now }) {
   const hairLead = [...rows].sort((a, b) => b.hisses - a.hisses)[0];
   const catnipLead = [...rows].sort((a, b) => b.purrs - a.purrs)[0];
   const fixed = [
@@ -50,7 +70,9 @@ function buildTicker({ published, rows, pool, now }) {
     const item = pool[(day * 11 + i * 7) % pool.length];
     if (!sample.includes(item)) sample.push(item);
   }
-  return { fixed, sample };
+  // Files the browser script fetches to rebuild the same merged pool (a browser cannot list a directory).
+  const sources = ['data/news-ticker.json', 'data/cases.json', ...liveEditions(editions).map(edition => `data/newsletters/${edition.id}.json`)];
+  return { fixed, sample, sources };
 }
 
 /** Daily tip: the same day rule as public/scripts/daily-tip.js, so the static fallback matches the build day. */
@@ -80,7 +102,7 @@ export function buildModel(raw, now = new Date()) {
     published,
     latest: published[0],
     index,
-    ticker: buildTicker({ published, rows: index.rows, pool: raw.tickerPool, now }),
+    ticker: buildTicker({ published, rows: index.rows, pool: mergeTickerPool(raw.tickerPool, cases, newsletters), editions: newsletters, now }),
     dossiers: raw.dossiers,
     countdown: raw.countdown,
     dailyTip: buildDailyTip(raw.dailyTips, now),

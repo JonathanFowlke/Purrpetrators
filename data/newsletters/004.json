@@ -1,0 +1,881 @@
+{
+  "id": "004",
+  "status": "published",
+  "date": "2026-10-15T15:30:00-06:00",
+  "title": "Handle with glitter.",
+  "subject": "PNN: The Pyro Posse mails a scream. A study on why glitter bombs never do. Spelling included.",
+  "preheader": "A card, a fuse, a typo, and one prank left. Statistics included.",
+  "featuredCase": {
+    "id": "008",
+    "teaser": "**The Pyro Posse called a free newsletter spam. Then it mailed a scream.** Pumpkin cookies, a card with a lot to say, and a sign with a very creative spelling of 'strategy.' Clueso has the glitter file. *Whether the bomb ever went off is now a matter of public speculation.*",
+    "linkLabel": "Open the glitter file →",
+    "hook": "including a suspect sketch and a very creative spelling of strategy",
+    "image": {
+      "src": "assets/email/004-suspect-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "PNN pencil-sketch suspect composite sheet for case PNN-008: a grinning figure in an orange hooded sweatshirt with flame patches stands on a porch holding a plate of jack-o'-lantern cookies and a fizzing glitter bomb card, with front and side views and close-ups of each item.",
+      "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likeness, not a photo of any participant."
+    }
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE NOVELTY AND NUISANCE DESK",
+      "heading": "Glitter bomb cards: a study in disappointment.\n(Loud on the box. Quiet on the porch.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Alarming Conclusions",
+              "bold": true
+            },
+            {
+              "text": " tested 500 screaming glitter bomb cards under laboratory conditions, which is to say on a porch, in a mailbox, and in one case a very patient drawer."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. Glitter bomb cards are "
+            },
+            {
+              "text": "extremely effective at being purchased.",
+              "bold": true
+            },
+            {
+              "text": " They are "
+            },
+            {
+              "text": "less effective at everything after that.",
+              "bold": true
+            },
+            {
+              "text": " Researchers identified the three leading weaknesses: "
+            },
+            {
+              "text": "a card that must be opened, a victim who must open it,",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a victim who must not have read the front.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "All three are, at present, outside the card's control.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A glitter bomb is the only weapon that needs "
+            },
+            {
+              "text": "the victim's participation, a free hand, and a good mood.",
+              "bold": true
+            },
+            {
+              "text": " It also needs the scream to go off "
+            },
+            {
+              "text": "while the victim is still standing there.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The packaging promises up to 30 seconds of screaming. The Institute recorded a drawer, a year later, and a very surprised cat.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Sound is the weak point. The scream is produced by "
+            },
+            {
+              "text": "a chip the size of a cough drop",
+              "bold": true
+            },
+            {
+              "text": " and a battery with "
+            },
+            {
+              "text": "a very strong sense of its own timing.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The battery is the only part of the card that screams on schedule, and it is always the wrong schedule.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "As for the glitter: "
+            },
+            {
+              "text": "once released, glitter cannot be recalled.",
+              "bold": true
+            },
+            {
+              "text": " It is the Pyro Posse's only reliable follow-through. "
+            },
+            {
+              "text": "The Institute expects it to outlast the card, the prank, the party, and several grudges.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Institute's final recommendation: "
+            },
+            {
+              "text": "the best glitter bomb is the one that never ships.",
+              "bold": true
+            },
+            {
+              "text": " The second best is "
+            },
+            {
+              "text": "the one opened by someone who read the front.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The pink team has been informed, and has already finished its cookies.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See what the card left behind →",
+          "href": "https://purrpetrators.net/cases/008/",
+          "note": "The evidence is on the site, not in this email. The cookies are not included."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "4%",
+              "text": "**Glitter bomb cards that scream on cue.** The other 96% scream *in a drawer, in a mailbox, or after the recipient has politely left the room.*"
+            },
+            {
+              "value": "100%",
+              "text": "**Glitter that is still somewhere.** *Couch cushions, car seats, one sandwich.* PNN's cleanup desk expects full recovery in three to five business years."
+            },
+            {
+              "value": "88%",
+              "text": "**Glitter bombs defused by someone who read the front first.** The other 12% were defused by someone who read the front second."
+            },
+            {
+              "value": "87%",
+              "text": "**Adults who can spell 'strategy' on a calm, quiet day.** Under pressure, poster deadlines, or fire: **61%.** The rest go with *'stratogy,' 'stratigy,' or a confident 'plan.'*"
+            },
+            {
+              "value": "3 of 4",
+              "text": "**Typos noticed only after the poster is printed.** The fourth was noticed by the pink team, at a glance. *Sources describe the glance as brief, and unbothered.*"
+            },
+            {
+              "value": "52%",
+              "text": "**Adults who have confidently typed 'definately,' felt a flicker, and sent it anyway.** *The flicker was the correct spelling, trying to get your attention.*"
+            },
+            {
+              "value": "9 of 10",
+              "text": "**Adults who can spell 'Purrpetrators' on the first try.** *The Pyro Posse is among them. Which means 'stratogy' was a choice. PNN respects choices.*"
+            },
+            {
+              "value": "0",
+              "text": "**Times a screaming card has been improved by a typo.** *The typo was louder.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " adults spell beautifully when nobody is watching and terribly when everybody is. The word 'strategy' is a known trap: it looks easy right up until it isn't. "
+            },
+            {
+              "text": "PNN's editors proofread this entire newsletter three times. A fourth pass is scheduled for after Clueso finishes the first.",
+              "italic": true
+            },
+            {
+              "text": " The poster in question is on file as "
+            },
+            {
+              "text": "Exhibit F",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/008/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE PYRO POSSE WATCH",
+      "heading": "Five down. One to go.\n(Then, as they say in show business, nothing.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN has done the math, and "
+            },
+            {
+              "text": "the math has a theme.",
+              "bold": true
+            },
+            {
+              "text": " By the Posse's own count, the "
+            },
+            {
+              "text": "Pyro Posse",
+              "bold": true
+            },
+            {
+              "text": " has pranked "
+            },
+            {
+              "text": "five teams.",
+              "bold": true
+            },
+            {
+              "text": " It has "
+            },
+            {
+              "text": "one left.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Under rule 2, a team can only be pranked once, so the Posse's list is, in a very real sense, running out of road.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "And everyone else? "
+            },
+            {
+              "text": "Nobody else has pranked.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Nobody.",
+              "italic": true
+            },
+            {
+              "text": " The "
+            },
+            {
+              "text": "Black Webb Bandits",
+              "bold": true
+            },
+            {
+              "text": " are on their way. The "
+            },
+            {
+              "text": "Crimson Crew",
+              "bold": true
+            },
+            {
+              "text": " is warming up. The "
+            },
+            {
+              "text": "Silver Bullets",
+              "bold": true
+            },
+            {
+              "text": " are locating the plan. The "
+            },
+            {
+              "text": "Area 51 Bureau",
+              "bold": true
+            },
+            {
+              "text": " denies being on the field. The "
+            },
+            {
+              "text": "Tightie Whities",
+              "bold": true
+            },
+            {
+              "text": " brought the plates. The "
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "bold": true
+            },
+            {
+              "text": " have chosen, in PNN's view, to be "
+            },
+            {
+              "text": "selective.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A prank worth waiting for is a prank worth not being caught for.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Then there is the question of "
+            },
+            {
+              "text": "what happens next.",
+              "bold": true
+            },
+            {
+              "text": " After the last target, the Posse's work is done. "
+            },
+            {
+              "text": "No more cookies. No more cards. No more screaming, audible or otherwise.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Posse will be, as with every great fire, forgotten.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The flames get the headlines. The ashes get a short paragraph on the back page.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso has requested the name of the final target.",
+              "bold": true
+            },
+            {
+              "text": " The Posse says it is "
+            },
+            {
+              "text": "'classified.'",
+              "italic": true
+            },
+            {
+              "text": " Clueso has ruled out the pink team, "
+            },
+            {
+              "text": "with regret.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "(See PNN-008. The pink team has been pranked, has defused it, and is currently eating a cookie.)",
+              "italic": true
+            },
+            {
+              "text": " He has moved on to a list headed "
+            },
+            {
+              "text": "'Everyone Else.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Posse's record, for the curious:",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-004",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/004/"
+            },
+            {
+              "text": " (the balloon fire), "
+            },
+            {
+              "text": "PNN-005",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/005/"
+            },
+            {
+              "text": " (the laundry), "
+            },
+            {
+              "text": "PNN-006",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/006/"
+            },
+            {
+              "text": " (the spam), and "
+            },
+            {
+              "text": "PNN-008",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/008/"
+            },
+            {
+              "text": " (the scream). "
+            },
+            {
+              "text": "Read in order. Wear gloves.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In the meantime, the Posse has until "
+            },
+            {
+              "text": "October 22",
+              "bold": true
+            },
+            {
+              "text": " to post proof of its last prank in the game group. "
+            },
+            {
+              "text": "No photo, no points.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A prank that isn't posted is just a rumor with a plan.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "CLUESO'S SPELLING SELF-TEST",
+      "heading": "Are you a proficient speller?\n(Yes. Mostly. Keep reading.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / You spelled 'strategy' with an O.",
+              "bold": true
+            },
+            {
+              "text": "\nBold. Wrong. "
+            },
+            {
+              "text": "PNN admires the confidence and will be taking it up with the dictionary.",
+              "italic": true
+            },
+            {
+              "text": " The sign is on file: "
+            },
+            {
+              "text": "see it here",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/008/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / You typed 'definately' and kept going.",
+              "bold": true
+            },
+            {
+              "text": "\nThe flicker you felt was "
+            },
+            {
+              "text": "the correct spelling, trying to get your attention.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / You spelled 'Purrpetrators' correctly on the first try.",
+              "bold": true
+            },
+            {
+              "text": "\nThree Rs, one tricky P. "
+            },
+            {
+              "text": "Impressive. Also suspicious.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso is checking whether you are pink.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / You trusted spellcheck.",
+              "bold": true
+            },
+            {
+              "text": "\nSpellcheck was on fire. "
+            },
+            {
+              "text": "Please step away from the poster.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / You printed it anyway.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Everyone does. That is how it gets on the poster.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Scoring:",
+              "bold": true
+            },
+            {
+              "text": " any number of checks means "
+            },
+            {
+              "text": "you are an adult.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The average adult is one typo away from a very large poster.",
+              "italic": true
+            },
+            {
+              "text": " Proofread twice. Then have someone proofread it for you, "
+            },
+            {
+              "text": "preferably the pink team,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "in under a glance, while eating a cookie.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly defused.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST:",
+              "bold": true
+            },
+            {
+              "text": " One boom. Last seen attached to a fuse. "
+            },
+            {
+              "text": "If found, return to the Pyro Posse, who have been asking.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE:",
+              "bold": true
+            },
+            {
+              "text": " One "
+            },
+            {
+              "text": "screaming card",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/008/"
+            },
+            {
+              "text": ". Never screamed. "
+            },
+            {
+              "text": "Previous owner defused it.",
+              "italic": true
+            },
+            {
+              "text": " Glitter not included. Glitter is included. Glitter is everywhere."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED:",
+              "bold": true
+            },
+            {
+              "text": " A spell-checker for a fire team. "
+            },
+            {
+              "text": "Must be fireproof. Must not be named 'Stratogy.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE:",
+              "bold": true
+            },
+            {
+              "text": " The Posse's final target is classified. "
+            },
+            {
+              "text": "The target's couch cushions, regrettably, are not.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE VERIFICATION DESK",
+      "heading": "Defusal tips, from a team that has now defused one.\n(Same team as last time. Same cat.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN's Independent Verification Desk, six inches from Clueso's chair, wishes to note that the "
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "bold": true,
+              "href": "https://purrpetrators.net/teams/pink/"
+            },
+            {
+              "text": " received a screaming glitter bomb, "
+            },
+            {
+              "text": "noticed the spelling, defused the card, and finished the cookies.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso considers this suspicious. The Desk considers it 'textbook.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso's three tips for receiving a surprise card:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1 / Read the front first.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A card that arrives with cookies has a plan. A card that arrives with a poster has a typo.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2 / Check the spelling.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A misspelled threat is a signature. The sender thinks it is a surprise.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3 / Open it outdoors, with a consenting adult.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Never near a child, and never near a nap (rules 6 and 7). A scream is a joke. A startled toddler is not.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "And remember the cookies.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They are evidence. They should be consumed in the line of duty.",
+              "italic": true
+            },
+            {
+              "text": " PNN will not be taking questions about the glitter. "
+            },
+            {
+              "text": "Everyone knows where the glitter is. No one knows where the glitter is. It is in your couch.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Open the glitter file →",
+          "href": "https://purrpetrators.net/cases/008/",
+          "note": "Six exhibits, one suspect sketch, and no scream. Everything the email left out is there."
+        }
+      ]
+    }
+  ],
+  "tickerItems": [
+    {
+      "tag": "ALERT",
+      "text": "Newsletter alert: edition 004 rates the glitter bomb card 'loud on the box, quiet on the porch.' Clueso has asked to hear the box."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "PNN study: 4% of screaming cards scream on cue. The other 96% are 'in a drawer.' Adults who misspell 'strategy' not included."
+    },
+    {
+      "tag": "TEAMS",
+      "text": "Pyro Posse down to one prank. Clueso begins drafting a retirement piece, mostly about glitter."
+    }
+  ]
+}

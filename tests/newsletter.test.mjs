@@ -60,3 +60,53 @@ test('scaffolding refuses overwrites and bad IDs; drafts stay off the listing', 
   validateNewsletter(draft,cases);
   assert.deepEqual(listedEditions([edition,draft]).map(item=>item.id),['001']);
 });
+
+test('buttons and inline links render, stay on the PNN site, and the featured case is one button with an exhibit count', () => {
+  const record = structuredClone(edition);
+  record.featuredCase.hook = 'including a suspect sketch';
+  record.sections[0].blocks.push({ type: 'cta', label: 'Open the file', href: 'https://purrpetrators.net/cases/005/', note: 'Evidence is on the site.' });
+  record.sections[0].blocks[0].runs = [{ text: 'Read ' }, { text: 'PNN-005', bold: true, href: 'https://purrpetrators.net/cases/005/' }];
+  const html = renderNewsletter(record, cases, template);
+  const featured = cases.find(c => c.id === record.featuredCase.id);
+  assert.ok(html.includes(`${featured.evidence.length} exhibits on file, including a suspect sketch.`));
+  assert.ok(html.includes('>Open the file</a>') && html.includes('Evidence is on the site.'));
+  assert.ok(html.includes('href="https://purrpetrators.net/cases/005/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=edition-001&amp;utm_content=s0-link" style="color:'));
+  assert.ok(html.includes('bgcolor="#f699be"') && html.includes('bgcolor="#b60060"'));
+  for (const bad of ['https://example.com/', 'http://purrpetrators.net/', 'https://purrpetrators.net.evil.test/', 'https://purrpetrators.net/a?b=c', 'javascript:alert(1)']) {
+    const withRun = structuredClone(edition);
+    withRun.sections[0].blocks[0].runs = [{ text: 'x', href: bad }];
+    assert.throws(() => validateNewsletter(withRun, cases), undefined, `run link ${bad}`);
+    const withCta = structuredClone(edition);
+    withCta.sections[0].blocks.push({ type: 'cta', label: 'x', href: bad });
+    assert.throws(() => validateNewsletter(withCta, cases), undefined, `button link ${bad}`);
+  }
+});
+
+test('every site link is tagged with the edition and placement, and provider links are left alone', () => {
+  const html = renderNewsletter(structuredClone(edition), cases, template);
+  const siteLinks = html.match(/href="https:\/\/purrpetrators\.net[^"]*"/g) || [];
+  assert.ok(siteLinks.length >= 5);
+  for (const link of siteLinks) assert.ok(link.includes('?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=edition-001&amp;utm_content='), link);
+  for (const name of ['logo', 'featured-button', 'footer-dispatch', 'footer-tips', 'footer-corrections']) assert.ok(html.includes('utm_content=' + name + '"'), name);
+  assert.ok(html.includes('href="{{UnsubscribeURL}}"') && html.includes('href="tel:+18017977265"'));
+});
+
+test('a featured image links to the case, carries alt text and a caption, and must be an email-sized asset', () => {
+  const record = structuredClone(edition);
+  record.featuredCase.image = { src: 'assets/email/004-suspect-composite.jpg', width: 1056, height: 792, alt: 'A sketch.', caption: 'AI-generated reconstruction.' };
+  const html = renderNewsletter(record, cases, template);
+  assert.ok(html.includes('src="https://purrpetrators.net/assets/email/004-suspect-composite.jpg" width="528" height="396" alt="A sketch."'));
+  assert.ok(html.includes('utm_content=featured-image') && html.includes('AI-generated reconstruction.'));
+  for (const bad of [{ src: 'assets/evidence/008/pyro-posse-doorstep-suspect-composite.png' }, { src: 'https://example.com/x.jpg' }, { alt: '' }, { caption: '' }, { width: 0 }]) {
+    const broken = structuredClone(record);
+    Object.assign(broken.featuredCase.image, bad);
+    assert.throws(() => validateNewsletter(broken, cases), undefined, JSON.stringify(bad));
+  }
+});
+
+test('the footer has one dispatch button and no QR code', () => {
+  const html = renderNewsletter(structuredClone(edition), cases, template);
+  assert.ok(!html.includes('pnn-dispatch-qr'));
+  assert.equal((html.match(/utm_content=footer-dispatch/g) || []).length, 1);
+  assert.ok(html.includes('tel:+18017977265') && html.includes('Open the Corrections Desk'));
+});
