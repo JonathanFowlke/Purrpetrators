@@ -1,0 +1,854 @@
+{
+  "id": "005",
+  "status": "published",
+  "date": "2026-10-16T12:00:00-06:00",
+  "title": "Best before bedtime.",
+  "subject": "PNN: Cookie-led alien abductions are up. A study, with travel statistics, from a team that was in two places at once.",
+  "preheader": "A UFO, a plate of cookies, and an alibi hundreds of miles long. Statistics included.",
+  "featuredCase": {
+    "id": "009",
+    "teaser": "**Aliens landed in Anaheim. A yard back home was abducted the same day.** The Area 51 Bureau met the pink team at a theme park, learned its travel plans, and visited a pink lawn with cookies, a foil flagship, and a cow. Clueso has the file. *Whether the cookies were only cookies is now a matter of public speculation.*",
+    "linkLabel": "Open the abduction file →",
+    "hook": "including a suspect sketch and a flagship made of an umbrella",
+    "image": {
+      "src": "assets/email/005-suspect-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "PNN pencil-sketch suspect composite sheet for case PNN-009: two grey aliens in theme-park tourist gear stand in front of a train platform. One holds a bag of freeze-dried alien ice cream and a foil-covered plate of cookies; the other wears a tinfoil visor and studies a map. An inset shows a patio umbrella in a foil hat, labeled Flagship (Suspected). Margin notes read: Called us by name. Voted to leave. Cookies were fine. (Were they?)",
+      "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses, not a photo of any participant."
+    }
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE DEPARTMENT OF INTERSTELLAR SNACK LOGISTICS",
+      "heading": "Cookie-led abductions: a study in soft landings.\n(Easy to eat. Easy to miss. Easier to explain.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Alarming Conclusions",
+              "bold": true
+            },
+            {
+              "text": " reviewed 1,200 reported abductions in which first contact was a plate of baked goods, which is to say it read the same four reports 300 times and asked for seconds."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. The cookie is "
+            },
+            {
+              "text": "the oldest tool in the contact kit.",
+              "bold": true
+            },
+            {
+              "text": " It needs "
+            },
+            {
+              "text": "no translation, no permit, and no explanation of intent.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "No species on record has turned down a warm plate on the first approach, and three have asked for the recipe.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Researchers identified the three stages of the method. "
+            },
+            {
+              "text": "Stage one: the plate.",
+              "bold": true
+            },
+            {
+              "text": " It arrives foil-sealed, warm, and carrying a note. "
+            },
+            {
+              "text": "Stage two: the second helping.",
+              "bold": true
+            },
+            {
+              "text": " Recipients describe themselves as "
+            },
+            {
+              "text": "comfortable, grateful, and wonderfully unalarmed.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Stage three: the landing.",
+              "bold": true
+            },
+            {
+              "text": " A flagship touches down on the lawn and the household reports "
+            },
+            {
+              "text": "a very calm evening.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Researchers call this 'the soft landing.' Households call it 'a really nice night.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A case study is on file. In "
+            },
+            {
+              "text": "PNN-009,",
+              "bold": true
+            },
+            {
+              "text": " the Area 51 Bureau bribed "
+            },
+            {
+              "text": "three households",
+              "bold": true
+            },
+            {
+              "text": " with cookies before a raid, then landed a foil-hatted flagship on the one it had softened up. "
+            },
+            {
+              "text": "It is the longest pre-landing snack campaign on record. The Institute has asked for the snack budget. The Bureau has asked for confidentiality.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The method has one known flaw. "
+            },
+            {
+              "text": "The household noticed the crash site by morning.",
+              "bold": true
+            },
+            {
+              "text": " The Institute classifies this as "
+            },
+            {
+              "text": "a slow-acting recipe,",
+              "bold": true
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a fast-acting cow.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Institute has recommended further testing, with cookies.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Institute's final recommendation: "
+            },
+            {
+              "text": "accept the cookies.",
+              "bold": true
+            },
+            {
+              "text": " Then "
+            },
+            {
+              "text": "read the note.",
+              "bold": true
+            },
+            {
+              "text": " Then "
+            },
+            {
+              "text": "check the lawn.",
+              "bold": true
+            },
+            {
+              "text": " In that order. "
+            },
+            {
+              "text": "The pink team has been informed and is already thinking about the ice cream.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See the crash site →",
+          "href": "https://purrpetrators.net/cases/009/",
+          "note": "The exhibits are on the site, not in this email. The cookies are not included."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "73%",
+              "text": "**Alien contacts that begin with baked goods.** The other 27% begin with *a clipboard, a map, or a very confident question about your cow.*"
+            },
+            {
+              "value": "4 of 5",
+              "text": "**Households that notice a UFO on the lawn before the second cookie.** The fifth was *on the second cookie, and has asked to be called back.*"
+            },
+            {
+              "value": "0",
+              "text": "**Aliens turned away at the door by a warm plate.** *The plate has an excellent record. The door has a worse one.*"
+            },
+            {
+              "value": "240x",
+              "text": "**The theme-park time warp, per the witness.** Ten seconds felt like forty minutes. *A line at an actual attraction usually runs the other way, with a snack.*"
+            },
+            {
+              "value": "3",
+              "text": "**Pink households bribed before the raid.** Pranked: **one.** Caught: **zero.** *A perfect record in bribes, and a zero in catches.*"
+            },
+            {
+              "value": "2",
+              "text": "**Yards raided in one night by a team that had toured a theme park that day.** Cookies per yard: *undisclosed.* **Cows per yard: at least one.**"
+            },
+            {
+              "value": "1 pole",
+              "text": "**Propulsion of the Bureau's flagship, per its own photograph.** Range: *the length of a lawn.* Alibi range: **hundreds of miles.**"
+            },
+            {
+              "value": "100%",
+              "text": "**UFOs that stay up for the whole photo.** The pole is doing all the flying. *It has asked for hazard pay.*"
+            },
+            {
+              "value": "1 of 7",
+              "text": "**Teams approached by aliens, by name, on a train platform.** It is the team Clueso is investigating. *That is either bias or a very good source. Clueso declines to say which.*"
+            },
+            {
+              "value": "88%",
+              "text": "**Neon-green caution tape that arrives yellow.** The other 12% arrives *backward, which is how the Bureau got its 'NOITUAC.'*"
+            },
+            {
+              "value": "0",
+              "text": "**Times a household has asked 'how did you get here?' after a good cookie.** *It is, in the Institute's view, the most successful question never asked.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " the shortest distance between two places is "
+            },
+            {
+              "text": "a cookie.",
+              "bold": true
+            },
+            {
+              "text": " The longest is "
+            },
+            {
+              "text": "a rumor with a spaceship in it.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN's editors checked the flagship's range three times. It is still a lawn.",
+              "italic": true
+            },
+            {
+              "text": " The photo is on file as "
+            },
+            {
+              "text": "Exhibit C",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/009/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE ALIBI DESK",
+      "heading": "Two places, one day.\n(Methods of same-day travel, ranked by plausibility.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A suspect was "
+            },
+            {
+              "text": "at a California theme park by day",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "on a lawn back home by night.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso has questions. The Bureau has a cow.",
+              "italic": true
+            },
+            {
+              "text": " PNN's Alibi Desk has ranked the possible explanations:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / The spaceship.",
+              "bold": true
+            },
+            {
+              "text": "\nA pink member's own theory, delivered by text: "
+            },
+            {
+              "text": "'Must have used the spaceship. Only explanation.'",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Plausibility: high. The spaceship is an umbrella in a foil hat, but PNN respects the commitment.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / The time warp.",
+              "bold": true
+            },
+            {
+              "text": "\nThe train ride took "
+            },
+            {
+              "text": "ten seconds and forty minutes",
+              "bold": true
+            },
+            {
+              "text": " at once. "
+            },
+            {
+              "text": "That is plenty of time for a flight, a lunch, and a lawn.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / The cookies.",
+              "bold": true
+            },
+            {
+              "text": "\nA household with a warm plate in hand is "
+            },
+            {
+              "text": "too comfortable to ask how the Bureau got there.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The cookie covers the route, the timeline, and the cow.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / Two Bureaus.",
+              "bold": true
+            },
+            {
+              "text": "\nOne at the park. One on the lawn. "
+            },
+            {
+              "text": "The Bureau's patch appears to show three aliens, which is more than enough staff for a decoy, a flagship, and a cow.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / A very long drive.",
+              "bold": true
+            },
+            {
+              "text": "\nPNN's least favorite theory, because it involves "
+            },
+            {
+              "text": "gas stations.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "No UFO has ever been refueled at a gas station. The Bureau has not confirmed this.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso has asked for the Bureau's "
+            },
+            {
+              "text": "mileage log, boarding passes, and receipt for the foil.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Bureau has replied that the foil is classified.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "CLUESO'S ABDUCTION SELF-TEST",
+      "heading": "Are you being abducted by cookies?\n(Probably not. Possibly. Keep reading.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / A warm plate appeared and you didn't ask who made it.",
+              "bold": true
+            },
+            {
+              "text": "\nThe foil was a clue. "
+            },
+            {
+              "text": "The note was a bigger one.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / You never asked what the plate was for.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Plates are never just plates. They are an opening move with frosting.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / You had a second cookie before you checked the lawn.",
+              "bold": true
+            },
+            {
+              "text": "\nThis is "
+            },
+            {
+              "text": "how the soft landing works.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN is not saying anything. PNN is saying 'check the lawn.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / Your yard now has a cow you did not order.",
+              "bold": true
+            },
+            {
+              "text": "\nIt has "
+            },
+            {
+              "text": "paw prints",
+              "bold": true
+            },
+            {
+              "text": " on it. "
+            },
+            {
+              "text": "Clueso notes the paw prints. He notes everything. He has a drawer.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / You described the evening as 'unusually peaceful.'",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "That is the phrase on file for every soft landing in history.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Scoring:",
+              "bold": true
+            },
+            {
+              "text": " any number of checks means "
+            },
+            {
+              "text": "you are a candidate.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A candidate for what, PNN will let the Bureau explain.",
+              "italic": true
+            },
+            {
+              "text": " Check the lawn, read the note, and keep the foil. "
+            },
+            {
+              "text": "Preferably have the pink team check it for you,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "which has already checked the lawn, the porch, and the cookie.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly hovering.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST:",
+              "bold": true
+            },
+            {
+              "text": " About forty minutes. Last seen on a theme-park train. "
+            },
+            {
+              "text": "If found, return to the witness, who has been asking.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE:",
+              "bold": true
+            },
+            {
+              "text": " One "
+            },
+            {
+              "text": "patio umbrella",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/009/"
+            },
+            {
+              "text": ", lightly flown. Foil hat included. "
+            },
+            {
+              "text": "Hovering not guaranteed. Attached, however, is.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND:",
+              "bold": true
+            },
+            {
+              "text": " One cow wearing paw prints. "
+            },
+            {
+              "text": "Claims to be innocent. Clueso is not convinced.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED:",
+              "bold": true
+            },
+            {
+              "text": " Neon-green caution tape. "
+            },
+            {
+              "text": "Must be green. Must read forward.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE:",
+              "bold": true
+            },
+            {
+              "text": " The Crimson Crew's treasure is "
+            },
+            {
+              "text": "deep-frozen,",
+              "bold": true
+            },
+            {
+              "text": " per the Bureau. "
+            },
+            {
+              "text": "The Crew is accepting offers on one pirate ship, to be named, ideally something with fewer puns.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE VERIFICATION DESK",
+      "heading": "Hospitality tips, from a team that met aliens and sent them the website.\n(Same team. Same cat. Still not caught.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN's Independent Verification Desk, six inches from Clueso's chair, wishes to note that the "
+            },
+            {
+              "text": "[Prowling Purrpetrators](https://purrpetrators.net/teams/pink/)",
+              "bold": true
+            },
+            {
+              "text": " were approached by name, "
+            },
+            {
+              "text": "invited the Bureau back for pink starburst and a witch question,",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "suggested it read PNN in line.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso considers this suspicious. The Desk considers it 'a model of hospitality.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso's three tips for receiving a plate of cookies from an alien:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1 / Check the plate for a forwarding address.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A plate with a return address is a gift. A plate without one is a lawn.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2 / Count the cows.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "One is decoration. Two is a herd. Three is a statement.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3 / Keep pranks clever, kind, and away from sleep and young children (rules 6 and 7).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A UFO on a lawn is a joke. A wake-up call is not. Photo proof goes to the game group by October 22.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "And remember the cookies.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They are evidence. They should be consumed in the line of duty.",
+              "italic": true
+            },
+            {
+              "text": " PNN will not be taking questions about the ice cream. "
+            },
+            {
+              "text": "Everyone knows the ice cream was freeze-dried. Nobody knows where it went. It has not been seen since the thread.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Open the abduction file →",
+          "href": "https://purrpetrators.net/cases/009/",
+          "note": "Five exhibits, one suspect sketch, and one cow. Everything the email left out is there."
+        }
+      ]
+    }
+  ],
+  "tickerItems": [
+    {
+      "tag": "ALERT",
+      "text": "Newsletter alert: edition 005 rates cookie-led abductions 'easy to eat, easy to miss, and best before bedtime.' Clueso has asked for a sample."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "PNN study: 73% of alien contacts begin with baked goods. The rest begin with a clipboard and a question about your cow."
+    },
+    {
+      "tag": "TRAVEL",
+      "text": "Alibi Desk ranks same-day travel methods. Spaceship leads. It is an umbrella."
+    }
+  ]
+}
