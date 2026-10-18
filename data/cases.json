@@ -886,5 +886,166 @@
         "text": "Neon-green caution tape comes in yellow. Backward in places. Futures steady."
       }
     ]
+  },
+  {
+    "id": "010",
+    "caseNumber": "PNN-010",
+    "dateOpened": "2026-10-18T12:00:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Caught by one teen. Pirates: begging. Treats: owed.",
+    "suspectTeamId": "red",
+    "incidentTitle": "One teen catches a whole Crimson Crew red-handed. The grown pirates begged.",
+    "summary": "On the night of October 17, a crew of Crimson Crew adults tried to prank the pink house and was caught by one teenager with a foam blaster. The pirates begged to finish and offered candy. The candy was last Halloween's. PNN thanks the Crew for the free decorating.",
+    "incidentDescription": "**One teenager. One foam blaster. One whole crew of grown pirates.** *Guess who begged.*\n\nOn the night of **October 17, 2026,** the **Crimson Crew** tried to prank the **Prowling Purrpetrators.** *PNN's file says 'tried.'*\n\n- **The lights:** the house's cameras spotted the Crew and **every outside light came on.** *They planned a stealth raid. The house planned a premiere.*\n- **The junior:** **Pink Panther Jr.** *(PNN's name for her, not hers)* marched out of the garage with a **foam dart blaster** and fired **one warning shot at their feet.** *Foam. Harmless. Accurate. The Crew did announce that it had 'struck.'*\n- **The begging:** the grown-ups **begged to be allowed to finish** and **promised her candy.** *Pirates make others walk the plank. This crew walked the driveway, hands clasped, pleading.*\n- **The tally:** **several adults. One teen. One shot.** *The Crew was outnumbered, outmaneuvered, and out-teened.*\n\n*One shot, and the crew went from 'Arrr' to 'Aww, please.'*\n\nThe teen **allowed them to finish.** *Maritime custom calls that a parley. PNN calls it a supervised delivery.* The Crew then delivered:\n\n- **A door notice:** **'Your ship is ours!'** *The ship is still in the garage, and so is the teen.*\n- **A box** marked **'Stolen Booty,'** *holding candy that was old, rancid, and spit out. Taste panel's verdict: last Halloween.*\n- **A pink-panther poster, a laminated card, and a pile of plastic doubloons.** *Nothing was taken. The first plunder in history with a net gain for the victim.*\n- **Skull bunting and a pirate flag,** *hung with the Crew's own hands. Free yard work. Yar.*\n\n*The terms were candy. The candy was last Halloween's. The teen is still waiting for the real thing.*\n\nThe Crew's victory lap, posted to the game group:\n\n> THE CRIMSON CREW HAS STRUCK! Arrr, ye scallywags! While ye landlubbers sat safely ashore, the Crimson Crew sailed into enemy territory and unleashed a wee bit o' pirate mischief!\n> — The Crimson Crew, game group post\n\n*PNN has amended the headline: 'THE CRIMSON CREW HAS BEEN STRUCK.'* The next morning, the roll call:\n\n> good morning to our colors: [[redacted:9]], [[redacted:7]], [[redacted:8]], [[redacted:4]], [[redacted:5]], [[redacted:6]]\n> — The Crimson Crew, game group post\n\n*Six households, six bars of black ink, and one pink house that said good morning first.* The witches get the question: **does a prank count if the victims spot it, shoot it, and negotiate it?** *PNN recommends they consider the foam.*",
+    "suspectedMotive": "**Working theory:** the **Red-Handed Hypothesis.** *The Crew picked the color, the hat, and the house.*\n\n- **The plan.** *Step one: sneak in. Step two: plunder. Step three: flee.* The plan had **no step for 'a teenager.'** *It also had no step for 'the lights.' PNN has seen mutinies with better paperwork.*\n- **The math.** **Several grown pirates. One teen with foam.** *PNN ran the numbers. The numbers walked the plank.*\n- **The candy.** *Last Halloween's, aged in the hold. A crew with no fruit aboard risks scurvy. A crew with this candy risks the cure.* 'Stolen Booty' turned out to be **'stale booty.'** *Sugar, no vitamin C, and a best-by date of 'previous administration.'* **A stale-mate. PNN recommends a lime.**\n- **The decorating.** *The Crew arrived to prank the house and left it better dressed for Halloween.* **PNN's theory: the Crew was not pranking. It was volunteering.**\n- **The spelling.** The poster says **'Perpetrators,'** *minus the purr. The Crew never heard us coming, and now knows why.* *The Black Webb Bandits lost a B in the same evening.* **Two teams, two missing letters.**\n- **Rule 2.** A team can prank another team **once.** *The Crew spent its one pink prank getting caught. One shot. One catch. Done.*\n\nThe theory has one flaw: **the Crew believes it struck.** *PNN has a sketch, a photo, and a foam dart that disagree.*",
+    "evidence": [
+      {
+        "id": "010-A",
+        "type": "image",
+        "reconstruction": true,
+        "src": "assets/evidence/010/pnn-pirate-standoff-suspect-composite.jpeg",
+        "width": 1448,
+        "height": 1086,
+        "alt": "A pencil-sketch composite sheet titled PNN Suspect Composite - Case PNN-010, with a height ruler down the left edge, a paper clip at the top right, a coffee-ring stain at the bottom left, and a red COMIC RECONSTRUCTION stamp at the bottom right. In an open garage doorway, a teenage girl in a pink hoodie with cat ears and black sneakers smiles calmly and aims a foam dart blaster at the ground, where a dart bounces near three kneeling pirates. The pirates wear red bandanas and tricorn hats, one with an eyepatch, and beg with clasped hands and wide eyes. One hugs a sack labeled Candy (Vintage), one holds a box labeled Stolen Booty, and one waves a small white flag. Gold doubloons, a rubber chicken, and a foam sword lie scattered on the driveway. Handwritten notes read: Warning shot: foam. Nobody hurt. Egos: critically wounded. Begged. Promised candy. (Old candy.) Suspects' defenses: also weak. An inset sketch of a pirate ship is labeled Ship: not ours. A footer reads Inspector Clueso's Office - PNN.",
+        "label": "Exhibit A - The lineup",
+        "description": "**The only lineup in PNN history where every suspect volunteered.** *The artist drew three. The household counts 'several adults.'* **Hands clasped. Eyes wide. Caught red-handed, in a color they chose themselves.** One hugs the **'vintage' candy,** one hugs the **'Stolen Booty,'** and one waves a **white flag,** *the only item packed that fits the situation.* One teen stands in the garage doorway, **calm, composed, and mildly amused,** with a **foam dart bouncing off the concrete.** *Odds: several adults to one. Result: the adults begged.* **A rubber chicken and a foam sword lie unclaimed.** *The Crew has not asked for them back.*",
+        "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses, not a witnessed scene or photo of any participant. The rubber chicken, foam sword, white flag, kneeling, and pirate ship are invented. The parley, warning shot, and candy are the household's account. Lineup status: voluntary."
+      },
+      {
+        "id": "010-B",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-pink-house-floodlit.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A night photo of a two-story house with every outdoor light on. Skull-and-crossbones pennant bunting hangs across the garage door, a black pirate flag with a red bandana skull hangs from the porch railing, and an orange-and-black yard sign stands in the garden. A brown cardboard box sits on the front step beside a dark front door with an autumn wreath and a small notice taped to it. On the right, a pixelated figure walks away down the driveway. The house number above the garage is pixelated.",
+        "label": "Exhibit B - The floodlit house",
+        "description": "**The pink house at the moment of the catch.** **Every light is on,** *lit like a stage with a very short cast.* The Crew's work is on display: **skull bunting, a pirate flag, and a parcel on the step.** *PNN thanks the Crew for the Halloween decorating. Installed under supervision, floodlit, and inspected with foam.* At the right, **a figure exits down the driveway,** *blurred by PNN and filed as a crewmember, in the one direction every raiding party eventually goes.* **Stealth: none. Yard work: appreciated.**",
+        "caption": "Supplied by the household, with the house number and a person blurred by PNN. Visibility: total. Surprise: scuttled."
+      },
+      {
+        "id": "010-C",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-door-notice.jpeg",
+        "width": 2048,
+        "height": 1155,
+        "alt": "A close-up of a dark wood door with two paper notices taped to it. On top is a small laminated card with a skull, crossed swords, and the text Arrr! Ye wish this was real booty! Unfortunately for ye, the treasure ye found is 100% FAKE! We came. We saw. We plundered. And left ye a pile of worthless doubloons! Better luck next time, landlubbers. Below it is a larger white notice with a skull wearing a red bandana and crossed bones, reading Your defenses were weak. Our pirates were quick. YOUR SHIP IS OURS! The Crimson Crew.",
+        "label": "Exhibit C - The door notice",
+        "description": "**'Your ship is ours!'** *The deed, the keys, and the garage opener remain with the house that caught the pirates.* The laminated card announces **'100% FAKE'** treasure. *It is the first confession printed on laminate.* **'Your defenses were weak,'** the big notice says. *The defenses: floodlights, a camera, and one teen. The Crew: caught, lit, fired upon, and begging. PNN rates the defenses 'ship-shape.'*",
+        "caption": "Supplied by the household. Ownership: unchanged. Treasure: fake, by its own admission. Honesty: unusually high for a crew that got caught."
+      },
+      {
+        "id": "010-D",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-stolen-booty-box.jpeg",
+        "width": 2048,
+        "height": 1155,
+        "alt": "A close-up of a large cardboard shipping box with Prime tape down the middle and two strips of red tape crossing it in an X. A white notice taped over the center reads Special Delivery, Stolen Booty, Property of the Crimson Crew, Open if ye dare, Warning: contents may be plundered. The notice is torn down the middle where the box was opened. A woven white basket edge is visible at the right.",
+        "label": "Exhibit D - The stolen booty",
+        "description": "**'Stolen Booty. Open if ye dare.'** *The household dared.* The notice is **torn down the middle,** *like a treasure map, or a pirate's alibi.* The red tape forms an **X,** *marking the spot where the candy lost.* This is the candy the grown pirates **begged** to deliver: **old, rancid, spit out, and thrown away.** *'Stolen' and 'stale' differ by three letters, and the Crew managed both.* *A crew that lives on candy this old is one lime short of scurvy.* **Dead men tell no tales. Dead candy tells all.**",
+        "caption": "Supplied by the household, rotated for readability. Contents: past tense. The warning said contents may be plundered. The contents had other plans."
+      },
+      {
+        "id": "010-E",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-plank-walker-poster.jpeg",
+        "width": 1155,
+        "height": 2048,
+        "alt": "A laminated poster propped in artificial palm fronds. A cartoon pink panther in a surprised pose walks a wooden plank toward three shark fins at sunset. The headline reads Prowling Perpetrators, then Pink Panther? More like Pink Plank Walker! The banner at the bottom reads Arrr! Ye've been plundered by The Crimson Crew!",
+        "label": "Exhibit E - The plank walker",
+        "description": "**'Pink Panther? More like Pink Plank Walker!'** *PNN rates the pun two hairballs. The only ones who walked a plank were the pirates, down a driveway, with a foam dart at their heels.* The poster brings a **pink panther to a house of panthers,** *which is fish for a cat, or coals to a pink Newcastle.* The team is spelled **'Perpetrators,'** *minus the purr. Nobody heard us coming.* The banner says **'plundered.'** *Nothing is missing. PNN files it under 'plundered, with a receipt.'*",
+        "caption": "Supplied by the household. Purr count: zero. Plunder count: zero. Sharks: fins only. PNN stands by its two hairballs."
+      },
+      {
+        "id": "010-F",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-fake-doubloons.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A night photo of a concrete porch floor with a small printed card and about two dozen gold plastic doubloons scattered across it and onto a woven doormat. The card reads Arrr! Ye wish this was real booty! The treasure ye found is 100% FAKE. A white plastic skeleton dog lies chained to a ball in the upper left corner.",
+        "label": "Exhibit F - The doubloons",
+        "description": "**About two dozen plastic doubloons,** *scattered like the Crew's plan: widely, and without a purpose.* The card says **'100% FAKE.'** *The first treasure chest delivered with a confession.* A **skeleton dog** *stands guard, which is more than the Crew managed.* **Face value: zero.** *The teen is still owed real treats for not blowing them out of the water. Fake gold does not clear the debt.*",
+        "caption": "Supplied with the case file. Gold content: none. Candy content: not in this photo. The dog has seen things."
+      },
+      {
+        "id": "010-G",
+        "type": "image",
+        "src": "assets/evidence/010/crimson-crew-pyro-posse-sign.jpeg",
+        "width": 1440,
+        "height": 1730,
+        "alt": "A night photo of an illustrated sign planted in a dark ceramic planter on a porch. The sign shows a skull in a pirate hat and red bandana, crossed bones, flames, and a lit bomb. It reads Pyro Posse, We're here to light the fuse! Arrr! Courtesy o' The Crimson Crew! Green shrubs and a statue are in the background.",
+        "label": "Exhibit G - The Pyro Posse sign",
+        "description": "**'We're here to light the fuse!'** *The Pyro Posse lit it in PNN-004, 005, 006, and 008. The Crew sent a sign to tell a fire team what it is known for. That is handing a match to the matchmaker.* The sign was **planted in a flowerpot,** *the only thing in the case that took root.*",
+        "caption": "Supplied for the case. PNN has seen the Posse light fuses unprompted. Prompting is a bold choice."
+      },
+      {
+        "id": "010-H",
+        "type": "report",
+        "label": "Exhibit H - The confession",
+        "description": "The Crew's own posts to the game group. **Night of October 17:** *'THE CRIMSON CREW HAS STRUCK!'* **Morning of October 18:** a roll call with **six surnames,** blacked out by PNN. *The Crew announced it had 'struck' on the same night it was floodlit, photographed, fired upon, and bargained down to candy. That is a confession filed as a press release.* Its signs: **'Light the fuse!'** for the Pyro Posse, **'Caught in our web, no escape!'** for the Black Webb Bandits, and **'Pink Plank Walker'** for the pink team. *'Caught in our web, no escape' was the wrong sign on the wrong house. The only team PNN has on camera that night is the Crew.*",
+        "caption": "Six houses, one night, one wee bit. PNN has amended the headline to read: THE CRIMSON CREW HAS BEEN STRUCK."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The catch.** *Nine files in, Clueso has never caught the pink team in the act.* **One teen caught a whole crew on the spot.** He is **furious.** *He is also thrilled, because he finally has a culprit. He cannot arrest a single one of them.*\n- **The badge.** He offered the teen a **junior inspector's badge.** *She cited a conflict of interest and unpaid treats.* **The badge came back. The treats did not.**\n- **The odds.** *Several adults, one teen, zero shots needed twice.* **Ruling: the Crew was outnumbered by itself.**\n- **The camera.** *The household recorded a pirate. Clueso's office recorded a clipboard.* **Request for the technology: filed under 'optimistic.'**\n- **The candy.** *He refused a sample. The taste panel had done the dirty work, and Clueso does not eat his way toward scurvy.* **Case notes: 'inedible, historic, and one lime short.'**\n- **The decorating.** Clueso suspects **pirates posing as an interior-design team.** *He has not ruled out that it was effective.*\n- **Aside:** two teams' names were misspelled by the Crew. Clueso, **after the pink team for nine files, has never once left out the purr.**",
+    "threatLevel": "Outgunned by foam. Outmatched by one teen. Armed with fake gold and expired candy.",
+    "disposition": "**PNN assessment:** a full crew of grown pirates **tried to prank a house, met one teen, and begged.**\n\n- **The Crimson Crew:** **arrr-rested in place by lights, a camera, and a teenager.** *Ambition: pirate. Stealth: lighthouse. Candy: vintage.* **Charges: getting caught red-handed, begging, and a plea of candy that failed on taste.**\n- **Prowling Purrpetrators:** **lit the yard, caught the crew, fired the warning shot, and negotiated terms.** *Pranked, and the one doing the catching.* The teen **sent the pirates home with their dignity and without her candy.** **Charges: vigilance, hospitality, excellent aim at footwear, and being impossible to plunder.**\n- **Pyro Posse:** told to **'light the fuse,'** *a recommendation filed under 'prior art.'*\n- **Black Webb Bandits:** *the Crew took a B.* **The Bandits are advised to count their letters.**\n\n**A formal thank-you.** PNN and the pink house **thank the Crimson Crew for the free Halloween decorating:** *bunting, a flag, a poster, and a laminated card. Installed under supervision, floodlit, and inspected with foam.* **The decor is expected to stay up through Halloween.** A thank-you note is being laminated. **Payment: the candy the Crew promised, fresh and unexpired, owed to the teen.**\n\nPNN reminds all teams that pranks stay clever, kind, and away from sleep and young children (rules 6 and 7). Photo or video proof belongs in the game group by October 22.\n\n**Final ruling:** the pirates came to plunder, **were caught red-handed by one teen, begged, and left the decorating.** *Case open. The pink team remains uncaught. The teen remains unpaid. The ship is still not theirs.*",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "001",
+      "004",
+      "009"
+    ],
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "red",
+        "purrs": 2,
+        "hisses": 5,
+        "note": "Several adults, one teen. They begged. The candy was last Halloween's."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "One teen caught a whole crew, fired one shot, and got free decorating."
+      },
+      {
+        "teamId": "orange",
+        "purrs": 1,
+        "hisses": 1,
+        "note": "Told to light the fuse. Already had."
+      },
+      {
+        "teamId": "black",
+        "purrs": 1,
+        "hisses": 2,
+        "note": "Lost a B to the Crew in an evening."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "One teen catches a whole Crimson Crew red-handed at the pink house. The grown pirates begged."
+      },
+      {
+        "tag": "SECURITY",
+        "text": "One foam dart fired at pirates' feet. No pirates harmed. Dignity: sunk."
+      },
+      {
+        "tag": "JUSTICE",
+        "text": "Pirates plead candy. Candy found expired. Plea rejected by taste panel."
+      },
+      {
+        "tag": "HOME",
+        "text": "Pink house thanks Crimson Crew for free Halloween decorating. Yard work: yar."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Fake doubloons trade at zero, as advertised. Honesty up on the day."
+      },
+      {
+        "tag": "FINANCE",
+        "text": "Junior panther still awaiting fresh candy. Interest accruing. Warning shot was complimentary."
+      }
+    ]
   }
 ]

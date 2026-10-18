@@ -1,0 +1,496 @@
+{
+  "id": "006",
+  "status": "published",
+  "date": "2026-10-18T14:00:00-06:00",
+  "title": "Out-teened.",
+  "subject": "PNN: Adults cannot outwit teens at pranks. A study, with statistics, and one very short pirate raid.",
+  "preheader": "A crew of grown pirates met one teenager with a foam blaster. Statistics included.",
+  "featuredCase": {
+    "id": "010",
+    "teaser": "**One teen. A whole crew of grown pirates. One foam dart at their feet.** The Crimson Crew tried to prank the pink house and was caught by the lights, a camera, and a junior panther. The grown-ups begged. Clueso has the file. *Whether the candy survived is a matter for the taste panel.*",
+    "linkLabel": "Open the lineup →",
+    "hook": "including a pirate lineup where every suspect volunteered",
+    "image": {
+      "src": "assets/email/006-suspect-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "PNN pencil-sketch suspect composite for case PNN-010: a teenager in a pink cat-ear hoodie stands in a garage doorway aiming a foam dart blaster at the ground while three pirates in red bandanas kneel on the driveway, begging. One hugs a sack labeled Candy (Vintage), one holds a box labeled Stolen Booty, and one waves a white flag. A rubber chicken and a foam sword lie nearby. Margin notes read: Warning shot: foam. Nobody hurt. Egos: critically wounded. Begged. Promised candy. (Old candy.)",
+      "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses, not a photo of any participant."
+    }
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR ALARMING CONCLUSIONS",
+      "heading": "Adults cannot outwit teens at pranks.\n(A study. The adults asked for a recount.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Alarming Conclusions",
+              "bold": true
+            },
+            {
+              "text": " studied "
+            },
+            {
+              "text": "4,000 pranks",
+              "bold": true
+            },
+            {
+              "text": " in which grown adults tried to outwit one teenager, which is to say it read "
+            },
+            {
+              "text": "PNN-010",
+              "bold": true
+            },
+            {
+              "text": " four thousand times and asked a teen to check its math. "
+            },
+            {
+              "text": "She finished first.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. "
+            },
+            {
+              "text": "The teen wins.",
+              "bold": true
+            },
+            {
+              "text": " The adult brings "
+            },
+            {
+              "text": "a plan.",
+              "bold": true
+            },
+            {
+              "text": " The teen brings "
+            },
+            {
+              "text": "a reaction time.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The adult plan has fourteen steps. The teen counter has one: walk outside.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Researchers identified "
+            },
+            {
+              "text": "three laws of the teen counter.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Law one: they notice.",
+              "bold": true
+            },
+            {
+              "text": " A teenager hears a garage door open "
+            },
+            {
+              "text": "from any room in the house, through headphones.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Law two: they escalate calmly.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "One foam dart. At the feet. No raised voice.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Law three: they negotiate.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The adult begs. The teen names a price.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A case study is on file. In "
+            },
+            {
+              "text": "PNN-010,",
+              "bold": true
+            },
+            {
+              "text": " several adults met "
+            },
+            {
+              "text": "one teen",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "begged within one warning shot.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Titanic took hours to go down. This took one dart.",
+              "italic": true
+            },
+            {
+              "text": " The Institute has recorded "
+            },
+            {
+              "text": "no faster collapse of a plan",
+              "bold": true
+            },
+            {
+              "text": " and has asked the teen for her notes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Institute's final recommendation for adults: "
+            },
+            {
+              "text": "assume she saw you.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Assume the lights are on.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Assume the candy is worse than you think.",
+              "bold": true
+            },
+            {
+              "text": " In that order. "
+            },
+            {
+              "text": "The pink team has been informed and is mildly pleased.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See the lineup →",
+          "href": "https://purrpetrators.net/cases/010/",
+          "note": "The exhibits are on the site, not in this email. The candy is not included. Nobody wanted it."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "3 : 1",
+              "text": "**Pirates to teen in the PNN sketch.** The household says *'several.'* The teen says *'enough.'*"
+            },
+            {
+              "value": "1",
+              "text": "**Foam darts fired.** *Nobody asked for a second.*"
+            },
+            {
+              "value": "100%",
+              "text": "**Adults who begged.** The teen's begging rate: *0%.*"
+            },
+            {
+              "value": "1 yr",
+              "text": "**Age of the Crew's candy, give or take a Halloween.** *Best-by date: 'previous administration.'*"
+            },
+            {
+              "value": "3",
+              "text": "**Known uses for last year's Halloween candy:** bribery, ballast, and *a lesson.* Bribery succeeded *0%* of the time. The lesson, *100%.*"
+            },
+            {
+              "value": "1 lime",
+              "text": "**Dose of vitamin C recommended for a crew that eats this candy.** *Scurvy risk: high. The Crew is advised to eat a fruit and to stop eating the candy.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " a pirate crew sails the "
+            },
+            {
+              "text": "shortest distance",
+              "bold": true
+            },
+            {
+              "text": " between two places: "
+            },
+            {
+              "text": "a driveway.",
+              "bold": true
+            },
+            {
+              "text": " It takes the "
+            },
+            {
+              "text": "longest",
+              "bold": true
+            },
+            {
+              "text": " to leave it. "
+            },
+            {
+              "text": "PNN's editors have timed the apology.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE JUNIOR PANTHER'S RATE CARD",
+      "heading": "What it costs to prank a house with a teen in it.\n(Prices in fresh candy. Expired not accepted.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1 / One warning shot.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "One fresh candy. Waived for pirates who did not argue.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2 / Permission to finish.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Two candies. Three if you want to tape the sign straight.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3 / Begging, per minute.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Free. PNN will be recording it for the file.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "4 / Candy aged at sea.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Surcharge. Scurvy waiver available. A lime may be accepted in lieu.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "5 / Unpaid balance.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Interest accrues. The junior panther is still owed treats for not blowing the Crew out of the water.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE VERIFICATION DESK",
+      "heading": "Thank you, Crimson Crew.\n(We needed the bunting.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN's Independent Verification Desk, six inches from Clueso's chair, wishes to "
+            },
+            {
+              "text": "thank the Crimson Crew",
+              "bold": true
+            },
+            {
+              "text": " for the free "
+            },
+            {
+              "text": "Halloween decorating:",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "skull bunting, a pirate flag, a laminated poster, and a laminated card.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Installed under supervision, floodlit, and inspected with foam.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The [Prowling Purrpetrators](https://purrpetrators.net/teams/pink/) expect the decor to stay up through Halloween. The yard work was excellent.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso considers this suspicious. He suspects "
+            },
+            {
+              "text": "pirates posing as an interior-design team.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Desk considers it 'a model of customer service.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder:",
+              "bold": true
+            },
+            {
+              "text": " keep pranks clever, kind, and away from sleep and young children (rules 6 and 7). "
+            },
+            {
+              "text": "A warning shot is a joke. A wake-up call is not.",
+              "italic": true
+            },
+            {
+              "text": " Photo or video proof goes to the game group by October 22."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Open the lineup →",
+          "href": "https://purrpetrators.net/cases/010/",
+          "note": "Eight exhibits, one sketch, and a candy that has been retired."
+        }
+      ]
+    }
+  ],
+  "tickerItems": [
+    {
+      "tag": "SCIENCE",
+      "text": "PNN study: adults cannot outwit teens at pranks. 100% of surveyed adults begged. 0% of surveyed teens did."
+    },
+    {
+      "tag": "ALERT",
+      "text": "Newsletter alert: edition 006 publishes the junior panther's rate card. Expired candy not accepted. A lime may be."
+    },
+    {
+      "tag": "HOME",
+      "text": "Pink household thanks Crimson Crew for free Halloween decorating. Yard work: excellent. Yar."
+    }
+  ]
+}

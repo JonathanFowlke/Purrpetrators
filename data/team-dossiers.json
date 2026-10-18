@@ -95,27 +95,28 @@
     "advice": "Prank someone. Anyone. Clueso is begging. He would like to be right."
   },
   "red": {
-    "codename": "Operation Where Are They",
-    "tagline": "Allegedly exists. Case file: pending.",
-    "threatLevel": "Unknown. Clueso has not met them.",
+    "codename": "Operation Red-Handed",
+    "tagline": "Finally in a case file. Caught on the way in.",
+    "threatLevel": "Armed with fake gold and expired candy. Outgunned by foam.",
     "knownFor": [
-      "Not appearing in a single case file.",
-      "A name that sounds like a very serious rap group.",
-      "Being the quietest team in the game, which is suspicious.",
-      "Existing. Allegedly."
+      "Being caught red-handed by one teen with a foam blaster (PNN-010).",
+      "A plea of candy that was last Halloween's.",
+      "Free Halloween decorating for the pink house, installed under supervision.",
+      "Dropping a purr and a B from other teams' names in one evening."
     ],
-    "file": "**The Crimson Crew** is the only team that has not yet appeared in a PNN case file as a subject, a victim, a suspect, or a punchline. Clueso finds this slightly insulting. He has been circling the team's name on the list with a red pen.\n\nPossible explanations: they are planning something enormous. They are planning something small. They are planning nothing. They are lost. Clueso favors 'planning something enormous' because 'lost' is the Black Webb Bandits' department.\n\nPNN has no complaints about the Crimson Crew. This is the complaint. A team with a name like that should be setting something off, hoisting something up, or at least hanging something from a flagpole. PNN has checked the flagpoles. Nobody is hoisting.\n\nIn fairness, a quiet team is a dangerous team, which Clueso says about every team, including this one. The Crew may be waiting for the right moment. The right moment is now. The party is October 24.",
+    "file": "**The Crimson Crew** spent weeks as the only team without a case file. Clueso circled its name in red pen. The Crew answered by sailing to six houses in one night and getting caught at one. *(PNN-010.)*\n\nThe catch was brief. **One teen, one foam dart, several grown pirates, and a great deal of begging.** The Crew paid in candy that was last Halloween's. The taste panel declined to reopen the account. The Crew also hung skull bunting at the pink house and left a laminated poster, which PNN counts as free decorating and has thanked.\n\nThe Crew's signs misspelled two teams' names. Its treasure came with a disclaimer. Its victory lap was posted from the night of its own catch. PNN notes that the Crew is red, the hands were red, and the paperwork wrote itself.\n\nIn fairness, any team that reaches six houses in one night has range. The Crew's range simply ended at a pink driveway. The party is October 24. Clueso recommends fresh candy and a lime.",
     "strengths": [
-      "A sharp, serious name. Nobody is laughing at the name.",
-      "Mystery. Total, unearned mystery.",
-      "A clean record, which has made PNN nervous."
+      "Range: six houses in one night.",
+      "Props that commit to the bit.",
+      "A name that finally has a case."
     ],
     "weaknesses": [
-      "Appearing in a case file.",
-      "Making a noise.",
-      "Any evidence that they exist."
+      "Floodlights.",
+      "Teenagers.",
+      "Expired candy.",
+      "Spelling."
     ],
-    "advice": "Do something, anything, loudly and within the rules. Clueso has an empty folder labeled 'Crimson' and he is tired of looking at it."
+    "advice": "Check the lights before the lawn. Bring fresh candy. Pay the teen."
   },
   "silver": {
     "codename": "Operation Slow, Unsure, Disoriented",
