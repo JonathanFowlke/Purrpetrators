@@ -4,5 +4,11 @@
     "purrs": 5,
     "hisses": 0,
     "note": "Runs the whole newsroom, hotline, and newsletter. Clueso calls this a very elaborate alibi."
+  },
+  {
+    "teamId": "pink",
+    "purrs": 5,
+    "hisses": 0,
+    "note": "The Pink Sweep: six teams in one night, in order, without a wrong turn. Bonus catnip for route planning."
   }
 ]

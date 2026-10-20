@@ -185,5 +185,11 @@
   { "tag":"DOSSIER", "text":"Black Webb Bandits file updated: 'Caught in their own Webb. Escaping slowly.'" },
   { "tag":"RUNNING TALLY", "text":"Flamingos interrogated this week: 1. Flamingos with alibis: 1. Flamingos currently suspicious: 1, and on one leg." },
   { "tag":"RUNNING TALLY", "text":"Binders of pink evidence at Clueso's desk: 3. Binders containing pink evidence: 0. Binders containing sandwiches: 1." },
-  { "tag":"RUNNING TALLY", "text":"Pumpkins investigated by PNN: 6. Pumpkins convicted: 0. Pumpkins on fire: classified." }
+  { "tag":"RUNNING TALLY", "text":"Pumpkins investigated by PNN: 6. Pumpkins convicted: 0. Pumpkins on fire: classified." },
+  { "tag":"MARKETS", "text":"Neighborhood toilet paper supply recovering after a single night of heavy demand. Analysts cite 'a pink buyer.'" },
+  { "tag":"MARKETS", "text":"Inflatable cattle prices surge. Inflatable alien cowboys trading at a premium. Jerky futures: peppery." },
+  { "tag":"RUNNING TALLY", "text":"Clueso's grievance against his own privacy desk enters its second binder. The first binder has been pixelated." },
+  { "tag":"WEATHER", "text":"Overnight forecast: scattered toilet paper, heavy pink tape, and a 100% chance of paw prints by morning." },
+  { "tag":"TRAFFIC", "text":"Pink tape reported across six driveways. Residents advised to step over, duck under, or simply admire it." },
+  { "tag":"SPORTS", "text":"Commentators call it a clean sweep. Six teams, one night, no overtime. The pink team declined a victory lap. It was already home." }
 ]

@@ -1,0 +1,701 @@
+{
+  "id": "008",
+  "status": "published",
+  "date": "2026-10-20T12:00:00-06:00",
+  "title": "Six for six.",
+  "subject": "PNN: Six teams. One night. Zero arrests. A full report, with a route map and a can of Spam.",
+  "preheader": "Underwear, cattle, treasure, a retirement party, a web, and a kiddie pool. Clueso has the timestamps. He does not have the suspects.",
+  "featuredCase": {
+    "id": "017",
+    "teaser": "**The night ended in a kiddie pool.** Six houses earlier, it started with underwear. In between: cattle, treasure, a party nobody woke up for, and a web PNN predicted in its very first case. The last stop was the fire team. *The fire is out. The Spam has been replaced.*",
+    "linkLabel": "Open the final stop →",
+    "hook": "including the full route log, one stop per team",
+    "image": {
+      "src": "assets/email/008-pink-sweep-collage.jpg",
+      "width": 1068,
+      "height": 714,
+      "alt": "A six-photo grid, one from each stop of the night: giant pink satin underwear reading Not Tonight on a papered porch planter; an inflatable alien in a cowboy hat riding an inflatable cow; an open black treasure chest marked PP full of foil coins in a pink net; a skeleton in a silver wig, a RETIRED tiara, and a sash; furry toy spiders caught in a giant pink web; and a glowing kiddie pool of crying pumpkins with a can of Spam on top.",
+      "caption": "Supplied game photos, one per stop. Six teams, six themes, zero suspects in frame."
+    }
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR NOCTURNAL LOGISTICS",
+      "heading": "Six teams. One night. Zero arrests.\n(A peer-reviewed study of the Pink Sweep.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Nocturnal Logistics",
+              "bold": true
+            },
+            {
+              "text": " has completed its review of the night of "
+            },
+            {
+              "text": "October 19,",
+              "bold": true
+            },
+            {
+              "text": " which it describes as "
+            },
+            {
+              "text": "'the most efficient evening in the history of the Broomstick Challenge, and possibly of evenings.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings: the "
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "bold": true
+            },
+            {
+              "text": " pranked "
+            },
+            {
+              "text": "every other team in the game in a single night.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Six houses. Six themes. One route, in about two hours.",
+              "italic": true
+            },
+            {
+              "text": " The Institute checked the rule book. "
+            },
+            {
+              "text": "Rule 2 allows one prank per team.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The pink team used all six, in order, and was home before the Silver Bullets' alarm clocks.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "For context, the "
+            },
+            {
+              "text": "Pyro Posse",
+              "bold": true
+            },
+            {
+              "text": " once pranked three houses in a night, forgot to announce one, and told the game group "
+            },
+            {
+              "text": "'It's like we're the only ones playing.'",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Institute can now confirm they were not.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They were the last stop.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Institute also notes that the pink team "
+            },
+            {
+              "text": "signed every scene:",
+              "bold": true
+            },
+            {
+              "text": " a panther on the door, a panther on the garage, a panther on the lawn, and paw prints for punctuation. "
+            },
+            {
+              "text": "Six signed confessions.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Inspector Clueso has all of them. He has arrested no one.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He has, however, filed a grievance against PNN's own privacy desk, which blurred every face in four group portraits.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Start at stop one →",
+          "href": "https://purrpetrators.net/cases/012/",
+          "note": "Six case files, thirty-six exhibits, one route. The photos are on the site, not in this email."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "6 for 6",
+              "text": "**Teams pranked, out of six available.** *Teams left over: none. The pink team checked twice.*"
+            },
+            {
+              "value": "~1:50",
+              "text": "**Hours from the first scene photo to the last.** *About eighteen minutes a house, group portrait included.*"
+            },
+            {
+              "value": "4",
+              "text": "**Group portraits posed at the scene.** *Faces blurred by PNN: every one. Clueso: inconsolable.*"
+            },
+            {
+              "value": "2",
+              "text": "**Cows branded 'PP' on the Area 51 Bureau's lawn.** *Cows consulted: zero. Cows befuddled: also zero. They are inflatable.*"
+            },
+            {
+              "value": "1",
+              "text": "**Can of Spam delivered to the Pyro Posse.** *Spam the Posse ate that night: one, its own. Replacement: confirmed in writing.*"
+            },
+            {
+              "value": "0",
+              "text": "**Arrests.** *Wanted everywhere. Caught nowhere. Now with timestamps.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " a team can prank six houses in one night "
+            },
+            {
+              "text": "if it stays up past the Silver Bullets' bedtime.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It also helps to bring the toilet paper pre-signed.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE ROUTE",
+      "heading": "Six stops. Six themes.\n(Read in order. Side effects vary by team.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 1 / Tightie Whities.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Underwear for the underwear team: a monogrammed clothesline, a yard full of toilet paper, and giant satin briefs reading 'Not Tonight.' The homeowners drove in mid-prank and could barely park. They were hit briefly. The cleanup was briefer.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-012 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/012/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 2 / Area 51 Bureau.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Four days after declaring a 'cosmic lockdown' on the pink team, the Bureau found two alien cowboys riding branded cattle on its lawn and alien beef jerky at its door. The aliens had a little too much fun with the cattle.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-013 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/013/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 3 / The Crimson Crew.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Crew's lookout watched the pink team hoist a flag on its porch and leave a chest of real treasure. The Crew held its fire and called it 'top-tier entertainment.' The ship is, as the Crew once put it, ours.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-014 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/014/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 4 / Silver Bullets.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A midnight retirement party: balloons, a banner, pink cupcakes, senior coupons, and a skeleton in a tiara. The guests of honor slept through it. The skeleton was the life of the party.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-015 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/015/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 5 / Black Webb Bandits.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A giant pink web across the front walk, spiders caught in it, and a bottle of Black Web Spider Spray. Caught in their own web, exactly as PNN drew it in case one.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-016 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/016/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stop 6 / Pyro Posse.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A kiddie pool of crying pumpkins, a can of Spam with a paw print, and a sign reading 'You've Been Purr-manently Extinguished!' The Posse didn't have enough flame left to spread.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-017 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/017/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "THE PINK SWEEP AWARDS",
+      "heading": "Every team takes home a trophy.\n(Not the real trophy. The witches handle that one.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Fastest Cleanup: Tightie Whities.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Yard spotless by morning. The Institute suspects a team with a lot of practice and something to hide.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Most Befuddled: Area 51 Bureau.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A team built to explain the unexplained, staring at two cows in cowboy hats.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Best Review of Its Own Prank: The Crimson Crew.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'Top-tier entertainment.' Five stars, posted by the victim.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Best Night's Sleep: Silver Bullets.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Slept through their own party. The coupons are good whenever they wake up.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Most Accurately Predicted: Black Webb Bandits.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "PNN drew it in case one. The pink team built it in case sixteen.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Most Grateful Victim: Pyro Posse.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Thanked the pink team for the Spam. The first thank-you note ever written by a fire.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lifetime Achievement: Prowling Purrpetrators.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Six counts of excellence. Accepted in absentia, because nobody can find them.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly papered.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST:",
+              "bold": true
+            },
+            {
+              "text": " One cosmic lockdown. Last seen four days ago. "
+            },
+            {
+              "text": "Answers to 'cosmic.' Does not lock.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND:",
+              "bold": true
+            },
+            {
+              "text": " Two cows, branded PP, grazing at the Area 51 Bureau. "
+            },
+            {
+              "text": "The owners know who they are. So does everyone else.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE:",
+              "bold": true
+            },
+            {
+              "text": " One Werewolf Management hotline, never used. "
+            },
+            {
+              "text": "Never installed, either. Inquiries to a number that does not exist.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED:",
+              "bold": true
+            },
+            {
+              "text": " Security footage of the pink team mid-prank. "
+            },
+            {
+              "text": "The Crimson Crew has it. The Crew is holding it, along with its fire.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FREE TO A GOOD HOME:",
+              "bold": true
+            },
+            {
+              "text": " One kiddie pool, lightly cried in. "
+            },
+            {
+              "text": "Pumpkins included. Spam sold separately; ask the Pyro Posse.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "SERVICES:",
+              "bold": true
+            },
+            {
+              "text": " Spider removal, after hours. "
+            },
+            {
+              "text": "No webs. No spiders. No problem. References available from the Black Webb Bandits.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM INSPECTOR CLUESO'S OFFICE",
+      "heading": "I had them.\n(I had all of them. In pink. On six lawns.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Inspector Clueso has spent sixteen cases hoping for evidence against the "
+            },
+            {
+              "text": "Prowling Purrpetrators.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "On October 19, he got all of it at once:",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "paw prints, monograms, group portraits, a route log, and a can of Spam.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "He has arrested no one.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "His own newsroom blurred the faces. The Crimson Crew kept the footage. The Silver Bullets were asleep. The aliens only smiled.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The masthead's 'Wanted everywhere, caught nowhere' was supposed to be marketing.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "On October 19 it was an itinerary.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder:",
+              "bold": true
+            },
+            {
+              "text": " keep pranks clever, kind, and away from sleep and young children (rules 6 and 7). Photo or video proof goes to the game group by "
+            },
+            {
+              "text": "October 22,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "which, Clueso notes, is very soon.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See the final stop →",
+          "href": "https://purrpetrators.net/cases/017/",
+          "note": "Seven exhibits, the full route log, and the saddest pumpkins in the game."
+        }
+      ]
+    }
+  ],
+  "tickerItems": [
+    {
+      "tag": "NEWSLETTER",
+      "text": "Edition 008: six teams, one night, zero arrests. The route map is in the email. The suspects are not."
+    },
+    {
+      "tag": "AWARDS",
+      "text": "Pink Sweep Awards announced. Fastest Cleanup: Tightie Whities. Best Night's Sleep: Silver Bullets. Most Grateful Victim: Pyro Posse."
+    }
+  ]
+}

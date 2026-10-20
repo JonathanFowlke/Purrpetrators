@@ -81,6 +81,8 @@ export async function validateRawData(raw, root = projectRoot) {
     if (record.relatedCaseIds !== undefined && (!Array.isArray(record.relatedCaseIds) ||
         new Set(record.relatedCaseIds).size !== record.relatedCaseIds.length ||
         record.relatedCaseIds.some(id => typeof id !== 'string' || id === record.id || !caseById.has(id)))) throw new Error(`Invalid related cases: ${record.id}`);
+    if (record.series !== undefined && (!record.series || !nonEmpty(record.series.name) || !nonEmpty(record.series.blurb) ||
+        !caseById.has(record.series.startCaseId))) throw new Error(`Invalid series: ${record.id}`);
     if (record.purrHiss !== undefined) {
       if (!Array.isArray(record.purrHiss) || !record.purrHiss.length) throw new Error(`Invalid purrHiss ratings: ${record.id}`);
       const rated = new Set();

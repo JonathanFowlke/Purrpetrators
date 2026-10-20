@@ -659,7 +659,16 @@
               "text": " "
             },
             {
-              "text": "The [Prowling Purrpetrators](https://purrpetrators.net/teams/pink/) were not consulted, and are not available. They are, per Clueso, 'up to something.'",
+              "text": "The ",
+              "italic": true
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "italic": true,
+              "href": "https://purrpetrators.net/teams/pink/"
+            },
+            {
+              "text": " were not consulted, and are not available. They are, per Clueso, 'up to something.'",
               "italic": true
             }
           ]

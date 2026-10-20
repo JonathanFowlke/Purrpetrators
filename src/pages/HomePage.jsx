@@ -14,6 +14,8 @@ export function HomePage() {
   const { model } = useSite();
   const ourTeam = model.teams.find(team => team.isOurTeam);
   const latestEdition = [...model.newsletters].reverse().find(item => item.status === 'published')?.id;
+  const seriesStart = model.latest?.series && model.caseById.get(model.latest.series.startCaseId);
+  const series = seriesStart?.published && seriesStart.id !== model.latest.id ? { ...model.latest.series, start: seriesStart } : null;
   return (
     <SiteLayout
       isHome
@@ -22,7 +24,7 @@ export function HomePage() {
       og={{ type: 'website', title: 'PNN — Purrpetrator News Network', description: 'The Purrveillance desk is open. Case files and questionable conclusions from the Broomstick Challenge.', path: '/', siteName: 'Purrpetrator News Network' }}
     >
       <Hero>
-        <FeaturedCase record={model.latest} team={model.latest && model.teamById.get(model.latest.suspectTeamId)} />
+        <FeaturedCase record={model.latest} team={model.latest && model.teamById.get(model.latest.suspectTeamId)} series={series} />
       </Hero>
       <Countdown countdown={model.countdown} />
       <DailyTip {...model.dailyTip} />

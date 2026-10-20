@@ -1197,5 +1197,779 @@
         "text": "Pyro Posse prank on Crimson Crew collected on schedule. Evidence: removed. Crew: unaware."
       }
     ]
+  },
+  {
+    "id": "012",
+    "caseNumber": "PNN-012",
+    "dateOpened": "2026-10-20T10:00:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Briefly hit. Thoroughly papered. Swept by sunrise.",
+    "suspectTeamId": "white",
+    "incidentTitle": "Tightie Whities pick the wrong night again. This time the night picked them.",
+    "summary": "Shortly after 11 p.m. on October 19, the Prowling Purrpetrators opened a six-team sweep at the Tightie Whities' house: toilet paper in every tree, a clothesline of monogrammed briefs, and a giant pair of satin underwear reading 'Not Tonight.' The homeowners drove in mid-operation and could barely park. The suspects scattered. The yard was spotless by morning. PNN calls it a brief hit.",
+    "incidentDescription": "**Stop 1 of 6. About 11:03 p.m. The underwear team receives underwear.**\n\nOn the night of **October 19, 2026,** the **Prowling Purrpetrators** opened what PNN is calling **the Pink Sweep:** six teams, one night, *and not one arrest.* First on the route: the **Tightie Whities,** a team that named itself after underwear and has spent the season *being handed it* (see PNN-005).\n\nPNN's site inventory:\n\n- **Toilet paper:** *everywhere.* Trees, shrubs, porch rail, lawn, and one parked car. The rolls were **stamped with pink paw prints,** *making it the first TP in history to arrive pre-signed.*\n- **A clothesline of tighty-whities,** strung across the yard like party bunting, **each pair marked 'PP' with a pink panther silhouette.** *A team named for its underwear, now flying someone else's monogram.*\n- **One giant pair of pink satin underwear,** clothespinned to the porch planter, reading **'Not Tonight.'** In smaller letters: **'You Know Why...'**\n- **Pink lights** in the front tree, *setting a mood the Whities did not order.*\n- **The pink signature:** a **panther on the garage door,** a **panther on the front door,** a **panther stenciled on the lawn,** chalked paw prints, and **pink flagging tape** zigzagged down the driveway.\n\n**About that underwear.** In PNN-007, a Tightie Whities member stood on a doorstep holding a plate nobody took and concluded, *'Man, we picked the wrong night.'* **The pink team has now put the answer in writing. In satin.** *'You Know Why...' They do. They were there.*\n\n**Then the homeowners drove in.** *Mid-operation.* The driveway was taped, the car was wearing toilet paper, and **the Whities could barely park at their own house.** The suspects did what every great neighborhood operation has done since the invention of the porch light: **they scattered, like teenagers in the old days.** *Nobody was caught. Nobody was named. The tape stayed.*\n\n**By morning, it was all gone.** The Tightie Whities cleaned the yard *early, fast, and completely,* in what PNN can only describe as **a cleanup with something to hide.** *A team does not move that quickly unless it suspects the panther is still in the trees.*",
+    "suspectedMotive": "**Working theory:** the **Right Night Doctrine.** *The Whities said they picked the wrong night.* **The pink team picked the right one for them,** and labeled it.\n\nPNN's motives on file, in order of escalation:\n\n- **Brand consistency.** *Until last night, a team called the Tightie Whities had displayed no tighty-whities.* The pink team corrected the oversight with **a full clothesline, monogrammed.** **Customer service.**\n- **The paper trail.** *In PNN-003, Clueso's sketch desk drew a Tightie Whities operative trailing toilet paper from one shoe.* **It was a joke. The pink team made it a landscape.**\n- **Loose ends.** *The team's file cites loose ends (PNN-003).* **The pink team tied them to every tree.**\n- **Parking.** *The plan did not include the homeowners arriving.* **The tape did, however, include the driveway,** *which is how a team learns its own parking spot is now an exhibit.*\n\n**And the cleanup.** Gone by sunrise. PNN's theories:\n\n- **Fear.** *The team saw its own theme hanging from a clothesline and assumed the panther was still in the yard.*\n- **Practice.** *Laundry in PNN-005. Plates in PNN-007.* **No team in the game has more cleanup reps.**\n- **Shame.** *Out-underweared at its own theme.* **A first for the sport.**\n\nThe theory has one flaw: **it was a compliment.** *Nobody gets a monogrammed clothesline unless they matter.*",
+    "evidence": [
+      {
+        "id": "012-A",
+        "type": "image",
+        "src": "assets/evidence/012/tightie-whities-not-tonight-satin-briefs.jpeg",
+        "width": 1648,
+        "height": 1908,
+        "alt": "A giant pair of shiny pink satin underwear with lace trim, clothespinned to a white wooden porch planter at night. Black letters read Not Tonight, with You Know Why... in smaller type. Strips of toilet paper and pink ribbon drape across the planter and the shrubs behind it, below a white porch railing.",
+        "label": "Exhibit A - Not Tonight",
+        "description": "**The centerpiece:** pink satin, lace trim, and a message. **'Not Tonight. You Know Why...'** *PNN does know why: the team said so itself in PNN-007.* *Clothespins on a Tightie Whities line are a tradition the Pyro Posse started in PNN-005.* **This pair is not on fire. It is merely right.**",
+        "caption": "Supplied with the case file. Size: giant. Fabric: satin. Message: received. Night: correct, for once."
+      },
+      {
+        "id": "012-B",
+        "type": "image",
+        "src": "assets/evidence/012/tightie-whities-tp-house-and-taped-car.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A night view of a two-story house with toilet paper hanging thickly from a front-yard tree and draped across the lawn and shrubs. A tree at the left glows with pink lights. A dark sedan in the driveway is crisscrossed with pink tape and toilet paper. Two trash bins stand at the curb. People near the center and the car's license plate are pixelated.",
+        "label": "Exhibit B - Where the homeowners tried to park",
+        "description": "**The Whities' house, fully papered.** *One tree carries enough toilet paper to qualify as a paper mill.* At the right, **a sedan wrapped in pink tape and TP,** *parked in what was, an hour earlier, a driveway.* **This is the view the homeowners pulled into.** *PNN has pixelated the suspects in the yard,* **as a courtesy to the suspects.**",
+        "caption": "Supplied with the case file, with people and a license plate pixelated by PNN. Trees: papered. Car: gift-wrapped. Parking: by appointment."
+      },
+      {
+        "id": "012-C",
+        "type": "image",
+        "src": "assets/evidence/012/tightie-whities-lawn-panther-stencil.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up of a dark green lawn at night with a large pink stenciled outline of a running panther and a pink paw print beside it, surrounded by loose strips of toilet paper and a few fallen leaves.",
+        "label": "Exhibit C - The signature",
+        "description": "**A running panther, stenciled in pink on the Whities' lawn,** with a paw print for punctuation. *The suspects did not merely leave the scene. They left a self-portrait of leaving the scene.* **It is running,** *which, by PNN's reconstruction, is exactly what the suspects did when the car pulled in.*",
+        "caption": "Supplied with the case file. Direction of travel: away. Speed: faster than the homeowners could park."
+      },
+      {
+        "id": "012-D",
+        "type": "image",
+        "src": "assets/evidence/012/tightie-whities-garage-panther-cover.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A night view of a garage door half covered by pink and pale plastic sheeting taped in place with blue painter's tape, with a cartoon panther face in the middle. Long strips of toilet paper loop across the front of the garage and the driveway. A shadow of the photographer falls on the driveway, and a figure at the left edge is pixelated.",
+        "label": "Exhibit D - The garage, accessorized",
+        "description": "**The garage, wearing a pink slip.** *Painter's tape, plastic sheeting, and one unimpressed panther face,* **looking down at the driveway like it knows who did this.** *It does. It came with them.* **Loops of toilet paper hang across the door like streamers at a party nobody RSVP'd to.**",
+        "caption": "Supplied with the case file, with a person at the edge pixelated by PNN. Painter's tape only. The panther's expression: unchanged since installation."
+      },
+      {
+        "id": "012-E",
+        "type": "image",
+        "src": "assets/evidence/012/tightie-whities-pink-team-curbside-portrait.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A wide night photo of a two-story house behind two trees heavily draped in toilet paper, one lit with pink lights. A line of white briefs hangs like bunting across the front yard. A group of people sits on the curb in front of the house; the group and two standing figures are pixelated. Long shadows stretch across the empty street.",
+        "label": "Exhibit E - The suspects pose for a curbside portrait",
+        "description": "**The suspects, seated on the curb, in front of the evidence, under a clothesline of monogrammed briefs,** *posing like a team photo for a championship nobody announced.* **PNN's privacy desk has pixelated every face, per policy.** *Inspector Clueso has filed a grievance against his own newsroom.* **It is the first of several.**",
+        "caption": "Supplied with the case file; the group is pixelated by PNN. A lineup that showed up, sat down, and smiled. Arrests: still zero."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The signature.** *For eleven cases, Clueso has suspected the Prowling Purrpetrators on no evidence.* **Tonight they signed their work:** PP on the briefs, paw prints on the paper, a panther on the garage, a panther on the door, a panther on the lawn. **Clueso has never had so much evidence or so little to do with it.**\n- **The getaway.** The homeowners pulled in. The suspects pulled out. *Clueso wishes to note he would have parked down the street, and that nobody asked him.*\n- **The portrait.** The suspects **posed for a group photo on the curb,** *in front of the scene, under the briefs.* **PNN's privacy desk pixelated every face, per policy.** *Clueso has filed a grievance against his own newsroom. His newsroom has filed it.*\n- **The cleanup.** He requested the scene be preserved. **The Whities had already bagged it.** *He respects their speed. He suspects their motives.*\n- **Aside:** *Wanted everywhere. Caught nowhere.* **Stop one of six.**",
+    "threatLevel": "Thoroughly papered. Briefly exposed. Fully monogrammed.",
+    "disposition": "**PNN assessment:** the Pink Sweep opened with **the most on-brand prank in Broomstick Challenge history:** *underwear for the underwear team, toilet paper for the team with a paper trail,* and **a 'Not Tonight' notice for the team that picked the wrong night.**\n\n- **Tightie Whities:** **briefly hit, thoroughly papered, and swept clean before the neighbors finished breakfast.** *Charges: owning a theme and getting out-themed on it; a cleanup suspiciously fast for a team with nothing to hide.* **Defense: 'You know why.'**\n- **Prowling Purrpetrators:** in, papered, monogrammed, photographed, and **gone before the car was in park.** *Charges: speed, precision, and unauthorized excellence in a residential zone.* **Arrests: zero.**\n- **The toilet paper:** *pre-stamped, deployed, and retired with honors.* **It served with distinction.**\n\nPNN reminds all teams that the whole operation was **tape, paper, plastic, and chalk:** nothing damaged (Rule 5), nobody woken on purpose (Rule 7), and photo proof posted to the game group by **October 22** (Rule 9).\n\n**Final ruling:** the Tightie Whities were hit *briefly.* **Their cleanup was briefer.** *Case closed. Stop one of six. The pink team was already on the road.*",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "003",
+      "005",
+      "007"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "white",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Out-underweared at its own theme. Cleaned up faster than it pranks."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Underwear for the underwear team. Gone before the homeowners could park."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Tightie Whities 'briefly' hit by the Prowling Purrpetrators. Cleanup reported to be even briefer."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Homeowners return to a taped driveway, papered trees, and a borrowed theme. Parking: limited. Suspects: scattered."
+      },
+      {
+        "tag": "FASHION",
+        "text": "Briefs monogrammed 'PP' spotted on a clothesline. The underwear team has been out-underweared."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Giant satin underwear tells the Tightie Whities 'Not Tonight.' Team confirms it has heard this before."
+      }
+    ]
+  },
+  {
+    "id": "013",
+    "caseNumber": "PNN-013",
+    "dateOpened": "2026-10-20T10:10:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Lockdown lifted. Cattle branded. Bureau befuddled.",
+    "suspectTeamId": "green",
+    "incidentTitle": "Close encounters of the herd kind: the Area 51 Bureau's lawn goes rodeo",
+    "summary": "Days after the Area 51 Bureau announced it had put the pink team's pranking days on 'cosmic lockdown,' the Prowling Purrpetrators parked two alien cowboys on its lawn, riding cows branded PP. Alien beef jerky waited at the door. By morning the homeowners looked befuddled. PNN's finding: the aliens had too much fun playing with the cattle.",
+    "incidentDescription": "**Stop 2 of 6. About 11:18 p.m. The lockdown lasts four days.**\n\nIn PNN-009, the **Area 51 Bureau** announced it had **'closed the case'** on the **Prowling Purrpetrators** and put their pranking days on **'cosmic lockdown.'** *It also called the pink team 'a little pale.'* On the night of **October 19, 2026,** the pink team, pale and apparently unlocked, arrived on the Bureau's front lawn **with livestock.**\n\nPNN's site inventory:\n\n- **Two inflatable green aliens in cowboy hats,** each **riding an inflatable cow** and holding **a rope,** *ready for a rodeo no one on this planet had requested.*\n- **The cows were branded:** **a pink paw print with 'PP'** on the flank. *Area 51 has spent decades abducting cattle.* **This time the cattle arrived pre-owned.**\n- **Alien beef jerky on the doorstep:** two gold bags, **'Space Cowboy Pepper Beef'** and **'Abducted Cow Beef Jerky.'** *PNN has questions about the supply chain.* **The cows on the lawn have not been told what is in the bags.**\n- **The pink signature:** a **panther on the front door,** a **panther on the garage,** a **panther stenciled on the lawn** with pink paw prints all around it, and **pink flagging tape** zigzagged across the driveway *over three parked vehicles,* plus a few laps of the porch pillars.\n\n**A note on tape.** The Bureau's own crime-scene tape in PNN-009 was *advertised as neon green and delivered in yellow.* **The pink team's tape is pink.** *PNN checked. It was pink the whole way across.*\n\n**By morning, the homeowners looked befuddled.** *A Bureau built to explain the unexplained stood in its own yard facing two aliens, two cows, two bags of jerky, and no explanation.* The aliens were **still there, still smiling, and still mounted.** PNN's best reading of the scene: **the aliens had too much fun playing with the cattle,** *and stayed for breakfast.*",
+    "suspectedMotive": "**Working theory:** the **Cow + Boy Hypothesis.** *Aliens abduct cows. Cowboys herd cows.* **The pink team gave the aliens hats and let them work it out.**\n\nPNN's motives on file, in order of escalation:\n\n- **Return to sender.** In PNN-009, the Bureau left the pink team a plastic **'panther paw-cow'** *wearing paw prints.* **The pink team returned the cow, twice, inflated and branded.** *Interest accrues in livestock.*\n- **Color correction.** The Bureau said pink looked **'a little pale'** next to its **'signature Area 51 Green.'** *The pink team has since signed the Bureau's cattle in pink.* **Signature: PP. Shade: not pale.**\n- **An earthly experience.** *The Bureau's aliens have flown saucers, crossed signs, and guarded a foil-wrapped patio umbrella.* **They had never been to a rodeo.** *The pink team calls it cultural exchange.*\n- **Catering.** *The jerky bag says 'Abducted Cow.'* **After seventy years of cattle abductions, someone has finally found out where the cows go.**\n- **The lockdown.** *'Cosmic lockdown' is not a lock.* **It is a regular word with 'cosmic' in front of it.** *It held for four days, which PNN understands is about how long anything holds in space.*\n\nThe theory has one flaw: **the aliens appear to be enjoying it.** *PNN has studied the photographs. The aliens are smiling. The cows are not.*",
+    "evidence": [
+      {
+        "id": "013-A",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-alien-cowboy-branded-cow.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A night photo of an inflatable green alien wearing a small cowboy hat and a bandana, riding an inflatable black-and-white cow on a lawn lit purple by a ground light. The alien holds a stick and a white rope that runs from the cow's nose out of frame. A pink paw print with the letters PP is drawn on the cow's hindquarters. A white fence and shrubs are behind it.",
+        "label": "Exhibit A - Alien cowboy, mounted",
+        "description": "**One alien, one hat, one cow, one rope.** *The alien is smiling the smile of a creature that has finally found a hobby.* **The cow's expression says it was told this would be a short ride.** *Note the brand on the hindquarters:* **a pink paw, 'PP.'** *The Bureau's own aliens are now riding the pink team's cattle on the Bureau's own lawn.* **Jurisdiction has never been this confusing.**",
+        "caption": "Supplied with the case file. Hat: regulation cowboy. Saddle: none. Rodeo permit: not on file."
+      },
+      {
+        "id": "013-B",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-pp-cattle-brand.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up of the flank of an inflatable black-and-white cow under purple light, marked with a pink paw print outline containing the letters PP. A green inflatable alien leg rests on the cow's back at the upper right.",
+        "label": "Exhibit B - The brand",
+        "description": "**The brand, up close:** *four toes, one pad, two initials.* **Cattle branding is how a rancher proves ownership.** *These cows were delivered by the pink team, marked by the pink team, and parked on the Bureau's lawn,* **which raises a legal question the Bureau's lawyers will not enjoy.** *Clueso calls it the first signed confession in PNN history.* **It is on a cow.**",
+        "caption": "Supplied with the case file. Brand: PP. Owner of record: not the Bureau. Cow: unavailable for comment, but visibly owned."
+      },
+      {
+        "id": "013-C",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-alien-beef-jerky.jpeg",
+        "width": 1085,
+        "height": 1920,
+        "alt": "Two shiny gold bags of jerky propped on a front doorstep at night. Each label shows a green alien in a cowboy hat on a horse and reads Alien Fresh Jerky Premium. One is Space Cowboy Pepper Beef and the other Abducted Cow Beef Jerky. An orange paper lantern with jack-o'-lantern faces stands behind them.",
+        "label": "Exhibit C - Alien beef jerky",
+        "description": "**Two bags of 'Alien Fresh Jerky,' left at the door:** *'Space Cowboy Pepper Beef' and 'Abducted Cow Beef Jerky.'* **The cows on the lawn have been kept out of the loop.** *PNN considers this the first prank in the game to come with a snack and a moral dilemma.* **The Bureau's aliens finally know what happens after the abduction.**",
+        "caption": "Supplied with the case file, cropped to the gifts. Best before: the cows find out."
+      },
+      {
+        "id": "013-D",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-panther-front-door.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A front door at night covered floor to frame in pink butcher paper held with green tape, with a cartoon panther face near the top. Red and pink tinsel curtains and string lights hang on both sides, a spiderweb light sits in the upper corner, and a Trick or Treat sign stands at the left. Two bags of jerky sit on the step beside pumpkins.",
+        "label": "Exhibit D - Closed for abduction",
+        "description": "**The Bureau's front door, papered shut in pink,** *with a panther face where the peephole used to matter.* **Tinsel curtains on both sides,** *because a cover-up deserves curtains.* The Bureau's own 'Trick or Treat' sign stands beside it, *and the jerky makes clear which one this was.* **For a team that keeps everything classified, the front door has never been so declassified.**",
+        "caption": "Supplied with the case file. Clearance level: pink. Peephole: panther. Treat: jerky. Trick: everything else."
+      },
+      {
+        "id": "013-E",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-lawn-panther-stencil.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A dark lawn lit by a flashlight showing a large pink stenciled outline of a running panther surrounded by pink paw prints. Behind it, two inflatable green aliens ride inflatable cows under purple ground lights, joined by a long rope. At the top right, two people working near a pink inflatable are pixelated.",
+        "label": "Exhibit E - The crop circle",
+        "description": "**Area 51's first crop circle,** *in the shape of a running panther, ringed with paw prints.* **The cowboys ride in the background, lassoed together,** *a rodeo now operating under new management.* **At the top right, two suspects are pixelated mid-task by PNN's privacy desk.** *Clueso's grievance has grown a second page.*",
+        "caption": "Supplied with the case file, with two people pixelated by PNN. Crop circle: pink. Explanation: classified, but obvious."
+      },
+      {
+        "id": "013-F",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-pink-house-wide.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A wide night view of a two-story house with a balcony full of glowing Halloween inflatables. The front door is covered in pink paper, the garage doors are covered in pink sheeting lit by pink porch lights, and pink flagging tape crisscrosses the driveway over a white SUV and two pickup trucks. An alien cowboy on a cow stands on the lawn at the left. License plates are pixelated.",
+        "label": "Exhibit F - The base, compromised",
+        "description": "**The whole Bureau, from the street:** *pink garage, pink door, pink-lit porch,* and **pink tape stretched over three vehicles,** *so the Bureau's fleet could not achieve liftoff.* **At the far left, an alien cowboy guards the perimeter on horseback, or cowback.** *The Bureau has spent the season concealing things.* **It cannot conceal this.** *It is visible from orbit, and from the sidewalk.*",
+        "caption": "Supplied with the case file, with license plates pixelated by PNN. Fleet status: grounded by tape. Perimeter: patrolled by cow."
+      },
+      {
+        "id": "013-G",
+        "type": "image",
+        "src": "assets/evidence/013/area-51-bureau-morning-after.jpeg",
+        "width": 600,
+        "height": 450,
+        "alt": "A daylight photo of a brick house front the next morning. Two inflatable green aliens still ride inflatable cows on the green lawn near pink stenciled marks, pink tape runs along the porch, and a deflated dark inflatable lies by the flower bed at the right.",
+        "label": "Exhibit G - The morning after",
+        "description": "**Daylight. The aliens are still mounted,** *still smiling, and still roped to their cattle.* **The rodeo did not end at midnight. It simply waited for an audience.** *Somewhere inside, a Bureau built to explain the unexplained was looking out the window and drafting a cover story.* **PNN rates the expression 'befuddled.'**",
+        "caption": "Supplied with the case file, taken the following morning. Aliens: still riding. Cows: still owned. Bureau: still thinking about it."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The case.** The Bureau **'closed the case'** on the Prowling Purrpetrators in PNN-009. *It was not the Bureau's case to close.* **Clueso has reopened it,** with new evidence: **two cows, both signed.** *He is not yet sure whether a cow can testify. Legal says 'not in this state.'*\n- **The jerky.** He requested a sample for the lab. **The lab requested a second sample.** *The investigation is ongoing and peppery.*\n- **The suspects.** *Two of them appear in the background of Exhibit E, taping a porch,* **pixelated by PNN's privacy desk.** *Clueso's grievance against his own newsroom now has a second page and a cow on the cover.*\n- **The aliens.** He asked them for a statement. **They smiled.** *He has been getting the same response from the pink team for thirteen cases.*\n- **Aside:** **Stop two of six.** *The pink team was on its second house. Clueso was on his second donut.*",
+    "threatLevel": "Rodeo-ready. Cattle branded. Cosmic lockdown: unlocked.",
+    "disposition": "**PNN assessment:** the Bureau put the pink team on **cosmic lockdown** and found, four days later, **a ranch on its lawn.**\n\n- **Area 51 Bureau:** *experts in the unexplained,* **unable to explain their own front yard.** *Charges: a lockdown with no lock, a case closed by the wrong agency, and calling the pink team 'pale' within earshot of the pink team.* **Morning status: befuddled.**\n- **Prowling Purrpetrators:** **two aliens deputized, two cows branded, three vehicles taped, one Bureau out-weirded on its own theme.** *Charges: cattle rustling in reverse, interplanetary hospitality, and handing jerky to aliens with a straight face.* **Arrests: zero.**\n- **The aliens:** *hatted, mounted, and grinning.* **They had too much fun with the cattle.** *PNN has asked them to keep it down. Rule 7.*\n- **The cows:** *branded, ridden, and still standing at sunrise.* **They would like a word about the jerky.**\n\nPNN reminds all teams that the whole operation was **tape, paper, plastic, and chalk:** nothing damaged (Rule 5), nobody woken on purpose (Rule 7), and photo proof posted to the game group by **October 22** (Rule 9).\n\n**Final ruling:** *Case reopened. Lockdown lifted.* **The truth is out there, and it is wearing a cowboy hat.**",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "004",
+      "009",
+      "012"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "green",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Declared a cosmic lockdown. Woke up to a rodeo. Befuddled, and out-weirded on its own theme."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Branded the cattle, hatted the aliens, and catered the abduction."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Area 51 Bureau lawn becomes a rodeo overnight. Aliens in cowboy hats. Cows branded PP. Bureau: befuddled."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Researchers confirm aliens enjoy cattle. Cattle decline to comment. Jerky reportedly involved."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Alien beef jerky up sharply on Area 51 demand. Analysts urge cows to diversify."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "Area 51 Bureau's 'cosmic lockdown' on the pink team lasts four days. Locksmiths blame the word 'cosmic.'"
+      }
+    ]
+  },
+  {
+    "id": "014",
+    "caseNumber": "PNN-014",
+    "dateOpened": "2026-10-20T10:20:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Flag lowered. Fire held. Treasure upgraded.",
+    "suspectTeamId": "red",
+    "incidentTitle": "The Crimson Crew's lookout spots pink boarders. The Crew holds its fire.",
+    "summary": "Two nights after one pink teenager caught the whole Crimson Crew red-handed, the Prowling Purrpetrators boarded the Crew's own porch, hoisted a pink flag, and left a treasure chest marked PP. The Crew's 'security glass' watched it happen. The Crew held its fire and called it top-tier entertainment. PNN would like to know what the fire is being saved for.",
+    "incidentDescription": "**Stop 3 of 6. About 11:51 p.m. The ship changes flags.**\n\nOn the night of **October 17,** one pink teenager with a foam blaster caught the entire **Crimson Crew** red-handed on the pink team's driveway (PNN-010). The grown pirates **begged to finish,** offered candy from last Halloween, and taped up a notice that said **'Your ship is ours!'**\n\nOn the night of **October 19, 2026,** the **Prowling Purrpetrators** came aboard. PNN's site inventory:\n\n- **A pink flag,** hoisted **on the Crew's own porch flagpole,** showing **a panther in a 'PP' helmet.** *'Your ship is ours,' the Crew said in PNN-010.* **The flagpole has since changed hands.**\n- **A treasure chest on the doormat,** lettered **'PP' in pink,** set in **a pink net** weighed down at the corners with pavers and lined with pink tissue. Inside: **foil-wrapped coins in gold, silver, and pink.** *The Crew's PNN-010 doubloons came with a card reading '100% FAKE.'* **This treasure came without a disclaimer.**\n- **The front door,** papered pink with **a panther at eye level** and **pink tinsel curtains,** *a boarding party with production values.*\n- **The garage,** draped in pink panels with **another panther,** plus **a panther stenciled on the driveway** with paw prints and **pink flagging tape** strung across it.\n\n**The Crew saw all of it.** Its statement, the next morning:\n\n> Blimey, Crimson Crew was on the defense last night multiple times! that was top-tier entertainment! Our security glass saw ye mid-prank, but we held our fire and let ye carry on as we thought ye were celebrating’ International Day Against Breast Cancer (Oct19) with all that PINK! 🏴‍☠️\n> — The Crimson Crew\n\n**'On the defense multiple times.'** *PNN has reviewed the Crew's defensive record this week:* caught on offense by one teen (PNN-010), pranked by the Pyro Posse without noticing (PNN-011), and now **watching the pink team through glass and letting it finish.** *That is not a defense.* **It is a viewing party.**\n\n**'We held our fire.'** *Pirates. Holding fire.* **PNN has never seen a crew with this much restraint, or this little cannon.**\n\n**The cause.** *PNN supports the cause, and the Crew's interpretation was generous.* **But the pink team has been pink every single day of this game.** *The Crew watched a boarding party on its porch with a flag, a chest, and a roll of tape,* **and assumed a fundraiser.**",
+    "suspectedMotive": "**Working theory:** the **Remedial Piracy Program.** In PNN-010, the Crew paid for a parley with **candy from last Halloween** and treasure labeled **'100% FAKE.'** *PNN suspects the pink team came to demonstrate how a treasure delivery is done.*\n\nPNN's motives on file:\n\n- **Treasure, corrected.** *The Crew delivered fake doubloons and stale booty.* **The pink team delivered a chest, a lining, a net, and a monogram.** *PNN calls it a refresher course.*\n- **The flag.** *A pirate crew's flag is its identity.* **The Crew's porch now flies someone else's.** *PNN understands this is what sailors call 'losing the ship,' and what the Crew calls 'top-tier entertainment.'*\n- **Hospitality, returned.** *In PNN-010, the pink house let the Crew finish its prank under floodlights.* **On October 19, the Crew let the pink team finish under surveillance.** *A mutual parley. The difference: the pink team did not have to beg.*\n- **Rule 2.** *A team can prank another team once.* **The Crew spent its one pink prank getting caught. The pink team spent its one Crew prank getting watched, approved, and reviewed.**\n\nThe theory has one flaw: **the Crew enjoyed it.** *PNN has never had a victim publish a five-star review.*",
+    "evidence": [
+      {
+        "id": "014-A",
+        "type": "image",
+        "src": "assets/evidence/014/crimson-crew-porch-flag-and-chest.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A porch at night seen from the front steps. The front door is covered in pink paper with a small cartoon panther face, framed by pink tinsel curtains. A black treasure chest marked PP sits on a striped doormat inside a pink net held down by pavers. To the right, a large pink flag hangs from a pole mounted on a porch column.",
+        "label": "Exhibit A - Boarded",
+        "description": "**The Crew's porch, under new colors.** *Pink door, pink tinsel, pink net, a chest marked PP,* and **a pink flag on the Crew's own flagpole.** *The mat says 'Welcome.' The Crew, apparently, meant it.* **A pirate crew has never been boarded this politely, or watched it this closely.**",
+        "caption": "Supplied with the case file. Boarding party: gone. Flag: staying. Security glass: watching, approvingly."
+      },
+      {
+        "id": "014-B",
+        "type": "image",
+        "src": "assets/evidence/014/crimson-crew-pp-treasure-chest.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A close-up at night of a small black treasure chest with PP in large pink letters inside its lid, sitting open in a pink net on a striped doormat. Pink tissue paper lines the chest, which is filled with foil-wrapped coins in gold, silver, and pink. Pavers weigh down the corners of the net and pink tinsel hangs at the left.",
+        "label": "Exhibit B - Real treasure, for once",
+        "description": "**A chest of foil-wrapped coins,** *gold, silver, and pink, on a bed of tissue, inside a net, under a monogram.* **Compare PNN-010,** *where the Crew delivered 'worthless doubloons' and a card admitting they were fake.* **This chest has no confession card.** *It is simply better.* **X marks the spot. PP marks the chest.**",
+        "caption": "Supplied with the case file. Treasure: wrapped. Disclaimer: none needed. Pavers: holding the net down, which is more than the Crew managed."
+      },
+      {
+        "id": "014-C",
+        "type": "image",
+        "src": "assets/evidence/014/crimson-crew-pink-panther-flag.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up of a hot pink flag hanging beside a stone-based porch column at night, printed in pale pink with a large stylized panther face wearing a striped helmet lettered PP.",
+        "label": "Exhibit C - The colors",
+        "description": "**The flag that now flies over the Crew's porch:** *a panther in a PP helmet,* **staring out to sea, or at least at the street.** *A crew that calls itself Crimson now flies Pink.* **PNN notes that pink is what crimson becomes when it relaxes.**",
+        "caption": "Supplied with the case file. Jolly Roger: retired. Jolly Pink: hoisted."
+      },
+      {
+        "id": "014-D",
+        "type": "image",
+        "src": "assets/evidence/014/crimson-crew-garage-and-driveway-stencil.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A wide garage at night covered with pink and pale plastic sheeting taped at the seams, with a cartoon panther face in the center. In the foreground, a pink stenciled running panther and paw prints glow on the concrete driveway, crossed by two strands of pink flagging tape. The house number is pixelated.",
+        "label": "Exhibit D - Signed, and taped",
+        "description": "**The garage, wrapped in pink,** with **a running panther stenciled on the driveway** and **two strands of tape across it,** *like a crime scene that is also the criminal's business card.* **The panther is running.** *The Crew's security glass, presumably, watched it go.* **Nobody followed.**",
+        "caption": "Supplied with the case file, with the house number pixelated by PNN. Pursuit: declined. Fire: held."
+      },
+      {
+        "id": "014-E",
+        "type": "image",
+        "src": "assets/evidence/014/crimson-crew-pink-team-driveway-portrait.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A group of people stands in a driveway at night in front of a house outlined in red and orange lights. Behind them the garage is covered in pink sheeting and a pink flag hangs from the porch. One person holds a small step ladder. Every face and the house number are pixelated.",
+        "label": "Exhibit E - The boarding party",
+        "description": "**The suspects, standing in the Crew's own driveway, in the Crew's own red light,** *posing in front of the Crew's own garage,* **with a step ladder, which is how you hoist a flag on someone else's ship.** *The Crew had cameras on this exact scene.* **PNN's privacy desk pixelated it anyway.** *Clueso's grievance now has a staple.*",
+        "caption": "Supplied with the case file; faces and the house number are pixelated by PNN. A lineup that walked in, posed, and walked out. The Crew watched."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The footage.** *The Crew has security video of the Prowling Purrpetrators mid-prank.* **The first known footage of the pink team at work, in fourteen cases,** *is held by pirates who thought it was a fundraiser.* **Clueso has requested it. The Crew is holding it, along with its fire.**\n- **The comparison.** *One pink teen caught the whole Crew.* **The whole Crew caught the pink team on camera and let it go.** *Clueso considers this the clearest evidence yet that pink is the better color for law enforcement.*\n- **The portrait.** The suspects posed **in the Crew's driveway, in front of the Crew's cameras,** *holding a ladder.* **Pixelated by PNN, again.** *Clueso's grievance now has a staple and a tab divider.*\n- **The review.** 'Top-tier entertainment.' *Clueso has never received a review. He has received a restraining glance from a cow (PNN-013).*\n- **Aside:** **Stop three of six.**",
+    "threatLevel": "Boarded, reflagged, and reviewed. Fire held indefinitely.",
+    "disposition": "**PNN assessment:** a pirate crew watched a boarding party plant a flag on its porch, **called it top-tier entertainment, and went back to its spyglass.**\n\n- **The Crimson Crew:** **out-pirated on its own porch, on its own camera.** *Charges: holding fire, holding footage, and mistaking a boarding party for a fundraiser.* **Defense: 'on the defense multiple times.'** *PNN has reviewed the scoreboard. Defense is generous.*\n- **Prowling Purrpetrators:** **flag hoisted, treasure delivered, driveway signed,** and **reviewed as 'top-tier' by the victim.** *Charges: piracy with production values, real treasure in a fake-treasure market, and boarding a ship while its lookout applauded.* **Arrests: zero.**\n- **The teen from PNN-010:** *still owed fresh candy.* **PNN notes the Crew's debt is now older than its candy.**\n\nPNN reminds all teams that the whole operation was **tape, paper, plastic, and chalk:** nothing damaged (Rule 5), nobody woken on purpose (Rule 7), and photo proof posted to the game group by **October 22** (Rule 9).\n\n**Final ruling:** the pirates watched the pink team take the ship, **and applauded.** *Case closed. Fire: held. Flag: pink.* **The ship is, as the Crew once put it, ours.**",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "010",
+      "011",
+      "013"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "red",
+        "purrs": 2,
+        "hisses": 4,
+        "note": "Watched the boarding on camera, held its fire, and left a five-star review."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Reflagged a pirate ship and delivered real treasure. Reviewed by the victim as top-tier."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Crimson Crew watches the pink team hoist a flag on its porch. Crew holds its fire and calls it 'top-tier entertainment.'"
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Crimson Crew reports being 'on the defense multiple times.' Opponents scored every time."
+      },
+      {
+        "tag": "MARITIME",
+        "text": "Pirate porch reflagged pink overnight. Lookout confirms it saw everything and enjoyed most of it."
+      },
+      {
+        "tag": "MARKETS",
+        "text": "Treasure chest marked PP outperforms '100% FAKE' doubloons. Analysts cite 'the lining.'"
+      }
+    ]
+  },
+  {
+    "id": "015",
+    "caseNumber": "PNN-015",
+    "dateOpened": "2026-10-20T10:30:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Retired by acclamation. Party held. Honorees asleep.",
+    "suspectTeamId": "silver",
+    "incidentTitle": "Silver Bullets get a retirement party at midnight. The guests of honor sleep through it.",
+    "summary": "On October 19, the Silver Bullets pranked six homes by 7:30 and were reportedly in bed by 8. At 12:13 a.m., the Prowling Purrpetrators threw them a retirement party: balloons, a banner, pink cupcakes, senior coupons, and a skeleton in a tiara as guest of honor. PNN calls it the only party in the series the honorees slept through.",
+    "incidentDescription": "**Stop 4 of 6. About 12:13 a.m. Roughly four hours past bedtime.**\n\nIn PNN-011, the **Silver Bullets** ate dinner at **4:00,** pranked six homes by **7:30,** and were, per one of their own victims, **home and in bed before 8.** On the same night, a little after midnight on **October 20, 2026,** the **Prowling Purrpetrators** arrived to mark the occasion. *What occasion? PNN asked. The pink team pointed at the banner.*\n\nPNN's site inventory:\n\n- **'Happy Retirement'** on a yard banner, **'Happy Retirement'** on the porch bunting, and **a balloon arch in pink, black, white, and rose gold** over the porch swing. *It is the first party in PNN history decorated entirely while the hosts were asleep.*\n- **The guest of honor:** **a skeleton on the porch swing,** in **a silver wig,** **a tiara reading 'RETIRED,'** and **a sash reading 'I'm Retired.'** *PNN's joke desk had a line ready about the Bullets being nearly dead.* **The pink team brought the skeleton.**\n- **Retirement gifts:** **pink-frosted cupcakes,** an **adult diaper monogrammed 'PP,'** and **a fan of senior coupons:** *$3 off wrinkle cream, $5 off wigs and hairpieces, and a discount on any nap.*\n- **A warning sign:** **'Retired person on the premises. Knows everything and has plenty of time to tell it.'** *PNN has read the Bullets' PNN-011 statement and considers the sign accurate.*\n- **The pink signature:** a **panther on the front door** behind pink tinsel, a **panther on the garage,** pink tape, and a driveway chalked so thoroughly pink that by sunrise **it could be seen from the early-bird buffet.**\n\n**Nobody came out.** *PNN's theory: nobody came out because nobody was up.* The Bullets' **Werewolf Management Division** had warned the neighborhood in PNN-011 to **lock its doors** and not to follow any trace of flannel **until sunrise.** *The Division was, by every indication, following its own advice from under a blanket.* **The Division's hotline, which does not exist, received no calls.**",
+    "suspectedMotive": "**Working theory:** the **Early Retirement Act.** *A team that finishes six pranks by 7:30 and bed by 8 has, in PNN's view, completed a full career in one evening.* **The pink team simply threw the party.**\n\nPNN's motives on file:\n\n- **Scheduling.** *The Bullets prank at dinner time. The pink team pranks at midnight.* **The two teams have never been awake at the same time.** *PNN considers it the safest rivalry in the game.*\n- **The theme.** *Silver is the color of wisdom, experience, and a senior discount.* **The Bullets chose the color. The pink team chose the coupons.**\n- **The Lycans.** In PNN-011, the Division claimed it had **captured 'several prowling Lycans.'** *The only Prowling team in the game came by at midnight to throw the Division a party.* **Capture status: the Division was asleep. The prowlers were not.**\n- **The warning.** *'Don't follow it until sunrise.'* PNN waited until sunrise, as instructed, and **followed the pink.** *It went all the way across the driveway.*\n- **Rule 7.** *No prank may be performed to wake anyone.* **The pink team's plan only worked if nobody woke up.** *The Bullets complied beautifully. PNN has never seen a target so cooperative.*\n\nThe theory has one flaw: **the Bullets are not retiring.** *They have six pranks on the board and a werewolf division to run.* **The skeleton, however, has accepted the position.**",
+    "evidence": [
+      {
+        "id": "015-A",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-retired-skeleton.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up at night of a plastic skeleton on a porch in a straight silver wig and a rose-gold tiara spelling RETIRED, with a gold glitter sash reading I'm Retired across a white T-shirt. A senior savings coupon is tucked at its collar. A stone wall and window are behind it.",
+        "label": "Exhibit A - The guest of honor",
+        "description": "**The retiree:** *silver wig, rose-gold 'RETIRED' tiara, glitter sash, and a senior savings coupon tucked in the collar for easy access.* **The only member of the party who stayed up for it.** *PNN asked for a comment. It has plenty of time to give one, per the sign in Exhibit C.* **It is still talking.**",
+        "caption": "Supplied with the case file. Posture: relaxed. Pension: coupons. Bedtime: indefinitely postponed."
+      },
+      {
+        "id": "015-B",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-retirement-gifts.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up of the skeleton's lap on a porch swing at night: a white adult diaper marked with a large pink PP, a pink toy blaster, a $3 off wrinkle cream coupon, a $5 off wigs and hairpieces coupon, red tissue paper, and a zip-top bag of pink-frosted cupcakes on the dark cushion.",
+        "label": "Exhibit B - The retirement package",
+        "description": "**The benefits package, itemized:** *pink-frosted cupcakes, a PP-monogrammed adult diaper, $3 off wrinkle cream, $5 off wigs and hairpieces,* and **a pink toy blaster,** *for a team named after ammunition.* **The Silver Bullets have been issued pink bullets.** *PNN considers the cupcakes the most generous item and the coupons the most pointed.*",
+        "caption": "Supplied with the case file. Cupcakes: pink. Coupons: valid until 8 p.m., in PNN's estimation. Ammunition: upgraded."
+      },
+      {
+        "id": "015-C",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-retired-person-warning.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "The skeleton on a dark wicker porch swing at night, with a tiara and silver wig, a white T-shirt, and a diaper. Beside it lies a yellow and black sign reading WARNING: Retired Person on the Premises. Knows everything and has plenty of time to tell it. Bags of pink cupcakes and scattered coupons sit on the cushion, and pink tape runs along the swing frame.",
+        "label": "Exhibit C - Fair warning",
+        "description": "**'WARNING: Retired person on the premises. Knows everything and has plenty of time to tell it.'** *PNN has read the Bullets' werewolf statement in PNN-011, including the hotline.* **The sign is accurate.** *The skeleton has been briefed and is ready to explain the hotline to anyone who asks.* **It does not exist. The skeleton will need forty minutes.**",
+        "caption": "Supplied with the case file. Fictional game prop, not a real advisory. Accuracy: high. Length of explanation: considerable."
+      },
+      {
+        "id": "015-D",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-happy-retirement-house.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A dark front yard at night with a black Happy Retirement banner on stakes in the lawn. Behind it, a covered porch has Happy Retirement bunting, a balloon arch over a porch swing where a skeleton sits, and a front door covered in pink paper between pink tinsel curtains. The garage at the right is covered in pink and pale sheeting with a panther face, and pink tape runs through the shrubs. The house number and a crouching person are pixelated.",
+        "label": "Exhibit D - The venue",
+        "description": "**The party, from the lawn:** *banner, bunting, balloons, a guest of honor on the swing,* **and a pink garage and door for the after-party.** **A party with no hosts in attendance and perfect attendance by the decorations.** *At the right, one suspect is still working, pixelated,* **crouched like a caterer who knows the hosts are asleep.**",
+        "caption": "Supplied with the case file, with the house number and a person pixelated by PNN. Guests awake: one skeleton."
+      },
+      {
+        "id": "015-E",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-morning-pink-driveway.jpeg",
+        "width": 600,
+        "height": 450,
+        "alt": "A daylight photo of a two-story house the next morning. The wide concrete driveway is covered in bright pink chalk dust, the front door is covered in pink paper between tinsel curtains, a skeleton sits on the porch swing, and a Happy Retirement banner stands on the lawn. A travel trailer is parked at the right.",
+        "label": "Exhibit E - Sunrise",
+        "description": "**Morning. The driveway is pink from the garage to the gutter.** *The Bullets were up early, as is their custom.* **The driveway was up earlier.** *PNN assumes the first person out the door followed the flannel advice and waited until sunrise to investigate.* **Sunrise brought a fully pink driveway, a skeleton in a tiara, and a banner congratulating them on a retirement nobody announced.**",
+        "caption": "Supplied with the case file, taken the following morning. Driveway: pink. Retiree: still on the swing. Hot chocolate: urgently needed."
+      },
+      {
+        "id": "015-F",
+        "type": "image",
+        "src": "assets/evidence/015/silver-bullets-pink-team-retirement-portrait.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A group of people stands at night in the driveway of a two-story house. The porch behind them has Happy Retirement bunting, balloons, and a skeleton on a swing, and the garage is covered in pink and pale sheeting with a panther face. A Happy Retirement banner stands on the lawn and a travel trailer is parked at the right. Every face and the house number are pixelated.",
+        "label": "Exhibit F - The party planners",
+        "description": "**The suspects, posed in the Bullets' driveway after midnight,** *wide awake, in front of a retirement party for a team that was not.* **PNN's privacy desk pixelated them, again.** *Clueso's grievance has been bound into a booklet.* **The Bullets will see this photo at breakfast, around 4 a.m.**",
+        "caption": "Supplied with the case file; faces and the house number are pixelated by PNN. Time: after midnight. Energy level: suspiciously high."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The hour.** *Clueso has finally caught the Silver Bullets red-handed: asleep.* **He cannot charge anyone with sleeping.** *He checked twice.*\n- **The witness.** He questioned the guest of honor. *It knows everything and has plenty of time to tell it,* **but it would not say who brought the cupcakes.** *Clueso respects a witness with a sash.*\n- **The portrait.** *The suspects posed in the driveway again.* **Pixelated, again.** *Clueso's grievance has been bound into a booklet. He has requested a larger stapler.*\n- **The coupons.** Clueso has confiscated **the nap coupon** *as evidence.* **He has not slept since PNN-001.** *He intends to use it.*\n- **Aside:** **Stop four of six.** *It was past midnight. The pink team was not tired.* **Clueso was.**",
+    "threatLevel": "Retired by acclamation. Asleep at the wheel. Cupcakes: pink.",
+    "disposition": "**PNN assessment:** the Silver Bullets threw a werewolf scare at dinner time, **got a retirement party at midnight, and slept through the whole thing.**\n\n- **Silver Bullets:** **honored, decorated, coupon-equipped, and asleep.** *Charges: retiring without notice, missing their own party, and running a hotline that does not exist during the one hour it might have helped.* **Benefits package: a tiara, a sash, and a nap.**\n- **Prowling Purrpetrators:** **one party, six props, zero noise.** *Charges: event planning after hours, generosity with coupons, and outworking a team on its own theme while it slept.* **Arrests: zero. Bedtime: optional.**\n- **The skeleton:** *promoted to team spokesperson.* **'Retired, not expired.'**\n- **The driveway:** *pink by sunrise,* **visible to every early bird on the block.**\n\nPNN reminds all teams that the whole operation was **tape, paper, plastic, and chalk:** nothing damaged (Rule 5), nobody woken on purpose (Rule 7), and photo proof posted to the game group by **October 22** (Rule 9).\n\n**Final ruling:** *The Bullets clocked out at 8. The pink team clocked in at midnight.* **Case closed, quietly, so as not to wake anyone.**",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "011",
+      "014"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "silver",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Slept through its own retirement party. Hotline still imaginary."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Threw a full retirement party after midnight without waking a soul."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Silver Bullets thrown a retirement party at 12:13 a.m. Guests of honor reportedly asleep since 8."
+      },
+      {
+        "tag": "LOCAL",
+        "text": "Skeleton in a tiara named most awake member of the Silver Bullets. Sash reads 'I'm Retired.'"
+      },
+      {
+        "tag": "HOTLINE",
+        "text": "Werewolf Management hotline receives zero calls during midnight retirement party. It does not exist, and everyone was asleep."
+      },
+      {
+        "tag": "DINING",
+        "text": "Pink cupcakes delivered to the Silver Bullets at midnight. Bullets expected to discover them at breakfast, around 4 a.m."
+      }
+    ]
+  },
+  {
+    "id": "016",
+    "caseNumber": "PNN-016",
+    "dateOpened": "2026-10-20T10:40:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Caught in their own Webb, as illustrated in PNN-001.",
+    "suspectTeamId": "black",
+    "incidentTitle": "Black Webb Bandits caught in a web, as foretold in PNN-001. The web is pink.",
+    "summary": "In PNN-001, PNN illustrated a panther trapping a spider and called it a reconstruction. At 12:29 a.m. on October 20, the Prowling Purrpetrators made it a photograph: a giant pink web across the Black Webb Bandits' front walk, furry spiders caught in it, and a bottle of Black Web Spider Spray left at the scene. PNN takes no pleasure in being right. PNN takes some.",
+    "incidentDescription": "**Stop 5 of 6. About 12:29 a.m. The prophecy is fulfilled, in yarn.**\n\nThe **Black Webb Bandits** have been in PNN's files since **the very first case.** In PNN-001, the team was last to choose a name, and PNN's sketch desk produced a reconstruction of **a panther trapping a spider.** *Clueso noted, sadly, that a reconstruction featuring a panther was 'not, regrettably, evidence against the Prowling Purrpetrators.'*\n\n**Shortly after midnight on October 20, 2026, it became evidence.** PNN's site inventory:\n\n- **A giant pink web,** strung in thick pink cord **across the front walk from the porch to the shrubs,** *wide enough to close the sidewalk and pink enough to close the case.*\n- **Spiders, caught in it.** *Large, furry, and visibly reconsidering their career.* **A spider team's mascots, trapped in a web they did not spin.**\n- **One bottle of 'Black Web Spider Spray,'** under a panther label: **'Kills spiders on contact. Eliminates black webs. Long-lasting protection.'** Its slogan: **'No webs. No spiders. No problem.'** *A product designed for exactly one household.*\n- **Pink spray dusted down the walk,** *like a crime lab that owns one color and is very confident in it.*\n- **The pink signature:** a **panther on the garage** under **pink-lit porch lamps,** a **panther stenciled on the lawn** with chalked paw prints, and **pink flagging tape** looped around the driveway and the cars, *a second web for anyone who missed the first.*\n\nBy sunrise, the driveway was **brilliantly pink** and the web still hung across the walk. *A team named for webs woke up to a better one.*\n\n**A note on timing.** The Bandits were **last** to choose a name (PNN-001) and **early** to bribe the witches (PNN-002). *They have been chronologically unpredictable all season.* **For once, a team showed up later than the Black Webb Bandits.** *It was 12:29 a.m. It was pink.*",
+    "suspectedMotive": "**Working theory:** the **Self-Fulfilling Reconstruction.** *PNN drew it in PNN-001. The pink team built it in PNN-016.* **PNN maintains this is a coincidence.** *The pink team declines to say whether it reads PNN.*\n\nPNN's motives on file:\n\n- **Pest control.** *A neighborhood with a spider problem calls a professional.* **The professional arrived in pink, after midnight, with a bottle and a ball of cord.**\n- **Spelling.** *The Bandits spell 'Webb' with two Bs. The Crimson Crew misplaced one in PNN-010.* **The pink team built a web with no Bs at all,** *and it held up better than the brand.*\n- **Home-field advantage.** *A spider's entire strategy is waiting for something to walk into its web.* **Last night, the web walked onto the spider's lawn.**\n- **Patience.** *PNN-001 observed that spiders are experts at waiting for something to walk into their plans, but 'have simply never been timed.'* **The pink team has now timed them.** *The photo log at this address runs about four minutes.*\n\nThe theory has one flaw: **the spray works exactly as labeled.** *No webs. No spiders. No problem.* **PNN cannot find a single false statement on the bottle, which is more than PNN can say for most team announcements.**",
+    "evidence": [
+      {
+        "id": "016-A",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-spiders-in-pink-web.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A low-angle night shot of a large web of thick pink cord stretched from a dark shrub across a concrete walk. Two big, furry toy spiders hang tangled in the strands, one at the left and one draped over the shrub at the right. A parked car is visible in the background.",
+        "label": "Exhibit A - Caught",
+        "description": "**Two Bandit mascots, caught in a pink web,** *legs everywhere, dignity nowhere.* **This is the image PNN-001 tried to draw.** *PNN's sketch desk would like it noted that the panther's version is more realistic than its own.* **The spider on the right has gone limp, which is how spiders say 'no comment.'**",
+        "caption": "Supplied with the case file. Webs: pink. Spiders: furry, tangled, and not the ones who built it."
+      },
+      {
+        "id": "016-B",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-black-web-spider-spray.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A clear spray bottle of orange liquid with a blue trigger standing on a pink-dusted concrete walk at night. Its black label reads Black Web Spider Spray over an illustration of a spider in a web, with the lines Kills spiders on contact, Eliminates black webs, Long-lasting protection, and No webs. No spiders. No problem.",
+        "label": "Exhibit B - The product",
+        "description": "**'Black Web Spider Spray.'** *Custom-labeled, apparently by a panther, for a market of one household.* **'Kills spiders on contact. Eliminates black webs. Long-lasting protection.'** *PNN reads it as a product label, a prank, and a mission statement.* **The Bandits will want to read the fine print. There is no fine print. It is all large print, and it is all about them.**",
+        "caption": "Supplied with the case file. A prop label; contents not tested by PNN. No webs. No spiders. No problem. No refunds."
+      },
+      {
+        "id": "016-C",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-web-over-walk.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A night view through a large web of pink cord strung over a front walk between shrubs. Furry toy spiders hang in the strands near the ground. Two people stand on the walk at the left near a white SUV; their heads are pixelated, along with another area in the background.",
+        "label": "Exhibit C - The walk, closed",
+        "description": "**The full span:** *porch to shrubs, walk to bush, pink cord tied off like the pink team has done this before.* **Furry spiders hang at ankle height.** *At the left, two suspects are pixelated mid-admiration.* **The Bandits' front walk is now a web with a sidewalk in it.**",
+        "caption": "Supplied with the case file, with people pixelated by PNN. Foot traffic: ducking. Spider traffic: stuck."
+      },
+      {
+        "id": "016-D",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-lawn-panther-stencil.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up of a green lawn at night beside a stone-edged flower bed, with a large pink stenciled outline of a running panther and pink paw prints sprayed on the grass.",
+        "label": "Exhibit D - The signature, fifth edition",
+        "description": "**The running panther, stenciled on the Bandits' lawn,** *fifth time tonight, same pose, same direction.* **It is leaving the scene of a web.** *PNN-001's panther stood still and waited for the spider.* **This one did not need to wait.**",
+        "caption": "Supplied with the case file. Direction: away. Pursuers: tangled."
+      },
+      {
+        "id": "016-E",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-pink-lit-house.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A brick house at night with its porch and garage lamps glowing hot pink. The two-car garage door is covered in pink sheeting with a small panther face. Pink flagging tape crisscrosses the driveway and loops around a parked SUV and two cars at the right. A license plate and a small plaque above the garage are pixelated.",
+        "label": "Exhibit E - The lair, re-lit",
+        "description": "**The Bandits' house, re-lit in pink.** *Porch lamps: pink. Garage: pink. Driveway: crisscrossed in pink tape like a web that took a geometry class.* **A black-themed team, glowing magenta at half past midnight.** *Somewhere inside, a spider-themed household slept through the moment its brand became a different color.*",
+        "caption": "Supplied with the case file, with a license plate and a plaque pixelated by PNN. Theme: black. Lighting: overruled."
+      },
+      {
+        "id": "016-F",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-morning-pink-driveway.jpeg",
+        "width": 600,
+        "height": 450,
+        "alt": "A daylight photo of a brick house the next morning. The driveway is covered in bright pink chalk, the garage door is wrapped in purple-pink sheeting, and pink tape runs across the driveway and around parked cars. A white SUV is parked in the middle of the pink driveway.",
+        "label": "Exhibit F - Sunrise, in magenta",
+        "description": "**Morning: the driveway is the brightest thing on the street.** *The Bandits, a team built on black, now own the pinkest concrete in the neighborhood.* **The SUV is parked in the middle of it like an island.** *PNN expects the cleanup to take one hose, two hours, and a long conversation about whose turn it is.*",
+        "caption": "Supplied with the case file, taken the following morning. Driveway: magenta. Theme: compromised. Hose: requested."
+      },
+      {
+        "id": "016-G",
+        "type": "image",
+        "src": "assets/evidence/016/black-webb-bandits-pink-team-portrait.jpeg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A group of people stands in a driveway at night in front of a brick house with hot-pink porch lamps and a garage covered in pink sheeting with a panther face. Pink tape crosses the driveway behind them. Every face and a plaque above the garage are pixelated.",
+        "label": "Exhibit G - The lineup",
+        "description": "**The suspects, lined up in the Bandits' pink-lit driveway,** *like a police lineup that booked itself.* **PNN's privacy desk pixelated them, again.** *Clueso's grievance is now a three-ring binder with color-coded tabs.* **One tab is pink. He did not choose it.**",
+        "caption": "Supplied with the case file; faces and a plaque are pixelated by PNN. Booking photo: self-service."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The reconstruction.** *Clueso's sketch desk drew a panther catching a spider in PNN-001.* **Fifteen cases later, a panther caught a spider on camera.** He has asked whether PNN-001 now counts as **a warrant.** *Legal says it counts as a cartoon.*\n- **The bottle.** Collected. *Its label promises 'long-lasting protection.'* **Clueso has asked it to protect him from the pink team.** *The bottle has a panther on it. It declined.*\n- **The portrait.** *The suspects lined up in the driveway like a lineup that had already been booked.* **Pixelated.** *Clueso's grievance is now a three-ring binder.*\n- **The time.** *At 12:29 a.m. the pink team was on its fifth house.* **Clueso was on his fifth yawn.**\n- **Aside:** **Stop five of six.** *One left. Clueso could smell smoke. It was decorative.*",
+    "threatLevel": "Webbed, sprayed, and caught, as illustrated.",
+    "disposition": "**PNN assessment:** the Black Webb Bandits were caught in their own web, **fifteen cases after PNN said they would be.**\n\n- **Black Webb Bandits:** **trapped, sprayed, and illustrated in advance.** *Charges: a brand built on webs, out-webbed on its own walk; a team that waits for things to walk into its trap, out-waited.* **Status: caught, finally, by someone. Not Clueso.**\n- **Prowling Purrpetrators:** **one web, several spiders, one custom bottle, four minutes of photos.** *Charges: fulfilling a PNN prophecy without permission, pest control without a license, and excellent knots.* **Arrests: zero.**\n- **The spiders:** *caught, tangled, and awaiting release.* **They have asked for a lawyer with fewer legs.**\n- **PNN-001:** *upgraded from reconstruction to forecast.*\n\nPNN reminds all teams that the whole operation was **tape, paper, plastic, and chalk:** nothing damaged (Rule 5), nobody woken on purpose (Rule 7), and photo proof posted to the game group by **October 22** (Rule 9).\n\n**Final ruling:** *Caught in their own Webb, as filed in PNN-001.* **Case closed. The web held. The bottle was right: no webs, no spiders, no problem.**",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "001",
+      "002",
+      "010",
+      "015"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "black",
+        "purrs": 1,
+        "hisses": 4,
+        "note": "Caught in a web it did not spin, exactly as PNN-001 predicted."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Turned a PNN cartoon into a photograph and brought its own spider spray."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Black Webb Bandits caught in a giant pink web. PNN-001 upgraded from cartoon to forecast."
+      },
+      {
+        "tag": "SCIENCE",
+        "text": "Spider spray performs exactly as labeled: no webs, no spiders, no problem. Black Webb Bandits request a second opinion."
+      },
+      {
+        "tag": "TEAMS",
+        "text": "For the first time this season, a team shows up later than the Black Webb Bandits. Time: 12:29 a.m. Color: pink."
+      }
+    ]
+  },
+  {
+    "id": "017",
+    "caseNumber": "PNN-017",
+    "dateOpened": "2026-10-20T10:50:00-06:00",
+    "timeZone": "America/Denver",
+    "status": "Extinguished. Spam restocked. Series swept, six for six.",
+    "suspectTeamId": "orange",
+    "incidentTitle": "Pyro Posse purr-manently extinguished. Spam restocked.",
+    "summary": "The Pink Sweep ended at the Pyro Posse's house at 12:48 a.m. with a kiddie pool of crying pumpkins, a can of Spam stamped with a pink paw, and a sign declaring the Posse purr-manently extinguished. The Posse, which once called PNN's newsletter spam, thanked the pink team for replacing the Spam it ate for dinner. Six teams. One night. Arrests: none.",
+    "incidentDescription": "**Stop 6 of 6. About 12:48 a.m. Last call for the fire team.**\n\nThe **Pyro Posse** has starred in **five PNN case files,** *more than any other team.* In that time it has:\n\n- Set the Area 51 Bureau's bins 'ablaze' **with balloons** (PNN-004).\n- Pranked three households in one night, **forgot to announce one,** and told the game group *'It's like we're the only ones playing'* (PNN-005).\n- Called PNN's free newsletter **spam** and answered a rebuttal **with a GIF of canned meat** (PNN-006).\n- Mailed a **screaming glitter bomb** with a poster about its own **'stratogy'** (PNN-008).\n- Announced that its pranking had **'concluded'** and that the Crimson Crew was **'no match for the flame!!!!'** (PNN-011).\n\nAt the end of a two-hour route that had already covered five teams, the **Prowling Purrpetrators** arrived **with water.** PNN's site inventory:\n\n- **A kiddie pool,** filled with water, **holding three pumpkins with sad, weeping faces.** *The Posse's mascots, finally cooled off.*\n- **A can of Spam,** stamped with **a pink 'PP' paw,** balanced on the saddest pumpkin's head like a tiny hat of consequences.\n- **A floodlit yard sign:** **'You've Been Purr-manently Extinguished!'** Its artwork shows **a pink panther in sunglasses with a fire extinguisher,** hosing down **a kiddie pool of crying pumpkins,** one of them wearing **a 'Pyro Posse' bandana.** *The Posse has commissioned a whole gallery of posters about the pink team this season.* **The pink team commissioned one back.**\n- **The pink signature, sixth and final edition:** a **panther on the front door,** a **panther on the garage,** a **panther stenciled on the lawn** with paw prints, and **pink flagging tape** around the yard.\n\n**Total flame on site: zero.** *The pink team brought the water.* **The Posse, it turned out, didn't have enough flame left to spread.**\n\nThe Posse's response, the next morning:\n\n> I had spam for dinner last night. Thanks guys for replacing it!\n> — The Pyro Posse\n\n**The team that called a newsletter spam had Spam for dinner.** *PNN has no further questions.* PNN has several further observations:\n\n- **In PNN-006, the Posse objected to unsolicited spam.** *It has now eaten the solicited kind.*\n- **The Posse thanked the pink team** for a delivery. *It is the first recorded case of the Posse welcoming anything from the pink team,* **and it is canned meat.**\n- **'Replacing it.'** *The pink team is apparently now the Posse's grocery service.* **Delivery window: 12:48 a.m. Tip: appreciated.**",
+    "suspectedMotive": "**Working theory:** the **Fire Safety Doctrine.** *A team that spends an entire season promising flames will, eventually, need someone to put them out.* **The pink team brought the pool.**\n\nPNN's motives on file:\n\n- **The count.** In PNN-005, the Posse pranked three houses in one night, forgot to announce one, and declared it was **the only team playing.** *The pink team answered with six houses in one night,* **and remembered all six.**\n- **The finale.** *The Posse's PNN-011 statement said it had 'concluded' its pranking.* **The pink team concluded it for them, in a kiddie pool.**\n- **Spam, delivered.** *A team that calls good mail spam deserves to receive great Spam.* **Customer satisfaction: confirmed in writing.**\n- **The spelling.** *The Posse wrote 'stratogy' in PNN-008.* **The pink team wrote 'Purr-manently' on purpose.** *PNN rules that deliberate misspellings are puns and accidental ones are evidence.*\n- **The fuse.** *The Posse's PNN-008 poster promised 'Plan. Fuse. Boom.'* **The pink team's sign delivered 'Plan. Hose. Pool.'** *The pumpkins are taking it hard.*\n\nThe theory has one flaw: **the Posse said thank you.** *PNN has rarely seen a fire team so grateful to be put out.*",
+    "evidence": [
+      {
+        "id": "017-A",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-crying-pumpkin-pool.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "An inflatable kiddie pool glowing pink under a ground light on a dark lawn at night, filled with water and three orange pumpkins with sad, crying cartoon faces. A can of Spam stamped with a pink paw print sits on top of the middle pumpkin. A metal stake stands behind the pool.",
+        "label": "Exhibit A - Extinguished",
+        "description": "**Three pumpkins, one pool, and a can of Spam.** *The Posse's mascots sit in the water with the faces of jack-o'-lanterns who have just been told about Rule 5.* **The one in the middle is wearing the Spam,** *which is either a hat or a sentence.* **Fire risk: zero. Emotional risk: high.**",
+        "caption": "Supplied with the case file. Water: present. Flames: absent. Pumpkins: inconsolable. Spam: restocked."
+      },
+      {
+        "id": "017-B",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-pp-spam-can.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A close-up at night of a can of Spam resting on top of an orange pumpkin painted with a sad face and teardrops. A paw print outline with the letters PP is printed across the front of the can's label.",
+        "label": "Exhibit B - Return to sender",
+        "description": "**The can, up close:** *Spam, stamped with a pink paw and 'PP,'* **so there can be no confusion about who sent it this time.** *In PNN-006, the Posse called a newsletter spam and posted a picture of canned meat.* **The pink team has replied with the real thing, notarized.** *The pumpkin underneath is crying. PNN understands.*",
+        "caption": "Supplied with the case file. Contents: Spam. Sender: identified. Unsubscribe link: not included."
+      },
+      {
+        "id": "017-C",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-purr-manently-extinguished-sign.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A large poster sign on a post in front of a house at night, lit purple. Dripping pink letters read You've Been Purr-manently Extinguished! The artwork shows a pink cartoon panther in sunglasses spraying a fire extinguisher at a kiddie pool full of crying jack-o'-lanterns with gloved hands, one pumpkin in the foreground wearing a bandana lettered Pyro Posse.",
+        "label": "Exhibit C - The verdict, posted",
+        "description": "**'You've Been Purr-manently Extinguished!'** *A pink panther in sunglasses, a fire extinguisher, and a kiddie pool of panicking pumpkins.* **One pumpkin wears a 'Pyro Posse' bandana and the expression of a team that just read its own case file.** *The Posse has spent the season sending the pink team posters.* **This is the reply, and it is larger.**",
+        "caption": "Supplied with the case file; stylized artwork on a yard sign, not a photograph of a real event. Extinguisher: illustrated. Panic: accurate."
+      },
+      {
+        "id": "017-D",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-lawn-pool-and-sign.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A front lawn at night with a large pink stenciled running panther and paw prints on the grass, the glowing kiddie pool of crying pumpkins behind it, and the Purr-manently Extinguished sign on a post. Pink tape is strung along the driveway at the left past a white SUV, and the garage behind is covered in pink sheeting. Two people near the house are pixelated.",
+        "label": "Exhibit D - The full scene",
+        "description": "**The whole tableau:** *a running panther on the lawn, a pool of weeping pumpkins, the verdict on a post,* **and a pink garage in the back.** *Two suspects are still working, pixelated, at 12:49 a.m., on house number six.* **PNN has seen less energy at a fire station.**",
+        "caption": "Supplied with the case file, with people pixelated by PNN. House: six of six. Suspects: still going. Fire department: never needed."
+      },
+      {
+        "id": "017-E",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-panther-front-door.jpeg",
+        "width": 1440,
+        "height": 1920,
+        "alt": "A front porch at night with the door covered in pink butcher paper and a small cartoon panther face, held with green tape and flanked by pink tinsel curtains. Two black rocking chairs with striped cushions sit on either side, beside small topiaries.",
+        "label": "Exhibit E - The front door, sealed",
+        "description": "**The Posse's front door, papered pink and flanked by tinsel,** *with two rocking chairs positioned for the viewing.* **The panther looks unbothered.** *It has been at six front doors tonight and this is the most relaxed it has felt.* **No fuse. No boom. Just paper.**",
+        "caption": "Supplied with the case file. Door: pink. Chairs: front-row seats. Fire exits: clearly marked by tinsel."
+      },
+      {
+        "id": "017-F",
+        "type": "image",
+        "src": "assets/evidence/017/pyro-posse-morning-after.jpeg",
+        "width": 450,
+        "height": 600,
+        "alt": "A daylight photo the next morning of a front lawn with a pink inflatable kiddie pool holding orange pumpkins, a pink stenciled running panther and paw prints on the grass, and the Purr-manently Extinguished sign on a post in front of shrubs and a stone-faced house.",
+        "label": "Exhibit F - Morning, still extinguished",
+        "description": "**Daylight, and the fire is still out.** *The pool is still full, the pumpkins are still crying, and the sign is still right.* **The panther on the lawn is in mid-stride,** *the same pose as at the five other houses, still leaving the scene.* **Last night it was a prank. By morning it was a landscape.**",
+        "caption": "Supplied with the case file, taken the following morning. Flame index: zero. Spam index: replenished."
+      },
+      {
+        "id": "017-G",
+        "type": "report",
+        "label": "Exhibit G - The route log",
+        "description": "PNN's reconstruction of the Pink Sweep from photo timestamps, October 19-20, 2026 (America/Denver): **11:03 p.m.,** Tightie Whities (PNN-012). **11:18 p.m.,** Area 51 Bureau (PNN-013). **11:51 p.m.,** The Crimson Crew (PNN-014). **12:13 a.m.,** Silver Bullets (PNN-015). **12:29 a.m.,** Black Webb Bandits (PNN-016). **12:48 a.m.,** Pyro Posse (PNN-017). **Six teams. About an hour and fifty minutes from the first photo to the last.** Times are the first photo at each address, not arrival times. Arrests during the period: none on record.",
+        "caption": "Six stops. Six themes. One night. Wanted everywhere, caught nowhere, now with timestamps."
+      }
+    ],
+    "investigatorNote": "Clueso's findings:\n\n- **The route.** Clueso has rebuilt the night from photo timestamps (Exhibit G): **six teams in about an hour and fifty minutes.** *He has the times, the places, the props, the paw prints, and four group portraits.* **He does not have a single arrest.**\n- **The selfie.** At the last stop, *job done,* the suspects **took a selfie.** *PNN's privacy desk declined to publish it at all.* **Clueso asked to see it.** *He was told it was 'a group photo of happy people.'* **He has added 'happy' to the charges.**\n- **The Spam.** Clueso requested the can as evidence. **The Posse has claimed it as dinner.** *The chain of custody is expected to be short.*\n- **The masthead.** *PNN's masthead reads 'Wanted everywhere, caught nowhere.'* **Clueso always assumed it was marketing.** *Last night it was an itinerary.*\n- **The grievance.** Four group portraits pixelated by his own newsroom and one selfie withheld. **Clueso has formally filed his grievance with PNN.** *PNN has filed it under Fan Mail.*",
+    "threatLevel": "Extinguished. Soaked. Spam-fed.",
+    "disposition": "**PNN assessment:** the Pink Sweep ended where the fire was, **and put it out.**\n\n- **Pyro Posse:** **extinguished, pooled, and restocked,** *a fire team out of flame on its own lawn.* *Charges: calling mail spam, eating Spam, and thanking the pink team for more.* **'Only ones playing': stop six of six.**\n- **Prowling Purrpetrators:** **six teams, six themes, one night, zero arrests.** *Underwear for the Whities, cattle for the Bureau, treasure for the Crew, a party for the Bullets, a web for the Bandits, and a fire hose for the Posse.* **Charges: excellence, six counts.**\n- **The pumpkins:** *soaked, sobbing, and wearing Spam.* **The saddest jack-o'-lanterns in the game.**\n- **Inspector Clueso:** *in possession of more evidence than at any point in PNN history,* **and still no arrests.** *He has started to suspect the evidence is on their side.*\n\nPNN reminds all teams that the Pink Sweep used **water, paper, tape, plastic, chalk, and canned meat.** *Nothing burned, nothing broke, and nobody was woken on purpose* (Rules 5 and 7). Photo proof belongs in the game group by **October 22** (Rule 9).\n\n**Final ruling:** *The Posse didn't have enough flame to spread.* **The pink team brought the water, the Spam, and the last word.** *Case closed. Series closed. Six for six.* **Wanted everywhere. Caught nowhere.**",
+    "relatedStoryIds": [],
+    "relatedCaseIds": [
+      "005",
+      "006",
+      "008",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016"
+    ],
+    "series": {
+      "name": "The Pink Sweep",
+      "blurb": "Six teams, one night, zero arrests.",
+      "startCaseId": "012"
+    },
+    "published": true,
+    "purrHiss": [
+      {
+        "teamId": "orange",
+        "purrs": 2,
+        "hisses": 4,
+        "note": "Extinguished in a kiddie pool, then thanked the pink team for the Spam."
+      },
+      {
+        "teamId": "pink",
+        "purrs": 5,
+        "hisses": 0,
+        "note": "Six teams, one night, zero arrests. Finished with a fire hose and a can of Spam."
+      }
+    ],
+    "tickerItems": [
+      {
+        "tag": "BREAKING",
+        "text": "Pyro Posse purr-manently extinguished. Kiddie pool deployed. Pumpkins in tears."
+      },
+      {
+        "tag": "DINING",
+        "text": "Pyro Posse had Spam for dinner and thanks the pink team for replacing it. PNN newsletter remains not spam."
+      },
+      {
+        "tag": "SPORTS",
+        "text": "Prowling Purrpetrators sweep the series: six teams, one night, zero arrests."
+      },
+      {
+        "tag": "SAFETY",
+        "text": "Fire team reports no flame left to spread. Fire marshal reports first relaxing night of the season."
+      },
+      {
+        "tag": "CLUESO DESK",
+        "text": "'Six scenes. Four group portraits. One selfie. Zero arrests. I would like a word with our privacy desk.'"
+      }
+    ]
   }
 ]
