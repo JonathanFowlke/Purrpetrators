@@ -1,0 +1,728 @@
+{
+  "id": "007",
+  "status": "published",
+  "date": "2026-10-20T08:30:00-06:00",
+  "title": "Early bird special.",
+  "subject": "PNN: The benefits of dinner at four. A study, with statistics, and six porches.",
+  "preheader": "Dinner at four, six homes by 7:30, in bed by eight. The science of the early seating.",
+  "featuredCase": {
+    "id": "011",
+    "teaser": "**Dinner at four. Six homes by 7:30. Lights out before eight.** The Silver Bullets went out before the neighborhood finished its dishes and pranked six families. One household watched the whole thing and wrote a review. Clueso has the file. *One hotline is mentioned. Only one exists.*",
+    "linkLabel": "Open the lineup →",
+    "hook": "including a lineup where every suspect is already in pajamas",
+    "image": {
+      "src": "assets/email/007-suspect-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "PNN pencil-sketch suspect composite for case PNN-011: three cheerful suspects in homemade werewolf costumes walk down a garden path under a full moon, wearing wolf ears, faux-fur vests, and plaid flannel pajamas. One wears a striped nightcap and wolf-head slippers and holds yellow caution tape, one hugs a pillow, and one holds a pouch of silver spoons. Insets show a dinner plate beside a clock reading four and a bedroom clock a minute shy of eight. Margin notes read: Dinner: 4:00. Prank: 7:30. Bed: 7:59. Moon: full. Suspects: sleepy.",
+      "caption": "AI-generated comic reconstruction for the Broomstick Challenge. Invented likenesses, not a photo of any participant."
+    }
+  },
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE BUREAU OF EARLY SEATINGS",
+      "heading": "The benefits of dinner at four.\n(The worm goes to the early bird. So do the porches.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Bureau of Early Seatings",
+              "bold": true
+            },
+            {
+              "text": " studied "
+            },
+            {
+              "text": "6,000 dinners",
+              "bold": true
+            },
+            {
+              "text": " served before 5:00 p.m., which is to say it read "
+            },
+            {
+              "text": "PNN-011",
+              "bold": true
+            },
+            {
+              "text": " six thousand times and asked the Silver Bullets to confirm the time. "
+            },
+            {
+              "text": "They confirmed it. It was 7:59, and they were already asleep.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The findings are in. "
+            },
+            {
+              "text": "The early bird wins.",
+              "bold": true
+            },
+            {
+              "text": " The late team brings "
+            },
+            {
+              "text": "a reservation.",
+              "bold": true
+            },
+            {
+              "text": " The early team brings "
+            },
+            {
+              "text": "a head start.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The late team is still choosing an appetizer. The early team has finished its prank and is brushing its teeth.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Researchers identified "
+            },
+            {
+              "text": "five benefits of an early dinner.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "One: the best pick of porches.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The early team chooses first. The late team gets what is left, and a dog.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Two: the best light.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Dusk is flattering, and nobody has yet needed a flashlight.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Three: the best sleep.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Dessert at 4:30 leaves a lot of evening for a pillow.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Four: the best review.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Households are most generous when they have eaten.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Five: the best alibi.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Nobody believes a team in bed by eight did anything after eight.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A case study is on file. In "
+            },
+            {
+              "text": "PNN-011,",
+              "bold": true
+            },
+            {
+              "text": " the Silver Bullets ate at four, pranked "
+            },
+            {
+              "text": "six families",
+              "bold": true
+            },
+            {
+              "text": " by 7:30, and "
+            },
+            {
+              "text": "met curfew.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They also honored rule 7, the one about not waking anyone up, starting with themselves.",
+              "italic": true
+            },
+            {
+              "text": " The Bureau has recorded "
+            },
+            {
+              "text": "no faster dinner-to-pillow turnaround",
+              "bold": true
+            },
+            {
+              "text": " and has asked the pillow for a statement."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Bureau's final recommendation for other teams: "
+            },
+            {
+              "text": "eat earlier.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Dress warmer.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Leave the porch light on.",
+              "bold": true
+            },
+            {
+              "text": " In that order. "
+            },
+            {
+              "text": "The pink team has been informed and declined to comment. It has no recorded dinner hour. Clueso is looking for it.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See the lineup →",
+          "href": "https://purrpetrators.net/cases/011/",
+          "note": "The exhibits are on the site, not in this email. The meatloaf is not included. It was eaten at four."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "4:00",
+              "text": "**Dinner time, p.m., per the Silver Bullets' reconstruction.** *Other teams call it a late lunch.*"
+            },
+            {
+              "value": "6",
+              "text": "**Families pranked before 7:30 p.m.** *Teams still on the soup course: several.*"
+            },
+            {
+              "value": "7:59",
+              "text": "**Bedtime, p.m., per the PNN sketch.** *Curfew met with one minute and one pillow to spare.*"
+            },
+            {
+              "value": "1 of 6",
+              "text": "**Households that wrote a review.** *Rating: 'Well done.' Emoji: one. Tone: loving.*"
+            },
+            {
+              "value": "0",
+              "text": "**Hotlines in the Warewolf Management Division.** *Hotlines at PNN: one. The number is +1 (801) 79-PRANK. Sharing is available.*"
+            },
+            {
+              "value": "5 + 5",
+              "text": "**Exclamation points and flame emojis in the Pyro Posse's finale post.** *Reactions from the Crimson Crew: none so far.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " an early team and a late team cover the "
+            },
+            {
+              "text": "same distance.",
+              "bold": true
+            },
+            {
+              "text": " The early team covers it "
+            },
+            {
+              "text": "before the gate closes.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN's editors have timed the dessert.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE EARLY-BIRD MENU",
+      "heading": "What an early seating costs, and what it gets you.\n(Prices in minutes of daylight. Gratuity: a nap.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1 / The appetizer.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "4:00 p.m. Soup, bread, and a firm warning about the moon.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2 / The entrée.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Six porches, plated by 7:30. Served with flannel, fake fur, and caution tape. Seconds are not available.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3 / The dessert.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Lights out at 7:59, served with a pillow. Included in the early-bird price, the only time dessert has ever been cheaper than a prank.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "4 / The check.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Paid in full by the household, in the form of a review. Tip: one hotline, which does not exist.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "5 / The wake-up call.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Not on the menu. Rule 7. PNN checked.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "CLUESO'S EARLY-BIRD SELF-TEST",
+      "heading": "Are you an early bird?\n(Probably. Possibly. Keep reading.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "01 / You call 7:00 p.m. 'late.'",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Bureau accepts 'sort of.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "02 / You carry a pillow in public.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Silver Bullets did. A sketch is on file.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "03 / You have described a full moon as 'a reason to be home.'",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Bullets did. In writing, with a warning label.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "04 / You announced a hotline without installing the phone.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A department has a name. A hotline has a number. Clueso is waiting.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "05 / You were asleep before the stars were.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Bullets drew theirs on a chalkboard ahead of time. It saved a trip.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Scoring:",
+              "bold": true
+            },
+            {
+              "text": " any number of checks means "
+            },
+            {
+              "text": "you are an early bird.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Bureau suggests dessert before four.",
+              "italic": true
+            },
+            {
+              "text": " Preferably have "
+            },
+            {
+              "text": "the pink team",
+              "bold": true
+            },
+            {
+              "text": " take the test for you. "
+            },
+            {
+              "text": "It scored zero. It has no bedtime in the file. Clueso has been checking the file at all hours.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly sleepy.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST:",
+              "bold": true
+            },
+            {
+              "text": " One hotline. Last seen in a statement. "
+            },
+            {
+              "text": "If found, please attach a phone.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE:",
+              "bold": true
+            },
+            {
+              "text": " One full moon, lightly warned about. "
+            },
+            {
+              "text": "Wears shorts. Stars not included: pre-drawn, delivered before dusk.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND:",
+              "bold": true
+            },
+            {
+              "text": " A trail of flannel. "
+            },
+            {
+              "text": "It leads straight back to the Division. The Division is advised to keep better track of its trail.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED:",
+              "bold": true
+            },
+            {
+              "text": " One later bedtime, any size. "
+            },
+            {
+              "text": "Must not interfere with dinner at four.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE:",
+              "bold": true
+            },
+            {
+              "text": " A front walk of jack-o'-lantern trash bags was reportedly collected on schedule. "
+            },
+            {
+              "text": "The Crimson Crew is invited to claim its prank at the curb. No receipt required.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM THE VERIFICATION DESK",
+      "heading": "Thank you, Silver Bullets.\n(We needed the early warning.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN's Independent Verification Desk, six inches from Clueso's chair, wishes to "
+            },
+            {
+              "text": "thank the Silver Bullets",
+              "bold": true
+            },
+            {
+              "text": " for the free "
+            },
+            {
+              "text": "pre-sunset prank report:",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "dinner at four, six porches, and a bedtime posted in advance.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Reviewed by the victims, verified by the clock.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The [Prowling Purrpetrators](https://purrpetrators.net/teams/pink/) were not consulted, and are not available. They are, per Clueso, 'up to something.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso considers the team's schedule suspicious. He suspects "
+            },
+            {
+              "text": "a bedtime posing as an alibi.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Desk considers it 'an excellent bedtime.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder:",
+              "bold": true
+            },
+            {
+              "text": " keep pranks clever, kind, and away from sleep and young children (rules 6 and 7). "
+            },
+            {
+              "text": "A full moon is a warning. A wake-up call is not.",
+              "italic": true
+            },
+            {
+              "text": " Photo or video proof goes to the game group by October 22."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Open the lineup →",
+          "href": "https://purrpetrators.net/cases/011/",
+          "note": "Eight exhibits, one sketch, and one hotline that is real."
+        }
+      ]
+    }
+  ],
+  "tickerItems": [
+    {
+      "tag": "SCIENCE",
+      "text": "PNN study: dinner at four improves prank timing, porch selection, and sleep. Late dinners improve reservations."
+    },
+    {
+      "tag": "ALERT",
+      "text": "Newsletter alert: edition 007 publishes the early-bird menu. Dessert is a pillow. Gratuity: a nap."
+    },
+    {
+      "tag": "HOTLINE",
+      "text": "Reminder: one hotline is real. +1 (801) 79-PRANK reaches Inspector Clueso's office at PNN."
+    }
+  ]
+}

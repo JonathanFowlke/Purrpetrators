@@ -119,27 +119,27 @@
     "advice": "Check the lights before the lawn. Bring fresh candy. Pay the teen."
   },
   "silver": {
-    "codename": "Operation Slow, Unsure, Disoriented",
-    "tagline": "The only bullet that needs directions.",
-    "threatLevel": "Low velocity, high laundry",
+    "codename": "Operation Early Bird",
+    "tagline": "Dinner at four. Six homes by 7:30. Bed by eight.",
+    "threatLevel": "Armed with silver, flannel, and a bedtime",
     "knownFor": [
+      "Pranking six families by 7:30 p.m., then going to bed (PNN-011).",
+      "A 'Warewolf Management Division' with a hotline that does not exist.",
       "A clothesline of unidentified laundry hung at their home during the football game (PNN-005).",
-      "A poster calling them 'Slow, Unsure, and Completely Disoriented.'",
-      "A flagpole that was never asked to do anything.",
-      "A name that suggests werewolf-slayers and a record that suggests laundry."
+      "A poster calling them 'Slow, Unsure, and Completely Disoriented.'"
     ],
-    "file": "The **Silver Bullets** chose a name meant to be fast, shiny, and fatal to monsters. PNN has yet to see any of the three. In PNN-005 the Pyro Posse hung a clothesline of charred, unidentified laundry on their lawn while they were away at football games, and the Bullets, to their credit, have still not identified it. Nobody has. The laundry has issued no statement. Neither has the Posse.\n\nThe poster at the Bullets' door read 'Slow, Unsure, and Completely Disoriented.' A bullet that is slow, unsure, and disoriented is, ballistically, a pebble. This is not an insult. It is physics.\n\nThe Silver Bullets also own a flagpole. As far as PNN can tell, it has been used for nothing. A flagpole is the one structure on Earth built to hoist things where the whole neighborhood can salute them. The Posse hung the laundry low instead, which the flagpole took personally.\n\nIn fairness, being pranked while you are out at a game is the best possible reason to be disoriented. The Bullets were at the stadium and got blitzed at home. That is not slow. That is football.",
+    "file": "The **Silver Bullets** chose a name meant to be fast, shiny, and fatal to monsters. For weeks PNN saw none of the three. Then, on **October 19**, the team ate dinner at four, pranked **six families** by 7:30, and was reportedly home and in bed before eight. *(PNN-011.)*\n\nThe plan was sound. With the last week of pranking underway, the Bullets took first pick of un-pranked porches while the rest of the neighborhood was still doing the dishes. One household watched the entire evening and reviewed it in writing: *'evidence, bullets, fur and so much flannel.'* The review ended with a bedtime.\n\nThe Bullets' announcement closed with a hotline for the 'SB Warewolf Management Division.' PNN checked. **No such hotline exists.** PNN's does: **+1 (801) 79-PRANK.** The Division is welcome to it.\n\nIn fairness, a team that tells you when it will be home and then is home is the most reliable team in the game. The Bullets were slow in PNN-005, and they are fast now. PNN suspects the dinner reservation.",
     "strengths": [
-      "A strong, shiny name.",
-      "A flagpole, unused but loyal.",
-      "An alibi so airtight it was literally a football game."
+      "Timing. Fast, early, and punctual to a fault.",
+      "Costumes with commitment: flannel, fur, silver, and a moon in shorts.",
+      "A bedtime that has never once been missed."
     ],
     "weaknesses": [
-      "Velocity.",
-      "Orientation.",
-      "Knowing what is on their own clothesline."
+      "Witnesses with a good view and a way with words.",
+      "Hotlines that exist only on paper.",
+      "Late nights, in all forms."
     ],
-    "advice": "Hoist something. Anything. The flagpole has been waiting a very long time."
+    "advice": "Save the hotline number. It is +1 (801) 79-PRANK. Dial before bedtime."
   },
   "white": {
     "codename": "Operation Loose Ends",
