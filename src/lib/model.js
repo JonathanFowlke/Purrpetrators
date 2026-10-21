@@ -81,6 +81,10 @@ function buildDailyTip(tips, now) {
   return { tips, fallback: tips[day % tips.length] };
 }
 
+/** Every team a case is about: the lead `suspectTeamId` first, then any optional `coSuspectTeamIds`. */
+export const suspectTeamsOf = (record, teamById) =>
+  [record.suspectTeamId, ...(record.coSuspectTeamIds ?? [])].map(id => teamById.get(id));
+
 /** Editions shown in the public newsletter listing, newest first. Drafts stay unlisted (though their pages exist). */
 export const listedEditions = newsletters => newsletters.filter(edition => edition.status !== 'draft').reverse();
 

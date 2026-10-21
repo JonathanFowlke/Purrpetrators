@@ -30,7 +30,7 @@ export function Dossier({ team }) {
   const d = model.dossiers[team.id];
   const row = model.index.totals.get(team.id);
   const involved = model.published
-    .filter(record => record.suspectTeamId === team.id || (record.purrHiss || []).some(item => item.teamId === team.id))
+    .filter(record => record.suspectTeamId === team.id || (record.coSuspectTeamIds || []).includes(team.id) || (record.purrHiss || []).some(item => item.teamId === team.id))
     .sort((a, b) => Date.parse(a.dateOpened) - Date.parse(b.dateOpened));
   return (
     <>

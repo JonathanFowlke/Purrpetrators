@@ -69,9 +69,14 @@ export async function validateRawData(raw, root = projectRoot) {
     if (!/^\d{3}$/.test(record.id) || ids.has(record.id)) throw new Error('Case IDs must be unique three-digit strings.');
     ids.add(record.id);
     if (record.caseNumber !== `PNN-${record.id}` || !teamById.has(record.suspectTeamId)) throw new Error(`Invalid case/team reference: ${record.id}`);
-    const team = teamById.get(record.suspectTeamId);
-    if (!/^assets\/[\w/.-]+\.(jpe?g|png|webp|svg)$/.test(team.logo) || team.logo.split('/').includes('..')) throw new Error(`Invalid team logo: ${record.id}`);
-    await publicAsset(root, team.logo);
+    if (record.coSuspectTeamIds !== undefined && (!Array.isArray(record.coSuspectTeamIds) || !record.coSuspectTeamIds.length ||
+        new Set(record.coSuspectTeamIds).size !== record.coSuspectTeamIds.length ||
+        record.coSuspectTeamIds.some(id => id === record.suspectTeamId || !teamById.has(id)))) throw new Error(`Invalid coSuspectTeamIds: ${record.id}`);
+    for (const id of [record.suspectTeamId, ...(record.coSuspectTeamIds ?? [])]) {
+      const team = teamById.get(id);
+      if (!/^assets\/[\w/.-]+\.(jpe?g|png|webp|svg)$/.test(team.logo) || team.logo.split('/').includes('..')) throw new Error(`Invalid team logo: ${record.id}`);
+      await publicAsset(root, team.logo);
+    }
     if (typeof record.published !== 'boolean') throw new Error(`Missing publication flag: ${record.id}`);
     for (const field of ['dateOpened', 'timeZone', 'status', 'incidentTitle', 'summary', 'incidentDescription', 'suspectedMotive', 'investigatorNote', 'threatLevel', 'disposition']) {
       if (!nonEmpty(record[field])) throw new Error(`Missing ${field}: ${record.id}`);

@@ -1,4 +1,5 @@
 import { useSite, Link } from '../../lib/site.jsx';
+import { suspectTeamsOf } from '../../lib/model.js';
 import { Prose } from '../../lib/prose.jsx';
 import { CaseBack } from '../ui/CaseBack.jsx';
 import { Caption } from '../ui/Caption.jsx';
@@ -14,7 +15,8 @@ import { RatingsSection } from './RatingsSection.jsx';
 /** A full case file: heading, the report column, and the subject-team and evidence aside. */
 export function CaseFile({ record }) {
   const { model } = useSite();
-  const team = model.teamById.get(record.suspectTeamId);
+  const teams = suspectTeamsOf(record, model.teamById);
+  const many = teams.length > 1;
   const related = (record.relatedCaseIds || []).map(id => model.caseById.get(id)).filter(item => item.published);
   return (
     <>
@@ -25,7 +27,7 @@ export function CaseFile({ record }) {
           <h1>{record.incidentTitle}</h1>
           <p className="intro">{record.summary}</p>
           <MetaList items={[
-            { term: 'Subject team', value: team.name },
+            { term: many ? 'Subject teams' : 'Subject team', value: teams.map(team => team.name).join(' and ') },
             { term: 'Opened', value: <CaseTime record={record} /> },
             { term: 'PNN threat rating', value: record.threatLevel }
           ]} />
@@ -42,10 +44,13 @@ export function CaseFile({ record }) {
             <section className="case-assessment"><h2>Official PNN assessment</h2><Prose text={record.disposition} linkTeams /></section>
             {record.purrHiss ? <RatingsSection ratings={record.purrHiss} teamById={model.teamById} /> : null}
           </div>
-          <aside aria-label="Subject team and evidence">
-            <TeamPanel team={team} label={`Subject team · ${team.color}`} headingId="subject-team-heading" heading={<TeamName team={team} />}>
-              <p>Named in this PNN investigation. <Link to={`teams/${team.slug}/`}>Read the dossier →</Link></p>
-            </TeamPanel>
+          <aside aria-label={many ? 'Subject teams and evidence' : 'Subject team and evidence'}>
+            {teams.map((team, i) => (
+              <TeamPanel key={team.id} team={team} label={`${many ? (i ? 'Co-subject' : 'Lead subject') : 'Subject team'} · ${team.color}`}
+                headingId={i ? `subject-team-heading-${i + 1}` : 'subject-team-heading'} heading={<TeamName team={team} />}>
+                <p>Named in this PNN investigation. <Link to={`teams/${team.slug}/`}>Read the dossier →</Link></p>
+              </TeamPanel>
+            ))}
             {record.evidence.map((item, index) => <Evidence key={item.id} item={item} index={index} />)}
           </aside>
         </div>

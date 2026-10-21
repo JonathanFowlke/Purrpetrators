@@ -9,6 +9,7 @@ import { TeamSpotlight } from '../components/home/TeamSpotlight.jsx';
 import { Callout } from '../components/ui/Callout.jsx';
 import { HotlineInline } from '../components/ui/HotlineInline.jsx';
 import { useSite } from '../lib/site.jsx';
+import { suspectTeamsOf } from '../lib/model.js';
 
 export function HomePage() {
   const { model } = useSite();
@@ -24,7 +25,7 @@ export function HomePage() {
       og={{ type: 'website', title: 'PNN — Purrpetrator News Network', description: 'The Purrveillance desk is open. Case files and questionable conclusions from the Broomstick Challenge.', path: '/', siteName: 'Purrpetrator News Network' }}
     >
       <Hero>
-        <FeaturedCase record={model.latest} team={model.latest && model.teamById.get(model.latest.suspectTeamId)} series={series} />
+        <FeaturedCase record={model.latest} teams={model.latest && suspectTeamsOf(model.latest, model.teamById)} series={series} />
       </Hero>
       <Countdown countdown={model.countdown} />
       <DailyTip {...model.dailyTip} />

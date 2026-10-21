@@ -1,0 +1,944 @@
+{
+  "id": "009",
+  "status": "published",
+  "date": "2026-10-21T12:00:00-06:00",
+  "title": "Strange bedfellows.",
+  "subject": "PNN: Two rivals, eight pranks, one cow. A study of how alliances end.",
+  "preheader": "Spiders and aliens hit the same two houses, then each other. The Institute has a study. It ends badly. It always does.",
+  "featuredCase": {
+    "id": "018",
+    "teaser": "**Spiders and aliens hit the same two houses in one night, then each other.** Both teams call themselves rivals. PNN has a composite sketch, a cow with a wardrobe, and a cobweb sold in two colors. *Neither team will confirm the handshake. The handshake is in the sketch.*",
+    "linkLabel": "Open the case file →",
+    "hook": "including the route comparison and the sketch desk's composite",
+    "image": {
+      "src": "assets/email/009-collusion-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "A pencil-and-charcoal police sketch on aged paper headed PNN RECONSTRUCTION: ARACHNID + EXTRATERRESTRIAL. A fuzzy black spider in a fedora and bandit mask shakes hands with a smiling gray alien in a trench coat. Behind them, a corkboard with red string links drawings of a spider web, a flying saucer, a roll of toilet paper, and a cow with a mohawk. A red stamp reads COLLUSION?",
+      "caption": "PNN reconstruction: an AI-generated illustration of an alleged alliance, not a photograph."
+    }
+  },
+  "tickerItems": [
+    {
+      "tag": "NEWSLETTER",
+      "text": "Edition 009: a study finds alliances end in betrayal, usually over a cow. The Black-and-Green Alliance has a cow."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "Institute for Collaborative Mischief: 97% of alliances end in betrayal. The other 3% ended too fast to count."
+    },
+    {
+      "tag": "CLASSIFIEDS",
+      "text": "Lost: one B, last seen in the Bureau's third log. Finder asked to return it to the Bandits, who needed a week to choose it."
+    }
+  ],
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR COLLABORATIVE MISCHIEF",
+      "heading": "Alliances always end in betrayal.\n(A longitudinal study of the Black-and-Green Alliance, still in progress.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Collaborative Mischief",
+              "bold": true
+            },
+            {
+              "text": " has spent "
+            },
+            {
+              "text": "eleven minutes",
+              "bold": true
+            },
+            {
+              "text": " reviewing every alliance in recorded history, "
+            },
+            {
+              "text": "and several that were recorded only by the people in them.",
+              "italic": true
+            },
+            {
+              "text": " Its finding, in the Institute's own words: "
+            },
+            {
+              "text": "'It ends badly. Always. Usually over a cow.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The study was prompted by "
+            },
+            {
+              "text": "PNN-018",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/018/"
+            },
+            {
+              "text": ", in which the "
+            },
+            {
+              "text": "Black Webb Bandits",
+              "bold": true
+            },
+            {
+              "text": " and the "
+            },
+            {
+              "text": "Area 51 Bureau",
+              "bold": true
+            },
+            {
+              "text": " hit "
+            },
+            {
+              "text": "eight houses",
+              "bold": true
+            },
+            {
+              "text": " in one night, "
+            },
+            {
+              "text": "two of them the same,",
+              "bold": true
+            },
+            {
+              "text": " and then hit each other. "
+            },
+            {
+              "text": "Both teams call themselves rivals.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Institute calls this 'the opening paragraph of every betrayal.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The methodology: "
+            },
+            {
+              "text": "forty-one alliances, observed from a hedge.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Forty ended in betrayal. The forty-first is still in progress, and has a cow.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Exhibit A is the Bureau's own paperwork.",
+              "bold": true
+            },
+            {
+              "text": " Its final Mission Log reports that the Bandits were "
+            },
+            {
+              "text": "'neutralised,'",
+              "italic": true
+            },
+            {
+              "text": " that their signature spider was "
+            },
+            {
+              "text": "'hijacked,'",
+              "italic": true
+            },
+            {
+              "text": " and that they "
+            },
+            {
+              "text": "'thought they were trailing victims, but they were being hunted by the Bureau the entire time.'",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "This is the part of the study where the alliance falls apart.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It happened in the fourth log, in public, with an emoji.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Bandits have not commented.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They are a spider team. They wait very still. PNN suspects they are already building something.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN also suspects it will be late.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the case file →",
+          "href": "https://purrpetrators.net/cases/018/",
+          "note": "Seven exhibits, the route comparison, and a composite sketch of the alleged handshake. The photos are on the site, not in this email."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "97%",
+              "text": "**Alliances that end in betrayal, per the Institute.** *The other 3% ended too fast to count.*"
+            },
+            {
+              "value": "4 days",
+              "text": "**Median lifespan of a 'cosmic lockdown.'** *Set by the Area 51 Bureau in PNN-013. Broken by a cow.*"
+            },
+            {
+              "value": "8 → 2",
+              "text": "**Pranks that night, versus houses hit by both teams.** *One Pyro Posse house and one Tightie Whities house. The Silver Bullets were split down the middle. Teams have many households, which Clueso has since had explained to him.*"
+            },
+            {
+              "value": "8",
+              "text": "**Times the Bureau's logs mention the Bandits.** *One dropped a B, which stings a team that took the longest to pick its name. Mentions of the pink team: zero. Clueso has noticed.*"
+            },
+            {
+              "value": "3 × 3",
+              "text": "**Teams visited by three different teams in two nights: the Whities, the Bullets, and the Posse.** *The pink team went first. The Bandits and the Bureau followed. Lawn decorations have not had a night off.*"
+            },
+            {
+              "value": "1",
+              "text": "**Cow with a full wardrobe.** *Briefs, a mohawk, a flame brand. It has not testified. It has also not been asked to take off the mohawk.*"
+            },
+            {
+              "value": "0",
+              "text": "**Teams that admitted to the alliance.** *Teams that denied it with matching enthusiasm: two. Clueso says that is also a pattern.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " an alliance lasts exactly as long as it takes someone to strap the other team's mascot to a cow. "
+            },
+            {
+              "text": "Duration in this case: one night. Cows: one, plus staff.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE TIMELINE",
+      "heading": "The seven stages of an alliance falling apart.\n(Teams in stage four may experience cows.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 1 / The Handshake.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Two teams agree to 'share the neighborhood.' One brings toilet paper. The other brings toilet paper, but green. The sketch desk has the handshake on paper.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN-018 →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/018/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 2 / The Shared Cart.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Eight pranks is a lot of cobweb. Someone has a coupon. Someone else has the receipt. This is how black webbing on one porch and neon green webbing on one door came to be the same stretchy product. Same aisle. Different color.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 3 / The Split.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Silver Bullets were divided between the partners, down the middle, like a pie. The Bullets, who are in bed by eight",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "(PNN-011)",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/011/"
+            },
+            {
+              "text": ", were not consulted. Nobody argues over the first pie.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 4 / The Home Visit.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The partners visit each other's houses. This is called 'hitting a rival.' It is also called 'checking on the dishes.' Each team got one visit, exactly as Rule 2 requires. The paperwork is immaculate. Clueso is deeply suspicious of immaculate.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 5 / The Spider Heist.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'Hijacked their signature spider and strapped it directly onto the cow.' The spider was not asked. The cow was not asked either, but the cow has been through worse",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "(PNN-013)",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/013/"
+            },
+            {
+              "text": ", where it was branded PP and left with a cowboy.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 6 / The Verdict.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'Black Webb neutralised, cow extracted, Green Team supreme.' The Bureau has issued four verdicts. Verdicts are PNN's job. PNN has filed a complaint against the Bureau. It was filed under 'Cosmic Lockdown,' where nothing has been seen for four days.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 7 / The Pink House Exemption.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Neither team touched the pink house. The Institute classifies this as the only point of total agreement in the alliance. Clueso classifies it as fear. The Institute classifies Clueso as reasonable.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "PRIOR ART",
+      "heading": "Previous relationships in this game, reviewed.\n(Duration: not long. Cause of collapse: see column two.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Pyro Posse + Area 51 Bureau (PNN-004).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: one dumpster fire, made of balloons. Cause of collapse: the balloons.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Pyro Posse + the pink team (PNN-008).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: one glitter bomb and a plate of cookies. Cause of collapse: the pink team ate the evidence.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Area 51 Bureau + the pink team (PNN-009).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: one theme park. Cause of collapse: a drive home and a patio umbrella.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Crimson Crew + one teenager (PNN-010).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: one foam blaster. Cause of collapse: the grown pirates begged, and the candy was last Halloween's.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Black Webb Bandits + the witches (PNN-002).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: not yet started. Cause of collapse: arrived early. The witches said NO.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Tightie Whities + the right night (PNN-007).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: never. Cause of collapse: wrong night, wrong night, and, per PNN-012, wrong night again.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Black Webb Bandits + Area 51 Bureau (PNN-018).",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Duration: one night. Cause of collapse: pending, but the cow is nervous.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Open the file →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/018/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " the only alliance in the file with a perfect record is "
+            },
+            {
+              "text": "the Silver Bullets and bedtime.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It has never betrayed anyone. It has, however, slept through a retirement party",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "(PNN-015)",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/015/"
+            },
+            {
+              "text": ".",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly allied.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST:",
+              "bold": true
+            },
+            {
+              "text": " One B. "
+            },
+            {
+              "text": "Dropped from 'Webb' in the Bureau's third log. The Bandits needed a week to choose it (PNN-001). Please return it to a spider.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND:",
+              "bold": true
+            },
+            {
+              "text": " One cow, extremely well dressed. "
+            },
+            {
+              "text": "Briefs, a mohawk, a flame brand. The cow's owner: possibly shared. Its tailor: classified.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED:",
+              "bold": true
+            },
+            {
+              "text": " The minutes of the Black-and-Green Alliance. "
+            },
+            {
+              "text": "Requested by Inspector Clueso. Attendance: one spider, one alien. Refreshments: cobweb.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE:",
+              "bold": true
+            },
+            {
+              "text": " One cosmic lockdown. "
+            },
+            {
+              "text": "Used for four days. Minor leaks. Cows not included, though the cows are already inside.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "SERVICES:",
+              "bold": true
+            },
+            {
+              "text": " Cobweb, black or neon green. "
+            },
+            {
+              "text": "Same aisle. Discounts if both parties pay. References: each other, in writing, in four logs.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FREE TO A GOOD HOME:",
+              "bold": true
+            },
+            {
+              "text": " One firm handshake. "
+            },
+            {
+              "text": "Photographed. Denied. Suspiciously polite.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE:",
+              "bold": true
+            },
+            {
+              "text": " Neighbors may no longer watch a prank 'for the science of it' without a lab coat. "
+            },
+            {
+              "text": "Lab coats on order, in black and green.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "A WORD OF THANKS",
+      "heading": "Thank you, Bandits and Bureau.\n(We needed the Venn diagram.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN thanks the "
+            },
+            {
+              "text": "Black Webb Bandits",
+              "bold": true
+            },
+            {
+              "text": " and the "
+            },
+            {
+              "text": "Area 51 Bureau",
+              "bold": true
+            },
+            {
+              "text": " for their service to the neighborhood and to "
+            },
+            {
+              "text": "PNN's sketch desk,",
+              "bold": true
+            },
+            {
+              "text": " which had run out of panthers. "
+            },
+            {
+              "text": "The desk went from a panther trapping a spider",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "(PNN-001)",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/001/"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "to a spider and an alien shaking hands. It calls this progress. It also calls it a Tuesday.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN thanks the victims, who left "
+            },
+            {
+              "text": "a five-star review, a twelve-year-old's testimony, and one bystander who watched 'for the science of it.'",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Institute has asked the bystander to join the study. The bystander has asked what the lab coat is made of.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN thanks the "
+            },
+            {
+              "text": "Pyro Posse",
+              "bold": true
+            },
+            {
+              "text": " and the "
+            },
+            {
+              "text": "Tightie Whities,",
+              "bold": true
+            },
+            {
+              "text": " hit by three teams in two nights. "
+            },
+            {
+              "text": "'It's like we're the only ones playing,'",
+              "italic": true
+            },
+            {
+              "text": " said the Posse in "
+            },
+            {
+              "text": "PNN-005",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/005/"
+            },
+            {
+              "text": ". "
+            },
+            {
+              "text": "PNN can now confirm: they are the only ones being played.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM INSPECTOR CLUESO'S OFFICE",
+      "heading": "I called it.\n(Nobody listened. Again.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Inspector Clueso has spent seventeen cases waiting for two teams to get together and make his job easy. "
+            },
+            {
+              "text": "On October 20, two did.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "They hit eight houses, left no footage, and posted four mission logs.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He considers this a confession in four parts.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "He has requested a "
+            },
+            {
+              "text": "Joint Task Force",
+              "bold": true
+            },
+            {
+              "text": " to investigate the alliance. "
+            },
+            {
+              "text": "PNN has filed the request under Seasonal Decorations.",
+              "italic": true
+            },
+            {
+              "text": " He would also like it noted that "
+            },
+            {
+              "text": "neither team touched the pink house.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He reads this as fear. PNN reads it as the best decision of the alliance.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The pink team",
+              "bold": true
+            },
+            {
+              "text": " had already finished the neighborhood the night before and was, as far as Clueso can prove, resting. "
+            },
+            {
+              "text": "He cannot prove it.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He has asked for the minutes of that, too.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder:",
+              "bold": true
+            },
+            {
+              "text": " keep pranks clever, kind, and away from sleep and young children (rules 6 and 7). Photo or video proof goes to the game group by "
+            },
+            {
+              "text": "October 22,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "which, Clueso notes, is tomorrow.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "See the evidence →",
+          "href": "https://purrpetrators.net/cases/018/",
+          "note": "Seven exhibits, a cow with a wardrobe, and a handshake that two teams deny."
+        }
+      ]
+    }
+  ]
+}
