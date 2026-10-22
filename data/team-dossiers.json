@@ -2,7 +2,7 @@
   "black": {
     "codename": "Operation Eight Legs, No Clock",
     "tagline": "Last to arrive. First to apologize. Never on time.",
-    "threatLevel": "Chronically late. Recently webbed. Possibly allied.",
+    "threatLevel": "Chronically late. Recently webbed. Possibly allied. Newly early, and buried.",
     "knownFor": [
       "Being the last team to submit a name (PNN-001).",
       "Bribing the witches before the witches had opened for business (PNN-002).",
@@ -10,9 +10,10 @@
       "Getting caught in a giant pink web, exactly as PNN drew it in its first case (PNN-016).",
       "Hitting four teams first, then being 'neutralised' in a rival's mission log (PNN-018).",
       "An alleged alliance with the Area 51 Bureau, which both teams deny with matching enthusiasm (PNN-018).",
+      "Posting a stack of prank photos at 12:48 a.m. with no caption, before the homeowners saw them, then watching two witch waves bury the post (PNN-019).",
       "A team name that is three words and a second B."
     ],
-    "file": "The **Black Webb Bandits** chose spiders, a creature famous for patience, planning, and sitting very still until something happens to it. They then embodied the theme perfectly. The first entry in the file is the name reveal: last in the neighborhood, with a pun so tightly packed that PNN suspects it took a full week to find the second B.\n\nThe second entry is the bribe. Having failed to be first, the Bandits went for early. They arrived with treats and a flier asking 'Are you a witch?' before the witches had announced the instructions. The witches said NO. The Bandits are the only team in the game to have visited a starting line and somehow finished behind it.\n\nThe third entry is the Pyro Posse's visit, which wrapped a For Sale sign in orange cobweb and left a field of orange flags in the grass. The Bandits were pranked, and then, adding insult to webbing, announced last. A spider caught in someone else's web is a headline PNN has now written twice.\n\nThe fourth entry closes the loop. In **PNN-016**, shortly after midnight, the Prowling Purrpetrators strung **a giant pink web** across the Bandits' front walk, caught their spiders in it, and left a bottle of 'Black Web Spider Spray' at the scene. *No webs. No spiders. No problem.* PNN drew this exact scene in its very first case and called it a reconstruction. It is now a photograph. For once in this game, somebody showed up later than the Bandits.\n\nThe fifth entry is a partnership nobody will confirm. On the night of October 20, 2026 (**PNN-018**), the Bandits hit four teams, and then the Area 51 Bureau hit four teams, **including the Bandits' own house.** The two teams hit **the same Pyro Posse house and the same Tightie Whities house,** split the Silver Bullets down the middle, and skipped the pink house together. The Bureau's logs mention the Bandits eight times, call their toilet paper 'basic,' and report them 'neutralised.' The Bureau also strapped the Bandits' signature spider to a cow. For once, the Bandits were first at every shared house. It is also the most attention the Bandits have received since the name reveal. PNN calls this progress.\n\nIn fairness, the Bandits have charm, a genuinely great logo, and a name that makes people say 'oh, I get it.' Those are real assets. Clueso notes that none of them are punctuality, or web security.",
+    "file": "The **Black Webb Bandits** chose spiders, a creature famous for patience, planning, and sitting very still until something happens to it. They then embodied the theme perfectly. The first entry in the file is the name reveal: last in the neighborhood, with a pun so tightly packed that PNN suspects it took a full week to find the second B.\n\nThe second entry is the bribe. Having failed to be first, the Bandits went for early. They arrived with treats and a flier asking 'Are you a witch?' before the witches had announced the instructions. The witches said NO. The Bandits are the only team in the game to have visited a starting line and somehow finished behind it.\n\nThe third entry is the Pyro Posse's visit, which wrapped a For Sale sign in orange cobweb and left a field of orange flags in the grass. The Bandits were pranked, and then, adding insult to webbing, announced last. A spider caught in someone else's web is a headline PNN has now written twice.\n\nThe fourth entry closes the loop. In **PNN-016**, shortly after midnight, the Prowling Purrpetrators strung **a giant pink web** across the Bandits' front walk, caught their spiders in it, and left a bottle of 'Black Web Spider Spray' at the scene. *No webs. No spiders. No problem.* PNN drew this exact scene in its very first case and called it a reconstruction. It is now a photograph. For once in this game, somebody showed up later than the Bandits.\n\nThe fifth entry is a partnership nobody will confirm. On the night of October 20, 2026 (**PNN-018**), the Bandits hit four teams, and then the Area 51 Bureau hit four teams, **including the Bandits' own house.** The two teams hit **the same Pyro Posse house and the same Tightie Whities house,** split the Silver Bullets down the middle, and skipped the pink house together. The Bureau's logs mention the Bandits eight times, call their toilet paper 'basic,' and report them 'neutralised.' The Bureau also strapped the Bandits' signature spider to a cow. For once, the Bandits were first at every shared house. It is also the most attention the Bandits have received since the name reveal. PNN calls this progress.\n\nThe sixth entry is the Bandits being early, which nobody had prepared for. On the night of October 21, 2026 (**PNN-019**), they wrapped bundles on the pink and red porches and posted the proof at **12:48 a.m.,** a stack of attachments and **zero words,** before either household was likely to see it. The post landed behind a big witch message from the day before, and another big one buried it today. *For once the Bandits were first, and for once it did not help.* The post was answering the pink web of PNN-016, **two days and nineteen minutes late.** PNN calls that a rapid response.\n\nIn fairness, the Bandits have charm, a genuinely great logo, and a name that makes people say 'oh, I get it.' Those are real assets. Clueso notes that none of them are punctuality, or web security.",
     "strengths": [
       "A genuinely good name.",
       "Excellent logo. Eight legs, no regrets.",
@@ -23,9 +24,11 @@
       "Clocks, calendars, and announcements.",
       "Starting lines, finish lines, and every line in between.",
       "Webs, specifically pink ones.",
-      "Partners who write four mission logs."
+      "Partners who write four mission logs.",
+      "Captions.",
+      "Group chats with witches in them."
     ],
-    "advice": "Set an alarm. Then set a second alarm to remind you about the first. And before you step outside, look up: the last web on your walk was not yours. And if an alien offers to share a cow, count the legs on the cow first."
+    "advice": "Set an alarm. Then set a second alarm to remind you about the first. And before you step outside, look up: the last web on your walk was not yours. And if an alien offers to share a cow, count the legs on the cow first. And before you post at 12:48 a.m., make sure someone is awake to be surprised."
   },
   "green": {
     "codename": "Operation Nothing To See Here",
@@ -86,7 +89,7 @@
   "pink": {
     "codename": "Operation Six for Six",
     "tagline": "Wanted everywhere. Caught nowhere.",
-    "threatLevel": "Everywhere at once. Uncatchable. Clueso refuses to rate them.",
+    "threatLevel": "Everywhere at once. Uncatchable. Clueso refuses to rate them. Cocoon-tested.",
     "knownFor": [
       "Being the team Inspector Clueso is certain is guilty.",
       "The Pink Sweep: six teams pranked in one night, in order, with zero arrests (PNN-012 to PNN-017).",
@@ -95,35 +98,39 @@
       "Running a whole newsroom, hotline, newsletter, and Corrections Desk.",
       "Winning the PNN-006 exchange in three sentences and a hyperlink.",
       "Being the one house neither the Black Webb Bandits nor the Area 51 Bureau would touch (PNN-018).",
+      "Being 'caught' by a sticker and a poster on its own porch and remaining uncaught (PNN-019).",
       "Guilty until proven guilty."
     ],
-    "file": "The **Prowling Purrpetrators** spent most of the season as the only team Inspector Clueso could not put in a case file. The file was very thick. It contained nothing. Clueso said the thickness was the point.\n\nOther teams came to the pink team instead, and each left with less than it brought. The Pyro Posse's glitter bomb was defused and its cookies eaten (PNN-008). The Area 51 Bureau's raid arrived with cookies too (PNN-009). The Crimson Crew was caught by one teen with a foam dart and begged to finish (PNN-010).\n\nThen came **October 19.** Between about 11 p.m. and 1 a.m., the pink team pranked **every other team in the game:** underwear for the Tightie Whities, branded cattle for the Area 51 Bureau, a flag and a treasure chest for the Crimson Crew, a retirement party for the Silver Bullets, a web for the Black Webb Bandits, and a kiddie pool for the Pyro Posse. *(PNN-012 to PNN-017.)* Every scene was signed. Four group portraits were posed at the scene. The Crimson Crew reviewed its own prank as 'top-tier entertainment.'\n\nClueso finally had evidence. **He has arrested no one.** PNN's own privacy desk blurred the faces, the Crimson Crew kept the footage, the Silver Bullets slept through it, and the aliens only smiled. He has filed a grievance against his own newsroom. It is in its second binder.\n\nThe Purrpetrators decline to comment. They are, as always, wearing sunglasses.",
+    "file": "The **Prowling Purrpetrators** spent most of the season as the only team Inspector Clueso could not put in a case file. The file was very thick. It contained nothing. Clueso said the thickness was the point.\n\nOther teams came to the pink team instead, and each left with less than it brought. The Pyro Posse's glitter bomb was defused and its cookies eaten (PNN-008). The Area 51 Bureau's raid arrived with cookies too (PNN-009). The Crimson Crew was caught by one teen with a foam dart and begged to finish (PNN-010).\n\nThen came **October 19.** Between about 11 p.m. and 1 a.m., the pink team pranked **every other team in the game:** underwear for the Tightie Whities, branded cattle for the Area 51 Bureau, a flag and a treasure chest for the Crimson Crew, a retirement party for the Silver Bullets, a web for the Black Webb Bandits, and a kiddie pool for the Pyro Posse. *(PNN-012 to PNN-017.)* Every scene was signed. Four group portraits were posed at the scene. The Crimson Crew reviewed its own prank as 'top-tier entertainment.'\n\nClueso finally had evidence. **He has arrested no one.** PNN's own privacy desk blurred the faces, the Crimson Crew kept the footage, the Silver Bullets slept through it, and the aliens only smiled. He has filed a grievance against his own newsroom. It is in its second binder.\n\nIn **PNN-019,** the Black Webb Bandits finally answered the web of PNN-016, **two days and nineteen minutes late.** They wrapped a bundle on the pink porch, put a pink panther sticker on it, and posted a poster of a panther upside down in a cocoon. **The panther looks calm, half-lidded, and mildly inconvenienced.** Clueso, who has spent eighteen cases trying to catch the pink team, reports that the Bandits caught a sticker. **The pink team remains caught nowhere.** *It wears a cocoon better than the Bandits wear a deadline.*\n\nThe Purrpetrators decline to comment. They are, as always, wearing sunglasses.",
     "strengths": [
       "An extremely good logo.",
       "Route planning: six houses, one night, no wrong turns.",
       "A newsroom, a hotline, and a newsletter, all on one team.",
-      "Sunglasses."
+      "Sunglasses.",
+      "Composure, even in a cocoon."
     ],
     "weaknesses": [
       "Clueso.",
       "Clueso, again.",
       "Winning arguments before the other team finishes typing, which Clueso is treating as a lack of sportsmanship.",
-      "Posing for group photos at the scene, which Clueso would call a weakness if any of the faces were visible."
+      "Posing for group photos at the scene, which Clueso would call a weakness if any of the faces were visible.",
+      "Cocoons, which Clueso says should have worked."
     ],
     "advice": "Clueso asked you to prank someone. You pranked everyone. He would like to rephrase the request."
   },
   "red": {
     "codename": "Operation Red-Handed",
     "tagline": "Caught on the way in. Boarded on the way out.",
-    "threatLevel": "Armed with fake gold and expired candy. Fire held indefinitely.",
+    "threatLevel": "Armed with fake gold and expired candy. Fire held indefinitely. Newly shrink-wrapped.",
     "knownFor": [
       "Being caught red-handed by one teen with a foam blaster (PNN-010).",
       "A plea of candy that was last Halloween's.",
       "Free Halloween decorating for the pink house, installed under supervision.",
       "Watching the pink team board its porch on camera, holding its fire, and calling it 'top-tier entertainment' (PNN-014).",
-      "Dropping a purr and a B from other teams' names in one evening."
+      "Dropping a purr and a B from other teams' names in one evening.",
+      "Having a pirate shrink-wrapped on its own porch while the lookout watched for pink (PNN-019)."
     ],
-    "file": "**The Crimson Crew** spent weeks as the only team without a case file. Clueso circled its name in red pen. The Crew answered by sailing to six houses in one night and getting caught at one. *(PNN-010.)*\n\nThe catch was brief. **One teen, one foam dart, several grown pirates, and a great deal of begging.** The Crew paid in candy that was last Halloween's. The taste panel declined to reopen the account. The Crew also hung skull bunting at the pink house and left a laminated poster announcing 'Your ship is ours!', which PNN counts as free decorating and has thanked.\n\nTwo nights later the pink team returned the visit. In **PNN-014**, a boarding party hoisted **a pink flag on the Crew's own flagpole** and left **a treasure chest marked 'PP'** on the doormat. The Crew's 'security glass' watched the whole thing. The Crew **held its fire,** later explaining it had assumed all the pink was for a cause, and reviewed the evening as **'top-tier entertainment.'** PNN has never had a victim publish a five-star review. The ship is, as the Crew once put it, ours.\n\nIn fairness, any team that reaches six houses in one night has range, and any team that reviews its own pranking that generously has class. The Crew's range simply ends at the color pink. The party is October 24. Clueso recommends fresh candy, a lime, and a cannon.",
+    "file": "**The Crimson Crew** spent weeks as the only team without a case file. Clueso circled its name in red pen. The Crew answered by sailing to six houses in one night and getting caught at one. *(PNN-010.)*\n\nThe catch was brief. **One teen, one foam dart, several grown pirates, and a great deal of begging.** The Crew paid in candy that was last Halloween's. The taste panel declined to reopen the account. The Crew also hung skull bunting at the pink house and left a laminated poster announcing 'Your ship is ours!', which PNN counts as free decorating and has thanked.\n\nTwo nights later the pink team returned the visit. In **PNN-014**, a boarding party hoisted **a pink flag on the Crew's own flagpole** and left **a treasure chest marked 'PP'** on the doormat. The Crew's 'security glass' watched the whole thing. The Crew **held its fire,** later explaining it had assumed all the pink was for a cause, and reviewed the evening as **'top-tier entertainment.'** PNN has never had a victim publish a five-star review. The ship is, as the Crew once put it, ours.\n\nIn **PNN-019,** the Black Webb Bandits visited the Crew's steps on the night of October 21, 2026. They left **a bundle with a Jolly Roger sticker on top,** plastic spiders across the 'Home Sweet Home' mat, and toilet paper in the trees. *The lookout that spotted pink boarders at a hundred yards in PNN-014 missed an entire spider operation.* **PNN calls this the Clueso condition: color-selective vision.** The proof was posted at 12:48 a.m., before the Crew could comment.\n\nIn fairness, any team that reaches six houses in one night has range, and any team that reviews its own pranking that generously has class. The Crew's range simply ends at the color pink. The party is October 24. Clueso recommends fresh candy, a lime, and a cannon.",
     "strengths": [
       "Range: six houses in one night.",
       "Props that commit to the bit.",
@@ -133,9 +140,10 @@
       "Floodlights.",
       "Teenagers.",
       "Expired candy.",
-      "Holding fire."
+      "Holding fire.",
+      "Black spiders in the dark."
     ],
-    "advice": "Check the lights before the lawn. Bring fresh candy. Pay the teen. And when the security glass spots boarders, fire."
+    "advice": "Check the lights before the lawn. Bring fresh candy. Pay the teen. And when the security glass spots boarders, fire. Widen the lookout's color settings."
   },
   "silver": {
     "codename": "Operation Early Bird",
