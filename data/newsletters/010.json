@@ -1,0 +1,838 @@
+{
+  "id": "010",
+  "status": "published",
+  "date": "2026-10-22T09:30:00-06:00",
+  "title": "The napkin run.",
+  "subject": "PNN: Tonight at 6, every alibi in the neighborhood will be in one room. A study.",
+  "preheader": "The Bandits posted at 12:48 a.m. The festival starts at 6 p.m. The Institute has a study on napkin runs. It ends with one napkin.",
+  "featuredCase": {
+    "id": "019",
+    "teaser": "**The Black Webb Bandits wrapped the pink and red porches, then posted the proof at 12:48 a.m., before anyone woke up to see it.** No caption. No comment. A whole album, now buried between two big witch messages. PNN sent a search party and has a composite sketch, a pirate shrink-wrapped like a deli special, and a sticker in custody. *The surprise is the one thing caught in the web.*",
+    "linkLabel": "Open the case file →",
+    "hook": "including the final-day timeline and the sketch desk's silent poster",
+    "image": {
+      "src": "assets/email/010-silent-poster-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "A pencil-and-charcoal police sketch on aged paper headed PNN RECONSTRUCTION: THE SILENT POSTER. A fuzzy black spider in a dark hoodie and bandit mask holds a smartphone beside an empty speech bubble. Behind it, a corkboard with red string links a wall clock, a dark house with a roll of toilet paper, a festival scene under strings of jack-o'-lanterns, a pink cat sticker, and a pirate skull sticker. Handwritten notes read no caption?, before the porch?, and festival = alibi?. A red stamp reads POSTED EARLY.",
+      "caption": "PNN reconstruction: an AI-generated illustration of an alleged silent poster, not a photograph."
+    }
+  },
+  "tickerItems": [
+    {
+      "tag": "NEWSLETTER",
+      "text": "Edition 010: a study finds 100% of napkin runs return with a story and one napkin. Clueso has packed napkins, for observation."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "Institute for Collaborative Mischief: 83% of party guests have left for napkins. The napkins were eleven feet away."
+    },
+    {
+      "tag": "CLASSIFIEDS",
+      "text": "Lost: forty-one minutes, last seen between \"be right back\" and \"they were out.\" Finder asked to return them to the party."
+    }
+  ],
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR COLLABORATIVE MISCHIEF",
+      "heading": "The napkin run.\n(A study of why every party has an exit, and a roll of toilet paper in the tote bag.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Collaborative Mischief",
+              "bold": true
+            },
+            {
+              "text": " has spent "
+            },
+            {
+              "text": "fourteen minutes",
+              "bold": true
+            },
+            {
+              "text": " reviewing every neighborhood gathering ever held, "
+            },
+            {
+              "text": "and several that were held mostly in the parking lot.",
+              "italic": true
+            },
+            {
+              "text": " Its finding, in the Institute's own words: "
+            },
+            {
+              "text": "'The party is the alibi. The napkin run is the rest.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The study was prompted by "
+            },
+            {
+              "text": "PNN-019",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/019/"
+            },
+            {
+              "text": ", in which the "
+            },
+            {
+              "text": "Black Webb Bandits",
+              "bold": true
+            },
+            {
+              "text": " posted the proof of a prank at "
+            },
+            {
+              "text": "12:48 a.m.,",
+              "bold": true
+            },
+            {
+              "text": " before the homeowners had seen it. It was also prompted by the calendar. "
+            },
+            {
+              "text": "Tonight at 6 p.m., the ward holds its fall festival.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It is a neighborhood event, separate from the game.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It is also the last day to prank or bribe.",
+              "bold": true
+            },
+            {
+              "text": " The Institute calls this 'the largest gathering of alibis the season will allow.'"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Bandits' post has also been buried.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The witches sent a big wave about Saturday's scavenger hunt and party yesterday, and another big one today.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The proof of the prank now sits in the middle, like the filling in a sandwich nobody ordered.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN found it by scrolling, with snacks.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The methodology: "
+            },
+            {
+              "text": "forty-seven festivals, observed from a folding chair.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Forty-six had at least one guest announce a napkin run. Forty-six returned without napkins. The forty-seventh was cancelled, and the napkins are still missing.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The pattern is always the same.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A person says 'I'll grab more napkins.' The napkins are eleven feet away. The person leaves by the far door.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Forty-one minutes later, the person returns, slightly out of breath, holding one napkin and a story.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The Institute calls this 'the most suspicious sentence in the English language: they were out.'",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN is not saying any team will leave the festival early.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN is saying that if one does, it will be carrying a roll of toilet paper, and the roll will have an alibi.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN also suggests that the festival deserves its guests, and that the dessert table is not a stakeout.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the case file →",
+          "href": "https://purrpetrators.net/cases/019/",
+          "note": "Six exhibits, a composite sketch of the silent poster, and a timestamp that says 12:48. The photos are on the site, not in this email."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "83%",
+              "text": "**Party guests who have used 'I'll grab more napkins' as an exit.** *The other 17% were 'checking the car.' The car was fine.*"
+            },
+            {
+              "value": "41 min",
+              "text": "**Median length of a napkin run.** *Distance to the napkins: eleven feet. Napkins retrieved: usually one.*"
+            },
+            {
+              "value": "100%",
+              "text": "**Napkin runs that return with a story.** *Stories that include the phrase 'they were out': all of them.*"
+            },
+            {
+              "value": "9 of 10",
+              "text": "**Hosts who assume a missing guest is in the bathroom.** *The bathroom has now been occupied for forty-one minutes. Engineers have been consulted.*"
+            },
+            {
+              "value": "2 waves",
+              "text": "**Big witch messages bracketing the Bandits' post.** *Yesterday's instructions above, today's below. The post is the filling. The filling was not consulted.*"
+            },
+            {
+              "value": "1 in 3",
+              "text": "**Exits involving a dog, a car, or a phone charger.** *Dogs: always fine, always at home, never mentioned until 6:42.*"
+            },
+            {
+              "value": "0",
+              "text": "**Hosts who have ever asked a guest to prove the napkins were out.** *The second drawer has been checked once, in 1998, by a man who then left for ice.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding: a party's alibi strength rises with every plate of food and falls with every empty chair.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A guest holding a plate is a guest who has not left. A guest holding a plate and a car key is a guest who is in the middle of a story.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE TIMELINE",
+      "heading": "The seven stages of leaving a party.\n(Stage four may involve a tote bag.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 1 / The Arrival.\n",
+              "bold": true
+            },
+            {
+              "text": "Hello. Hug. Plate. Be seen early and be seen eating. The alibi is poured like concrete and sets in about eleven minutes. The Silver Bullets, who would rather be in bed, usually finish this stage first",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-011",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/011/"
+            },
+            {
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 2 / The Mingle.\n",
+              "bold": true
+            },
+            {
+              "text": "Four conversations, three handshakes, and a loud laugh near the host. Every person in the room is now a witness to the person who is about to leave.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 3 / The Signal.\n",
+              "bold": true
+            },
+            {
+              "text": "Two guests exchange a look across the room. One mouths 'napkins.' Nobody needs napkins. The napkins are on the table, near the cake.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 4 / The Exit.\n",
+              "bold": true
+            },
+            {
+              "text": "'Be right back.' 'Just checking the car.' Spoken at the volume of a person who wants to be remembered saying it. The far door has a squeak. The Institute considers the squeak the only honest thing in the building.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 5 / The Errand.\n",
+              "bold": true
+            },
+            {
+              "text": "Forty-one minutes. Details classified. A porch is visited, a roll is unspooled, and a photo is taken. Nobody is frightened and nothing is damaged. Clean, quick, and back before the last song. Rules 5 and 6 still apply, even at a party.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 6 / The Return.\n",
+              "bold": true
+            },
+            {
+              "text": "Out of breath, holding one napkin. 'They were out.' A thread of cobweb is on one sleeve. The Institute notes the Black Webb Bandits would have posted a photo of the napkin at 12:48 a.m.",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-019",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/019/"
+            },
+            {
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 7 / The Cleanup.\n",
+              "bold": true
+            },
+            {
+              "text": "Stack chairs. Wipe tables. Carry the folding table to the truck. This banks goodwill for the rest of the year. A chair-stacker is never the suspect. Clueso disagrees. Clueso has stacked chairs.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "THE NAPKIN RISK ASSESSMENT",
+      "heading": "Which teams are most likely to need napkins tonight?\n(Rated by the Institute. Appeals go to the dessert table.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Black Webb Bandits.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: high. Arrives late, leaves early, and posts proof at 12:48 a.m. regardless. The proof is now buried between two witch waves.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Open the file →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/019/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Silver Bullets.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: low. Will leave at the appetizers to make bedtime",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-011",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/011/"
+            },
+            {
+              "text": "). "
+            },
+            {
+              "text": "Alibi: unconscious.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Pyro Posse.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: medium. Plans every exit with a theme. Will return smelling faintly of glitter",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-008",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/008/"
+            },
+            {
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Area 51 Bureau.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: classified. Will leave 'on a matter of cosmic importance.' The cow stays at the party. Four mission logs to follow",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-018",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/018/"
+            },
+            {
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Crimson Crew.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: loud. Will announce its exit, announce it again, and be stopped at the door by a teenager",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-010",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/010/"
+            },
+            {
+              "text": "). "
+            },
+            {
+              "text": "Pirates do not do stealth. They do dessert.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Tightie Whities.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: unknowable. Will leave for napkins on the wrong night and return the wrong night",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-012",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/012/"
+            },
+            {
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Prowling Purrpetrators.\n",
+              "bold": true
+            },
+            {
+              "text": "Risk: none. The neighborhood was finished two nights ago",
+              "italic": true
+            },
+            {
+              "text": " ("
+            },
+            {
+              "text": "PNN-012 to 017",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/013/"
+            },
+            {
+              "text": "). "
+            },
+            {
+              "text": "The team will stay for dessert, sit near the front, and be the most accounted-for people in the building.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso finds this the most suspicious thing of all.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding: the safest alibi in the neighborhood is a team that has nothing left to do.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "The second safest is a team that left for ice and came back with ice.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Napkins, wanted and otherwise.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST: One prank post.\n",
+              "bold": true
+            },
+            {
+              "text": "Last seen between two long witch messages. Finder asked to scroll, with snacks.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED: One napkin.\n",
+              "bold": true
+            },
+            {
+              "text": "Last seen on the table, eleven feet from the person who left to find one.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND: One roll of toilet paper, in a tote bag.\n",
+              "bold": true
+            },
+            {
+              "text": "Alibi attached. Owner has stepped out for a moment.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST: Forty-one minutes.\n",
+              "bold": true
+            },
+            {
+              "text": "Last seen between 'be right back' and 'they were out.' If found, please return to the party.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE: One very good dog excuse.\n",
+              "bold": true
+            },
+            {
+              "text": "Dog not included. The dog has been at home the whole time and has not been consulted.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "SERVICES: Alibi witness.\n",
+              "bold": true
+            },
+            {
+              "text": "Available for chair stacking. References: the chairs.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE: Hosts are reminded the napkins are in the second drawer.\n",
+              "bold": true
+            },
+            {
+              "text": "They were always in the second drawer.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM INSPECTOR CLUESO'S OFFICE",
+      "heading": "I will be observing.\n(Purely as an observer. I have packed napkins.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Inspector Clueso will attend the festival "
+            },
+            {
+              "text": "'purely as an observer.'",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He has been told that a festival is not a stakeout.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He has a notebook, a flashlight, and a map of every exit: three doors, one window, and a side gate that squeaks.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "He will count everyone who leaves for napkins, "
+            },
+            {
+              "text": "and everyone who comes back with fewer than they took.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Should the pink team attend, he expects it to be the most accounted-for team in the room. He finds that suspicious in itself.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN finds it good time management.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Seen something at the festival, or anywhere else? "
+            },
+            {
+              "text": "Send game-related sightings and approved evidence to the",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN Tip Line",
+              "bold": true,
+              "href": "https://purrpetrators.net/tips/"
+            },
+            {
+              "text": ".",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "His theory could use some facts.",
+              "italic": true
+            },
+            {
+              "text": " Keep it friendly. Keep it to the game. No private details."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder: the festival is not part of the game. Enjoy it. Keep pranks clever, kind, and away from sleep and young children (rules 6 and 7), nothing damaged (rule 5), and nothing shared with outside groups (rule 8). Photo or video proof goes to the game group, not just to PNN, by",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "October 22,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "which, Clueso notes, is today.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the case file →",
+          "href": "https://purrpetrators.net/cases/019/",
+          "note": "Six exhibits, a silent poster, and a post that arrived before the porches did."
+        }
+      ]
+    }
+  ]
+}
