@@ -1,0 +1,808 @@
+{
+  "id": "011",
+  "status": "published",
+  "date": "2026-10-23T09:30:00-06:00",
+  "title": "The last two hours.",
+  "subject": "PNN: Two hours left. Six houses. A study of why every deadline has a last-minute.",
+  "preheader": "The Whities posted with two hours to spare. The Institute has a study on last minutes. It ends with a tote bag.",
+  "featuredCase": {
+    "id": "020",
+    "teaser": "**The Tightie Whities announced they were 'back in the game' with two hours left in it.** Six teams. One warning that doubles as a receipt. A pink satin pair that looks awfully familiar, a lawn dressed as a white flag, and a door in costume. The Pyro Posse and the Crimson Crew have already replied. PNN has a rain-soaked composite sketch, a theory about the laundry, and one question: *why so late?* *The answer is in the case file. So is the spelling dispute.*",
+    "linkLabel": "Open the case file →",
+    "hook": "including the sketch desk's rain-soaked composite and the Tighty versus Tightie spelling dispute",
+    "image": {
+      "src": "assets/email/011-last-minute-composite.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "A pencil-and-charcoal police sketch on aged paper headed PNN RECONSTRUCTION: THE LAST-MINUTE BRIEF. A faceless, hunched figure in a dripping white hoodie sprints through heavy rain toward a lit porch lantern, carrying a roll of white plastic sheeting and pink satin briefs under one arm, a phone reading 2:00:00, and a soggy plate of cookies. A broken umbrella lies behind them. Red string links pinned sketches of a rain cloud, a clock, pink briefs, a laundry basket, and notes reading why so late?, reused?, dissension?, napkin run?, and laundry day? A red stamp reads CUTTING IT CLOSE.",
+      "caption": "PNN reconstruction: an AI-generated illustration of an alleged last-minute sweep, not a photograph."
+    }
+  },
+  "tickerItems": [
+    {
+      "tag": "NEWSLETTER",
+      "text": "Edition 011: a study finds 100% of deadlines are met in the last two hours, and one was met by a tote bag. The Whities own a tote bag."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "Institute for Collaborative Mischief: 61 of 63 deadlines were met in the final two hours. One was met early. One is still negotiating."
+    },
+    {
+      "tag": "CLASSIFIEDS",
+      "text": "Lost: one rain delay, slightly used. Last seen at the deadline. Finder asked to return it to the Tightie Whities, retroactively."
+    }
+  ],
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR COLLABORATIVE MISCHIEF",
+      "heading": "The last two hours.\n(A study of what a team can do with a roll of plastic, a pair of briefs, and a deadline.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Collaborative Mischief",
+              "bold": true
+            },
+            {
+              "text": " has spent "
+            },
+            {
+              "text": "nineteen minutes",
+              "bold": true
+            },
+            {
+              "text": " reviewing every deadline ever set, "
+            },
+            {
+              "text": "and several that were extended after a team begged.",
+              "italic": true
+            },
+            {
+              "text": " Its finding, in the Institute's own words: "
+            },
+            {
+              "text": "'The last two hours are the only hours anyone actually uses.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The study was prompted by "
+            },
+            {
+              "text": "PNN-020",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/020/"
+            },
+            {
+              "text": ", in which the "
+            },
+            {
+              "text": "Tightie Whities",
+              "bold": true
+            },
+            {
+              "text": " hit "
+            },
+            {
+              "text": "all six other teams",
+              "bold": true
+            },
+            {
+              "text": " with "
+            },
+            {
+              "text": "two hours",
+              "bold": true
+            },
+            {
+              "text": " left before the prank deadline, then announced they were "
+            },
+            {
+              "text": "'back in the game.'",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Until then, they had barely played, and had been in the file as the team things happened to: dog walks (PNN-003), plates nobody took (PNN-007), a 'Not Tonight' in satin (PNN-012).",
+              "italic": true
+            },
+            {
+              "text": " The Institute calls this "
+            },
+            {
+              "text": "'a comeback with a very short runway.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The methodology: "
+            },
+            {
+              "text": "sixty-three deadlines, observed from a lawn chair.",
+              "bold": true
+            },
+            {
+              "text": " Sixty-one were met in the final two hours. One was met early, by the Black Webb Bandits, at 12:48 a.m. ("
+            },
+            {
+              "text": "PNN-019",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/019/"
+            },
+            {
+              "text": "), and then buried between two witch messages. "
+            },
+            {
+              "text": "The sixty-third is still being negotiated.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The pattern is always the same. "
+            },
+            {
+              "text": "A team says 'we have plenty of time.' It has plenty of time. It keeps having plenty of time right up to the minute it has none.",
+              "italic": true
+            },
+            {
+              "text": " Then a tote bag appears. The Institute calls this "
+            },
+            {
+              "text": "'the most reliable event in mischief: the sudden appearance of a tote bag.'",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "PNN is not saying the Whities "
+            },
+            {
+              "text": "waited on purpose.",
+              "bold": true
+            },
+            {
+              "text": " PNN is saying the notice on the porch comes from the "
+            },
+            {
+              "text": "'Department of Team Performance,'",
+              "bold": true
+            },
+            {
+              "text": " and the Department's own lead time was "
+            },
+            {
+              "text": "two hours.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Rating: adequate dimensions. Inadequate notice.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the case file →",
+          "href": "https://purrpetrators.net/cases/020/",
+          "note": "Six exhibits, a rain-soaked composite sketch, two replies, and a spelling dispute. The photos are on the site, not in this email."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The numbers, such as they are",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "2 hrs",
+              "text": "**Time left on the deadline when the Whities posted.** *The Bandits posted 48 minutes into the last day (PNN-019). Between the two posts sits a fall festival, a great many napkins, and the Silver Bullets' bedtime.*"
+            },
+            {
+              "value": "6 of 6",
+              "text": "**Teams hit.** *The same count as the Pink Sweep (PNN-012 to 017). If it took one napkin run, forty-one minutes, that is under seven minutes a house. The Institute has asked for the footage. There is no footage. There is a lantern.*"
+            },
+            {
+              "value": "2",
+              "text": "**Spellings of the team's own name, in one night.** *'Tighty' in the message, 'Tightie' on the notice. PNN has not seen this much disagreement since the Pyro Posse spelled 'strategy' with an O (PNN-008).*"
+            },
+            {
+              "value": "1",
+              "text": "**Pair of pink satin briefs, possibly seen twice.** *Same satin and lace as 'Not Tonight' in PNN-012, new fine print. Return policy: unknown. Sender: not consulted.*"
+            },
+            {
+              "value": "2",
+              "text": "**Replies on file.** *One from the team that singed the Whities' laundry (PNN-005). One from a team that says briefs are sails. Both used exclamation points. One used four emojis.*"
+            },
+            {
+              "value": "0",
+              "text": "**Pink suspects caught.** *The pink house was hit too. Clueso has requested a more cooperative set of facts.*"
+            },
+            {
+              "value": "100%",
+              "text": "**Chance a warning posted two hours before the deadline is also a receipt.** *The Institute has checked. It has also been checking the rain.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " a deadline is only a suggestion until the last two hours. "
+            },
+            {
+              "text": "After that it is a lifestyle.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE TIMELINE",
+      "heading": "The seven stages of a last-minute prank.\n(Stage five may involve rain.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 1 / The Calendar.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Someone looks at the date. The date looks back. 'Is the deadline tonight?' It has been tonight for some time.",
+              "italic": true
+            },
+            {
+              "text": " The Bandits had already posted at 12:48 a.m. (PNN-019). Nobody remembers who saw it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 2 / The Vote.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The ranks split. One faction wants toilet paper. One wants plastic. The weather has no vote.",
+              "italic": true
+            },
+            {
+              "text": " The Black Webb Bandits are said to have fought this exact battle a couple of nights ago, and the toilet paper won. PNN cannot confirm. PNN has chosen to enjoy it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 3 / The Laundry.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Inventory. Someone checks the basket. The basket is not ready. Someone else checks the dryer. The dryer is 'almost.'",
+              "italic": true
+            },
+            {
+              "text": " The Institute does not elaborate on this stage, and neither will the Whities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 4 / The Satin.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "A pink pair in the closet, with lace. 'Do we still have the...' Yes. They still have the... New fine print is added.",
+              "italic": true
+            },
+            {
+              "text": " PNN-012 is not consulted."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 5 / The Dash.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Rain, probably. A sheet of plastic, a handful of rocks, and a very good umbrella that does not survive.",
+              "italic": true
+            },
+            {
+              "text": " Nothing is damaged, and everyone is a little damp. Rules 5 and 6 still apply, even at a run."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 6 / The Post.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'Back in the game. Watch out for last-minute pranking.'",
+              "italic": true
+            },
+            {
+              "text": " A warning, or a receipt. The Institute says both. "
+            },
+            {
+              "text": "The message says 'Tighty.' The notice says 'Tightie.'",
+              "italic": true
+            },
+            {
+              "text": " The ranks are still divided."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Stage 7 / The Replies.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "The Pyro Posse found some lucky underwear. The Crimson Crew found some emergency sails.",
+              "italic": true
+            },
+            {
+              "text": " Nobody found the witches. The witches are elusive, and as far as PNN can tell, unbribed (PNN-002)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "kicker": "THE REPLIES AND THE RUMORS",
+      "heading": "Two teams answered. Two rumors arrived.\n(PNN answered the answers.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Pyro Posse.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'We were on you from the start!'",
+              "italic": true
+            },
+            {
+              "text": " True: it started with a clothesline (PNN-005). "
+            },
+            {
+              "text": "'Shouldn't have waited until the last minute.'",
+              "italic": true
+            },
+            {
+              "text": " Advice on timing from the team that posted its own prank and deleted it before the victims got home. "
+            },
+            {
+              "text": "Rating: four emojis out of four. Subtlety: pending.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Crimson Crew.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "'Another spectacular top tier entertainment value observed from our looking glass!'",
+              "italic": true
+            },
+            {
+              "text": " The Crew used nearly the same words after the pink team boarded its porch (PNN-014). "
+            },
+            {
+              "text": "'These are the emergency sails for when we cruise to an easy victory!'",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Rating: seaworthy, as long as nobody mentions PNN-010.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Open the file →",
+              "bold": true,
+              "href": "https://purrpetrators.net/cases/020/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Rumor: the Bandits and the forecast.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "PNN hears the Black Webb Bandits split over whether to toilet-paper their last round at all, since rain was coming. In the end, they papered every one.",
+              "italic": true
+            },
+            {
+              "text": " Spiders love rain. Toilet paper does not. "
+            },
+            {
+              "text": "No minority report has been filed.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Rumor: the baby shower nobody threw.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "PNN hears some houses the pink team pranked were later approached by friends and neighbors with congratulations on a baby girl, apparently believing they had seen a gender reveal.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN has no word of any baby. PNN has every word of pink.",
+              "bold": true
+            },
+            {
+              "text": " The pink team has not commented. It is, as always, wearing sunglasses."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " the only thing more convincing than a pink web is a pink web in good lighting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and slightly damp.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST: One pink satin pair, slightly re-lettered.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Last seen in PNN-012, and apparently again. Finder asked to return it to the sender, with a receipt.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND: One lucky pair of underwear, 'in poor condition.'",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Owner may claim it from the Pyro Posse, with identification and a very good explanation.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED: One rain delay.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Slightly used. For the Tightie Whities, retroactively.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE: Emergency sails.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Seaworthy, tight, and white. Crimson Crew pre-owned. Buyer supplies own ship.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "SERVICES: Spelling.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Tightie, with an 'ie.' References: the notice.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND: One baby girl, reportedly.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Not found. Never lost. Neighbors are asked to stop congratulating.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE: The deadline has passed.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Scores are locked. Lurking is now voluntary.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM INSPECTOR CLUESO'S OFFICE",
+      "heading": "Stand down.\n(The deadline has passed. I have not stopped looking.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Inspector Clueso confirms the prank and photo deadline has passed and the scores are locked. He has "
+            },
+            {
+              "text": "stood down tonight's stakeout.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "No one needs to watch a porch for points tonight. He watched one anyway, from the car, with napkins.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Whities hit all six teams, "
+            },
+            {
+              "text": "the pink house included.",
+              "bold": true
+            },
+            {
+              "text": " He wants it noted that "
+            },
+            {
+              "text": "no pink suspects were caught.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "A hit on a house is not a hit on a team. The pink team remains wanted everywhere, and caught nowhere.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Tomorrow is the scavenger hunt and the party.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Clueso will attend 'in an advisory capacity.' He has been told the party has no advisory capacity.",
+              "italic": true
+            },
+            {
+              "text": " He would like all teams to bring snacks and alibis, and to leave the toilet paper at home. "
+            },
+            {
+              "text": "He is bringing napkins.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Seen something? "
+            },
+            {
+              "text": "Send game-related sightings and approved evidence to the",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN Tip Line",
+              "bold": true,
+              "href": "https://purrpetrators.net/tips/"
+            },
+            {
+              "text": ". "
+            },
+            {
+              "text": "His theory could use some facts.",
+              "italic": true
+            },
+            {
+              "text": " Keep it friendly. Keep it to the game. No private details."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Reminder:",
+              "bold": true
+            },
+            {
+              "text": " the prank and photo deadline has passed, and there are no points left to earn. Tomorrow's party is for fun: "
+            },
+            {
+              "text": "be clever and fun, but don't be mean.",
+              "bold": true
+            },
+            {
+              "text": " Nothing damaged (rule 5), no one's child targeted or frightened (rule 6), no one woken on purpose (rule 7), and nothing shared with outside groups (rule 8). "
+            },
+            {
+              "text": "If any plastic or toilet paper is still on a lawn, please help the neighbors clean it up.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the case file →",
+          "href": "https://purrpetrators.net/cases/020/",
+          "note": "Six exhibits, two replies, a spelling dispute, and a team that made it in under the wire."
+        }
+      ]
+    }
+  ]
+}
