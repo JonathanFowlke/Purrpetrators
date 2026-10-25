@@ -11,11 +11,11 @@
     "linkLabel": "Open the final case file →",
     "hook": "including the final lineup, eight sketches of the night, the trophies, and the final scoresheet",
     "image": {
-      "src": "assets/email/012-champion-trophies.jpg",
+      "src": "assets/email/012-final-lineup.jpg",
       "width": 1056,
       "height": 792,
-      "alt": "Four gold trophies on a white mantel, each with a gold witch on a broom above a jack-o'-lantern ring and a plaque reading 2026 Broomstick Challenge Champions. Three witch figurines in lavender, orange, and black stand behind them in front of a dark-framed mirror.",
-      "caption": "Supplied game material: the 2026 Broomstick Challenge champions' trophies, under the supervision of three witches."
+      "alt": "A pencil-and-charcoal police sketch headed PNN RECONSTRUCTION: THE FINAL LINEUP, with a red CASE CLOSED stamp. Seven cartoon suspects stand against a height-chart wall holding numbered cards: a black spider in a bandit mask with a bag of cookies, a green alien agent with frosted cookies and a cow, a leaping fire warrior with flame-red hair, a calm pink cat in sunglasses holding a gold witch-on-a-broom trophy, a slumped pirate reading 2OT on his phone, a yawning werewolf in a bathrobe and bunny slippers, and a caped figure in briefs over jeans and a knight's helmet. Three witches watch from behind a one-way window.",
+      "caption": "PNN reconstruction: an AI-generated illustration of the final lineup, not a photograph. The trophy is real, and it is pink."
     }
   },
   "tickerItems": [
