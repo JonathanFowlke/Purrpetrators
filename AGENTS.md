@@ -103,7 +103,7 @@ The site is a **React + Vite static site**: React components render every page t
 
 | Path | Responsibility |
 | --- | --- |
-| `data/*.json` | Single source of truth for content (cases, teams, dossiers, tips, ticker, countdown, newsletters, printable cards, Tally and EmailOctopus settings). Also copied to `dist/data/` because browser scripts fetch `data/cases.json` and `data/news-ticker.json`. |
+| `data/*.json` | Single source of truth for content (cases, teams, dossiers, tips, ticker, countdown, final results, newsletters, printable cards, Tally and EmailOctopus settings). Also copied to `dist/data/` because browser scripts fetch `data/cases.json` and `data/news-ticker.json`. |
 | `src/components/` | Reusable, **pure** React components (props in, markup out; they never read files or JSON). Groups: `layout/`, `ui/` (shared primitives such as `Callout`, `HotlinePanel`, `PageHeading`, `ListingCard`), `case/`, `team/`, `home/`, `forms/`, `print/`, each with a `*.stories.jsx`. Compose existing primitives before adding markup. |
 | `src/pages/` | One component per route; pages read the model from context and compose components. |
 | `src/routes.jsx` | Every public file the site produces (`getRoutes`). URLs are printed on QR codes and must not change. |

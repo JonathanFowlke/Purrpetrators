@@ -16,6 +16,7 @@ export async function loadRawData(root = projectRoot) {
     json(root, 'cards.json'), readFile(path.join(root, 'src/email/newsletter.html'), 'utf8')
   ]);
   const bonuses = await json(root, 'purr-hiss-bonuses.json').catch(() => []);
+  const finalResults = await json(root, 'final-results.json').catch(() => null);
   const newsletterDir = path.join(root, 'data/newsletters');
   const newsletters = [];
   for (const name of (await readdir(newsletterDir)).filter(file => file.endsWith('.json')).sort()) {
@@ -23,15 +24,28 @@ export async function loadRawData(root = projectRoot) {
     if (name !== `${record.id}.json`) throw new Error(`Filename must match edition ID: ${name}`);
     newsletters.push(record);
   }
-  return { cases, teams, bonuses, tickerPool, dossiers, countdown, dailyTips, tipLine, subscribe, cards, newsletters, emailTemplate };
+  return { cases, teams, bonuses, tickerPool, dossiers, countdown, dailyTips, tipLine, subscribe, cards, newsletters, emailTemplate, finalResults };
 }
 
 const nonEmpty = value => typeof value === 'string' && value.trim();
 const publicAsset = (root, rel) => access(path.join(root, 'public', rel));
 
+// Final standings: every team exactly once, whole-number points listed high to low, and award winners that exist.
+function validateFinalResults(results, teamById, caseById) {
+  const { standings, awards } = results;
+  if (!nonEmpty(results.title) || isNaN(Date.parse(results.decidedAt)) || !nonEmpty(results.timeZone) || !caseById.has(results.caseId) ||
+      !Number.isInteger(results.basePoints?.points) || !nonEmpty(results.basePoints?.note)) throw new Error('Invalid final-results.json.');
+  if (!Array.isArray(standings) || standings.length !== teamById.size || new Set(standings.map(row => row.teamId)).size !== teamById.size ||
+      standings.some((row, i) => !teamById.has(row.teamId) || !Number.isInteger(row.points) || !nonEmpty(row.note) || (i && row.points > standings[i - 1].points))) {
+    throw new Error('final-results.json standings must list every team once, by points, high to low.');
+  }
+  if (!Array.isArray(awards) || awards.some(award => !nonEmpty(award.category) || !Array.isArray(award.teamIds) || !award.teamIds.length ||
+      award.teamIds.some(id => !teamById.has(id)))) throw new Error('Invalid final-results.json awards.');
+}
+
 /** Validate every record before any page is written. Throws on the first problem. */
 export async function validateRawData(raw, root = projectRoot) {
-  const { cases, teams, bonuses, tickerPool, dossiers, countdown, dailyTips, cards, newsletters } = raw;
+  const { cases, teams, bonuses, tickerPool, dossiers, countdown, dailyTips, cards, newsletters, finalResults } = raw;
   const teamById = new Map(teams.map(team => [team.id, team]));
   const caseById = new Map(cases.map(record => [record.id, record]));
 
@@ -44,6 +58,7 @@ export async function validateRawData(raw, root = projectRoot) {
   if (!Array.isArray(tickerPool) || tickerPool.length < 30 || tickerPool.some(item => !nonEmpty(item.tag) || !nonEmpty(item.text))) throw new Error('news-ticker.json needs at least 30 {tag, text} items.');
   if (!Array.isArray(bonuses) || bonuses.some(bonus => !teamById.has(bonus.teamId) ||
       ['purrs', 'hisses'].some(key => !Number.isInteger(bonus[key]) || bonus[key] < 0 || bonus[key] > 5) || !nonEmpty(bonus.note))) throw new Error('Invalid purr-hiss-bonuses.json.');
+  if (finalResults) validateFinalResults(finalResults, teamById, caseById);
   if (!Array.isArray(dailyTips) || dailyTips.length < 20) throw new Error('daily-tips.json needs at least 20 tips.');
   const seenTips = new Set();
   for (const tip of dailyTips) {

@@ -1,6 +1,7 @@
 import { Countdown } from './Countdown.jsx';
 import { DailyTip } from './DailyTip.jsx';
 import { FeaturedCase } from './FeaturedCase.jsx';
+import { FinalResults } from './FinalResults.jsx';
 import { Hero } from './Hero.jsx';
 import { NewsletterPreview } from './NewsletterPreview.jsx';
 import { PurrIndex } from './PurrIndex.jsx';
@@ -16,6 +17,8 @@ export const HeroWithFeaturedCase = {
 export const FeaturedCaseOnly = { render: () => <FeaturedCase record={model.latest} teams={suspectTeamsOf(model.latest, model.teamById)} /> };
 export const NoCases = { render: () => <FeaturedCase record={undefined} /> };
 export const PartyCountdown = { parameters: { scripts: ['scripts/countdown.js'] }, render: () => <Countdown countdown={model.countdown} /> };
+export const ReignClock = { parameters: { scripts: ['scripts/countdown.js'] }, render: () => <Countdown countdown={model.countdown} results={model.finalResults} /> };
+export const FinalScoreboard = { render: () => <FinalResults results={model.finalResults} /> };
 export const TipOfTheDay = { parameters: { scripts: ['scripts/daily-tip.js'] }, render: () => <DailyTip {...model.dailyTip} /> };
 export const CatnipAndHairballIndex = { parameters: { scripts: ['scripts/catnip-index.js'] }, render: () => <PurrIndex {...model.index} /> };
 export const Newsletter = { render: () => <NewsletterPreview latestEdition="001" /> };

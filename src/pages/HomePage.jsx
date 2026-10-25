@@ -2,6 +2,7 @@ import { SiteLayout } from '../components/layout/SiteLayout.jsx';
 import { Hero } from '../components/home/Hero.jsx';
 import { FeaturedCase } from '../components/home/FeaturedCase.jsx';
 import { Countdown } from '../components/home/Countdown.jsx';
+import { FinalResults } from '../components/home/FinalResults.jsx';
 import { DailyTip } from '../components/home/DailyTip.jsx';
 import { PurrIndex } from '../components/home/PurrIndex.jsx';
 import { NewsletterPreview } from '../components/home/NewsletterPreview.jsx';
@@ -27,11 +28,12 @@ export function HomePage() {
       <Hero>
         <FeaturedCase record={model.latest} teams={model.latest && suspectTeamsOf(model.latest, model.teamById)} series={series} />
       </Hero>
-      <Countdown countdown={model.countdown} />
+      {model.finalResults ? <FinalResults results={model.finalResults} /> : null}
+      <Countdown countdown={model.countdown} results={model.finalResults} />
       <DailyTip {...model.dailyTip} />
       <PurrIndex {...model.index} />
-      <Callout id="tip-teaser-heading" label="PNN Tip Line · Inspector Clueso's office" title="Help Clueso catch the pink team." tip action={{ to: 'tips/', label: 'Submit a tip & evidence →' }}>
-        <p>Seen the Prowling Purrpetrators at work? Send game reports, photos, or a short clip. Clueso has a theory. Some facts would be useful. Suspicious laundry also welcome; it has become a hobby of his. Every tip gets a human review before publication.</p>
+      <Callout id="tip-teaser-heading" label="PNN Tip Line · Inspector Clueso's office" title="The season is over. Clueso is not." tip action={{ to: 'tips/', label: 'Submit a tip & evidence →' }}>
+        <p>The scores are locked and the trophies are pink, but Clueso's case against the Prowling Purrpetrators remains open. Send game stories, party photos, or the scavenger hunt moment you are still laughing about. Suspicious laundry also welcome; it has become a hobby of his. Every tip gets a human review before publication.</p>
         <HotlineInline />
       </Callout>
       {latestEdition ? <NewsletterPreview latestEdition={latestEdition} /> : null}

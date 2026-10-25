@@ -1,0 +1,631 @@
+{
+  "id": "012",
+  "status": "published",
+  "date": "2026-10-25T11:00:00-06:00",
+  "title": "The final edition.",
+  "subject": "PNN: Final results. 28 points. Four trophies. One case Clueso finally closed.",
+  "preheader": "The scavenger hunt, the party, the scoresheet, and a pink team caught at last, on a podium.",
+  "featuredCase": {
+    "id": "021",
+    "teaser": "**The Broomstick Challenge is over, and PNN has the final case file.** A football game delayed the hunt. A Tide clue sent one team somewhere that threatened to call the police. A superhero left her cape in the car at a boot store. A witch navigated by \"hmm,\" a horn cleared a driveway, and a werewolf went to bed early. *And at 10:15 p.m., the suspect PNN never caught was finally caught: holding a trophy.* **The full standings, every category winner, and the bribe inquiry are in the file.**",
+    "linkLabel": "Open the final case file →",
+    "hook": "including the final lineup, eight sketches of the night, the trophies, and the final scoresheet",
+    "image": {
+      "src": "assets/email/012-champion-trophies.jpg",
+      "width": 1056,
+      "height": 792,
+      "alt": "Four gold trophies on a white mantel, each with a gold witch on a broom above a jack-o'-lantern ring and a plaque reading 2026 Broomstick Challenge Champions. Three witch figurines in lavender, orange, and black stand behind them in front of a dark-framed mirror.",
+      "caption": "Supplied game material: the 2026 Broomstick Challenge champions' trophies, under the supervision of three witches."
+    }
+  },
+  "tickerItems": [
+    {
+      "tag": "NEWSLETTER",
+      "text": "Final edition: the Institute releases its season report. 7 teams, 3 witches, 21 cases, and 1 mantel that will never be the same."
+    },
+    {
+      "tag": "SCIENCE",
+      "text": "Institute finding: 100% of teams earned every base point. 100% of trophies went pink. The Institute calls this a very tidy dataset."
+    },
+    {
+      "tag": "CLASSIFIEDS",
+      "text": "Lost: one red cape, last seen in a car outside a boot store. Owner was inside, explaining. Finder please return before next season."
+    }
+  ],
+  "sections": [
+    {
+      "tone": "dark",
+      "kicker": "SPECIAL REPORT / THE INSTITUTE FOR COLLABORATIVE MISCHIEF",
+      "heading": "The season in review.\n(A study of seven teams, three witches, and one very pink mantel.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "Institute for Collaborative Mischief",
+              "bold": true
+            },
+            {
+              "text": " has completed its final study of the "
+            },
+            {
+              "text": "2026 Broomstick Challenge",
+              "bold": true
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "having observed twenty-one case files, eleven newsletters, and one scavenger hunt from a lawn chair that has now been folded for the season.",
+              "italic": true
+            },
+            {
+              "text": " Its headline finding, in the Institute's own words: "
+            },
+            {
+              "text": "\"Everyone played the whole game. Then the pink team won it.\"",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The data is unusually clean. "
+            },
+            {
+              "text": "Every one of the seven teams earned the same 22 points from the game itself:",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "six pranks, every team pranked, all three witches found, all seven clues solved, a finger food, and a dessert.",
+              "italic": true
+            },
+            {
+              "text": " The Institute has never seen a neighborhood so thorough. "
+            },
+            {
+              "text": "The final six points were settled by one race and the votes of everyone at the party.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Final standings:",
+              "bold": true
+            },
+            {
+              "text": " the "
+            },
+            {
+              "text": "Prowling Purrpetrators",
+              "bold": true
+            },
+            {
+              "text": " first with 28, the "
+            },
+            {
+              "text": "Area 51 Bureau",
+              "bold": true
+            },
+            {
+              "text": " second with 25, the "
+            },
+            {
+              "text": "Pyro Posse",
+              "bold": true
+            },
+            {
+              "text": " third with 24, the "
+            },
+            {
+              "text": "Black Webb Bandits",
+              "bold": true
+            },
+            {
+              "text": " fourth with 23, and the "
+            },
+            {
+              "text": "Tightie Whities",
+              "bold": true
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Silver Bullets",
+              "bold": true
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Crimson Crew",
+              "bold": true
+            },
+            {
+              "text": " tied for fifth with 22. "
+            },
+            {
+              "text": "The trophies were awarded at 10:15 p.m. Inspector Clueso was present. He described the ceremony as \"an arrest with refreshments.\"",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the final case file →",
+          "href": "https://purrpetrators.net/cases/021/",
+          "note": "Thirteen exhibits: the final lineup, eight sketches of the night, the trophies, the scoresheet, the hunt timeline, and the bribe inquiry. The full story is on the site, not in this email."
+        }
+      ]
+    },
+    {
+      "tone": "white",
+      "heading": "The final numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "28",
+              "text": "**Points for the champions.** *Most Creative Team Name, Best Costumes, Funniest Team Prank, Most Visible Team Prank, and a share of the bribe vote. Pink, the least Halloween color on the wheel, won the Halloween game.*"
+            },
+            {
+              "value": "22",
+              "text": "**Points every team earned from the game itself.** *Seven teams, seven perfect base scores. The Institute has framed this one.*"
+            },
+            {
+              "value": "2",
+              "text": "**Wrong addresses visited by the Area 51 Bureau.** *A treatment center, for a Tide clue, and a school, instead of the party. The Bureau then won Best Party Food and Best Party Dessert anyway. Members of the pink team are still eating the leftovers for breakfast.*"
+            },
+            {
+              "value": "1",
+              "text": "**Red cape left in a car outside the Boot Barn.** *Its owner went in wearing the rest of the Captain Underpants costume. The employees have not been interviewed. They are still staring.*"
+            },
+            {
+              "value": "0",
+              "text": "**Inches the Silver Bullets' \"missing\" clue had moved.** *The witches found it at the retirement center, exactly where they left it. The Institute suspects the staff escorted the team inside before it could look.*"
+            },
+            {
+              "value": "1",
+              "text": "**White rat that deserted the Crimson Crew at Patriot Park.** *Rats desert a sinking ship, and the ship had already sunk in double overtime. The witches waived the one-point penalty on an eyewitness account.*"
+            },
+            {
+              "value": "3",
+              "text": "**Teams tied for Best Witch Bribe.** *Oreos in a bag, frosted Nutter Butters, and homemade paw-print sugar cookies ringed with macarons. The Institute's pastry lab has asked for a recount.*"
+            },
+            {
+              "value": "2OT",
+              "text": "**Overtimes in the football game that delayed the hunt.** *The neighborhood watched from a parking lot. One participant said it felt like high school. The Crimson Crew has not yet surfaced.*"
+            },
+            {
+              "value": "1",
+              "text": "**Pink team caught all season.** *At 10:15 p.m., on a podium, holding a trophy. Clueso counts it.*"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Lead finding:",
+              "bold": true
+            },
+            {
+              "text": " a game is only as good as the people who play it. "
+            },
+            {
+              "text": "This one was very good.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "blush",
+      "kicker": "THE PNN HONORS",
+      "heading": "Awards the witches did not give out.\n(PNN gave them out anyway.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Restricted Airspace Award: the Area 51 Bureau.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For finally reaching a real restricted facility, and for a witch on the roster who kept her promise not to help, even then. Runner-up: the school.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Hot and Cold Award: the Pyro Posse.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Posse on fire 🔥 at the scavenger hunt, dressed at last like a cartoon fire warrior in his final form, first to finish, navigating by a witch who said only \"huh\" and \"hmm.\" Also cited: the fastest scatter ever recorded in a pink driveway.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Matching Accessories Award: the Black Webb Bandits.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For a bribe in a black bag that matched the team colors, and a Creepiest Team Prank tie with their usual partner, the Bureau. The Alliance remains in good standing.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Wear Your Evidence Award: the Tightie Whities.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For a costume made from the pranks pulled on them, and for bravery in boots country without a cape. The cape receives a separate citation for staying in the car.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Early Moonrise Award: the Silver Bullets.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For a passionate defense of the werewolf theory, a missing clue that was never missing, and the first exit of the night. The Institute suspects the retirement center staff tried to check them in. Silver bullets are for werewolves, the Institute notes. The Bullets are the werewolf's problem.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Brave Sailor Award: the Crimson Crew.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For arriving last, heartbroken by double overtime, and finishing the whole hunt anyway, minus one rat, which jumped ship at Patriot Park. A Knight boarded the ship in Orlando. The Crew kept sailing. The witches kept the point.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Grand Prize: the Prowling Purrpetrators.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For hosting the party, winning it, and baking the evidence. An unbiased third party, the witches and every voter at the party, found no foul play. Wanted everywhere. Caught, at last, on a mantel.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "dark",
+      "kicker": "THE PNN CLASSIFIEDS",
+      "heading": "Lost, found, and leftover.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST: One red cape.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Last seen in a car outside the Boot Barn. Owner was inside, explaining. Reward: dignity, partially restored.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND: One scavenger hunt clue.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Never lost. Found exactly where it was left, at the retirement center. The Silver Bullets may collect it during visiting hours.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "LOST: One white rat.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Last seen on the Patriot Park fields, having deserted The Crimson Crew. Answers to \"ingredient.\" Penalty for losing it: waived by the witches.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "WANTED: One map.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "For the Area 51 Bureau. Must clearly label dry cleaners, schools, and parties.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "SERVICES: Navigation by hmm.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Rising hmm: warmer. Falling hmm: colder. \"Huh\": turn the car around. Inquire with the Pyro Posse.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOR SALE: Emergency sails, lightly grieved.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Crimson Crew pre-owned. Raised briefly at half-mast. Buyer supplies own overtime.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "NOTICE: Toilet paper still in trees.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "This is a good week to retrieve it. The trees would like their weekends back.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "FOUND: Four trophies.",
+              "bold": true
+            },
+            {
+              "text": "\n"
+            },
+            {
+              "text": "Not lost. Never in doubt. Currently on a very nice mantel, supervised by three witches.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tone": "pink",
+      "kicker": "A NOTE FROM INSPECTOR CLUESO'S OFFICE",
+      "heading": "Case closed.\n(I was right the whole time.)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Inspector Clueso confirms that the "
+            },
+            {
+              "text": "2026 Broomstick Challenge is over",
+              "bold": true
+            },
+            {
+              "text": " and the scores are final. "
+            },
+            {
+              "text": "He has pursued the Prowling Purrpetrators since October 4, under the principle of guilty until proven guilty.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "On October 24 they were proven guilty, by vote, with a scoresheet.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "He says the charge was having a pranking good time, and that they did not contest it.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "He would also like to thank "
+            },
+            {
+              "text": "every team",
+              "bold": true
+            },
+            {
+              "text": " for a season of clever, theatrical, entirely non-damaging mischief, "
+            },
+            {
+              "text": "and for the tips, the replies, the posters, the cows, the briefs, the webs, the glitter, the Spam, and the macarons.",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "And thank you to Wanda, Hilda, and Glenda,",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "for the clues, the rules, the party, and the scoresheet that finally gave him his arrest.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Clueso is not retiring. "
+            },
+            {
+              "text": "He is going on sabbatical, near the pink house, with a thermos.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Got a story from the hunt or the party? Send it to the",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "PNN Tip Line",
+              "bold": true,
+              "href": "https://purrpetrators.net/tips/"
+            },
+            {
+              "text": ". His theory could still use some facts.",
+              "italic": true
+            },
+            {
+              "text": " Keep it friendly. Keep it to the game. No private details."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Be clever and fun, but don't be mean.",
+              "bold": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "It worked all season. PNN recommends it for the off-season, too.",
+              "italic": true
+            },
+            {
+              "text": " Watch the "
+            },
+            {
+              "text": "reign clock",
+              "bold": true,
+              "href": "https://purrpetrators.net/"
+            },
+            {
+              "text": " on the homepage."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Read the final case file →",
+          "href": "https://purrpetrators.net/cases/021/",
+          "note": "Thirteen exhibits, seven teams, one champion, and one inspector who finally got his arrest."
+        }
+      ]
+    }
+  ]
+}

@@ -88,6 +88,23 @@ export const suspectTeamsOf = (record, teamById) =>
 /** Editions shown in the public newsletter listing, newest first. Drafts stay unlisted (though their pages exist). */
 export const listedEditions = newsletters => newsletters.filter(edition => edition.status !== 'draft').reverse();
 
+/** Final standings with team records and shared ranks (22, 22, 22 all place fifth). Null when the game has no results yet. */
+export function buildFinalResults(results, teamById) {
+  if (!results) return null;
+  const standings = results.standings.map(row => ({
+    ...row,
+    team: teamById.get(row.teamId),
+    rank: 1 + results.standings.filter(other => other.points > row.points).length
+  }));
+  for (const row of standings) row.tied = standings.filter(other => other.points === row.points).length > 1;
+  return {
+    ...results,
+    standings,
+    top: standings[0].points,
+    awards: results.awards.map(award => ({ ...award, teams: award.teamIds.map(id => teamById.get(id)) }))
+  };
+}
+
 export function buildModel(raw, now = new Date()) {
   const teams = raw.teams;
   const teamById = new Map(teams.map(team => [team.id, team]));
@@ -109,6 +126,7 @@ export function buildModel(raw, now = new Date()) {
     ticker: buildTicker({ published, rows: index.rows, pool: mergeTickerPool(raw.tickerPool, cases, newsletters), editions: newsletters, now }),
     dossiers: raw.dossiers,
     countdown: raw.countdown,
+    finalResults: buildFinalResults(raw.finalResults, teamById),
     dailyTip: buildDailyTip(raw.dailyTips, now),
     tallyFormId: parseTallyFormId(raw.tipLine.formUrl),
     subscribe: parseEmbedScript(raw.subscribe.embedSrc),

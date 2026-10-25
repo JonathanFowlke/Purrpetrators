@@ -1,0 +1,30 @@
+{
+  "title": "2026 Broomstick Challenge final results",
+  "decidedAt": "2026-10-24T22:15:00-06:00",
+  "timeZone": "America/Denver",
+  "caseId": "021",
+  "basePoints": {
+    "points": 22,
+    "note": "Every team earned the same 22: six pranks, pranking every team, all three witches, all seven scavenger hunt clues, a finger food, and a dessert. Seven teams played the whole game. The votes broke the tie."
+  },
+  "standings": [
+    { "teamId": "pink", "points": 28, "note": "Most Creative Team Name, Best Costumes, Funniest Prank, Most Visible Prank, and a share of the bribe vote." },
+    { "teamId": "green", "points": 25, "note": "Best Party Food, Best Party Dessert, and a share of the bribe vote." },
+    { "teamId": "orange", "points": 24, "note": "First team to finish the scavenger hunt." },
+    { "teamId": "black", "points": 23, "note": "A share of the bribe vote." },
+    { "teamId": "white", "points": 22, "note": "Full marks on the game itself. Briefs worn on the outside." },
+    { "teamId": "silver", "points": 22, "note": "Full marks on the game itself. Home before the moon was fully up." },
+    { "teamId": "red", "points": 22, "note": "Full marks on the game itself. Morale recovered by dessert." }
+  ],
+  "awards": [
+    { "category": "Most Creative Team Name", "teamIds": ["pink"] },
+    { "category": "Best Costumes", "teamIds": ["pink"] },
+    { "category": "Funniest Team Prank", "teamIds": ["pink"] },
+    { "category": "Most Visible Team Prank", "teamIds": ["pink"] },
+    { "category": "Creepiest Team Prank", "teamIds": ["black", "green"] },
+    { "category": "Best Party Food Idea", "teamIds": ["green"] },
+    { "category": "Best Party Dessert Idea", "teamIds": ["green"] },
+    { "category": "Best Witch Bribe", "teamIds": ["pink", "green", "black"] },
+    { "category": "First to Finish the Scavenger Hunt", "teamIds": ["orange"] }
+  ]
+}
