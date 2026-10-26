@@ -6,4 +6,3 @@ dist/
 storybook-static/
 .build/
 .playwright-mcp/
-resources/
